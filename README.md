@@ -13,7 +13,7 @@
     carthage/maps/run_look.py `python3 run_look.py render <сцены>` -> out_look/
     carthage/film/gfxlib.py   текст, плашки, вырезки (obj), полнокадровые фото (photo)
     carthage/film/chapters.py графика и раскладка по времени всех глав (SPECS)
-    carthage/film/build.py    `python3 build.py 1 2 3` -> out/chNN.mp4; звук: голос -14 LUFS, ролики <= 7 %
+    carthage/film/build.py    `python3 build.py 1 2 3` -> out/chNN.mp4, мастер 2560x1440, crf 14; звук: голос -14 LUFS, ролики <= 7 %
     carthage/film/list.txt    порядок склейки: ffmpeg -f concat -safe 0 -i list.txt -c copy
     carthage/coldopen/        холодное открытие: coldopen.py (графика), coldopen2.py (поверх роликов)
 

@@ -1,6 +1,9 @@
 """Assemble one chapter: card + (graphics base, maps and reconstruction clips on their windows) + voiceover + quiet clip sound."""
 import subprocess, json, sys, os, re, importlib
 FPS = 30; CARD = 3.5; BED = 0.07          # clip sound ceiling: 7 % of the levelled clip
+# Master quality (standard since episode 2): everything is composed at 1920x1080, then the finished chapter is scaled to 2560x1440 and
+# encoded near-transparently. YouTube gives uploads above 1080p a better codec and several times the bitrate, so 1080p playback is cleaner too.
+OUT_W, OUT_H = 2560, 1440; CRF = "14"; PRESET = "slow"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 def run(a, **k): return subprocess.run(a, capture_output=True, text=True, **k)
 def dur(f): return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).stdout)
@@ -43,13 +46,13 @@ def _mux(spec, gfx, D, vo, out):
         fc.append(f"{last}[s{j}]overlay=enable='between(t,{t0},{t1})':eof_action=pass[so{j}]"); last = f"[so{j}]"
     fo = spec.get("fade_out", 0.5)
     fc.append(f"{last}fade=t=out:st={D - fo:.3f}:d={fo},format=yuv420p[body]")
-    fc.append(f"[0:v]fps={FPS},scale=1920:1080,setsar=1,format=yuv420p[card]"); fc.append("[card][body]concat=n=2:v=1:a=0[v]")
+    fc.append(f"[0:v]fps={FPS},scale=1920:1080,setsar=1,format=yuv420p[card]"); fc.append(f"[card][body]concat=n=2:v=1:a=0,scale={OUT_W}:{OUT_H}:flags=lanczos,setsar=1,format=yuv420p[v]")
     m = loud(vo); vi = len([x for x in ins if x == "-i"]); ins += ["-i", vo]
     fc.append(f"[{vi}:a]loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
               f"offset={m['target_offset']}:linear=true,aresample=48000,adelay={int(CARD * 1000)}:all=1[vo]")
     fc.append(f"[vo]{''.join(aud)}amix=inputs={len(aud) + 1}:normalize=0:duration=longest,alimiter=limit=0.84,aformat=channel_layouts=stereo[a]")
     tmp = out.replace(".mp4", ".tmp.mp4")
-    rr = run(["ffmpeg", "-loglevel", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "18", "-preset", "medium",
+    rr = run(["ffmpeg", "-loglevel", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-profile:v", "high", "-bf", "2", "-g", str(FPS // 2 * 2),
               "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{CARD + D:.3f}", "-movflags", "+faststart", tmp])
     if rr.returncode: print(rr.stderr[-3000:]); sys.exit(1)
     os.replace(tmp, out); os.remove(gfx); print(out, round(dur(out), 2), "vo", round(D, 2), "vo_in_LUFS", m["input_i"])
