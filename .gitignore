@@ -12,3 +12,4 @@ test_*
 chk/
 *.log
 node_modules/
+log*.txt
