@@ -18,6 +18,8 @@ The Persians are nobody yet. They are herders and horsemen in a dry southern cor
 
 Then one of their kings, Cyrus, starts winning. First he takes over the Medes, and part of the Median army simply changes sides. Next he marches across the whole of Anatolia and takes Lydia, the kingdom of Croesus, whose name still means rich. Then the Greek cities on the coast of what is now Turkey. Then east, into Central Asia.
 
+The Lydian war comes with a story. Before attacking, Croesus asks the oracle at Delphi whether he should fight the Persians. The answer: if he sends an army against them, he will destroy a great empire. He takes that as a yes. The empire he destroys is his own. Herodotus says Cyrus spared him and kept him as an adviser.
+
 In about twenty years, a people from the edge of the map owns most of it. One great prize is left.
 
 ### 2. Babylon and the cylinder
@@ -64,7 +66,7 @@ And nobody is asked to become Persian. Egypt keeps its pharaoh; he just happens 
 
 So Persia organises the road. Much of it is older than the Persians. They inherit it, the way they inherit everything useful. What they add is a system: more than a hundred stations, with fresh horses and fresh riders waiting. A message is passed on like a baton in a relay, and it crosses the empire in about nine days.
 
-Herodotus, who was not easily impressed by Persians, wrote that nothing mortal travels faster, and that neither snow nor rain nor heat nor darkness stops these couriers. If that sounds familiar, a version of it is carved across the front of the main post office in New York.
+Herodotus, who was not easily impressed by Persians, wrote that nothing mortal travels faster, and that neither snow nor rain nor heat nor darkness stops these couriers. If that sounds familiar, a version of it is carved across the front of the old main post office in New York.
 
 And in Egypt, Darius links the Nile to the Red Sea with a canal. His inscription there boils down to this: I ordered this canal dug; it was dug; ships went from Egypt to Persia, as I wished. An ancestor of the Suez Canal, more than two thousand years early.
 
@@ -72,7 +74,7 @@ And in Egypt, Darius links the Nile to the Red Sea with a canal. His inscription
 
 [warm, confident narrator] To show what all this is for, Darius builds a new ceremonial capital in the Persian homeland. The Greeks will call it Persepolis.
 
-Walk up its great staircase and look at the walls. Assyrian palaces were decorated with sieges, impaled prisoners and piles of heads. Here there is not one battle scene. Instead, twenty-three delegations, carved in stone, climb the stairs with gifts. Lydians with fine cups. Arabs leading a camel. Africans carrying an elephant tusk. An usher takes each leader by the hand. The message is not "we crushed you". It is "everyone has a place, and here it is".
+Walk up its great staircase and look at the walls. Assyrian palaces were decorated with sieges, impaled prisoners and piles of heads. Here there is not one battle scene. Instead, twenty-three delegations, carved in stone, climb the stairs with gifts. Lydians with fine vessels. Arabs leading a camel. Africans carrying an elephant tusk. An usher takes each leader by the hand. The message is not "we crushed you". It is "everyone has a place, and here it is".
 
 At Susa, Darius lists who built his palace. Cedar from Lebanon. Gold from Sardis and Bactria. Ivory from Africa and India. Greek stonecutters, Egyptian goldsmiths, Babylonian brickmakers. The palace is a map of the empire.
 
@@ -88,21 +90,23 @@ These workers were not free in our sense. Many were probably deported there. But
 
 Tolerance is the offer. That is what refusing it looks like.
 
-In 499 BC the Greek cities of the Turkish coast refuse. They rebel, with a little help from Athens, and burn Sardis. It takes Persia six years to crush them. The greatest of those cities, Miletus, is sacked and its people deported.
+In 499 BC the Greek cities of the Turkish coast refuse. The revolt starts in Miletus, whose leader, Aristagoras, announces that the city is now a democracy. Athens sends twenty ships, and the rebels burn Sardis, the Persian provincial capital. It takes Persia six years to crush them. In 494 BC, at the naval battle of Lade, the Greek fleet falls apart when the Samians sail away, Herodotus says. Miletus, the greatest of the rebel cities, is taken. Its men are killed, its women and children enslaved, and the survivors are marched to the shore of the Persian Gulf, at the far end of the empire.
 
-And then the Persian general does something no one expects. He removes the tyrants who had ruled those Greek cities for Persia, and sets up democracies instead. The Great King's general, installing democracy, because it happens to keep the cities quiet. Persia has no ideology except what works.
+And then, in 492 BC, the Persian general Mardonius does something no one expects. He removes the tyrants who had ruled those Greek cities for Persia, and sets up democracies instead. The Great King's general, installing democracy, because it happens to keep the cities quiet. Persia has no ideology except what works.
 
-But Darius has not forgotten Athens.
+But Darius has not forgotten Athens. Herodotus says he ordered a servant to remind him of it three times a day.
 
 ### 8. Xerxes goes west
 
 [warm, confident narrator] In 490 BC a Persian force lands at Marathon, a day's march from Athens, and loses. For Athenians this becomes a founding legend. For Persia it is a failed expedition on a distant frontier, and Darius has bigger problems. Egypt revolts. Then he dies.
 
-His son Xerxes decides to settle the matter properly. The preparations take four years, and they are an engineering show. Across the Hellespont, more than a kilometre of open water, he lays two bridges of boats. And through the neck of the Athos peninsula, where a storm had wrecked an earlier fleet, he digs a ship canal two kilometres long. Later writers called that a Greek tall tale. In the 1990s geophysicists found the canal, buried exactly where Herodotus put it.
+His son Xerxes decides to settle the matter properly. The preparations take years, and they are an engineering show. Across the Hellespont, more than a kilometre of open water, he lays two bridges of boats. The first pair is wrecked by a storm, and Herodotus says Xerxes had the sea whipped and fetters thrown into it. The second pair holds. And through the neck of the Athos peninsula, where a storm had wrecked an earlier fleet, he digs a ship canal two kilometres long. Later writers called that a Greek tall tale. In the 1990s geophysicists found the canal, buried exactly where Herodotus put it.
 
-How big was the army? Herodotus counts one million seven hundred thousand foot soldiers alone, drinking rivers dry. Modern historians guess perhaps a tenth of that, which is still enormous.
+How big was the army? Herodotus counts one million seven hundred thousand foot soldiers alone, drinking rivers dry. Modern historians guess at a tenth of that or less, which is still enormous.
 
-At Thermopylae it meets the three hundred Spartans, plus several thousand other Greeks who usually get cut from the film. They hold the pass for three days, until a local man shows the Persians a mountain path.
+At its core are the Persians themselves, and above all ten thousand men Herodotus calls the Immortals. The name, he says, comes from the fact that the unit is always exactly ten thousand: when a man dies or falls sick, a replacement steps in at once, so the corps never seems to lose anyone. Around them marches a crowd of other peoples, each in its own dress and with its own weapons. Herodotus lists dozens of them.
+
+At Thermopylae it meets the three hundred Spartans, plus several thousand other Greeks who usually get cut from the film. The Immortals fight there too. They hold the pass for three days, until a local man shows the Persians a mountain path.
 
 And Xerxes is not short of Greek help. An exiled king of Sparta rides with him as an adviser. Thessaly, Macedon and soon Thebes are in his camp. One of his naval commanders is a queen from a Greek city, Artemisia. A large part of the Greek world is on the Persian side.
 
@@ -110,7 +114,11 @@ And Xerxes is not short of Greek help. An exiled king of Sparta rides with him a
 
 [confident] Xerxes takes Athens and burns the temples on the Acropolis. For a moment the war looks won.
 
-Then the Greek fleet draws his ships into the narrow strait of Salamis, where numbers are useless, and wrecks them. Xerxes goes home. The army he leaves behind is beaten the next year at Plataea.
+Then comes the trap. The Athenian commander Themistocles sends a servant to Xerxes with a false message: the Greeks are quarrelling and will slip away tonight, so block the strait. Xerxes believes it and sends his fleet into the narrow channel of Salamis, where numbers are useless. The Greeks wreck it.
+
+One person comes out of it well: Artemisia, the queen of Halicarnassus, who had warned Xerxes not to fight there. Herodotus says that when a Greek ship chases her, she rams a ship from her own side, so the pursuer takes her for a friend and turns away. Xerxes, watching from the shore, thinks she has sunk a Greek ship. My men, he says, have become women, and my women men.
+
+Xerxes goes home. The army he leaves behind is beaten the next year at Plataea.
 
 For the Greeks, this is the moment that defines them. They will write about it for centuries, and that is why you have heard of it.
 
@@ -122,7 +130,7 @@ Now look at the same events from Susa. The empire has lost a campaign at its far
 
 Themistocles, the Athenian who planned the victory at Salamis, is later driven out by his own city. He flees to the Persian court, learns Persian, and ends his days as a governor for the Great King.
 
-When Athens and Sparta tear each other apart in the Peloponnesian War, Persian gold pays for the Spartan fleet, and that fleet decides the winner. When ten thousand Greek soldiers need work, they march into Asia as hired spears in a Persian civil war.
+When Athens and Sparta tear each other apart in the Peloponnesian War, Persian gold pays for the Spartan fleet. A Persian prince governing Asia Minor, Cyrus the Younger, hands the Spartan admiral Lysander his entire treasury, and the crews get a pay rise. In 405 BC at Aegospotami, Lysander catches the Athenian fleet on the beach and captures most of it. Athens surrenders the next year. When ten thousand Greek soldiers need work, they march into Asia as hired spears in a Persian civil war: the same prince wants his brother's throne. He is killed at Cunaxa in 401 BC, and the Greeks have to fight their way home through hostile country. One of them, Xenophon, wrote the book.
 
 And in 387 BC the Greek cities, exhausted by yet another war among themselves, accept a peace treaty. Its terms are sent down from Susa, and it is known by the Persian ruler's title: the King's Peace. Its first clause says the Greek cities of Asia belong to him.
 
@@ -130,13 +138,13 @@ What Xerxes lost with an army, his great-grandson wins back with a purse. And th
 
 ### 11. The last Achaemenid
 
-[serious] The Greeks also tell a story to explain all this: Persia is rotting. Soft kings, scheming queens, too much luxury. It is a good story, and historians repeated it for two thousand years. The evidence says otherwise. In the 340s BC Persia reconquers Egypt, which had broken away for sixty years. The treasury is full. The roads work.
+[serious] The Greeks also tell a story to explain all this: Persia is rotting. Soft kings, scheming queens, too much luxury. It is a good story, and historians repeated it for two thousand years. The evidence says otherwise. Around 340 BC Persia reconquers Egypt, which had broken away for sixty years. The treasury is full. The roads work.
 
-What Persia does not have is an answer to the new army built in Macedon. In 334 BC Alexander leads it into Asia. Three great battles in four years, and the king of kings, Darius the Third, is running east, where one of his own satraps murders him.
+What Persia does not have is an answer to the new army built in Macedon. In 334 BC Alexander leads it into Asia. Three great battles in three years, and the king of kings, Darius the Third, is running east, where one of his own satraps murders him.
 
 Alexander reaches Persepolis and burns the palace: after a long night of drinking, most ancient writers say. Revenge for the Acropolis, a hundred and fifty years late.
 
-But watch what he does next. He gives Darius a royal funeral and hunts down the killer. He keeps the provinces, the taxes, the roads, and a good number of the Persian governors. He starts wearing Persian royal dress. He asks his Macedonians to bow to him the Persian way, and they are appalled. At Susa he marries a daughter of Darius, and has about eighty of his officers marry Persian noblewomen in the same ceremony.
+But watch what he does next. He gives Darius a royal funeral and hunts down the killer, a satrap who has already declared himself king. He keeps the provinces, the taxes, the roads, and a good number of the Persian governors. He starts wearing Persian royal dress. He asks his Macedonians to bow to him the Persian way, and they are appalled. At Susa he marries a daughter of Darius, and has about eighty of his officers marry Persian noblewomen in the same ceremony.
 
 The French historian Pierre Briant argues that in many ways Alexander acted as "the last of the Achaemenids". He did not destroy the Persian Empire. He took it over. When he died seven years later, his generals carved it up and kept the machinery. Provinces, royal roads, a state courier service: you will meet them again in almost every empire that followed, Rome included.
 
