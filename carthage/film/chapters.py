@@ -235,7 +235,7 @@ def g12(t):
         text(d, cx, 150, "AND WHAT THEY COULD NOT HIDE", 36, a * r(t, 49.9), sp=8, **GR)
         obj(im, "aristotle", 380, 380, 250, a * r(t, 50.2), crop=(0, 0, 1, 0.84)); text(d, 600, 380, "A CONSTITUTION A PHILOSOPHER ADMIRED", 48, a * r(t, 50.3), anchor="l", sp=3)
         obj(im, "ahiram", 380, 620, None, a * r(t, 53.1), w=330, crop=(0, 0, 0.3, 1)); text(d, 600, 620, "AN ALPHABET THE WEST STILL USES", 48, a * r(t, 53.2), anchor="l", sp=3)
-        text(d, 600, 860, "A NAVY ROME HAD TO COPY PLANK BY PLANK", 48, a * r(t, 56.0), anchor="l", sp=3)
+        obj(im, "ram", 380, 860, None, a * r(t, 55.9), w=340); text(d, 600, 860, "A NAVY ROME HAD TO COPY PLANK BY PLANK", 48, a * r(t, 56.0), anchor="l", sp=3)
     a = win(t, 67.1, 71.1, fi=0.2, fo=0.2)
     if a > 0:
         photo(im, "baths", a); d = ImageDraw.Draw(im)
@@ -262,7 +262,7 @@ for k, s in SPECS.items(): s.setdefault("card", card(k))
 
 if __name__ == "__main__":
     import sys
-    shots = {12: [90]}
+    shots = {12: [58]}
     ims = [(k, t, SPECS[k]["gfx"](t).resize((640, 360))) for k in shots for t in shots[k]]
     sh = Image.new("RGB", (4 * 640, ((len(ims) + 3) // 4) * 360))
     for i, (k, t, im) in enumerate(ims):
