@@ -13,3 +13,4 @@ chk/
 *.log
 node_modules/
 log*.txt
+persia/inserts/src/
