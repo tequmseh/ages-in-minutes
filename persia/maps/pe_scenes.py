@@ -86,7 +86,7 @@ def _(fr, t):
 CAM_BAB = cam_box(40.6, 49.4, 31.0, 35.9)
 @scene("02a_babylon", 2, 0.0, 14.7, CAM_BAB, dict(per=CYRUS, bab=BAB, x_all=NOEGY), res="10")
 def _(fr, t):
-    k_ = fr.R(13.0, 1.6); terr(fr, "per", PER, border=False); terr(fr, "bab", BAB_C, border=k_ <= 0); mfill(fr, fr.masks["x_all"], PER, k_ / FILL_A / 0.86 if k_ >= 1 else k_)
+    k_ = fr.R(13.0, 1.6); terr(fr, "per", PER, border=False); terr(fr, "bab", BAB_C, 1 - k_, border=k_ <= 0); mfill(fr, fr.masks["x_all"], PER, k_ / FILL_A / 0.86 if k_ >= 1 else k_)
     region(fr, 42.3, 34.9, "BABYLONIA", size=24, sp=8, color=WHITE, w="b", a=0.9)
     x, y = P(fr.cam, *C["BABYLON"]); wa = fr.R(2.6, 1.0); g = fr.R(12.2, 1.0)
     for R_, wd in ((46, 6), (34, 3)):                                 # double wall, north gate opens
