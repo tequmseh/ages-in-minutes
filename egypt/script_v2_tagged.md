@@ -176,7 +176,7 @@ What finally ends ancient Egypt is not an army. It is a change of mind. Egypt be
 
 In 1799 French soldiers rebuilding a fort find a broken slab with three scripts on it: that decree for the teenage king. Because one version is Greek, scholars finally have a key. In 1822 a Frenchman, Champollion, cracks it, and Egypt starts talking again.
 
-So. How do you make a country last three thousand years?
+So how do you make a country last three thousand years?
 
 Start with a river that feeds you and deserts that guard you. Add one idea simple enough to survive anything: there is an order to the world, and the king's job is to keep it. Then write everything down, so that when it all falls apart, and it will, three times, the next people know what to rebuild.
 
