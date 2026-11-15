@@ -71,15 +71,20 @@ def g2(t):
 S2 = dict(n=2, gfx=g2, gfx_windows=[(34.3, 76.9)], overlays=[(RC("R02"), 0, 8.0, True), (RC("R03"), 8.0, 14.0, True), (M("02a_new_city"), 14.0, 34.4, False), (M("02b_new_city"), 76.7, 96, False)])
 
 def panel(key, box, items, caption=None):
-    """dark inset over a map: items = [(name, cx, cy, h)] in panel coordinates"""
+    """inset over a map: the cut-out objects sit directly on the map with a soft shadow, NO black panel behind them
+    (rule from 15 Nov: a black box on a map looks ugly). items = [(name, cx, cy, h)] in box coordinates; the caption goes on a small plaque."""
+    from PIL import ImageFilter
     def mk():
-        im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im); x0, y0, x1, y1 = box
-        d.rectangle(box, fill=BG + (255,))
+        im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); x0, y0, x1, y1 = box
         for n, px, py, h in items:
-            o = Image.open(f"{R}/cut/{n}.png").convert("RGBA"); o = o.resize((max(2, int(o.width * h / o.height)), h), Image.LANCZOS); im.paste(o, (int(x0 + px - o.width / 2), int(y0 + py - o.height / 2)), o)
+            o = Image.open(f"{R}/cut/{n}.png").convert("RGBA"); o = o.resize((max(2, int(o.width * h / o.height)), h), Image.LANCZOS)
+            pos = (int(x0 + px - o.width / 2), int(y0 + py - o.height / 2))
+            sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); a = Image.new("L", (W, H), 0); a.paste(o.getchannel("A").point(lambda v: int(v * 0.45)), (pos[0] + 6, pos[1] + 10))
+            sh.putalpha(a.filter(ImageFilter.GaussianBlur(12))); im.alpha_composite(sh); im.alpha_composite(o, pos)
         if caption:
-            f = font(True, 28); w = tw(d, caption, f, 6); xx = (x0 + x1) / 2 - w / 2
-            for ch in caption: d.text((xx, y1 - 56), ch, font=f, fill=WHITE + (255,)); xx += d.textlength(ch, font=f) + 6
+            d = ImageDraw.Draw(im); f = font(True, 26); w = tw(d, caption, f, 5); cx_ = (x0 + x1) / 2; yb = y1 - 40
+            d.rectangle([cx_ - w / 2 - 14, yb - 22, cx_ + w / 2 + 14, yb + 22], fill=BG + (255,)); xx = cx_ - w / 2
+            for ch in caption: d.text((xx, yb - 16), ch, font=f, fill=WHITE + (255,)); xx += d.textlength(ch, font=f) + 5
         p = f"{R}/tmp_panel_{key}.png"; im.save(p); return p
     return mk
 S3 = dict(n=3, gfx=None, overlays=[(M("03_the_trading_empire"), 0, 99, False)], stills=[(panel("amph", (30, 170, 290, 650), [("amphora2", 130, 165, 290), ("entella", 130, 395, 110)]), 30.9, 42.4),
