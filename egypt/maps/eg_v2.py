@@ -4,6 +4,7 @@ usage: python3 eg_v2.py list | still name@t,t (new clip time) | sheet | render n
 import sys, os, numpy as np, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.append(os.path.join(HERE, "../../carthage/maps"))
 import look, engine
+engine.FPS = 60                      # series standard since episode 2: maps in true 60 fps
 from PIL import Image
 # the Sahara stays sand: green mottle only outside the desert polygon
 _style0 = look.style

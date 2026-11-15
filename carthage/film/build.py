@@ -1,8 +1,9 @@
 """Assemble one chapter: card + (graphics base, maps and reconstruction clips on their windows) + voiceover + quiet clip sound."""
 import subprocess, json, sys, os, re, importlib
-FPS = 30; CARD = 3.5; BED = 0.07          # clip sound ceiling: 7 % of the levelled clip
+FPS = 60; CARD = 3.5; BED = 0.07          # clip sound ceiling: 7 % of the levelled clip
 # Master quality (standard since episode 2): everything is composed at 1920x1080, then the finished chapter is scaled to 2560x1440 and
 # encoded near-transparently. YouTube gives uploads above 1080p a better codec and several times the bitrate, so 1080p playback is cleaner too.
+# 60 fps: maps and graphics are rendered at a true 60; 24 fps reconstruction clips are brought up by frame repetition (2-3 cadence), never by interpolation.
 OUT_W, OUT_H = 2560, 1440; CRF = "14"; PRESET = "slow"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 def run(a, **k): return subprocess.run(a, capture_output=True, text=True, **k)
