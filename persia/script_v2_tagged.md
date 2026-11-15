@@ -164,4 +164,4 @@ The Greeks won the story. The Persians built the system. Every empire since has 
 
 ### Outro
 
-[warm] That was Persia. Next time: Mesopotamia. If you enjoyed these twenty minutes, subscribe, and tell us in the comments which civilization you want to see next.
+[warm] That was Persia. If you enjoyed these twenty minutes, subscribe, and tell us in the comments which civilization you want to see next.
