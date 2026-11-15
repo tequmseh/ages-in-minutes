@@ -10,7 +10,7 @@ So how do you make a country last three thousand years? Let's find out. It takes
 
 ### 1. The Gift
 
-[thoughtful] Start with the map. This is the Sahara, the biggest hot desert on earth. And this thin green line is the Nile. Egypt is that line: a country a thousand kilometres long and rarely more than twenty kilometres wide.
+[warm, confident narrator] Start with the map. This is the Sahara, the biggest hot desert on earth. And this thin green line is the Nile. Egypt is that line: a country a thousand kilometres long and rarely more than twenty kilometres wide.
 
 Every summer, rain falls on the highlands of Ethiopia, far to the south, and the river floods. When the water goes down it leaves a layer of black mud, the best farmland in the ancient world, delivered free, once a year. The Egyptians call their country Kemet, the Black Land. Everything else is Deshret, the Red Land.
 
@@ -68,7 +68,7 @@ For about a century there is no Egypt. There are warlords with good PR. One gove
 
 ### 5. The Reboot
 
-[thoughtful] And here is the first clue to our question. Egypt has collapsed. It does not turn into something else. It reboots.
+[warm, confident narrator] And here is the first clue to our question. Egypt has collapsed. It does not turn into something else. It reboots.
 
 Around 2055 BC a southern king from a backwater town called Thebes fights his way north and reunites the Two Lands. His name is Mentuhotep, and later Egyptians rank him with Narmer: founder number two.
 
@@ -140,7 +140,7 @@ The best documents of his reign come from a village: Deir el-Medina, home of the
 
 ### 10. The Long Decline
 
-[thoughtful] The third collapse is the slow one.
+[warm, confident narrator] The third collapse is the slow one.
 
 Around 1177 BC the whole eastern Mediterranean comes apart. The Hittite empire vanishes. Raiders the Egyptians call the peoples of the sea come down the coast. Ramesses the Third stops them in the Delta and carves the victory on his temple. Egypt survives. It is nearly the only great power that does.
 
@@ -154,7 +154,7 @@ Then come the outsiders. Libyan chiefs rule as pharaohs. Then kings from Nubia c
 
 ### 11. Other People's Egypt
 
-[calm] From here on, Egypt is the prize rather than the player. And yet look at what happens to everyone who wins it.
+[warm, confident narrator] From here on, Egypt is the prize rather than the player. And yet look at what happens to everyone who wins it.
 
 In 525 BC the Persians arrive. Cambyses takes Egypt, and Darius has himself shown as a pharaoh, building Egyptian temples.
 
