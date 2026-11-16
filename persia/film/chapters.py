@@ -29,6 +29,15 @@ def panel(key, items, caption=None, cap_xy=None):
         p = f"{R}/tmp_panel_{key}.png"; im.save(p); return p
     return mk
 
+def plaque_still(key, x, y, txt, size, sp=3):
+    """a plaque as a transparent still, for captions that must lie on top of a reconstruction clip"""
+    def mk():
+        im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im); f = font(True, size); w = tw(d, txt, f, sp); px, py = size * 0.45, size * 0.32
+        d.rectangle([x - w / 2 - px, y - size * 0.6 - py, x + w / 2 + px, y + size * 0.6 + py], fill=WHITE + (255,)); xx = x - w / 2
+        for ch in txt: d.text((xx, y - size * 0.6), ch, font=f, fill=BG + (255,)); xx += d.textlength(ch, font=f) + sp
+        p = f"{R}/tmp_panel_{key}.png"; im.save(p); return p
+    return mk
+
 # ---------------------------------------------------------------- 1. Nobody from nowhere
 S1 = dict(n=1, gfx=None, overlays=[(M("01a_nobody"), 0, 26.0, False), (RC("R01"), 26.0, 33.1, True), (M("01b_cyrus"), 33.1, 75.3, False), (M("01c_twenty_years"), 75.3, 83, False)],
           stills=[(panel("vase", [("V01_croesus_vase", 1560, 700, 620, False)]), 68.8, 74.9)])
@@ -127,8 +136,9 @@ def g5(t):
         plaque(d, cx, 960, "THE OLD MAIN POST OFFICE IN NEW YORK", 46, a * r(t, 48.4), sp=3)
     return im
 S5 = dict(n=5, gfx=g5, gfx_windows=[(34.3, 51.9)],
-          overlays=[(M("05a_the_road"), 0, 34.5, False), (RC("R04"), 22.2, 34.3, True), (M("05c_canal"), 51.8, 70, False)],
-          stills=[(panel("stele", [("V12_shaluf_stele", 300, 760, 520, True)]), 56.0, 64.8)])
+          overlays=[(M("05a_the_road"), 0, 34.5, False), (RC("R04"), 22.2, 34.3, True), (RC("R20"), 45.3, 51.7, True), (M("05c_canal"), 51.8, 70, False)],
+          stills=[(plaque_still("farley", cx, 960, "THE OLD MAIN POST OFFICE IN NEW YORK", 46), 48.4, 51.6),
+                  (panel("stele", [("V12_shaluf_stele", 300, 760, 520, True)]), 56.0, 64.8)])
 
 # ---------------------------------------------------------------- 6. Persepolis and the receipts
 def g6(t):
