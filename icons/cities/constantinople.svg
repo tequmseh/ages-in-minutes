@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+<defs><mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96">
+<rect width="96" height="96" fill="#000"/>
+<rect x="4" y="86" width="88" height="4" fill="#fff"/>
+<rect x="10" y="60" width="76" height="26" fill="#fff"/>
+<rect x="28" y="48" width="40" height="12" fill="#fff"/>
+<path d="M26 48 A22 22 0 0 1 70 48 Z" fill="#fff"/>
+<path d="M8 60 A13 13 0 0 1 34 60 Z" fill="#fff"/>
+<path d="M62 60 A13 13 0 0 1 88 60 Z" fill="#fff"/>
+<rect x="47" y="19" width="2" height="8" fill="#fff"/>
+<rect x="44.5" y="21.5" width="7" height="2" fill="#fff"/>
+<path d="M30.6 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M34.800000000000004 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M39.0 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M43.2 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M47.400000000000006 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M51.6 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M55.800000000000004 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M60.0 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M64.2 58 v-5 a1.3 1.3 0 0 1 2.6 0 v5 Z" fill="#000"/>
+<path d="M14 78 v-9 a3.2 3.2 0 0 1 6.4 0 v9 Z" fill="#000"/>
+<path d="M23 78 v-9 a3.2 3.2 0 0 1 6.4 0 v9 Z" fill="#000"/>
+<path d="M66 78 v-9 a3.2 3.2 0 0 1 6.4 0 v9 Z" fill="#000"/>
+<path d="M75 78 v-9 a3.2 3.2 0 0 1 6.4 0 v9 Z" fill="#000"/>
+<path d="M41 86 V72 a7 7 0 0 1 14 0 V86 Z" fill="#000"/>
+<line x1="10" y1="66" x2="86" y2="66" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+<path d="M30 47 A19 19 0 0 1 66 47" fill="none" stroke="#000" stroke-width="1"/>
+<line x1="38" y1="31" x2="38" y2="46" stroke="#000" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="48" y1="29" x2="48" y2="46" stroke="#000" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="58" y1="31" x2="58" y2="46" stroke="#000" stroke-width="0.9" stroke-linecap="round"/>
+</mask></defs>
+<rect width="96" height="96" fill="#1c1b1a" mask="url(#m)"/>
+</svg>
