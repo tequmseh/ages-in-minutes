@@ -20,6 +20,7 @@ x = (W - width(f, sp)) / 2; y = (LINE + 14 + H) / 2
 for i, part in enumerate(parts):
     for c in part:
         d.text((x, y), c, font=f, fill=YEL if i % 2 == 0 else WHITE, anchor="lm"); x += d.textlength(c, font=f) + sp
+if logo_h == 0: im.save(f"{HERE}/out/{out}", quality=95); print(out, size, "no logo"); sys.exit()
 lg = Image.open(f"{HERE}/../channel/logo_mark_transparent.png").convert("RGBA"); lg = lg.resize((round(lg.width * logo_h / lg.height), logo_h), Image.LANCZOS)
 sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).ellipse([40 - 14, 40 - 14, 40 + lg.width + 14, 40 + logo_h + 14], fill=(17, 17, 17, 215))
 im.paste(sh.filter(ImageFilter.GaussianBlur(10)), (0, 0), sh.filter(ImageFilter.GaussianBlur(10))); im.paste(lg, (40, 40), lg)
