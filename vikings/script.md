@@ -2,11 +2,11 @@
 
 [curious] In the year 1021, somebody cut down a tree in Newfoundland with an iron axe. We know the exact year because a storm on the Sun left a mark inside the tree. The people living there had no iron axes. This one had come from Greenland.
 
-In those same years, men from the same corner of Europe stood guard over the emperor in Constantinople. And on a Swedish island, farmers had buried fourteen thousand silver coins from the Islamic world.
+In those same years, men from the same corner of Europe stood guard over the emperor in Constantinople. And on a Swedish island, someone had buried more than fourteen thousand silver coins from the Islamic world.
 
-All of it was done by farmers from a land with no cities and almost no books.
+All of it was done by farmers from a land with no real cities and almost no books.
 
-In the next twenty minutes: a ship that rewrites the rules of war, a raid that shocks Christian Europe, a king hiding in a swamp, the traders who probably gave Russia its name, an island that votes to change its gods, and the first Europeans to build a house in America.
+In the next twenty minutes: a ship that rewrites the rules of war, a raid that shocks Christian Europe, a king hiding in a swamp, the traders who probably gave Russia its name, an island that changes its gods by law, and the first Europeans to build a house in America.
 
 So how did the people at the edge of the map end up all over it? Let's find out. It takes twenty minutes.
 
@@ -14,13 +14,13 @@ So how did the people at the edge of the map end up all over it? Let's find out.
 
 [warm, confident narrator] Start with the map. Scandinavia. Denmark is flat and fertile, and it sits on the gate between the North Sea and the Baltic. Sweden is lakes and forest. Norway is mostly mountain, with a coast cut into hundreds of fjords. Good farmland is scarce and winters are long.
 
-Around the year 800 there are no countries here. No Norway, no Sweden, not really a Denmark. There are chieftains, family farms and local assemblies. Real towns are just appearing: Ribe in Denmark is the oldest, founded in the early 700s. Hedeby, Birka and Kaupang follow.
+Around the year 800 there are no countries here as we know them. Denmark has kings, but Norway and Sweden are a patchwork of chieftains, family farms and local assemblies. Real towns are just appearing: Ribe in Denmark is the oldest, founded in the early 700s. Hedeby, Birka and Kaupang follow.
 
 What holds this world together is water. Roads over mountains and through forests are terrible. The sea is the motorway. In Norway your neighbour is often easier to reach by boat than on foot.
 
 They have writing, but very little of it: runes, sixteen signs, carved on stone, wood and bone, for names and memorials, not books. So for most of this story, other people write about them: English monks, Frankish annalists, Arab travellers. The famous sagas come much later, written in Iceland two or three hundred years after the events. Great stories. Not exactly records.
 
-And one more thing before we sail. In Old Norse, a víkingr is a person who goes on an expedition overseas. Víking is the expedition itself. It is not a nation. It is an activity. A man could farm in spring, go raiding for a season and come home in autumn.
+And one more thing before we sail. In Old Norse, a vikingr is a person who goes on an expedition overseas. Viking is the expedition itself. It is not a nation. It is an activity. A man could farm in spring, go raiding for a season and come home in autumn.
 
 [playful] Viking is not who you are. It is what you do on your summer break.
 
@@ -28,7 +28,7 @@ And one more thing before we sail. In Old Norse, a víkingr is a person who goes
 
 [curious] What makes the whole story possible is a ship.
 
-People in the north have rowed boats for centuries. Then, in the 700s, Scandinavians put a big square sail on a long, light hull with a strong keel. Now a crew can cross the open sea and still row when the wind dies.
+People in the north have rowed boats for centuries. Then, by the 700s, Scandinavians put a big square sail on a long, light hull with a strong keel. Now a crew can cross the open sea and still row when the wind dies.
 
 The hull is built from overlapping oak planks. It flexes with the waves instead of fighting them. And it sits very low in the water. One of the largest warships ever found, built near Dublin around 1042, is thirty metres long and needs only one metre of water. It carries sixty-five to seventy men.
 
@@ -36,7 +36,7 @@ That shallow hull is the secret. The same ship that crosses the North Sea can ro
 
 We know these ships so well because the elite took them to the grave. In 834, in southern Norway, two women were buried inside a ship with a cart, sledges and fine textiles. The clay of the mound preserved the wood. Today the Oseberg ship stands almost whole in a museum.
 
-In 2007 Danish archaeologists sailed a full-size copy of the Dublin warship from Denmark to Ireland, with a crew of sixty-five. It worked.
+In 2007 the Viking Ship Museum in Denmark sailed a full-size copy of the Dublin warship from Denmark to Ireland, with a crew of sixty-five. It worked.
 
 [playful] Think of the longship as a landing craft, a lorry and a family car in one. A family car that seats sixty-five, all armed.
 
@@ -48,7 +48,7 @@ Raiders had landed in England before. What makes Lindisfarne a shock is the targ
 
 From the raiders' point of view, a monastery is perfect. It stands by the sea. It is full of silver, gold and books with jewelled covers. It has no walls and no soldiers. And it has people. People can be ransomed, or sold.
 
-Within a few years the raids reach Scotland, Ireland and the coasts of the Frankish kingdom. A few ships become fleets. In 841 a Viking band builds a fortified base on the River Liffey. It grows into Dublin, and Dublin grows into the biggest slave market in western Europe. In Ireland the going rate is twelve ounces of silver for a man and eight for a woman.
+Within a few years the raids reach Scotland, Ireland and the coasts of the Frankish kingdom. A few ships become fleets. In 841 a Viking band builds a fortified base on the River Liffey. It grows into Dublin, and Dublin grows into one of the great slave markets of the Viking world.
 
 Why now? Historians still argue. Europe is getting richer, and its riches sit on the coasts. The ships are ready. And at home ambitious young men need silver to win followers, land and a good marriage.
 
@@ -56,7 +56,7 @@ Whatever the reason, for the next two and a half centuries anyone living near wa
 
 ### 4. Paris Pays
 
-[warm, confident narrator] Charlemagne built the biggest Christian empire since Rome. His grandsons split it three ways and spend their time fighting each other. For the raiders, this is an invitation.
+[warm, confident narrator] Charlemagne built the biggest empire in western Europe since Rome. His grandsons split it three ways and spend their time fighting each other. For the raiders, this is an invitation.
 
 Look at the rivers: the Seine, the Loire, the Rhine. Shallow ships can row deep inland, and the rich towns and abbeys sit on the banks.
 
@@ -84,7 +84,7 @@ By 878 only Wessex is left, and in January the Vikings take it by surprise. King
 
 But in May 878 Alfred comes out of the marsh with a new army and wins at Edington. The Viking king, Guthrum, agrees to be baptised, with Alfred as his godfather. A line is drawn across England. The north and east become the Danelaw: land under Danish law.
 
-The Danelaw is still on the map. More than six hundred English places end in -by, the Norse word for a farm or village: Grimsby, Derby, Whitby. And it is in the language. Sky, egg, knife, leg and skin are Norse words. So are take and they. Window is a Norse wind-eye: a hole for the wind.
+The Danelaw is still on the map. More than six hundred English place names end in “by”, the Norse word for a farm or village: Grimsby, Derby, Whitby. And it is in the language. Sky, egg, knife, leg and skin are Norse words. So are take and they. Window is a Norse wind-eye: a hole for the wind.
 
 [playful] They took the knife from the window. Four of those seven words came to England on Viking ships.
 
@@ -96,19 +96,19 @@ A farm. A long house with a hearth in the middle. Society has three layers: the 
 
 Free men settle their disputes at the thing, an open-air assembly. There is no written law. A lawspeaker holds it in his head and recites it aloud.
 
-Women run the farm while the men are away, and the keys of the house hang from their belts. A woman can own property, and she can divorce her husband. In the 960s a traveller from Córdoba, Ibrahim ibn Yaqub, visits Hedeby. He writes that the right to divorce belongs to the women.
+Women run the farm while the men are away, and the keys of the house hang from their belts. A woman can own property, and she can divorce her husband. In the 960s a traveller from Cordoba, Ibrahim ibn Yaqub, describes Hedeby. He writes that the right to divorce belongs to the women.
 
 [playful] He also notes that men and women alike wear eye make-up, and that it makes them more beautiful.
 
 Hedeby and Birka are small, a thousand people or so each, but busy. Out go furs, amber, walrus ivory and slaves. In come wine, glass, silk and above all silver.
 
-On the Swedish island of Gotland, archaeologists have found more than seven hundred silver hoards. The biggest, dug up in 1999, holds sixty-seven kilograms of silver and 14,295 coins. Almost all of them are Islamic dirhams.
+On the Swedish island of Gotland, archaeologists have found more than seven hundred silver hoards. The biggest, dug up in 1999, holds sixty-seven kilograms of silver and over fourteen thousand coins. Almost all of them are Islamic dirhams.
 
 Silver from the Islamic world, buried on a Baltic farm. To find out how it got there, we have to turn east.
 
 ### 7. The Rus
 
-[curious] Sweden faces east. Across the Baltic lie great rivers. The Volkhov leads to Lake Ladoga. From there the Dnieper flows south to the Black Sea, and the Volga to the Caspian.
+[curious] Sweden faces east. Across the Baltic, rivers lead deep inland: through Lake Ladoga and up the Volkhov, then on to the Dnieper, flowing south to the Black Sea, and the Volga, flowing to the Caspian.
 
 From the 700s, men from eastern Sweden row up these rivers, dragging their boats overland from one to the next. They sell furs and slaves, and they are paid in silver.
 
@@ -130,19 +130,19 @@ On the eighteenth of June 860, about two hundred Rus ships sail into the Bosporu
 
 Treaties follow, and the Byzantines reach a conclusion: if these men are going to fight, better that they fight for us.
 
-In 988 Emperor Basil II is in trouble and needs soldiers. Vladimir, prince of Kiev, sends him six thousand warriors. In return Vladimir marries the emperor's sister and is baptised. This is the moment the Rus become Orthodox Christians.
+In 988 Emperor Basil the Second is in trouble and needs soldiers. Vladimir, prince of Kiev, sends him six thousand warriors. In return Vladimir marries the emperor's sister and is baptised. This is the moment the Rus become Orthodox Christians.
 
 The six thousand stay. They become the Varangian Guard, the emperor's personal bodyguard. As foreigners, they owe nothing to the court's factions, and the emperor pays very well. For the next century young men from all over Scandinavia go south to serve.
 
-[playful] In the upper gallery of Hagia Sophia, on a marble balustrade, someone carved runes. Most are worn away. What is left probably spells the name Halfdan. A thousand years later, Viking graffiti is still in the most famous church in the world.
+[playful] In the upper gallery of Hagia Sophia, on a marble balustrade, someone carved runes. Most are worn away. What is left probably spells the name Halfdan. A thousand years later, Viking graffiti is still there, in one of the most famous buildings in the world.
 
-One young Norwegian arrives in 1034 with five hundred men. He fights in Sicily and Bulgaria, rises to the top of the Guard, and goes home rich enough to become king of Norway. His name is Harald. Remember him.
+One young Norwegian arrives in 1034 with five hundred men. He fights in Sicily and Bulgaria, rises high in the Guard, and goes home rich enough to become king of Norway. His name is Harald. Remember him.
 
 ### 9. Iceland
 
 [warm, confident narrator] Now go west. The Norse settle the Orkneys, the Shetlands and the Faroes. Then, far out in the Atlantic, they find a large empty island. Irish monks had lived there, but they leave when the newcomers arrive.
 
-The traditional date is 874. A Norwegian named Ingólfr Arnarson builds his farm at a bay full of steam from hot springs. He calls it Reykjavík, Smoke Bay. Geologists have found a layer of volcanic ash from about 871 lying just below the oldest houses. The story and the science agree.
+The traditional date is 874. A Norwegian named Ingolf Arnarson builds his farm at a bay full of steam from hot springs. He calls it Reykjavik, Smoke Bay. Geologists have found a layer of volcanic ash from the 870s lying just below the oldest houses. The story and the science agree.
 
 Within sixty years, say the Icelanders, the island is fully settled.
 
@@ -166,7 +166,7 @@ It works. Around 985, twenty-five ships set out. Fourteen arrive. The settlers b
 
 Erik's son Leif goes further. Around the year 1000 he reaches a land where his men find grapes. He calls it Vinland, Wine Land. For centuries scholars treated this as a legend.
 
-Then, in 1960, a Norwegian couple, Helge and Anne Stine Ingstad, dig into some grassy mounds on the northern tip of Newfoundland. They find Norse buildings, iron nails, a bronze cloak pin, and butternuts. Butternuts do not grow that far north. Someone had sailed further south, to where wild grapes grow.
+Then, in 1960, a Norwegian couple, Helge and Anne Stine Ingstad, start digging at some grassy mounds on the northern tip of Newfoundland. Over the following years the excavations turn up Norse buildings, iron nails, a bronze cloak pin, and butternuts. Butternuts do not grow that far north. Someone had sailed further south, to where wild grapes grow.
 
 In 2021 scientists found the mark of a solar storm from the year 993 in wood from the site, and counted the rings out to the bark. The trees were cut in 1021. That is 471 years before Columbus.
 
@@ -184,9 +184,9 @@ Kings like the new religion: one God in heaven fits one king on earth. And the C
 
 Meanwhile England is paying again. Danish fleets return, and the English kings pay them to leave, tens of thousands of pounds of silver at a time. In 1013 the Danish king, Sweyn Forkbeard, simply takes the throne.
 
-His son Cnut does better still. He becomes king of England in 1016, of Denmark in 1018, and of Norway in 1028. Historians call it the North Sea Empire: three kingdoms held together by nothing but ships.
+His son Canute does better still. He becomes king of England in 1016, of Denmark in 1018, and of Norway in 1028. Historians call it the North Sea Empire: three kingdoms held together by nothing but ships.
 
-A later story says Cnut set his throne on the beach and ordered the tide to stop, to show his flatterers that even a king has limits. His empire proves it. Cnut dies in 1035, and within seven years it is gone.
+A later story says Canute set his throne on the beach and ordered the tide to stop, to show his flatterers that even a king has limits. His empire proves it. Canute dies in 1035, and within seven years it is gone.
 
 ### 12. What Remains
 
@@ -198,11 +198,11 @@ Nineteen days later, on the south coast, King Harold is killed at Hastings by th
 
 [playful] So the Viking Age ends with a Viking beaten in England, and then England conquered by the descendants of Vikings, who now speak French.
 
-What did they leave behind? Not horned helmets. Those were invented by a costume designer for a Wagner opera in 1876. The one almost complete Viking helmet ever found in Scandinavia has no horns.
+What did they leave behind? Not horned helmets. They were made popular by a costume designer for Wagner's operas in 1876. The one almost complete Viking helmet ever found in Scandinavia has no horns.
 
 In 2020 scientists read the DNA of 442 people from the Viking world. Many were not blond. And some people buried as Vikings in Scotland were local people with no Scandinavian ancestry at all. Viking was never a bloodline. It was a way of life you could join.
 
-What they did leave is still on the map. The name of Russia. Normandy. The city of Dublin. Iceland and its parliament. The words sky, egg, window and they.
+What they did leave is still on the map. The name of Russia, most likely. Normandy. The city of Dublin. Iceland and its parliament. The words sky, egg, window and they.
 
 People from the edge of Europe reached the Volga, Constantinople and America. They started as raiders. They ended as founders.
 
