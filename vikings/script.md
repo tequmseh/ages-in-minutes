@@ -2,27 +2,27 @@
 
 [curious] In the year 1021, somebody cut down a tree in Newfoundland with an iron axe. We know the exact year because a storm on the Sun left a mark inside the tree. The people living there had no iron axes. This one had come from Greenland.
 
-In those same years, men from the same corner of Europe stood guard over the emperor in Constantinople. And on a Swedish island, someone had buried more than fourteen thousand silver coins from the Islamic world.
+In those same years, the people we call Vikings stood guard over the emperor in Constantinople. And long before that, on a Swedish island, someone had buried more than fourteen thousand silver coins from the Islamic world.
 
 All of it was done by farmers from a land with no real cities and almost no books.
 
-In the next twenty minutes: a ship that rewrites the rules of war, a raid that shocks Christian Europe, a king hiding in a swamp, the traders who probably gave Russia its name, an island that changes its gods by law, and the first Europeans to build a house in America.
+In the next twenty minutes: the traders who probably gave Russia its name, an island that changes its gods by law, and the first Europeans to build a house in America.
 
-So how did the people at the edge of the map end up all over it? Let's find out. It takes twenty minutes.
+So how did the people at the edge of the map end up all over it? Let's find out.
 
 ### 1. The Edge of the Map
 
-[warm, confident narrator] Start with the map. Scandinavia. Denmark is flat and fertile, and it sits on the gate between the North Sea and the Baltic. Sweden is lakes and forest. Norway is mostly mountain, with a coast cut into hundreds of fjords. Good farmland is scarce and winters are long.
+[warm, confident narrator] Start with the word. In Old Norse, a vikingr is a person who goes on an expedition overseas. Viking is the expedition itself. It is not a nation. It is an activity. A man could farm in spring, go raiding for a season and come home in autumn.
 
-Around the year 800 there are no countries here as we know them. Denmark has kings, but Norway and Sweden are a patchwork of chieftains, family farms and local assemblies. Real towns are just appearing: Ribe in Denmark is the oldest, founded in the early 700s. Hedeby, Birka and Kaupang follow.
+[playful] Viking is not who you are. It is what you do on your summer break.
+
+Now the map. Scandinavia. Denmark is flat and fertile, and it sits on the gate between the North Sea and the Baltic. Sweden is lakes and forest. Norway is mostly mountain, with a coast cut into hundreds of fjords. Good farmland is scarce and winters are long.
+
+Around the year 800 there are no countries here as we know them. Denmark has kings, but Norway and Sweden are a patchwork of chieftains, family farms and local assemblies. Towns are only just appearing.
 
 What holds this world together is water. Roads over mountains and through forests are terrible. The sea is the motorway. In Norway your neighbour is often easier to reach by boat than on foot.
 
 They have writing, but very little of it: runes, sixteen signs, carved on stone, wood and bone, for names and memorials, not books. So for most of this story, other people write about them: English monks, Frankish annalists, Arab travellers. The famous sagas come much later, written in Iceland two or three hundred years after the events. Great stories. Not exactly records.
-
-And one more thing before we sail. In Old Norse, a vikingr is a person who goes on an expedition overseas. Viking is the expedition itself. It is not a nation. It is an activity. A man could farm in spring, go raiding for a season and come home in autumn.
-
-[playful] Viking is not who you are. It is what you do on your summer break.
 
 ### 2. The Ship
 
@@ -66,7 +66,7 @@ In March 845 a fleet of about 120 ships rows up the Seine under a chieftain the 
 
 Paying becomes a habit, and so do the raids. In 885 a huge army besieges Paris for almost a year.
 
-Then in 911 the Franks try something new. A Viking leader named Rollo has just been beaten at Chartres. King Charles the Simple offers him a deal. Rollo gets the land around Rouen, at the mouth of the Seine. In return he is baptised and keeps every other Viking out of the river.
+Then in 911 the Franks try something new. A Viking leader named Rollo has just been beaten at Chartres. King Charles the Simple offers him a deal. Rollo gets the land around Rouen, on the lower Seine. In return he is baptised and keeps every other Viking out of the river.
 
 The raiders become the guards. The land of the Northmen becomes Normandy. Within a few generations its rulers speak French, build stone castles and fight on horseback.
 
@@ -94,7 +94,7 @@ The Danelaw is still on the map. More than six hundred English place names end i
 
 A farm. A long house with a hearth in the middle. Society has three layers: the jarls, the chieftains at the top; the free farmers in the middle; and at the bottom, the thralls. Slaves. Many of the captives from the raids end up here, or are sold on.
 
-Free men settle their disputes at the thing, an open-air assembly. There is no written law. A lawspeaker holds it in his head and recites it aloud.
+Free men settle their disputes at the thing, an open-air assembly. There is no written law. A lawspeaker holds it in his head and recites it aloud. Their gods are many. Odin, god of war and wisdom. Thor, with his hammer, who protects ordinary farmers. A warrior who dies in battle hopes for a seat in Odin's hall, Valhalla.
 
 Women run the farm while the men are away, and the keys of the house hang from their belts. A woman can own property, and she can divorce her husband. In the 960s a traveller from Cordoba, Ibrahim ibn Yaqub, describes Hedeby. He writes that the right to divorce belongs to the women.
 
@@ -112,9 +112,9 @@ Silver from the Islamic world, buried on a Baltic farm. To find out how it got t
 
 From the 700s, men from eastern Sweden row up these rivers, dragging their boats overland from one to the next. They sell furs and slaves, and they are paid in silver.
 
-The Finns call the Swedes Ruotsi. The most likely origin is an old Norse word for rowing. In the east the name becomes Rus. And Rus, most historians think, is the root of Russia and Belarus.
+The Finns call the Swedes Ruotsi. The most likely origin is an old Norse word for rowing. In the east the name becomes Rus. And Rus, most historians think, is the root of the names Russia and Belarus. The state itself grows up around Kyiv, on the Dnieper.
 
-The first Russian chronicle, written around 1113, tells how it began. In 862 the Slavic and Finnic tribes, tired of fighting each other, send a message across the sea: our land is great and rich, but there is no order in it. Come and rule over us. A Varangian named Rurik comes. His descendants rule Russia until the end of the 1500s.
+The oldest East Slavic chronicle, written around 1113, tells how it began. In 862 the Slavic and Finnic tribes, tired of fighting each other, send a message across the sea: our land is great and rich, but there is no order in it. Come and rule over us. A Varangian named Rurik comes. His descendants rule the lands of the Rus, and later Moscow, until the end of the 1500s.
 
 The chronicle was written much later to explain a ruling family, so historians treat it carefully. But the princes' names give the game away. Oleg, Igor and Olga are the Norse names Helgi, Ingvar and Helga.
 
@@ -130,7 +130,7 @@ On the eighteenth of June 860, about two hundred Rus ships sail into the Bosporu
 
 Treaties follow, and the Byzantines reach a conclusion: if these men are going to fight, better that they fight for us.
 
-In 988 Emperor Basil the Second is in trouble and needs soldiers. Vladimir, prince of Kiev, sends him six thousand warriors. In return Vladimir marries the emperor's sister and is baptised. This is the moment the Rus become Orthodox Christians.
+In 988 Emperor Basil the Second is in trouble and needs soldiers. Vladimir, prince of Kyiv, sends him six thousand warriors. In return Vladimir marries the emperor's sister and is baptised. This is the moment the Rus become Orthodox Christians.
 
 The six thousand stay. They become the Varangian Guard, the emperor's personal bodyguard. As foreigners, they owe nothing to the court's factions, and the emperor pays very well. For the next century young men from all over Scandinavia go south to serve.
 
