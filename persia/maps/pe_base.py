@@ -125,10 +125,10 @@ BOEOTIA = [(22.85, 38.2), (22.85, 38.6), (23.3, 38.72), (23.72, 38.42), (23.7, 3
 JUDEA = [(34.5, 31.3), (34.85, 32.2), (35.6, 32.3), (35.6, 31.2), (35.2, 30.9)]
 GREECE = [(19.3, 40.0), (22.6, 40.05), (24.5, 38.9), (24.6, 37.4), (23.4, 36.2), (21.4, 36.5), (20.5, 38.0), (19.8, 39.3)]
 # 20 tribute districts, drawn as soft borders inside the empire (schematic: Herodotus gives peoples, not frontiers)
-GRID = [[(30.5, 35.5), (30.5, 42.5)], [(34.6, 35.5), (34.6, 43)], [(25.5, 38.8), (34.6, 38.8)], [(34.6, 37.7), (38.9, 37.4)], [(38.9, 43), (38.9, 36.8)],
+GRID = [[(30.5, 35.5), (30.5, 42.5)], [(34.6, 35.5), (34.6, 43)], [(25.5, 38.8), (34.6, 38.8)], [(34.6, 37.7), (38.9, 37.4)], [(38.9, 43), (38.9, 37.4)],
         [(38.9, 37.4), (44.6, 37.4)], [(45.2, 43), (44.6, 37.4), (46, 34.5), (48.2, 30.3), (48.3, 29)], [(40.6, 37.4), (40.1, 33.5), (39.4, 31.8)],
-        [(40.1, 34.6), (45.9, 34.6)], [(34.0, 31.6), (34.95, 29.2)], [(25, 33), (25, 27.5)], [(53, 38.2), (53, 33.3)], [(50.3, 33.3), (50.0, 29.6)],
-        [(46.6, 33.3), (60.5, 33.3)], [(55.6, 33.3), (55.6, 25.5)], [(52.5, 40.2), (63, 40.2)], [(60.5, 44), (60.5, 24)], [(55.6, 28.8), (69.5, 28.8)],
+        [(40.24, 34.6), (45.9, 34.6)], [(34.0, 31.6), (34.95, 29.2)], [(25, 33), (25, 27.5)], [(53, 38.2), (53, 33.3)], [(50.3, 33.3), (50.0, 29.6)],
+        [(46.6, 33.3), (60.5, 33.3)], [(55.6, 33.3), (55.6, 25.5)], [(52.5, 40.2), (60.5, 40.2)], [(60.5, 44), (60.5, 24)], [(55.6, 28.8), (69.5, 28.8)],
         [(60.5, 38), (72.5, 38)], [(60.5, 33), (69.5, 33)], [(69.5, 41.5), (69.5, 23)]]
 
 ROYAL_ROAD = smooth([C["SARDIS"], (30.2, 38.9), (31.99, 39.65), (32.85, 39.93), (34.6, 40.0), (36.4, 39.3), (38.3, 38.35), (40.2, 37.9), (42.2, 37.2),
@@ -160,7 +160,8 @@ MAXE = U(CORE, THR)
 def GRIDM(cam, lm):
     m = Image.new("L", (W * SS, H * SS), 0); d = ImageDraw.Draw(m)
     for l in GRID: d.line(list(map(tuple, proj(cam, smooth(l, 4) if len(l) > 2 else l))), fill=255, width=s(2.4))
-    return IC.multiply(m, CORE(cam, lm))
+    core = CORE(cam, lm).point(lambda v: 255 if v > 200 else 0).filter(ImageFilter.MinFilter(2 * int(s(5)) + 1)).filter(ImageFilter.GaussianBlur(s(1.2)))
+    return IC.multiply(m, core)
 def EDGE(f, px=3.2):
     """outline of a mask (drawn darker than the fill, gives territories a crisp border)"""
     def g(cam, lm):
@@ -186,11 +187,24 @@ def sea(fr, lon, lat, txt, a=1.0, size=17, dx=0, dy=0, anchor="m"):
     TL(fr, lon, lat, txt, dx=dx, dy=dy, size=size, w="m", color=SEA_T, anchor=anchor, sp=5, a=a)
 def modern(fr, lon, lat, txt, a=1.0, size=17, dx=0, dy=0, anchor="m", color=(120, 108, 84)):
     TL(fr, lon, lat, txt, dx=dx, dy=dy, size=size, w="m", color=color, anchor=anchor, sp=4.5, a=a)
-def city(fr, name, a=1.0, side="r", r=5, size=19, label=None, dx=0, dy=0, ll=None, color=INK, dot=INK, ring=WHITE):
+import glob as _glob, os as _os
+ICONS = {_os.path.basename(f)[:-4].upper(): f for f in _glob.glob(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "..", "icons", "cities", "png", "*.png"))}
+_ICO = {}
+def city(fr, name, a=1.0, side="r", r=5, size=19, label=None, dx=0, dy=0, ll=None, color=INK, dot=INK, ring=WHITE, icon=True):
     if a <= 0: return
     lon, lat = ll or C[name]; x, y = P(fr.cam, lon, lat)
+    if icon and name in ICONS and r >= 7 and label in (None, ""):
+        # city icon from the shared library (icons/cities) instead of a dot; the label keeps its side
+        hpx = int(s(r * 10)); k = (name, hpx)
+        if k not in _ICO: _ICO[k] = Image.open(ICONS[name]).convert("RGBA").resize((hpx, hpx), Image.LANCZOS).getchannel("A")
+        m = _ICO[k]; pos = (int(s(x) - hpx / 2), int(s(y) - hpx / 2))
+        if ring:
+            halo = m.filter(ImageFilter.MaxFilter(2 * int(s(1.6)) + 1)).filter(ImageFilter.GaussianBlur(s(1.0)))
+            fr.im.paste(ring, pos, halo.point(lambda v: int(v * 0.55 * min(1, a))))
+        fr.im.paste(dot, pos, m if a >= 1 else m.point(lambda v: int(v * a))); fr.d = ImageDraw.Draw(fr.im)
+        r = r * 5.4; ring = None; dot = None
     if ring: alpha_draw(fr, lambda d, c: d.ellipse([s(x - r - 2.5), s(y - r - 2.5), s(x + r + 2.5), s(y + r + 2.5)], fill=c), ring, a)
-    alpha_draw(fr, lambda d, c: d.ellipse([s(x - r), s(y - r), s(x + r), s(y + r)], fill=c), dot, a)
+    if dot: alpha_draw(fr, lambda d, c: d.ellipse([s(x - r), s(y - r), s(x + r), s(y + r)], fill=c), dot, a)
     txt = label if label is not None else name
     if not txt: return
     off = r + 9

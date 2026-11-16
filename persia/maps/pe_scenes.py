@@ -93,7 +93,7 @@ def _(fr, t):
         gap = R_ * 0.6 * g
         for (x0, y0, x1, y1) in [(x - R_, y + R_, x + R_, y + R_), (x - R_, y - R_, x - R_, y + R_), (x + R_, y - R_, x + R_, y + R_), (x - R_, y - R_, x - gap, y - R_), (x + gap, y - R_, x + R_, y - R_)]:
             if abs(x1 - x0) + abs(y1 - y0) > 0.5: pline(fr, [(x0, y0), (x1, y1)], width=wd, a=wa, color=WHITE)
-    city(fr, "BABYLON", a=fr.R(0.0, 0.5), side="b", r=8, size=28, dy=46, color=WHITE)
+    city(fr, "BABYLON", a=fr.R(0.0, 0.5), side="b", r=8, size=28, dy=46, color=WHITE, icon=False)
     PQ(fr, 960, 110, "THE BIGGEST CITY ON EARTH", a=fr.R(1.0, 0.5) * (1 - fr.R(7.6, 0.5)), size=30)
     PQ(fr, 960, 110, "539 BC", a=fr.R(8.1, 0.5), size=34)
     gline(fr, smooth([(48.6, 35.6), (47.2, 34.9), (45.8, 34.1), C["OPIS"]]), width=4.5, frac=fr.R(9.6, 1.4), arrow=True, halo=WHITE)
