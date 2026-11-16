@@ -28,7 +28,7 @@ def plaque(d, x, y, s, size, a=1.0, sp=2):
         d.text((xx, y - size * 0.6), ch, font=f, fill=BG + (int(255 * a),)); xx += d.textlength(ch, font=f) + sp
 LOGO = Image.open(f"{HERE}/../../channel/logo_mark_transparent.png").convert("RGBA")
 # name, file, start inside the file, window on the timeline, dark band under text
-SEG = [("R11_full", 0.0, 0.0, 10.0, False), ("R13_full", 3.6, 10.0, 18.6, True), ("R06", 1.0, 18.6, 26.9, True), ("R14_full", 0.3, 26.9, 34.3, True),
+SEG = [("R21", 0.0, 0.0, 10.0, False), ("R13_full", 3.6, 10.0, 18.6, True), ("R06", 1.0, 18.6, 26.9, True), ("R14_full", 0.3, 26.9, 34.3, True),
        ("R17_full", 0.6, 34.3, 42.8, True), ("MAP", 0.0, 42.8, 59.2, False), ("R01", 0.0, 59.2, 64.1, False)]
 T_TITLE = 64.1
 _g = np.linspace(0, 1, 520)[:, None, None] ** 1.05 * 0.93
