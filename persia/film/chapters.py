@@ -136,7 +136,7 @@ def g5(t):
         plaque(d, cx, 960, "THE OLD MAIN POST OFFICE IN NEW YORK", 46, a * r(t, 48.4), sp=3)
     return im
 S5 = dict(n=5, gfx=g5, gfx_windows=[(34.3, 51.9)],
-          overlays=[(M("05a_the_road"), 0, 34.5, False), (RC("R04"), 22.2, 34.3, True), (RC("R20"), 45.3, 51.7, True), (M("05c_canal"), 51.8, 70, False)],
+          overlays=[(M("05a_the_road"), 0, 34.5, False), (RC("R04"), 24.3, 34.3, True), (RC("R20"), 45.3, 51.7, True), (M("05c_canal"), 51.8, 70, False)],
           stills=[(plaque_still("farley", cx, 960, "THE OLD MAIN POST OFFICE IN NEW YORK", 46), 48.4, 51.6),
                   (panel("stele", [("V12_shaluf_stele", 300, 760, 520, True)]), 56.0, 64.8)])
 

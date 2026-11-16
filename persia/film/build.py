@@ -4,7 +4,7 @@ FPS = 60; CARD = 3.5; BED = 0.07          # clip sound ceiling: 7 % of the level
 # Master quality (standard since episode 2): everything is composed at 1920x1080, then the finished chapter is scaled to 2560x1440 and
 # encoded near-transparently. YouTube gives uploads above 1080p a better codec and several times the bitrate, so 1080p playback is cleaner too.
 # 60 fps: maps and graphics are rendered at a true 60; 24 fps reconstruction clips are brought up by frame repetition (2-3 cadence), never by interpolation.
-OUT_W, OUT_H = 2560, 1440; CRF = "14"; PRESET = "slow"
+OUT_W, OUT_H = 2560, 1440; CRF = "14"; PRESET = os.environ.get("PRESET", "medium")
 DRAFT = bool(os.environ.get("DRAFT"))          # draft: 1080p, fast encode, missing clips are skipped and marked
 if DRAFT: OUT_W, OUT_H, CRF, PRESET = 1920, 1080, "21", "veryfast"
 ROOT = os.path.dirname(os.path.abspath(__file__))
