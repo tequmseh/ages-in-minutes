@@ -1,0 +1,2317 @@
+{
+ "0": {
+  "dur": 49.711,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 151,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.62,
+    "snap": true,
+    "text": "In the year 1021, somebody cut down a tree in Newfoundland with an iron axe."
+   },
+   {
+    "i": 2,
+    "start": 6.16,
+    "end": 10.52,
+    "snap": true,
+    "text": "We know the exact year because a storm on the Sun left a mark inside the tree."
+   },
+   {
+    "i": 3,
+    "start": 11.13,
+    "end": 13.49,
+    "snap": true,
+    "text": "The people living there had no iron axes."
+   },
+   {
+    "i": 4,
+    "start": 13.88,
+    "end": 15.5,
+    "snap": true,
+    "text": "This one had come from Greenland."
+   },
+   {
+    "i": 5,
+    "start": 16.14,
+    "end": 21.43,
+    "snap": true,
+    "text": "In those same years, the people we call Vikings stood guard over the emperor in Constantinople."
+   },
+   {
+    "i": 6,
+    "start": 21.9,
+    "end": 28.83,
+    "snap": true,
+    "text": "And long before that, on a Swedish island, someone had buried more than fourteen thousand silver coins from the Islamic world."
+   },
+   {
+    "i": 7,
+    "start": 29.31,
+    "end": 34.18,
+    "snap": true,
+    "text": "All of it was done by farmers from a land with no real cities and almost no books."
+   },
+   {
+    "i": 8,
+    "start": 34.76,
+    "end": 44.55,
+    "snap": true,
+    "text": "In the next twenty minutes: the traders who probably gave Russia its name, an island that changes its gods by law, and the first Europeans to build a house in America."
+   },
+   {
+    "i": 9,
+    "start": 45.12,
+    "end": 48.26,
+    "snap": true,
+    "text": "So how did the people at the edge of the map end up all over it?"
+   },
+   {
+    "i": 10,
+    "start": 48.78,
+    "end": 49.71,
+    "snap": true,
+    "text": "Let's find out."
+   }
+  ],
+  "cost": 0.34
+ },
+ "1": {
+  "dur": 91.089,
+  "lead": 0.32,
+  "tail": 0.66,
+  "words": 241,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.32,
+    "end": 1.39,
+    "snap": true,
+    "text": "Start with the word."
+   },
+   {
+    "i": 2,
+    "start": 1.95,
+    "end": 6.81,
+    "snap": true,
+    "text": "In Old Norse, a vikingr is a person who goes on an expedition overseas."
+   },
+   {
+    "i": 3,
+    "start": 7.26,
+    "end": 9.49,
+    "snap": true,
+    "text": "Viking is the expedition itself."
+   },
+   {
+    "i": 4,
+    "start": 9.82,
+    "end": 10.83,
+    "snap": true,
+    "text": "It is not a nation."
+   },
+   {
+    "i": 5,
+    "start": 11.17,
+    "end": 12.08,
+    "snap": true,
+    "text": "It is an activity."
+   },
+   {
+    "i": 6,
+    "start": 12.61,
+    "end": 16.57,
+    "snap": true,
+    "text": "A man could farm in spring, go raiding for a season and come home in autumn."
+   },
+   {
+    "i": 7,
+    "start": 17.11,
+    "end": 18.7,
+    "snap": true,
+    "text": "Viking is not who you are."
+   },
+   {
+    "i": 8,
+    "start": 19.04,
+    "end": 20.78,
+    "snap": true,
+    "text": "It is what you do on your summer break."
+   },
+   {
+    "i": 9,
+    "start": 21.65,
+    "end": 22.31,
+    "snap": true,
+    "text": "Now the map."
+   },
+   {
+    "i": 10,
+    "start": 22.84,
+    "end": 23.69,
+    "snap": true,
+    "text": "Scandinavia."
+   },
+   {
+    "i": 11,
+    "start": 24.36,
+    "end": 29.37,
+    "snap": true,
+    "text": "Denmark is flat and fertile, and it sits on the gate between the North Sea and the Baltic."
+   },
+   {
+    "i": 12,
+    "start": 29.87,
+    "end": 31.81,
+    "snap": true,
+    "text": "Sweden is lakes and forest."
+   },
+   {
+    "i": 13,
+    "start": 32.3,
+    "end": 36.31,
+    "snap": true,
+    "text": "Norway is mostly mountain, with a coast cut into hundreds of fjords."
+   },
+   {
+    "i": 14,
+    "start": 36.79,
+    "end": 39.51,
+    "snap": true,
+    "text": "Good farmland is scarce and winters are long."
+   },
+   {
+    "i": 15,
+    "start": 40.24,
+    "end": 43.61,
+    "snap": true,
+    "text": "Around the year 800 there are no countries here as we know them."
+   },
+   {
+    "i": 16,
+    "start": 44.11,
+    "end": 50.47,
+    "snap": true,
+    "text": "Denmark has kings, but Norway and Sweden are a patchwork of chieftains, family farms and local assemblies."
+   },
+   {
+    "i": 17,
+    "start": 50.92,
+    "end": 52.57,
+    "snap": true,
+    "text": "Towns are only just appearing."
+   },
+   {
+    "i": 18,
+    "start": 53.28,
+    "end": 55.61,
+    "snap": true,
+    "text": "What holds this world together is water."
+   },
+   {
+    "i": 19,
+    "start": 56.07,
+    "end": 58.88,
+    "snap": true,
+    "text": "Roads over mountains and through forests are terrible."
+   },
+   {
+    "i": 20,
+    "start": 59.36,
+    "end": 60.76,
+    "snap": true,
+    "text": "The sea is the motorway."
+   },
+   {
+    "i": 21,
+    "start": 61.33,
+    "end": 65.07,
+    "snap": true,
+    "text": "In Norway your neighbour is often easier to reach by boat than on foot."
+   },
+   {
+    "i": 22,
+    "start": 65.73,
+    "end": 74.4,
+    "snap": true,
+    "text": "They have writing, but very little of it: runes, sixteen signs, carved on stone, wood and bone, for names and memorials, not books."
+   },
+   {
+    "i": 23,
+    "start": 74.9,
+    "end": 77.76,
+    "snap": true,
+    "text": "So for most of this story, other people write about them:"
+   },
+   {
+    "i": 24,
+    "start": 78.2,
+    "end": 81.3,
+    "snap": true,
+    "text": "English monks, Frankish annalists, Arab travellers."
+   },
+   {
+    "i": 25,
+    "start": 81.79,
+    "end": 87.28,
+    "snap": true,
+    "text": "The famous sagas come much later, written in Iceland two or three hundred years after the events."
+   },
+   {
+    "i": 26,
+    "start": 87.72,
+    "end": 88.62,
+    "snap": true,
+    "text": "Great stories."
+   },
+   {
+    "i": 27,
+    "start": 88.97,
+    "end": 90.43,
+    "snap": true,
+    "text": "Not exactly records."
+   }
+  ],
+  "cost": 1.04
+ },
+ "2": {
+  "dur": 93.388,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 264,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.82,
+    "snap": true,
+    "text": "What makes the whole story possible is a ship."
+   },
+   {
+    "i": 2,
+    "start": 3.41,
+    "end": 6.0,
+    "snap": true,
+    "text": "People in the north have rowed boats for centuries."
+   },
+   {
+    "i": 3,
+    "start": 6.32,
+    "end": 13.03,
+    "snap": true,
+    "text": "Then, by the 700s, Scandinavians put a big square sail on a long, light hull with a strong keel."
+   },
+   {
+    "i": 4,
+    "start": 13.59,
+    "end": 17.6,
+    "snap": true,
+    "text": "Now a crew can cross the open sea and still row when the wind dies."
+   },
+   {
+    "i": 5,
+    "start": 18.16,
+    "end": 20.66,
+    "snap": true,
+    "text": "The hull is built from overlapping oak planks."
+   },
+   {
+    "i": 6,
+    "start": 20.99,
+    "end": 23.31,
+    "snap": true,
+    "text": "It flexes with the waves instead of fighting them."
+   },
+   {
+    "i": 7,
+    "start": 23.74,
+    "end": 25.64,
+    "snap": true,
+    "text": "And it sits very low in the water."
+   },
+   {
+    "i": 8,
+    "start": 26.29,
+    "end": 34.47,
+    "snap": true,
+    "text": "One of the largest warships ever found, built near Dublin around 1042, is thirty metres long and needs only one metre of water."
+   },
+   {
+    "i": 9,
+    "start": 34.94,
+    "end": 37.22,
+    "snap": true,
+    "text": "It carries sixty-five to seventy men."
+   },
+   {
+    "i": 10,
+    "start": 37.86,
+    "end": 39.81,
+    "snap": true,
+    "text": "That shallow hull is the secret."
+   },
+   {
+    "i": 11,
+    "start": 40.34,
+    "end": 44.68,
+    "snap": true,
+    "text": "The same ship that crosses the North Sea can row up a river and run onto a beach."
+   },
+   {
+    "i": 12,
+    "start": 45.03,
+    "end": 46.06,
+    "snap": true,
+    "text": "No harbour needed."
+   },
+   {
+    "i": 13,
+    "start": 46.58,
+    "end": 54.95,
+    "snap": true,
+    "text": "For the kingdoms of Europe this is a new kind of enemy: one that can appear at any beach or riverbank, strike, and be gone before an army arrives."
+   },
+   {
+    "i": 14,
+    "start": 55.59,
+    "end": 59.3,
+    "snap": true,
+    "text": "We know these ships so well because the elite took them to the grave."
+   },
+   {
+    "i": 15,
+    "start": 59.99,
+    "end": 67.06,
+    "snap": true,
+    "text": "In 834, in southern Norway, two women were buried inside a ship with a cart, sledges and fine textiles."
+   },
+   {
+    "i": 16,
+    "start": 67.52,
+    "end": 69.46,
+    "snap": true,
+    "text": "The clay of the mound preserved the wood."
+   },
+   {
+    "i": 17,
+    "start": 70.05,
+    "end": 73.59,
+    "snap": true,
+    "text": "Today the Oseberg ship stands almost whole in a museum."
+   },
+   {
+    "i": 18,
+    "start": 74.22,
+    "end": 83.48,
+    "snap": true,
+    "text": "In 2007 the Viking Ship Museum in Denmark sailed a full-size copy of the Dublin warship from Denmark to Ireland, with a crew of sixty-five."
+   },
+   {
+    "i": 19,
+    "start": 84.04,
+    "end": 84.68,
+    "snap": true,
+    "text": "It worked."
+   },
+   {
+    "i": 20,
+    "start": 85.23,
+    "end": 89.51,
+    "snap": true,
+    "text": "Think of the longship as a landing craft, a lorry and a family car in one."
+   },
+   {
+    "i": 21,
+    "start": 89.89,
+    "end": 93.39,
+    "snap": true,
+    "text": "A family car that seats sixty-five, all armed."
+   }
+  ],
+  "cost": 0.95
+ },
+ "3": {
+  "dur": 86.56,
+  "lead": 0.0,
+  "tail": 0.43,
+  "words": 233,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.54,
+    "snap": true,
+    "text": "The eighth of June, 793."
+   },
+   {
+    "i": 2,
+    "start": 3.08,
+    "end": 7.61,
+    "snap": true,
+    "text": "Lindisfarne, a monastery on a tidal island off the coast of northern England."
+   },
+   {
+    "i": 3,
+    "start": 8.09,
+    "end": 9.5,
+    "snap": true,
+    "text": "Ships come in from the sea."
+   },
+   {
+    "i": 4,
+    "start": 10.03,
+    "end": 16.13,
+    "snap": true,
+    "text": "The Anglo-Saxon Chronicle records that heathen men destroyed God's church there by looting and slaughter."
+   },
+   {
+    "i": 5,
+    "start": 16.67,
+    "end": 18.45,
+    "snap": true,
+    "text": "Raiders had landed in England before."
+   },
+   {
+    "i": 6,
+    "start": 18.92,
+    "end": 21.49,
+    "snap": true,
+    "text": "What makes Lindisfarne a shock is the target."
+   },
+   {
+    "i": 7,
+    "start": 22.02,
+    "end": 24.46,
+    "snap": true,
+    "text": "This is one of the holiest places in Britain."
+   },
+   {
+    "i": 8,
+    "start": 25.0,
+    "end": 30.87,
+    "snap": true,
+    "text": "Alcuin, an English scholar at the court of Charlemagne, writes that no one had thought such a voyage possible."
+   },
+   {
+    "i": 9,
+    "start": 31.48,
+    "end": 34.51,
+    "snap": true,
+    "text": "From the raiders' point of view, a monastery is perfect."
+   },
+   {
+    "i": 10,
+    "start": 34.93,
+    "end": 36.07,
+    "snap": true,
+    "text": "It stands by the sea."
+   },
+   {
+    "i": 11,
+    "start": 36.35,
+    "end": 39.73,
+    "snap": true,
+    "text": "It is full of silver, gold and books with jewelled covers."
+   },
+   {
+    "i": 12,
+    "start": 40.22,
+    "end": 42.28,
+    "snap": true,
+    "text": "It has no walls and no soldiers."
+   },
+   {
+    "i": 13,
+    "start": 42.74,
+    "end": 44.12,
+    "snap": true,
+    "text": "And it has people."
+   },
+   {
+    "i": 14,
+    "start": 44.7,
+    "end": 46.96,
+    "snap": true,
+    "text": "People can be ransomed, or sold."
+   },
+   {
+    "i": 15,
+    "start": 47.53,
+    "end": 52.25,
+    "snap": true,
+    "text": "Within a few years the raids reach Scotland, Ireland and the coasts of the Frankish kingdom."
+   },
+   {
+    "i": 16,
+    "start": 52.75,
+    "end": 54.6,
+    "snap": true,
+    "text": "A few ships become fleets."
+   },
+   {
+    "i": 17,
+    "start": 54.99,
+    "end": 59.18,
+    "snap": true,
+    "text": "In 841 a Viking band builds a fortified base on the River Liffey."
+   },
+   {
+    "i": 18,
+    "start": 59.67,
+    "end": 65.26,
+    "snap": true,
+    "text": "It grows into Dublin, and Dublin grows into one of the great slave markets of the Viking world."
+   },
+   {
+    "i": 19,
+    "start": 65.86,
+    "end": 66.43,
+    "snap": true,
+    "text": "Why now?"
+   },
+   {
+    "i": 20,
+    "start": 66.96,
+    "end": 68.2,
+    "snap": true,
+    "text": "Historians still argue."
+   },
+   {
+    "i": 21,
+    "start": 68.64,
+    "end": 72.01,
+    "snap": true,
+    "text": "Europe is getting richer, and its riches sit on the coasts."
+   },
+   {
+    "i": 22,
+    "start": 72.39,
+    "end": 73.44,
+    "snap": true,
+    "text": "The ships are ready."
+   },
+   {
+    "i": 23,
+    "start": 73.97,
+    "end": 79.32,
+    "snap": true,
+    "text": "And at home ambitious young men need silver to win followers, land and a good marriage."
+   },
+   {
+    "i": 24,
+    "start": 79.78,
+    "end": 86.13,
+    "snap": true,
+    "text": "Whatever the reason, for the next two and a half centuries anyone living near water in western Europe watches the sea."
+   }
+  ],
+  "cost": 1.46
+ },
+ "4": {
+  "dur": 83.04,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 229,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.9,
+    "snap": true,
+    "text": "Charlemagne built the biggest empire in western Europe since Rome."
+   },
+   {
+    "i": 2,
+    "start": 4.38,
+    "end": 8.31,
+    "snap": true,
+    "text": "His grandsons split it three ways and spend their time fighting each other."
+   },
+   {
+    "i": 3,
+    "start": 8.78,
+    "end": 11.19,
+    "snap": true,
+    "text": "For the raiders, this is an invitation."
+   },
+   {
+    "i": 4,
+    "start": 11.69,
+    "end": 14.95,
+    "snap": true,
+    "text": "Look at the rivers: the Seine, the Loire, the Rhine."
+   },
+   {
+    "i": 5,
+    "start": 15.28,
+    "end": 19.89,
+    "snap": true,
+    "text": "Shallow ships can row deep inland, and the rich towns and abbeys sit on the banks."
+   },
+   {
+    "i": 6,
+    "start": 20.46,
+    "end": 28.11,
+    "snap": true,
+    "text": "In March 845 a fleet of about 120 ships rows up the Seine under a chieftain the Franks call Reginherus:"
+   },
+   {
+    "i": 7,
+    "start": 28.39,
+    "end": 28.95,
+    "snap": true,
+    "text": "Ragnar."
+   },
+   {
+    "i": 8,
+    "start": 29.4,
+    "end": 31.84,
+    "snap": true,
+    "text": "At Easter they reach Paris and take it."
+   },
+   {
+    "i": 9,
+    "start": 32.25,
+    "end": 34.27,
+    "snap": true,
+    "text": "King Charles the Bald does not fight them."
+   },
+   {
+    "i": 10,
+    "start": 34.72,
+    "end": 40.57,
+    "snap": true,
+    "text": "He pays them to leave: seven thousand pounds of silver and gold, more than two and a half tonnes."
+   },
+   {
+    "i": 11,
+    "start": 40.98,
+    "end": 41.57,
+    "snap": true,
+    "text": "It works."
+   },
+   {
+    "i": 12,
+    "start": 41.86,
+    "end": 42.37,
+    "snap": true,
+    "text": "They leave."
+   },
+   {
+    "i": 13,
+    "start": 42.69,
+    "end": 44.25,
+    "snap": true,
+    "text": "And they tell all their friends."
+   },
+   {
+    "i": 14,
+    "start": 44.73,
+    "end": 47.29,
+    "snap": true,
+    "text": "Paying becomes a habit, and so do the raids."
+   },
+   {
+    "i": 15,
+    "start": 47.65,
+    "end": 51.75,
+    "snap": true,
+    "text": "In 885 a huge army besieges Paris for almost a year."
+   },
+   {
+    "i": 16,
+    "start": 52.17,
+    "end": 55.12,
+    "snap": true,
+    "text": "Then in 911 the Franks try something new."
+   },
+   {
+    "i": 17,
+    "start": 55.57,
+    "end": 58.72,
+    "snap": true,
+    "text": "A Viking leader named Rollo has just been beaten at Chartres."
+   },
+   {
+    "i": 18,
+    "start": 59.13,
+    "end": 61.09,
+    "snap": true,
+    "text": "King Charles the Simple offers him a deal."
+   },
+   {
+    "i": 19,
+    "start": 61.53,
+    "end": 64.17,
+    "snap": true,
+    "text": "Rollo gets the land around Rouen, on the lower Seine."
+   },
+   {
+    "i": 20,
+    "start": 64.61,
+    "end": 68.68,
+    "snap": true,
+    "text": "In return he is baptised and keeps every other Viking out of the river."
+   },
+   {
+    "i": 21,
+    "start": 69.12,
+    "end": 70.88,
+    "snap": true,
+    "text": "The raiders become the guards."
+   },
+   {
+    "i": 22,
+    "start": 71.3,
+    "end": 73.69,
+    "snap": true,
+    "text": "The land of the Northmen becomes Normandy."
+   },
+   {
+    "i": 23,
+    "start": 74.11,
+    "end": 79.64,
+    "snap": true,
+    "text": "Within a few generations its rulers speak French, build stone castles and fight on horseback."
+   },
+   {
+    "i": 24,
+    "start": 80.07,
+    "end": 81.04,
+    "snap": true,
+    "text": "Remember Normandy."
+   },
+   {
+    "i": 25,
+    "start": 81.44,
+    "end": 83.04,
+    "snap": true,
+    "text": "It comes back at the very end."
+   }
+  ],
+  "cost": 0.98
+ },
+ "5": {
+  "dur": 100.48,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 259,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.19,
+    "snap": true,
+    "text": "In 865 England is four kingdoms:"
+   },
+   {
+    "i": 2,
+    "start": 3.56,
+    "end": 7.07,
+    "snap": true,
+    "text": "Northumbria, Mercia, East Anglia and Wessex."
+   },
+   {
+    "i": 3,
+    "start": 7.86,
+    "end": 13.66,
+    "snap": true,
+    "text": "That autumn a force lands in East Anglia that the Anglo-Saxon Chronicle calls the great heathen army."
+   },
+   {
+    "i": 4,
+    "start": 14.39,
+    "end": 16.6,
+    "snap": true,
+    "text": "This army does not go home for the winter."
+   },
+   {
+    "i": 5,
+    "start": 17.24,
+    "end": 22.64,
+    "snap": true,
+    "text": "In November 866 it takes York and turns it into a Viking capital, Jorvik."
+   },
+   {
+    "i": 6,
+    "start": 23.31,
+    "end": 24.46,
+    "snap": true,
+    "text": "Northumbria falls."
+   },
+   {
+    "i": 7,
+    "start": 24.81,
+    "end": 25.8,
+    "snap": true,
+    "text": "Then East Anglia."
+   },
+   {
+    "i": 8,
+    "start": 26.21,
+    "end": 27.69,
+    "snap": true,
+    "text": "Then most of Mercia."
+   },
+   {
+    "i": 9,
+    "start": 28.52,
+    "end": 32.6,
+    "snap": true,
+    "text": "Sagas say its leaders were sons of the legendary Ragnar Lothbrok."
+   },
+   {
+    "i": 10,
+    "start": 33.25,
+    "end": 35.59,
+    "snap": true,
+    "text": "One of them, Ivar the Boneless, was real."
+   },
+   {
+    "i": 11,
+    "start": 36.26,
+    "end": 37.54,
+    "snap": true,
+    "text": "His father may not have been."
+   },
+   {
+    "i": 12,
+    "start": 38.39,
+    "end": 44.11,
+    "snap": true,
+    "text": "By 878 only Wessex is left, and in January the Vikings take it by surprise."
+   },
+   {
+    "i": 13,
+    "start": 44.67,
+    "end": 48.24,
+    "snap": true,
+    "text": "King Alfred escapes with a handful of men into the marshes of Somerset."
+   },
+   {
+    "i": 14,
+    "start": 48.66,
+    "end": 54.44,
+    "snap": true,
+    "text": "A much later legend says he hid in a peasant's hut, was asked to watch the cakes baking, and burned them."
+   },
+   {
+    "i": 15,
+    "start": 54.96,
+    "end": 60.38,
+    "snap": true,
+    "text": "But in May 878 Alfred comes out of the marsh with a new army and wins at Edington."
+   },
+   {
+    "i": 16,
+    "start": 60.98,
+    "end": 65.78,
+    "snap": true,
+    "text": "The Viking king, Guthrum, agrees to be baptised, with Alfred as his godfather."
+   },
+   {
+    "i": 17,
+    "start": 66.42,
+    "end": 68.27,
+    "snap": true,
+    "text": "A line is drawn across England."
+   },
+   {
+    "i": 18,
+    "start": 68.74,
+    "end": 72.53,
+    "snap": true,
+    "text": "The north and east become the Danelaw: land under Danish law."
+   },
+   {
+    "i": 19,
+    "start": 73.09,
+    "end": 74.6,
+    "snap": true,
+    "text": "The Danelaw is still on the map."
+   },
+   {
+    "i": 20,
+    "start": 75.06,
+    "end": 81.77,
+    "snap": true,
+    "text": "More than six hundred English place names end in “by”, the Norse word for a farm or village:"
+   },
+   {
+    "i": 21,
+    "start": 82.06,
+    "end": 84.51,
+    "snap": true,
+    "text": "Grimsby, Derby, Whitby."
+   },
+   {
+    "i": 22,
+    "start": 84.84,
+    "end": 86.67,
+    "snap": false,
+    "text": "And it is in the language."
+   },
+   {
+    "i": 23,
+    "start": 86.67,
+    "end": 89.02,
+    "snap": true,
+    "text": "Sky, egg, knife, leg and skin are Norse words."
+   },
+   {
+    "i": 24,
+    "start": 89.42,
+    "end": 90.78,
+    "snap": true,
+    "text": "So are take and they."
+   },
+   {
+    "i": 25,
+    "start": 91.37,
+    "end": 94.46,
+    "snap": true,
+    "text": "Window is a Norse wind-eye: a hole for the wind."
+   },
+   {
+    "i": 26,
+    "start": 94.92,
+    "end": 96.42,
+    "snap": true,
+    "text": "They took the knife from the window."
+   },
+   {
+    "i": 27,
+    "start": 96.96,
+    "end": 100.48,
+    "snap": true,
+    "text": "Four of those seven words came to England on Viking ships."
+   }
+  ],
+  "cost": 2.59
+ },
+ "6": {
+  "dur": 101.28,
+  "lead": 0.0,
+  "tail": 0.32,
+  "words": 277,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.94,
+    "snap": true,
+    "text": "So what did the Vikings come home to?"
+   },
+   {
+    "i": 2,
+    "start": 2.46,
+    "end": 2.99,
+    "snap": true,
+    "text": "A farm."
+   },
+   {
+    "i": 3,
+    "start": 3.49,
+    "end": 5.4,
+    "snap": true,
+    "text": "A long house with a hearth in the middle."
+   },
+   {
+    "i": 4,
+    "start": 5.94,
+    "end": 13.94,
+    "snap": true,
+    "text": "Society has three layers: the jarls, the chieftains at the top; the free farmers in the middle; and at the bottom, the thralls."
+   },
+   {
+    "i": 5,
+    "start": 14.26,
+    "end": 14.83,
+    "snap": true,
+    "text": "Slaves."
+   },
+   {
+    "i": 6,
+    "start": 15.39,
+    "end": 19.0,
+    "snap": true,
+    "text": "Many of the captives from the raids end up here, or are sold on."
+   },
+   {
+    "i": 7,
+    "start": 19.61,
+    "end": 23.31,
+    "snap": true,
+    "text": "Free men settle their disputes at the thing, an open-air assembly."
+   },
+   {
+    "i": 8,
+    "start": 23.8,
+    "end": 25.08,
+    "snap": true,
+    "text": "There is no written law."
+   },
+   {
+    "i": 9,
+    "start": 25.5,
+    "end": 28.47,
+    "snap": true,
+    "text": "A lawspeaker holds it in his head and recites it aloud."
+   },
+   {
+    "i": 10,
+    "start": 29.06,
+    "end": 30.31,
+    "snap": true,
+    "text": "Their gods are many."
+   },
+   {
+    "i": 11,
+    "start": 30.77,
+    "end": 32.8,
+    "snap": true,
+    "text": "Odin, god of war and wisdom."
+   },
+   {
+    "i": 12,
+    "start": 33.23,
+    "end": 36.11,
+    "snap": true,
+    "text": "Thor, with his hammer, who protects ordinary farmers."
+   },
+   {
+    "i": 13,
+    "start": 36.61,
+    "end": 41.06,
+    "snap": true,
+    "text": "A warrior who dies in battle hopes for a seat in Odin's hall, Valhalla."
+   },
+   {
+    "i": 14,
+    "start": 41.7,
+    "end": 46.18,
+    "snap": true,
+    "text": "Women run the farm while the men are away, and the keys of the house hang from their belts."
+   },
+   {
+    "i": 15,
+    "start": 46.61,
+    "end": 49.89,
+    "snap": true,
+    "text": "A woman can own property, and she can divorce her husband."
+   },
+   {
+    "i": 16,
+    "start": 50.38,
+    "end": 55.39,
+    "snap": true,
+    "text": "In the 960s a traveller from Cordoba, Ibrahim ibn Yaqub, describes Hedeby."
+   },
+   {
+    "i": 17,
+    "start": 55.9,
+    "end": 58.49,
+    "snap": true,
+    "text": "He writes that the right to divorce belongs to the women."
+   },
+   {
+    "i": 18,
+    "start": 59.03,
+    "end": 63.91,
+    "snap": true,
+    "text": "He also notes that men and women alike wear eye make-up, and that it makes them more beautiful."
+   },
+   {
+    "i": 19,
+    "start": 64.6,
+    "end": 68.82,
+    "snap": true,
+    "text": "Hedeby and Birka are small, a thousand people or so each, but busy."
+   },
+   {
+    "i": 20,
+    "start": 69.32,
+    "end": 73.06,
+    "snap": true,
+    "text": "Out go furs, amber, walrus ivory and slaves."
+   },
+   {
+    "i": 21,
+    "start": 73.45,
+    "end": 76.56,
+    "snap": false,
+    "text": "In come wine, glass, silk and above all silver."
+   },
+   {
+    "i": 22,
+    "start": 76.56,
+    "end": 83.34,
+    "snap": true,
+    "text": "On the Swedish island of Gotland, archaeologists have found more than seven hundred silver hoards."
+   },
+   {
+    "i": 23,
+    "start": 83.73,
+    "end": 90.93,
+    "snap": true,
+    "text": "The biggest, dug up in 1999, holds sixty-seven kilograms of silver and over fourteen thousand coins."
+   },
+   {
+    "i": 24,
+    "start": 91.34,
+    "end": 93.48,
+    "snap": true,
+    "text": "Almost all of them are Islamic dirhams."
+   },
+   {
+    "i": 25,
+    "start": 93.93,
+    "end": 97.54,
+    "snap": true,
+    "text": "Silver from the Islamic world, buried on a Baltic farm."
+   },
+   {
+    "i": 26,
+    "start": 98.11,
+    "end": 100.96,
+    "snap": true,
+    "text": "To find out how it got there, we have to turn east."
+   }
+  ],
+  "cost": 2.54
+ },
+ "7": {
+  "dur": 106.72,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 281,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.87,
+    "snap": true,
+    "text": "Sweden faces east."
+   },
+   {
+    "i": 2,
+    "start": 2.36,
+    "end": 13.29,
+    "snap": true,
+    "text": "Across the Baltic, rivers lead deep inland: through Lake Ladoga and up the Volkhov, then on to the Dnieper, flowing south to the Black Sea, and the Volga, flowing to the Caspian."
+   },
+   {
+    "i": 3,
+    "start": 13.79,
+    "end": 20.59,
+    "snap": true,
+    "text": "From the 700s, men from eastern Sweden row up these rivers, dragging their boats overland from one to the next."
+   },
+   {
+    "i": 4,
+    "start": 21.06,
+    "end": 24.44,
+    "snap": true,
+    "text": "They sell furs and slaves, and they are paid in silver."
+   },
+   {
+    "i": 5,
+    "start": 25.07,
+    "end": 27.17,
+    "snap": true,
+    "text": "The Finns call the Swedes Ruotsi."
+   },
+   {
+    "i": 6,
+    "start": 27.7,
+    "end": 30.78,
+    "snap": true,
+    "text": "The most likely origin is an old Norse word for rowing."
+   },
+   {
+    "i": 7,
+    "start": 31.34,
+    "end": 33.61,
+    "snap": true,
+    "text": "In the east the name becomes Rus."
+   },
+   {
+    "i": 8,
+    "start": 34.0,
+    "end": 38.81,
+    "snap": true,
+    "text": "And Rus, most historians think, is the root of the names Russia and Belarus."
+   },
+   {
+    "i": 9,
+    "start": 39.36,
+    "end": 42.52,
+    "snap": true,
+    "text": "The state itself grows up around Kyiv, on the Dnieper."
+   },
+   {
+    "i": 10,
+    "start": 43.03,
+    "end": 47.8,
+    "snap": true,
+    "text": "The oldest East Slavic chronicle, written around 1113, tells how it began."
+   },
+   {
+    "i": 11,
+    "start": 48.39,
+    "end": 58.94,
+    "snap": true,
+    "text": "In 862 the Slavic and Finnic tribes, tired of fighting each other, send a message across the sea: our land is great and rich, but there is no order in it."
+   },
+   {
+    "i": 12,
+    "start": 59.3,
+    "end": 60.79,
+    "snap": true,
+    "text": "Come and rule over us."
+   },
+   {
+    "i": 13,
+    "start": 61.43,
+    "end": 63.54,
+    "snap": true,
+    "text": "A Varangian named Rurik comes."
+   },
+   {
+    "i": 14,
+    "start": 63.98,
+    "end": 69.26,
+    "snap": true,
+    "text": "His descendants rule the lands of the Rus, and later Moscow, until the end of the 1500s."
+   },
+   {
+    "i": 15,
+    "start": 69.75,
+    "end": 75.03,
+    "snap": true,
+    "text": "The chronicle was written much later to explain a ruling family, so historians treat it carefully."
+   },
+   {
+    "i": 16,
+    "start": 75.52,
+    "end": 78.46,
+    "snap": true,
+    "text": "But the princes' names give the game away."
+   },
+   {
+    "i": 17,
+    "start": 78.71,
+    "end": 83.11,
+    "snap": true,
+    "text": "Oleg, Igor and Olga are the Norse names Helgi, Ingvar and Helga."
+   },
+   {
+    "i": 18,
+    "start": 83.75,
+    "end": 90.19,
+    "snap": true,
+    "text": "In 922 an Arab envoy from Baghdad, Ahmad ibn Fadlan, meets Rus traders on the Volga."
+   },
+   {
+    "i": 19,
+    "start": 90.64,
+    "end": 91.14,
+    "snap": true,
+    "text": "He writes:"
+   },
+   {
+    "i": 20,
+    "start": 91.62,
+    "end": 94.67,
+    "snap": true,
+    "text": "I have never seen bodies more perfect than theirs."
+   },
+   {
+    "i": 21,
+    "start": 95.11,
+    "end": 96.48,
+    "snap": true,
+    "text": "They were like palm trees."
+   },
+   {
+    "i": 22,
+    "start": 97.03,
+    "end": 100.62,
+    "snap": true,
+    "text": "Each one, he says, carries an axe, a sword and a knife."
+   },
+   {
+    "i": 23,
+    "start": 101.15,
+    "end": 103.39,
+    "snap": true,
+    "text": "He was much less impressed by their washing."
+   },
+   {
+    "i": 24,
+    "start": 103.9,
+    "end": 106.72,
+    "snap": true,
+    "text": "But he admits they comb their hair every day."
+   }
+  ],
+  "cost": 1.5
+ },
+ "8": {
+  "dur": 94.96,
+  "lead": 0.0,
+  "tail": 0.35,
+  "words": 248,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.32,
+    "snap": true,
+    "text": "The rivers lead to one place above all:"
+   },
+   {
+    "i": 2,
+    "start": 2.86,
+    "end": 3.89,
+    "snap": true,
+    "text": "Constantinople."
+   },
+   {
+    "i": 3,
+    "start": 4.53,
+    "end": 7.33,
+    "snap": true,
+    "text": "The Norse call it Miklagard, the Great City."
+   },
+   {
+    "i": 4,
+    "start": 7.85,
+    "end": 10.38,
+    "snap": true,
+    "text": "It is the richest city in Christian Europe."
+   },
+   {
+    "i": 5,
+    "start": 10.94,
+    "end": 17.27,
+    "snap": true,
+    "text": "On the eighteenth of June 860, about two hundred Rus ships sail into the Bosporus and plunder the suburbs."
+   },
+   {
+    "i": 6,
+    "start": 17.79,
+    "end": 22.15,
+    "snap": true,
+    "text": "The patriarch of Constantinople says the attack came like a swarm of wasps."
+   },
+   {
+    "i": 7,
+    "start": 22.69,
+    "end": 23.67,
+    "snap": true,
+    "text": "The walls hold."
+   },
+   {
+    "i": 8,
+    "start": 24.0,
+    "end": 24.92,
+    "snap": true,
+    "text": "The raiders leave."
+   },
+   {
+    "i": 9,
+    "start": 25.41,
+    "end": 31.71,
+    "snap": true,
+    "text": "Treaties follow, and the Byzantines reach a conclusion: if these men are going to fight, better that they fight for us."
+   },
+   {
+    "i": 10,
+    "start": 32.28,
+    "end": 36.3,
+    "snap": true,
+    "text": "In 988 Emperor Basil the Second is in trouble and needs soldiers."
+   },
+   {
+    "i": 11,
+    "start": 36.75,
+    "end": 40.39,
+    "snap": true,
+    "text": "Vladimir, prince of Kyiv, sends him six thousand warriors."
+   },
+   {
+    "i": 12,
+    "start": 40.87,
+    "end": 44.46,
+    "snap": true,
+    "text": "In return Vladimir marries the emperor's sister and is baptised."
+   },
+   {
+    "i": 13,
+    "start": 45.02,
+    "end": 48.13,
+    "snap": true,
+    "text": "This is the moment the Rus become Orthodox Christians."
+   },
+   {
+    "i": 14,
+    "start": 48.64,
+    "end": 49.96,
+    "snap": true,
+    "text": "The six thousand stay."
+   },
+   {
+    "i": 15,
+    "start": 50.45,
+    "end": 54.12,
+    "snap": true,
+    "text": "They become the Varangian Guard, the emperor's personal bodyguard."
+   },
+   {
+    "i": 16,
+    "start": 54.66,
+    "end": 59.33,
+    "snap": true,
+    "text": "As foreigners, they owe nothing to the court's factions, and the emperor pays very well."
+   },
+   {
+    "i": 17,
+    "start": 59.86,
+    "end": 64.39,
+    "snap": true,
+    "text": "For the next century young men from all over Scandinavia go south to serve."
+   },
+   {
+    "i": 18,
+    "start": 64.86,
+    "end": 69.72,
+    "snap": true,
+    "text": "In the upper gallery of Hagia Sophia, on a marble balustrade, someone carved runes."
+   },
+   {
+    "i": 19,
+    "start": 70.07,
+    "end": 71.09,
+    "snap": true,
+    "text": "Most are worn away."
+   },
+   {
+    "i": 20,
+    "start": 71.56,
+    "end": 74.11,
+    "snap": true,
+    "text": "What is left probably spells the name Halfdan."
+   },
+   {
+    "i": 21,
+    "start": 74.69,
+    "end": 80.57,
+    "snap": true,
+    "text": "A thousand years later, Viking graffiti is still there, in one of the most famous buildings in the world."
+   },
+   {
+    "i": 22,
+    "start": 81.14,
+    "end": 84.79,
+    "snap": true,
+    "text": "One young Norwegian arrives in 1034 with five hundred men."
+   },
+   {
+    "i": 23,
+    "start": 85.24,
+    "end": 91.61,
+    "snap": true,
+    "text": "He fights in Sicily and Bulgaria, rises high in the Guard, and goes home rich enough to become king of Norway."
+   },
+   {
+    "i": 24,
+    "start": 92.12,
+    "end": 93.55,
+    "snap": true,
+    "text": "His name is Harald."
+   },
+   {
+    "i": 25,
+    "start": 94.03,
+    "end": 94.61,
+    "snap": true,
+    "text": "Remember him."
+   }
+  ],
+  "cost": 1.15
+ },
+ "9": {
+  "dur": 93.44,
+  "lead": 0.0,
+  "tail": 0.32,
+  "words": 250,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.11,
+    "snap": true,
+    "text": "Now go west."
+   },
+   {
+    "i": 2,
+    "start": 1.57,
+    "end": 4.86,
+    "snap": true,
+    "text": "The Norse settle the Orkneys, the Shetlands and the Faroes."
+   },
+   {
+    "i": 3,
+    "start": 5.22,
+    "end": 9.32,
+    "snap": true,
+    "text": "Then, far out in the Atlantic, they find a large empty island."
+   },
+   {
+    "i": 4,
+    "start": 9.8,
+    "end": 13.03,
+    "snap": true,
+    "text": "Irish monks had lived there, but they leave when the newcomers arrive."
+   },
+   {
+    "i": 5,
+    "start": 13.55,
+    "end": 15.73,
+    "snap": true,
+    "text": "The traditional date is 874."
+   },
+   {
+    "i": 6,
+    "start": 16.3,
+    "end": 21.83,
+    "snap": true,
+    "text": "A Norwegian named Ingolf Arnarson builds his farm at a bay full of steam from hot springs."
+   },
+   {
+    "i": 7,
+    "start": 22.3,
+    "end": 23.61,
+    "snap": true,
+    "text": "He calls it Reykjavik, Smoke Bay."
+   },
+   {
+    "i": 8,
+    "start": 23.9,
+    "end": 30.77,
+    "snap": true,
+    "text": "Geologists have found a layer of volcanic ash from the 870s lying just below the oldest houses."
+   },
+   {
+    "i": 9,
+    "start": 31.25,
+    "end": 33.1,
+    "snap": true,
+    "text": "The story and the science agree."
+   },
+   {
+    "i": 10,
+    "start": 33.68,
+    "end": 37.8,
+    "snap": true,
+    "text": "Within sixty years, say the Icelanders, the island is fully settled."
+   },
+   {
+    "i": 11,
+    "start": 38.36,
+    "end": 40.26,
+    "snap": true,
+    "text": "What they do not bring is a king."
+   },
+   {
+    "i": 12,
+    "start": 40.75,
+    "end": 44.26,
+    "snap": true,
+    "text": "Instead, in 930, the chieftains create the Althing."
+   },
+   {
+    "i": 13,
+    "start": 44.74,
+    "end": 48.83,
+    "snap": true,
+    "text": "Every summer they meet in a valley called Thingvellir, the plain of the assembly."
+   },
+   {
+    "i": 14,
+    "start": 49.41,
+    "end": 54.21,
+    "snap": true,
+    "text": "The lawspeaker recites a third of the law each year, the whole code every three years."
+   },
+   {
+    "i": 15,
+    "start": 54.65,
+    "end": 58.71,
+    "snap": true,
+    "text": "The Althing is still Iceland's parliament, one of the oldest in the world."
+   },
+   {
+    "i": 16,
+    "start": 59.24,
+    "end": 62.29,
+    "snap": true,
+    "text": "In the year 1000 it faces its hardest case."
+   },
+   {
+    "i": 17,
+    "start": 62.65,
+    "end": 66.49,
+    "snap": true,
+    "text": "Pagans and Christians arrive at the assembly armed and ready to fight."
+   },
+   {
+    "i": 18,
+    "start": 66.94,
+    "end": 70.11,
+    "snap": true,
+    "text": "Both sides agree to let the lawspeaker, Thorgeir, decide."
+   },
+   {
+    "i": 19,
+    "start": 70.56,
+    "end": 71.56,
+    "snap": true,
+    "text": "He is a pagan."
+   },
+   {
+    "i": 20,
+    "start": 72.06,
+    "end": 77.48,
+    "snap": true,
+    "text": "He lies down, pulls his cloak over his head, and stays there a day and a night without a word."
+   },
+   {
+    "i": 21,
+    "start": 77.94,
+    "end": 82.13,
+    "snap": true,
+    "text": "Then he gets up and announces: one law and one faith."
+   },
+   {
+    "i": 22,
+    "start": 82.55,
+    "end": 84.0,
+    "snap": true,
+    "text": "Iceland becomes Christian."
+   },
+   {
+    "i": 23,
+    "start": 84.48,
+    "end": 88.47,
+    "snap": true,
+    "text": "Pagans may still worship in private, and everyone may keep eating horse meat."
+   },
+   {
+    "i": 24,
+    "start": 88.91,
+    "end": 91.69,
+    "snap": true,
+    "text": "A whole country changes its gods by committee."
+   },
+   {
+    "i": 25,
+    "start": 92.13,
+    "end": 93.12,
+    "snap": true,
+    "text": "And nobody dies."
+   }
+  ],
+  "cost": 1.76
+ },
+ "10": {
+  "dur": 106.64,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 271,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.02,
+    "snap": true,
+    "text": "Iceland produces people who cannot stay put."
+   },
+   {
+    "i": 2,
+    "start": 3.56,
+    "end": 10.41,
+    "snap": true,
+    "text": "Around 982 a man called Erik the Red is outlawed for killing men in a feud and has to leave for three years."
+   },
+   {
+    "i": 3,
+    "start": 11.02,
+    "end": 14.74,
+    "snap": true,
+    "text": "He sails west and explores a coast other sailors had only glimpsed."
+   },
+   {
+    "i": 4,
+    "start": 15.28,
+    "end": 17.74,
+    "snap": true,
+    "text": "To attract settlers, he calls it Greenland."
+   },
+   {
+    "i": 5,
+    "start": 18.29,
+    "end": 23.5,
+    "snap": true,
+    "text": "A later saga explains why: people would be more tempted to go if it had an attractive name."
+   },
+   {
+    "i": 6,
+    "start": 23.99,
+    "end": 26.95,
+    "snap": true,
+    "text": "It may be the oldest piece of property marketing on record."
+   },
+   {
+    "i": 7,
+    "start": 27.48,
+    "end": 28.12,
+    "snap": true,
+    "text": "It works."
+   },
+   {
+    "i": 8,
+    "start": 28.54,
+    "end": 31.56,
+    "snap": true,
+    "text": "Around 985, twenty-five ships set out."
+   },
+   {
+    "i": 9,
+    "start": 31.96,
+    "end": 33.23,
+    "snap": true,
+    "text": "Fourteen arrive."
+   },
+   {
+    "i": 10,
+    "start": 33.76,
+    "end": 36.94,
+    "snap": true,
+    "text": "The settlers build farms in the sheltered fjords of the southwest."
+   },
+   {
+    "i": 11,
+    "start": 37.42,
+    "end": 39.12,
+    "snap": true,
+    "text": "Erik's son Leif goes further."
+   },
+   {
+    "i": 12,
+    "start": 39.58,
+    "end": 43.39,
+    "snap": true,
+    "text": "Around the year 1000 he reaches a land where his men find grapes."
+   },
+   {
+    "i": 13,
+    "start": 43.84,
+    "end": 45.13,
+    "snap": true,
+    "text": "He calls it Vinland, Wine Land."
+   },
+   {
+    "i": 14,
+    "start": 45.54,
+    "end": 49.38,
+    "snap": true,
+    "text": "For centuries scholars treated this as a legend."
+   },
+   {
+    "i": 15,
+    "start": 49.84,
+    "end": 58.3,
+    "snap": true,
+    "text": "Then, in 1960, a Norwegian couple, Helge and Anne Stine Ingstad, start digging at some grassy mounds on the northern tip of Newfoundland."
+   },
+   {
+    "i": 16,
+    "start": 58.78,
+    "end": 65.75,
+    "snap": true,
+    "text": "Over the following years the excavations turn up Norse buildings, iron nails, a bronze cloak pin, and butternuts."
+   },
+   {
+    "i": 17,
+    "start": 66.27,
+    "end": 68.45,
+    "snap": true,
+    "text": "Butternuts do not grow that far north."
+   },
+   {
+    "i": 18,
+    "start": 68.91,
+    "end": 72.76,
+    "snap": true,
+    "text": "Someone had sailed further south, to where wild grapes grow."
+   },
+   {
+    "i": 19,
+    "start": 73.33,
+    "end": 81.82,
+    "snap": true,
+    "text": "In 2021 scientists found the mark of a solar storm from the year 993 in wood from the site, and counted the rings out to the bark."
+   },
+   {
+    "i": 20,
+    "start": 82.32,
+    "end": 84.43,
+    "snap": true,
+    "text": "The trees were cut in 1021."
+   },
+   {
+    "i": 21,
+    "start": 84.96,
+    "end": 88.62,
+    "snap": true,
+    "text": "That is 471 years before Columbus."
+   },
+   {
+    "i": 22,
+    "start": 89.25,
+    "end": 90.87,
+    "snap": true,
+    "text": "America does not last."
+   },
+   {
+    "i": 23,
+    "start": 91.29,
+    "end": 96.27,
+    "snap": true,
+    "text": "The settlers are few, home is far away, and the people already living there fight back."
+   },
+   {
+    "i": 24,
+    "start": 96.83,
+    "end": 99.38,
+    "snap": true,
+    "text": "Greenland lasts more than four hundred years."
+   },
+   {
+    "i": 25,
+    "start": 99.82,
+    "end": 105.33,
+    "snap": true,
+    "text": "The last written record is a wedding at Hvalsey Church in September 1408."
+   },
+   {
+    "i": 26,
+    "start": 105.79,
+    "end": 106.64,
+    "snap": true,
+    "text": "After that, silence."
+   }
+  ],
+  "cost": 1.7
+ },
+ "11": {
+  "dur": 92.64,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 246,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.82,
+    "snap": true,
+    "text": "Back in Scandinavia, chieftains are turning into kings."
+   },
+   {
+    "i": 2,
+    "start": 4.3,
+    "end": 9.08,
+    "snap": true,
+    "text": "Around 965 King Harald of Denmark raises a great stone at Jelling."
+   },
+   {
+    "i": 3,
+    "start": 9.68,
+    "end": 14.78,
+    "snap": true,
+    "text": "The runes say he won for himself all of Denmark and Norway and made the Danes Christian."
+   },
+   {
+    "i": 4,
+    "start": 15.38,
+    "end": 17.68,
+    "snap": true,
+    "text": "The Danes call it their country's birth certificate."
+   },
+   {
+    "i": 5,
+    "start": 18.14,
+    "end": 22.19,
+    "snap": true,
+    "text": "A copy of its picture of Christ is printed inside every Danish passport."
+   },
+   {
+    "i": 6,
+    "start": 22.71,
+    "end": 24.61,
+    "snap": true,
+    "text": "Harald's nickname was Bluetooth."
+   },
+   {
+    "i": 7,
+    "start": 25.01,
+    "end": 32.09,
+    "snap": true,
+    "text": "In the 1990s engineers building a wireless standard to connect devices named it after him, the king who united the Danes."
+   },
+   {
+    "i": 8,
+    "start": 32.53,
+    "end": 35.65,
+    "snap": true,
+    "text": "The logo is his initials in runes, H and B."
+   },
+   {
+    "i": 9,
+    "start": 36.29,
+    "end": 40.44,
+    "snap": true,
+    "text": "Kings like the new religion: one God in heaven fits one king on earth."
+   },
+   {
+    "i": 10,
+    "start": 40.83,
+    "end": 43.73,
+    "snap": true,
+    "text": "And the Church brings writing and a way to run a kingdom."
+   },
+   {
+    "i": 11,
+    "start": 44.29,
+    "end": 47.39,
+    "snap": true,
+    "text": "Norway follows Denmark under two kings named Olaf."
+   },
+   {
+    "i": 12,
+    "start": 47.79,
+    "end": 48.96,
+    "snap": true,
+    "text": "Sweden takes longer."
+   },
+   {
+    "i": 13,
+    "start": 49.4,
+    "end": 51.61,
+    "snap": true,
+    "text": "Meanwhile England is paying again."
+   },
+   {
+    "i": 14,
+    "start": 52.19,
+    "end": 58.29,
+    "snap": true,
+    "text": "Danish fleets return, and the English kings pay them to leave, tens of thousands of pounds of silver at a time."
+   },
+   {
+    "i": 15,
+    "start": 58.79,
+    "end": 63.0,
+    "snap": true,
+    "text": "In 1013 the Danish king, Sweyn Forkbeard, simply takes the throne."
+   },
+   {
+    "i": 16,
+    "start": 63.56,
+    "end": 65.37,
+    "snap": true,
+    "text": "His son Canute does better still."
+   },
+   {
+    "i": 17,
+    "start": 65.84,
+    "end": 71.97,
+    "snap": true,
+    "text": "He becomes king of England in 1016, of Denmark in 1018, and of Norway in 1028."
+   },
+   {
+    "i": 18,
+    "start": 72.43,
+    "end": 78.07,
+    "snap": true,
+    "text": "Historians call it the North Sea Empire: three kingdoms held together by nothing but ships."
+   },
+   {
+    "i": 19,
+    "start": 78.53,
+    "end": 85.97,
+    "snap": true,
+    "text": "A later story says Canute set his throne on the beach and ordered the tide to stop, to show his flatterers that even a king has limits."
+   },
+   {
+    "i": 20,
+    "start": 86.47,
+    "end": 87.88,
+    "snap": true,
+    "text": "His empire proves it."
+   },
+   {
+    "i": 21,
+    "start": 88.38,
+    "end": 92.64,
+    "snap": true,
+    "text": "Canute dies in 1035, and within seven years it is gone."
+   }
+  ],
+  "cost": 1.49
+ },
+ "12": {
+  "dur": 111.68,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 287,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.35,
+    "snap": true,
+    "text": "1066."
+   },
+   {
+    "i": 2,
+    "start": 1.92,
+    "end": 3.98,
+    "snap": true,
+    "text": "The English king dies without a son."
+   },
+   {
+    "i": 3,
+    "start": 4.52,
+    "end": 6.34,
+    "snap": true,
+    "text": "Harold Godwinson takes the crown."
+   },
+   {
+    "i": 4,
+    "start": 6.86,
+    "end": 8.36,
+    "snap": true,
+    "text": "But two other men want it."
+   },
+   {
+    "i": 5,
+    "start": 8.85,
+    "end": 14.38,
+    "snap": true,
+    "text": "The first is Harald Hardrada, the same Harald from the Varangian Guard, now king of Norway."
+   },
+   {
+    "i": 6,
+    "start": 14.91,
+    "end": 18.74,
+    "snap": true,
+    "text": "In September he lands in the north of England with about three hundred ships."
+   },
+   {
+    "i": 7,
+    "start": 19.19,
+    "end": 24.99,
+    "snap": true,
+    "text": "On the twenty-fifth, at Stamford Bridge near York, King Harold's army catches the Norwegians by surprise."
+   },
+   {
+    "i": 8,
+    "start": 25.42,
+    "end": 26.7,
+    "snap": true,
+    "text": "Hardrada is killed."
+   },
+   {
+    "i": 9,
+    "start": 27.18,
+    "end": 30.37,
+    "snap": true,
+    "text": "Of three hundred ships, only twenty-four sail home."
+   },
+   {
+    "i": 10,
+    "start": 30.99,
+    "end": 36.18,
+    "snap": true,
+    "text": "Nineteen days later, on the south coast, King Harold is killed at Hastings by the second man:"
+   },
+   {
+    "i": 11,
+    "start": 36.52,
+    "end": 38.09,
+    "snap": true,
+    "text": "William, Duke of Normandy."
+   },
+   {
+    "i": 12,
+    "start": 38.54,
+    "end": 41.21,
+    "snap": true,
+    "text": "He is Rollo's great-great-great-grandson."
+   },
+   {
+    "i": 13,
+    "start": 41.69,
+    "end": 49.59,
+    "snap": true,
+    "text": "So the Viking Age ends with a Viking beaten in England, and then England conquered by the descendants of Vikings, who now speak French."
+   },
+   {
+    "i": 14,
+    "start": 50.12,
+    "end": 51.22,
+    "snap": true,
+    "text": "What did they leave behind?"
+   },
+   {
+    "i": 15,
+    "start": 51.71,
+    "end": 52.83,
+    "snap": true,
+    "text": "Not horned helmets."
+   },
+   {
+    "i": 16,
+    "start": 53.14,
+    "end": 57.48,
+    "snap": true,
+    "text": "They were made popular by a costume designer for Wagner's operas in 1876."
+   },
+   {
+    "i": 17,
+    "start": 57.9,
+    "end": 62.81,
+    "snap": true,
+    "text": "The one almost complete Viking helmet ever found in Scandinavia has no horns."
+   },
+   {
+    "i": 18,
+    "start": 63.26,
+    "end": 68.5,
+    "snap": true,
+    "text": "In 2020 scientists read the DNA of 442 people from the Viking world."
+   },
+   {
+    "i": 19,
+    "start": 68.87,
+    "end": 70.32,
+    "snap": true,
+    "text": "Many were not blond."
+   },
+   {
+    "i": 20,
+    "start": 70.71,
+    "end": 76.06,
+    "snap": true,
+    "text": "And some people buried as Vikings in Scotland were local people with no Scandinavian ancestry at all."
+   },
+   {
+    "i": 21,
+    "start": 76.53,
+    "end": 78.47,
+    "snap": true,
+    "text": "Viking was never a bloodline."
+   },
+   {
+    "i": 22,
+    "start": 78.86,
+    "end": 80.52,
+    "snap": true,
+    "text": "It was a way of life you could join."
+   },
+   {
+    "i": 23,
+    "start": 81.12,
+    "end": 83.18,
+    "snap": true,
+    "text": "What they did leave is still on the map."
+   },
+   {
+    "i": 24,
+    "start": 83.62,
+    "end": 86.07,
+    "snap": true,
+    "text": "The name of Russia, most likely."
+   },
+   {
+    "i": 25,
+    "start": 86.48,
+    "end": 87.41,
+    "snap": true,
+    "text": "Normandy."
+   },
+   {
+    "i": 26,
+    "start": 87.82,
+    "end": 89.25,
+    "snap": true,
+    "text": "The city of Dublin."
+   },
+   {
+    "i": 27,
+    "start": 89.6,
+    "end": 91.14,
+    "snap": false,
+    "text": "Iceland and its parliament."
+   },
+   {
+    "i": 28,
+    "start": 91.14,
+    "end": 92.67,
+    "snap": true,
+    "text": "The words sky, egg, window and they."
+   },
+   {
+    "i": 29,
+    "start": 93.16,
+    "end": 97.39,
+    "snap": true,
+    "text": "People from the edge of Europe reached the Volga, Constantinople and America."
+   },
+   {
+    "i": 30,
+    "start": 97.83,
+    "end": 99.29,
+    "snap": true,
+    "text": "They started as raiders."
+   },
+   {
+    "i": 31,
+    "start": 99.62,
+    "end": 101.3,
+    "snap": true,
+    "text": "They ended as founders."
+   },
+   {
+    "i": 32,
+    "start": 103.32,
+    "end": 105.42,
+    "snap": true,
+    "text": "That was the Vikings in twenty minutes."
+   },
+   {
+    "i": 33,
+    "start": 105.73,
+    "end": 111.68,
+    "snap": true,
+    "text": "If you enjoyed it, subscribe, give it a thumbs up, and tell us in the comments which civilization we should cover next."
+   }
+  ],
+  "cost": 2.06
+ }
+}
