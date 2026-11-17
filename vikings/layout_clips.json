@@ -1,0 +1,31 @@
+{
+ "_note": "Единственный источник окон роликов Vikings (правка 17 ноя). ch 0 = холодное открытие. t0/t1 — секунды от начала озвучки главы. gen — длина генерации, с. src: have = получен, new = сгенерировать, regen = перегенерировать.",
+ "rules": {"files_max": 20, "chapter_seconds_max": 185, "people_window_max": 9.5},
+ "clips": {
+  "R01": {"gen": 10, "src": "have", "people": true,  "use": [[0, 0.0, 10.5, "speed 0.95"], [10, 73.3, 82.3]]},
+  "R02": {"gen": 10, "src": "have", "people": true,  "use": [[0, 16.1, 21.9], [8, 50.5, 59.9]]},
+  "R03": {"gen": 10, "src": "have", "people": true,  "use": [[0, 21.9, 29.3], [6, 93.9, 98.1]]},
+  "R04": {"gen": 15, "src": "regen", "people": false, "use": [[0, 29.3, 45.1, "speed 0.949"], [2, 0.0, 3.4], [12, 97.8, 111.7]]},
+  "R05": {"gen": 10, "src": "have", "people": false, "use": [[0, 10.5, 16.1], [10, 48.8, 58.8]]},
+  "R06": {"gen": 10, "src": "have", "people": false, "use": [[1, 12.6, 21.6]]},
+  "R07": {"gen": 10, "src": "have", "people": true,  "use": [[2, 3.4, 13.6, "speed 0.98"]]},
+  "R09": {"gen": 10, "src": "new", "people": true,  "use": [[3, 8.1, 16.7]]},
+  "R10": {"gen": 12, "src": "new", "people": false, "use": [[3, 55.0, 65.9]]},
+  "R12": {"gen": 9,  "src": "new", "people": true,  "use": [[4, 34.7, 42.5]]},
+  "R14": {"gen": 7,  "src": "new", "people": true,  "use": [[5, 48.7, 54.6]]},
+  "R15": {"gen": 10, "src": "new", "people": true,  "use": [[6, 0.0, 5.9], [6, 41.7, 46.6]]},
+  "R16": {"gen": 8,  "src": "new", "people": true,  "use": [[7, 13.8, 21.0]]},
+  "R17": {"gen": 10, "src": "new", "people": true,  "use": [[7, 91.7, 100.7]]},
+  "R18": {"gen": 12, "src": "new", "people": false, "use": [[8, 10.9, 22.1]]},
+  "R21": {"gen": 11, "src": "new", "people": false, "use": [[9, 72.1, 82.1]]},
+  "R23": {"gen": 10, "src": "new", "people": true,  "use": [[10, 39.6, 48.8]]},
+  "R24": {"gen": 9,  "src": "new", "people": true,  "use": [[11, 78.5, 86.0]]},
+  "R25": {"gen": 9,  "src": "new", "people": true,  "use": [[12, 19.2, 27.2]]},
+  "R26": {"gen": 9,  "src": "new", "people": true,  "use": [[12, 31.0, 38.5]]}
+ },
+ "removed": ["R08", "R11", "R13", "R19", "R20", "R22"],
+ "maps_rerender": {
+  "02b_any_beach": [37.9, 55.7], "04b_paris": [20.5, 52.3], "05b_danelaw": [44.7, 84.9], "07b_rus": [21.0, 83.9],
+  "07c_ibn_fadlan": [83.8, 106.7], "09a_go_west": [0.0, 23.9], "10a_greenland": [0.0, 37.4], "10d_silence": [82.3, 106.7]
+ }
+}
