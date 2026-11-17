@@ -13,6 +13,15 @@ def dur(f): return float(run(["ffprobe", "-v", "error", "-show_entries", "format
 def loud(f):
     e = run(["ffmpeg", "-hide_banner", "-i", f, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"]).stderr
     return json.loads(e[e.rindex("{"):e.rindex("}") + 1])
+VOICE = "volume={g:.2f}dB,aresample=48000,alimiter=limit=0.8:level=disabled:attack=3:release=60"
+def voice_gain(f, target=-14.0):
+    """gain that puts the limited voice at the target loudness (the limiter holds peaks under -1.5 dBTP and costs some level, so iterate)"""
+    def meas(g):
+        e = run(["ffmpeg", "-hide_banner", "-i", f, "-af", VOICE.format(g=g) + ",ebur128", "-f", "null", "-"]).stderr
+        return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", e)[-1])
+    g = target - meas(0.0)
+    for _ in range(3): g += target - meas(g)
+    return g
 def build(spec):
     n = spec["n"]; import glob; vo = sorted(glob.glob(f"{ROOT}/../vo/vo{n:02d}.*"))[0]; D = dur(vo); od = "out_draft" if DRAFT else "out"; out = f"{ROOT}/{od}/ch{n:02d}.mp4"; os.makedirs(f"{ROOT}/{od}", exist_ok=True)
     spec = dict(spec); spec["missing"] = [(os.path.basename(o[0])[:-4], o[1], o[2]) for o in spec["overlays"] if not os.path.exists(o[0])]
@@ -60,10 +69,9 @@ def _mux(spec, gfx, D, vo, out):
     fo = spec.get("fade_out", 0.5)
     fc.append(f"{last}fade=t=out:st={D - fo:.3f}:d={fo},format=yuv420p[body]")
     fc.append(f"[0:v]fps={FPS},scale=1920:1080,setsar=1,format=yuv420p[card]"); fc.append(f"[card][body]concat=n=2:v=1:a=0,scale={OUT_W}:{OUT_H}:flags=lanczos,setsar=1,format=yuv420p[v]")
-    m = loud(vo); vi = len([x for x in ins if x == "-i"]); ins += ["-i", vo]
-    fc.append(f"[{vi}:a]loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
-              f"offset={m['target_offset']}:linear=true,aresample=48000,adelay={int(CARD * 1000)}:all=1[vo]")
-    fc.append(f"[vo]{''.join(aud)}amix=inputs={len(aud) + 1}:normalize=0:duration=longest,alimiter=limit=0.84,aformat=channel_layouts=stereo[a]")
+    g = voice_gain(vo); m = {"input_i": f"gain {g:.2f} dB"}; vi = len([x for x in ins if x == "-i"]); ins += ["-i", vo]
+    fc.append(f"[{vi}:a]{VOICE.format(g=g)},adelay={int(CARD * 1000)}:all=1[vo]")
+    fc.append(f"[vo]{''.join(aud)}amix=inputs={len(aud) + 1}:normalize=0:duration=longest,alimiter=limit=0.84:level=disabled,aformat=channel_layouts=stereo[a]")
     tmp = out.replace(".mp4", ".tmp.mp4")
     rr = run(["ffmpeg", "-loglevel", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-profile:v", "high", "-bf", "2", "-g", str(FPS // 2 * 2),
               "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{CARD + D:.3f}", "-movflags", "+faststart", tmp])
