@@ -14,7 +14,9 @@
      "t1": 33.6
     }
    ],
-   "files": [],
+   "files": [
+    "V01_wolf.png"
+   ],
    "received": "Capitoline_she-wolf_Musei_Capitolini_MC1181.jpg",
    "px": "2576x1932",
    "verdict": "ok",
@@ -33,7 +35,9 @@
      "t1": 27.7
     }
    ],
-   "files": [],
+   "files": [
+    "V02_arch_titus.jpg"
+   ],
    "received": "V02.jpg",
    "px": "1218x1533",
    "verdict": "ok",
@@ -52,7 +56,9 @@
      "t1": 106.0
     }
    ],
-   "files": [],
+   "files": [
+    "V03_servian_wall.jpg"
+   ],
    "received": "Servian_Wall-Termini_Station.jpg",
    "px": "1524x2032",
    "verdict": "ok",
@@ -71,7 +77,9 @@
      "t1": 40.0
     }
    ],
-   "files": [],
+   "files": [
+    "V04_appia.jpg"
+   ],
    "received": "Appia_Antica_con_pini.jpg",
    "px": "960x1280",
    "verdict": "use",
@@ -90,7 +98,9 @@
      "t1": 94.5
     }
    ],
-   "files": [],
+   "files": [
+    "V05_pyrrhus.png"
+   ],
    "received": "V05.jpg",
    "px": "1932x2576",
    "verdict": "ok",
@@ -109,7 +119,9 @@
      "t1": 74.4
     }
    ],
-   "files": [],
+   "files": [
+    "V06_pompeius_rufus.png"
+   ],
    "received": "V06.jpg",
    "px": "800x354",
    "verdict": "use",
@@ -128,7 +140,9 @@
      "t1": 12.4
     }
    ],
-   "files": [],
+   "files": [
+    "V07_pompey.png"
+   ],
    "received": "V07.jpg",
    "px": "2089x2576",
    "verdict": "ok",
@@ -147,7 +161,9 @@
      "t1": 12.4
     }
    ],
-   "files": [],
+   "files": [
+    "V08_caesar.png"
+   ],
    "received": "V08.jpg",
    "px": "1460x2576",
    "verdict": "ok",
@@ -166,7 +182,9 @@
      "t1": 33.1
     }
    ],
-   "files": [],
+   "files": [
+    "V09_caesar_1678.jpg"
+   ],
    "received": "V09.tiff",
    "px": "3400x4884",
    "verdict": "use",
@@ -185,7 +203,9 @@
      "t1": 107.3
     }
    ],
-   "files": [],
+   "files": [
+    "V10_eid_mar.png"
+   ],
    "received": "V10.jpg",
    "px": "800x396",
    "verdict": "use",
@@ -204,7 +224,9 @@
      "t1": 8.2
     }
    ],
-   "files": [],
+   "files": [
+    "V11_octavian.png"
+   ],
    "received": "V11.jpg",
    "px": "1877x2576",
    "verdict": "ok",
@@ -223,7 +245,9 @@
      "t1": 16.1
     }
    ],
-   "files": [],
+   "files": [
+    "V12_antony_cleopatra.png"
+   ],
    "received": "V12.jpg",
    "px": "1500x680",
    "verdict": "ok",
@@ -242,7 +266,9 @@
      "t1": 35.7
     }
    ],
-   "files": [],
+   "files": [
+    "V13_prima_porta.png"
+   ],
    "received": "V13.jpg",
    "px": "1717x2576",
    "verdict": "ok",
@@ -261,7 +287,9 @@
      "t1": 92.8
     }
    ],
-   "files": [],
+   "files": [
+    "V14_caelius.png"
+   ],
    "received": "V14.png",
    "px": "2800x2000",
    "verdict": "use",
@@ -280,7 +308,9 @@
      "t1": 17.5
     }
    ],
-   "files": [],
+   "files": [
+    "V15_aqueduct.jpg"
+   ],
    "received": "V15.jpg",
    "px": "1280x960",
    "verdict": "use",
@@ -299,7 +329,9 @@
      "t1": 29.8
     }
    ],
-   "files": [],
+   "files": [
+    "V16_trevi.jpg"
+   ],
    "received": "V16.JPG",
    "px": "1280x853",
    "verdict": "use",
@@ -318,7 +350,9 @@
      "t1": 76.4
     }
    ],
-   "files": [],
+   "files": [
+    "V17_pollice_verso.jpg"
+   ],
    "received": "V17.jpg",
    "px": "2425x1630",
    "verdict": "ok",
@@ -342,7 +376,9 @@
      "t1": 43.0
     }
    ],
-   "files": [],
+   "files": [
+    "V18_trajan.png"
+   ],
    "received": "V18.jpg",
    "px": "1932x2576",
    "verdict": "ok",
@@ -366,7 +402,9 @@
      "t1": 43.0
     }
    ],
-   "files": [],
+   "files": [
+    "V19_hadrian.png"
+   ],
    "received": "V19.jpg",
    "px": "1700x2125",
    "verdict": "use",
@@ -385,7 +423,9 @@
      "t1": 43.0
     }
    ],
-   "files": [],
+   "files": [
+    "V20_septimius.png"
+   ],
    "received": "V20.jpg",
    "px": "1717x2576",
    "verdict": "ok",
@@ -404,7 +444,9 @@
      "t1": 68.0
     }
    ],
-   "files": [],
+   "files": [
+    "V21_marcus_aurelius.png"
+   ],
    "received": "V21.jpg",
    "px": "2576x2167",
    "verdict": "use",
@@ -423,7 +465,9 @@
      "t1": 45.3
     }
    ],
-   "files": [],
+   "files": [
+    "V22_shapur.jpg"
+   ],
    "received": "V22.jpg",
    "px": "2576x1791",
    "verdict": "ok",
@@ -442,7 +486,9 @@
      "t1": 55.0
     }
    ],
-   "files": [],
+   "files": [
+    "V23_zenobia.png"
+   ],
    "received": "V23.jpg",
    "px": "800x406",
    "verdict": "use",
@@ -461,7 +507,9 @@
      "t1": 77.7
     }
    ],
-   "files": [],
+   "files": [
+    "V24_tetrarchs.png"
+   ],
    "received": "V24.jpg",
    "px": "1717x2576",
    "verdict": "ok",
@@ -485,7 +533,9 @@
      "t1": 68.5
     }
    ],
-   "files": [],
+   "files": [
+    "V25_constantine.png"
+   ],
    "received": "V25.jpg",
    "px": "1717x2576",
    "verdict": "ok",
@@ -504,7 +554,9 @@
      "t1": 74.4
     }
    ],
-   "files": [],
+   "files": [
+    "V26_missorium.png"
+   ],
    "received": "V26.jpg",
    "px": "1000x966",
    "verdict": "ok",
@@ -523,7 +575,9 @@
      "t1": 61.6
     }
    ],
-   "files": [],
+   "files": [
+    "V27_romulus_augustus.png"
+   ],
    "received": "V27.png",
    "px": "732x1447",
    "verdict": "use",
@@ -542,7 +596,9 @@
      "t1": 101.1
     }
    ],
-   "files": [],
+   "files": [
+    "V28_spqr_cover.jpg"
+   ],
    "received": "V28.jpg",
    "px": "2576x1701",
    "verdict": "ok",
@@ -561,7 +617,9 @@
      "t1": 12.4
     }
    ],
-   "files": [],
+   "files": [
+    "V29_crassus.png"
+   ],
    "received": "V29.jpg",
    "px": "1707x2576",
    "verdict": "ok",
@@ -580,7 +638,9 @@
      "t1": 88.9
     }
    ],
-   "files": [],
+   "files": [
+    "V30_cato.png"
+   ],
    "received": "V30.jpg",
    "px": "1963x2576",
    "verdict": "use",
@@ -599,7 +659,9 @@
      "t1": 40.3
     }
    ],
-   "files": [],
+   "files": [
+    "V31_hannibal.png"
+   ],
    "received": "V31.jpg",
    "px": "1157x1400",
    "verdict": "ok",
@@ -618,7 +680,9 @@
      "t1": 77.2
     }
    ],
-   "files": [],
+   "files": [
+    "V32_scipio.png"
+   ],
    "received": "V32.jpg",
    "px": "1559x2576",
    "verdict": "use",
@@ -637,7 +701,9 @@
      "t1": 47.0
     }
    ],
-   "files": [],
+   "files": [
+    "V33_marius.png"
+   ],
    "received": "V33.jpg",
    "px": "1717x2576",
    "verdict": "ok",
