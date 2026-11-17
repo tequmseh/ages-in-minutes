@@ -17,7 +17,7 @@ VOICE = "volume={g:.2f}dB,aresample=48000,alimiter=limit=0.8:level=disabled:atta
 def voice_gain(f, target=-14.0):
     """gain that puts the limited voice at the target loudness (the limiter holds peaks under -1.5 dBTP and costs some level, so iterate)"""
     def meas(g):
-        e = run(["ffmpeg", "-hide_banner", "-i", f, "-af", VOICE.format(g=g) + ",ebur128", "-f", "null", "-"]).stderr
+        e = run(["ffmpeg", "-hide_banner", "-i", f, "-af", VOICE.format(g=g) + ",aformat=channel_layouts=stereo,ebur128"          # measured as it is mixed: a mono voice reads about 1 dB higher once it is in both channels, "-f", "null", "-"]).stderr
         return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", e)[-1])
     g = target - meas(0.0)
     for _ in range(3): g += target - meas(g)
