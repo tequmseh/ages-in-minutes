@@ -1,0 +1,2219 @@
+{
+ "0": {
+  "dur": 53.891,
+  "lead": 0.0,
+  "tail": 0.28,
+  "words": 154,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.13,
+    "snap": true,
+    "text": "In the middle of Rome there is a concrete roof that is nineteen hundred years old."
+   },
+   {
+    "i": 2,
+    "start": 5.74,
+    "end": 7.75,
+    "snap": true,
+    "text": "Rain falls through a hole in the top."
+   },
+   {
+    "i": 3,
+    "start": 8.37,
+    "end": 12.2,
+    "snap": true,
+    "text": "Nobody has ever built a bigger dome out of unreinforced concrete."
+   },
+   {
+    "i": 4,
+    "start": 12.72,
+    "end": 16.33,
+    "snap": true,
+    "text": "The people who poured it ruled from northern Britain to the Euphrates."
+   },
+   {
+    "i": 5,
+    "start": 16.73,
+    "end": 19.95,
+    "snap": true,
+    "text": "About one person in five on Earth lived under their law."
+   },
+   {
+    "i": 6,
+    "start": 20.52,
+    "end": 23.34,
+    "snap": true,
+    "text": "They started as a few huts on a hill above a river."
+   },
+   {
+    "i": 7,
+    "start": 24.06,
+    "end": 42.0,
+    "snap": true,
+    "text": "In the next twenty minutes: a city that throws out its kings, a single afternoon that kills fifty thousand Romans, a stream that cannot be crossed without starting a war, an emperor who retires to grow cabbages, and a teenager named after Rome's founder who turns out to be the last."
+   },
+   {
+    "i": 8,
+    "start": 42.48,
+    "end": 46.02,
+    "snap": true,
+    "text": "And by the end, you will see why Rome never quite ended."
+   },
+   {
+    "i": 9,
+    "start": 46.6,
+    "end": 50.93,
+    "snap": true,
+    "text": "So how did a village on the Tiber end up ruling the known world?"
+   },
+   {
+    "i": 10,
+    "start": 51.39,
+    "end": 51.96,
+    "snap": true,
+    "text": "Let's find out."
+   },
+   {
+    "i": 11,
+    "start": 52.48,
+    "end": 53.61,
+    "snap": true,
+    "text": "It takes twenty minutes."
+   }
+  ],
+  "cost": 0.82
+ },
+ "1": {
+  "dur": 91.716,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 254,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.16,
+    "snap": true,
+    "text": "Start with the map."
+   },
+   {
+    "i": 2,
+    "start": 1.62,
+    "end": 6.95,
+    "snap": true,
+    "text": "Halfway down the western side of Italy, the river Tiber winds out of the hills toward the sea."
+   },
+   {
+    "i": 3,
+    "start": 7.45,
+    "end": 12.58,
+    "snap": true,
+    "text": "Twenty-five kilometres inland there is a ford, and above it a cluster of steep hills."
+   },
+   {
+    "i": 4,
+    "start": 13.09,
+    "end": 14.55,
+    "snap": true,
+    "text": "The Romans told it like this."
+   },
+   {
+    "i": 5,
+    "start": 15.05,
+    "end": 20.45,
+    "snap": true,
+    "text": "On the twenty-first of April, 753 BC, a man named Romulus founded the city."
+   },
+   {
+    "i": 6,
+    "start": 20.97,
+    "end": 27.2,
+    "snap": true,
+    "text": "He and his twin brother Remus were sons of the war god Mars, and as babies they were nursed by a she-wolf."
+   },
+   {
+    "i": 7,
+    "start": 27.73,
+    "end": 31.62,
+    "snap": true,
+    "text": "The brothers quarrelled over the new walls, and Romulus killed Remus."
+   },
+   {
+    "i": 8,
+    "start": 32.03,
+    "end": 33.23,
+    "snap": true,
+    "text": "The city took his name."
+   },
+   {
+    "i": 9,
+    "start": 33.68,
+    "end": 37.77,
+    "snap": true,
+    "text": "So the official story of Rome begins with one brother murdering the other."
+   },
+   {
+    "i": 10,
+    "start": 38.25,
+    "end": 41.46,
+    "snap": true,
+    "text": "Later poets said it explained Rome's endless civil wars."
+   },
+   {
+    "i": 11,
+    "start": 42.09,
+    "end": 44.23,
+    "snap": true,
+    "text": "Archaeology tells a quieter version."
+   },
+   {
+    "i": 12,
+    "start": 44.77,
+    "end": 48.55,
+    "snap": true,
+    "text": "There were Iron Age huts on the Palatine Hill long before 753."
+   },
+   {
+    "i": 13,
+    "start": 49.08,
+    "end": 54.76,
+    "snap": true,
+    "text": "But on its slope, archaeologists found the remains of a wall dated to the middle of the 700s BC."
+   },
+   {
+    "i": 14,
+    "start": 55.29,
+    "end": 56.63,
+    "snap": true,
+    "text": "The wolf is a legend."
+   },
+   {
+    "i": 15,
+    "start": 57.02,
+    "end": 58.78,
+    "snap": true,
+    "text": "The date is not far off."
+   },
+   {
+    "i": 16,
+    "start": 59.45,
+    "end": 62.56,
+    "snap": true,
+    "text": "Tradition counts seven kings, with Romulus the first."
+   },
+   {
+    "i": 17,
+    "start": 62.91,
+    "end": 66.39,
+    "snap": true,
+    "text": "The last ones came from the Etruscans, the richer cities to the north."
+   },
+   {
+    "i": 18,
+    "start": 66.88,
+    "end": 71.71,
+    "snap": true,
+    "text": "They drained the marshy valley between the hills with a great sewer, the Cloaca Maxima."
+   },
+   {
+    "i": 19,
+    "start": 72.15,
+    "end": 74.21,
+    "snap": true,
+    "text": "On the drained ground rose the Forum."
+   },
+   {
+    "i": 20,
+    "start": 74.75,
+    "end": 82.27,
+    "snap": true,
+    "text": "Then in 509 BC the Romans drove out their last king, Tarquin the Proud, and swore they would never have another."
+   },
+   {
+    "i": 21,
+    "start": 82.76,
+    "end": 86.82,
+    "snap": true,
+    "text": "For the next five hundred years, the word king was an insult in Rome."
+   },
+   {
+    "i": 22,
+    "start": 87.33,
+    "end": 87.85,
+    "snap": true,
+    "text": "Remember that."
+   },
+   {
+    "i": 23,
+    "start": 88.39,
+    "end": 91.72,
+    "snap": true,
+    "text": "Five centuries later, it will cost a man his life."
+   }
+  ],
+  "cost": 1.01
+ },
+ "2": {
+  "dur": 105.953,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 266,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.78,
+    "snap": true,
+    "text": "So who rules instead?"
+   },
+   {
+    "i": 2,
+    "start": 2.39,
+    "end": 5.24,
+    "snap": true,
+    "text": "Every year the citizens elect two consuls."
+   },
+   {
+    "i": 3,
+    "start": 5.62,
+    "end": 7.09,
+    "snap": true,
+    "text": "Each one can block the other."
+   },
+   {
+    "i": 4,
+    "start": 7.59,
+    "end": 12.69,
+    "snap": true,
+    "text": "A senate of former officials gives advice, and in practice it holds the real power."
+   },
+   {
+    "i": 5,
+    "start": 13.35,
+    "end": 16.75,
+    "snap": true,
+    "text": "Assemblies of citizens vote on laws and elect the officials."
+   },
+   {
+    "i": 6,
+    "start": 17.24,
+    "end": 20.56,
+    "snap": true,
+    "text": "The Romans call it res publica, the public thing."
+   },
+   {
+    "i": 7,
+    "start": 21.13,
+    "end": 23.5,
+    "snap": true,
+    "text": "That is where our word republic comes from."
+   },
+   {
+    "i": 8,
+    "start": 24.18,
+    "end": 27.42,
+    "snap": true,
+    "text": "Their state signs itself SPQR: the Senate and the People of Rome."
+   },
+   {
+    "i": 9,
+    "start": 27.88,
+    "end": 29.62,
+    "snap": true,
+    "text": "But the people are not equal."
+   },
+   {
+    "i": 10,
+    "start": 30.28,
+    "end": 36.22,
+    "snap": true,
+    "text": "A small group of old families, the patricians, holds the offices."
+   },
+   {
+    "i": 11,
+    "start": 36.73,
+    "end": 38.32,
+    "snap": true,
+    "text": "Everyone else is a plebeian."
+   },
+   {
+    "i": 12,
+    "start": 39.04,
+    "end": 44.56,
+    "snap": true,
+    "text": "Around 494 BC the plebeians simply walk out of the city and refuse to fight."
+   },
+   {
+    "i": 13,
+    "start": 45.07,
+    "end": 47.33,
+    "snap": true,
+    "text": "They win their own officials, the tribunes."
+   },
+   {
+    "i": 14,
+    "start": 47.98,
+    "end": 52.09,
+    "snap": true,
+    "text": "A tribune can stop almost any act of government with one Latin word: veto."
+   },
+   {
+    "i": 15,
+    "start": 52.59,
+    "end": 53.14,
+    "snap": true,
+    "text": "I forbid."
+   },
+   {
+    "i": 16,
+    "start": 53.69,
+    "end": 63.52,
+    "snap": true,
+    "text": "Around 450 BC the laws are finally written down on twelve tablets and displayed in the Forum, so everyone can read what the rules are."
+   },
+   {
+    "i": 17,
+    "start": 64.26,
+    "end": 68.01,
+    "snap": true,
+    "text": "Then in 390 BC disaster comes from the north."
+   },
+   {
+    "i": 18,
+    "start": 68.48,
+    "end": 71.77,
+    "snap": true,
+    "text": "An army of Gauls crushes the Romans and takes the city."
+   },
+   {
+    "i": 19,
+    "start": 72.41,
+    "end": 75.15,
+    "snap": true,
+    "text": "Only the citadel on the Capitoline Hill holds out."
+   },
+   {
+    "i": 20,
+    "start": 75.75,
+    "end": 81.53,
+    "snap": true,
+    "text": "According to legend, the sacred geese of the goddess Juno honked and woke the defenders just in time."
+   },
+   {
+    "i": 21,
+    "start": 82.02,
+    "end": 83.84,
+    "snap": true,
+    "text": "Rome, saved by geese."
+   },
+   {
+    "i": 22,
+    "start": 84.5,
+    "end": 87.09,
+    "snap": true,
+    "text": "The Gauls leave only after a ransom in gold."
+   },
+   {
+    "i": 23,
+    "start": 87.63,
+    "end": 94.63,
+    "snap": true,
+    "text": "When the Romans complain that the weights are rigged, the Gaulish chief throws his sword onto the scales and says: vae victis."
+   },
+   {
+    "i": 24,
+    "start": 95.02,
+    "end": 96.31,
+    "snap": true,
+    "text": "Woe to the defeated."
+   },
+   {
+    "i": 25,
+    "start": 97.07,
+    "end": 101.23,
+    "snap": true,
+    "text": "The Romans build a stone wall about eleven kilometres long around their city."
+   },
+   {
+    "i": 26,
+    "start": 101.79,
+    "end": 105.95,
+    "snap": true,
+    "text": "No foreign enemy will take Rome again for eight hundred years."
+   }
+  ],
+  "cost": 1.86
+ },
+ "3": {
+  "dur": 94.511,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 251,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 9.54,
+    "snap": true,
+    "text": "Over the next century and more, Rome fights its neighbours one after another: the Latins, the Etruscans, and the tough mountain tribes of the Samnites."
+   },
+   {
+    "i": 2,
+    "start": 10.13,
+    "end": 13.34,
+    "snap": true,
+    "text": "What makes Rome different is what it does after it wins."
+   },
+   {
+    "i": 3,
+    "start": 13.78,
+    "end": 15.99,
+    "snap": true,
+    "text": "It does not wipe out the defeated cities."
+   },
+   {
+    "i": 4,
+    "start": 16.36,
+    "end": 18.01,
+    "snap": true,
+    "text": "It turns them into allies."
+   },
+   {
+    "i": 5,
+    "start": 18.48,
+    "end": 21.89,
+    "snap": true,
+    "text": "Some get full Roman citizenship, some get part of it."
+   },
+   {
+    "i": 6,
+    "start": 22.31,
+    "end": 23.42,
+    "snap": true,
+    "text": "They pay no tribute."
+   },
+   {
+    "i": 7,
+    "start": 23.71,
+    "end": 25.38,
+    "snap": true,
+    "text": "Instead, they send soldiers."
+   },
+   {
+    "i": 8,
+    "start": 25.78,
+    "end": 28.57,
+    "snap": true,
+    "text": "So every victory makes the Roman army bigger."
+   },
+   {
+    "i": 9,
+    "start": 29.12,
+    "end": 31.76,
+    "snap": true,
+    "text": "To hold it all together, Rome builds roads."
+   },
+   {
+    "i": 10,
+    "start": 32.28,
+    "end": 39.59,
+    "snap": true,
+    "text": "In 312 BC an official named Appius Claudius begins a road south to Capua, nearly two hundred kilometres long."
+   },
+   {
+    "i": 11,
+    "start": 40.04,
+    "end": 43.24,
+    "snap": true,
+    "text": "It is the Via Appia, and parts of it are still walkable."
+   },
+   {
+    "i": 12,
+    "start": 43.87,
+    "end": 46.75,
+    "snap": true,
+    "text": "In the same year he builds the city's first aqueduct."
+   },
+   {
+    "i": 13,
+    "start": 47.19,
+    "end": 50.74,
+    "snap": true,
+    "text": "On such roads a legion can march some thirty kilometres a day."
+   },
+   {
+    "i": 14,
+    "start": 51.29,
+    "end": 56.24,
+    "snap": true,
+    "text": "Over the centuries, the network will grow to some eighty thousand kilometres of paved highway."
+   },
+   {
+    "i": 15,
+    "start": 56.94,
+    "end": 61.67,
+    "snap": true,
+    "text": "In 280 BC the Greek city of Tarentum, in the far south, calls for help."
+   },
+   {
+    "i": 16,
+    "start": 62.19,
+    "end": 66.87,
+    "snap": true,
+    "text": "Pyrrhus, king of Epirus, lands in Italy with a professional army and war elephants."
+   },
+   {
+    "i": 17,
+    "start": 67.3,
+    "end": 75.82,
+    "snap": true,
+    "text": "He beats the Romans twice, but loses so many of his own men that, according to Plutarch, he says: one more victory like that, and we are finished."
+   },
+   {
+    "i": 18,
+    "start": 76.47,
+    "end": 78.43,
+    "snap": true,
+    "text": "Rome simply raises new legions."
+   },
+   {
+    "i": 19,
+    "start": 78.95,
+    "end": 82.23,
+    "snap": true,
+    "text": "By 275 Pyrrhus gives up and sails home."
+   },
+   {
+    "i": 20,
+    "start": 82.76,
+    "end": 86.48,
+    "snap": true,
+    "text": "Within ten years Rome controls the whole Italian peninsula."
+   },
+   {
+    "i": 21,
+    "start": 87.08,
+    "end": 90.05,
+    "snap": true,
+    "text": "Pyrrhus won almost every battle and lost the war."
+   },
+   {
+    "i": 22,
+    "start": 90.53,
+    "end": 94.51,
+    "snap": true,
+    "text": "Today his name is the word for exactly that: a Pyrrhic victory."
+   }
+  ],
+  "cost": 0.92
+ },
+ "4": {
+  "dur": 103.393,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 247,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.88,
+    "snap": true,
+    "text": "Now Rome looks across the sea."
+   },
+   {
+    "i": 2,
+    "start": 2.56,
+    "end": 10.65,
+    "snap": true,
+    "text": "Just off the toe of Italy lies Sicily, and beyond it Carthage, the richest city in the western Mediterranean, with the strongest navy."
+   },
+   {
+    "i": 3,
+    "start": 11.39,
+    "end": 15.63,
+    "snap": true,
+    "text": "The first war with Carthage starts in 264 BC, over Sicily."
+   },
+   {
+    "i": 4,
+    "start": 16.24,
+    "end": 18.1,
+    "snap": true,
+    "text": "Rome has almost no fleet."
+   },
+   {
+    "i": 5,
+    "start": 18.55,
+    "end": 22.67,
+    "snap": true,
+    "text": "So it builds one, and adds a boarding bridge with a spike called the raven."
+   },
+   {
+    "i": 6,
+    "start": 23.29,
+    "end": 26.7,
+    "snap": true,
+    "text": "It drops onto an enemy deck, and Roman soldiers run across."
+   },
+   {
+    "i": 7,
+    "start": 27.14,
+    "end": 29.11,
+    "snap": true,
+    "text": "A sea battle becomes a land battle."
+   },
+   {
+    "i": 8,
+    "start": 29.72,
+    "end": 34.65,
+    "snap": true,
+    "text": "After twenty-three years Rome wins Sicily, its first province outside Italy."
+   },
+   {
+    "i": 9,
+    "start": 35.46,
+    "end": 39.92,
+    "snap": true,
+    "text": "In 218 BC the Carthaginian general Hannibal does the unthinkable."
+   },
+   {
+    "i": 10,
+    "start": 40.48,
+    "end": 45.42,
+    "snap": true,
+    "text": "He marches from Spain over the Alps, with elephants, into Italy itself."
+   },
+   {
+    "i": 11,
+    "start": 46.01,
+    "end": 52.69,
+    "snap": true,
+    "text": "On the second of August, 216 BC, at Cannae, he surrounds the biggest army Rome has ever raised."
+   },
+   {
+    "i": 12,
+    "start": 53.21,
+    "end": 57.81,
+    "snap": true,
+    "text": "Livy counts some fifty thousand Roman dead, Polybius seventy thousand."
+   },
+   {
+    "i": 13,
+    "start": 58.28,
+    "end": 59.69,
+    "snap": true,
+    "text": "In a single afternoon."
+   },
+   {
+    "i": 14,
+    "start": 60.59,
+    "end": 62.4,
+    "snap": true,
+    "text": "Rome refuses to negotiate."
+   },
+   {
+    "i": 15,
+    "start": 62.71,
+    "end": 64.57,
+    "snap": true,
+    "text": "It will not even ransom its prisoners."
+   },
+   {
+    "i": 16,
+    "start": 65.11,
+    "end": 68.23,
+    "snap": true,
+    "text": "It raises new legions, and most of its allies stay loyal."
+   },
+   {
+    "i": 17,
+    "start": 68.75,
+    "end": 70.33,
+    "snap": true,
+    "text": "The alliance system holds."
+   },
+   {
+    "i": 18,
+    "start": 70.97,
+    "end": 76.8,
+    "snap": true,
+    "text": "A young general, Scipio, takes the war to Africa and beats Hannibal at Zama in 202 BC."
+   },
+   {
+    "i": 19,
+    "start": 77.69,
+    "end": 81.97,
+    "snap": true,
+    "text": "Half a century later, the old senator Cato is still worried about Carthage."
+   },
+   {
+    "i": 20,
+    "start": 82.52,
+    "end": 88.54,
+    "snap": true,
+    "text": "Plutarch says Cato ended his speeches, whatever the subject, by saying that Carthage must be destroyed."
+   },
+   {
+    "i": 21,
+    "start": 89.27,
+    "end": 92.66,
+    "snap": true,
+    "text": "In 146 BC Rome does exactly that."
+   },
+   {
+    "i": 22,
+    "start": 93.13,
+    "end": 94.59,
+    "snap": true,
+    "text": "Carthage is razed."
+   },
+   {
+    "i": 23,
+    "start": 95.2,
+    "end": 98.31,
+    "snap": true,
+    "text": "The same year, the Romans destroy the Greek city of Corinth."
+   },
+   {
+    "i": 24,
+    "start": 98.85,
+    "end": 102.03,
+    "snap": true,
+    "text": "In time they will call the Mediterranean mare nostrum."
+   },
+   {
+    "i": 25,
+    "start": 102.54,
+    "end": 103.39,
+    "snap": true,
+    "text": "Our sea."
+   }
+  ],
+  "cost": 1.47
+ },
+ "5": {
+  "dur": 92.108,
+  "lead": 0.0,
+  "tail": 0.36,
+  "words": 246,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.58,
+    "snap": true,
+    "text": "Conquest pours silver and slaves into Italy, and it breaks the Republic from the inside."
+   },
+   {
+    "i": 2,
+    "start": 6.2,
+    "end": 9.42,
+    "snap": true,
+    "text": "The rich buy up huge estates and work them with slaves."
+   },
+   {
+    "i": 3,
+    "start": 9.93,
+    "end": 13.69,
+    "snap": true,
+    "text": "The small farmers who fill the legions are away at war for years."
+   },
+   {
+    "i": 4,
+    "start": 14.26,
+    "end": 18.2,
+    "snap": true,
+    "text": "Many come home to find their farms gone, and drift to Rome with nothing."
+   },
+   {
+    "i": 5,
+    "start": 18.94,
+    "end": 25.1,
+    "snap": true,
+    "text": "In 133 BC a tribune named Tiberius Gracchus proposes giving public land to the poor."
+   },
+   {
+    "i": 6,
+    "start": 25.76,
+    "end": 32.14,
+    "snap": true,
+    "text": "A crowd of senators and their supporters beats him to death on the Capitol, along with some three hundred of his followers."
+   },
+   {
+    "i": 7,
+    "start": 32.84,
+    "end": 35.97,
+    "snap": true,
+    "text": "It is the first political killing in the city in centuries."
+   },
+   {
+    "i": 8,
+    "start": 36.65,
+    "end": 40.49,
+    "snap": true,
+    "text": "Ten years later his brother Gaius tries again, and is killed too."
+   },
+   {
+    "i": 9,
+    "start": 41.16,
+    "end": 42.81,
+    "snap": true,
+    "text": "Then the army changes."
+   },
+   {
+    "i": 10,
+    "start": 43.29,
+    "end": 46.84,
+    "snap": true,
+    "text": "The general Marius starts taking volunteers who own nothing at all."
+   },
+   {
+    "i": 11,
+    "start": 47.38,
+    "end": 51.6,
+    "snap": true,
+    "text": "These men expect their general, not the state, to give them land when they retire."
+   },
+   {
+    "i": 12,
+    "start": 52.19,
+    "end": 55.09,
+    "snap": true,
+    "text": "Soldiers now follow a man, not the Republic."
+   },
+   {
+    "i": 13,
+    "start": 55.77,
+    "end": 60.77,
+    "snap": true,
+    "text": "In 88 BC his rival Sulla does something no Roman general has ever done."
+   },
+   {
+    "i": 14,
+    "start": 61.28,
+    "end": 64.82,
+    "snap": true,
+    "text": "He marches his legions on Rome itself, and takes it."
+   },
+   {
+    "i": 15,
+    "start": 65.48,
+    "end": 70.96,
+    "snap": true,
+    "text": "Six years later, as dictator, he posts lists of enemies who can be killed for a reward."
+   },
+   {
+    "i": 16,
+    "start": 71.52,
+    "end": 74.1,
+    "snap": true,
+    "text": "Then he steps down and dies in his bed."
+   },
+   {
+    "i": 17,
+    "start": 74.78,
+    "end": 80.16,
+    "snap": true,
+    "text": "In 73 BC a gladiator named Spartacus breaks out of a training school near Capua."
+   },
+   {
+    "i": 18,
+    "start": 80.7,
+    "end": 87.52,
+    "snap": true,
+    "text": "For two years an army of runaway slaves defeats Roman forces up and down Italy before it is finally crushed."
+   },
+   {
+    "i": 19,
+    "start": 88.16,
+    "end": 91.75,
+    "snap": true,
+    "text": "The real question now is simple: who controls the army?"
+   }
+  ],
+  "cost": 1.01
+ },
+ "6": {
+  "dur": 107.311,
+  "lead": 0.0,
+  "tail": 0.28,
+  "words": 270,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.24,
+    "snap": true,
+    "text": "Three men decide to share the answer."
+   },
+   {
+    "i": 2,
+    "start": 2.76,
+    "end": 4.38,
+    "snap": true,
+    "text": "Pompey, the great general."
+   },
+   {
+    "i": 3,
+    "start": 4.82,
+    "end": 6.96,
+    "snap": true,
+    "text": "Crassus, the richest man in Rome."
+   },
+   {
+    "i": 4,
+    "start": 7.42,
+    "end": 11.9,
+    "snap": true,
+    "text": "And Gaius Julius Caesar, an ambitious politician deep in debt."
+   },
+   {
+    "i": 5,
+    "start": 12.82,
+    "end": 16.11,
+    "snap": true,
+    "text": "Caesar takes command in Gaul, roughly modern France."
+   },
+   {
+    "i": 6,
+    "start": 16.61,
+    "end": 22.96,
+    "snap": true,
+    "text": "In eight years of war, from 58 to 50 BC, he conquers it all, and writes his own account of it."
+   },
+   {
+    "i": 7,
+    "start": 23.48,
+    "end": 27.78,
+    "snap": true,
+    "text": "Caesar wrote about himself in the third person, as if he were a neutral reporter."
+   },
+   {
+    "i": 8,
+    "start": 28.25,
+    "end": 32.67,
+    "snap": true,
+    "text": "It was pure propaganda, and schoolchildren still translate it in Latin class."
+   },
+   {
+    "i": 9,
+    "start": 33.5,
+    "end": 37.69,
+    "snap": true,
+    "text": "In 53 BC Crassus is killed fighting the Parthians in the east."
+   },
+   {
+    "i": 10,
+    "start": 38.15,
+    "end": 39.24,
+    "snap": true,
+    "text": "Now there are two."
+   },
+   {
+    "i": 11,
+    "start": 39.96,
+    "end": 42.19,
+    "snap": true,
+    "text": "The senate orders Caesar to give up his army."
+   },
+   {
+    "i": 12,
+    "start": 42.81,
+    "end": 49.45,
+    "snap": true,
+    "text": "In January 49 BC he stands on the bank of the Rubicon, a small river marking the edge of his province."
+   },
+   {
+    "i": 13,
+    "start": 50.02,
+    "end": 53.16,
+    "snap": true,
+    "text": "To cross it with soldiers is to declare war on Rome."
+   },
+   {
+    "i": 14,
+    "start": 53.78,
+    "end": 57.58,
+    "snap": true,
+    "text": "According to Suetonius, he says: the die is cast."
+   },
+   {
+    "i": 15,
+    "start": 58.1,
+    "end": 58.85,
+    "snap": true,
+    "text": "And crosses."
+   },
+   {
+    "i": 16,
+    "start": 59.46,
+    "end": 60.74,
+    "snap": true,
+    "text": "He wins the civil war."
+   },
+   {
+    "i": 17,
+    "start": 61.31,
+    "end": 63.68,
+    "snap": true,
+    "text": "Pompey flees to Egypt and is murdered there."
+   },
+   {
+    "i": 18,
+    "start": 64.19,
+    "end": 65.83,
+    "snap": true,
+    "text": "Caesar becomes dictator."
+   },
+   {
+    "i": 19,
+    "start": 66.84,
+    "end": 70.4,
+    "snap": true,
+    "text": "The old Roman calendar has drifted months out of step with the seasons."
+   },
+   {
+    "i": 20,
+    "start": 70.84,
+    "end": 77.39,
+    "snap": true,
+    "text": "So Caesar makes the year 46 BC last 445 days, then starts a new calendar:"
+   },
+   {
+    "i": 21,
+    "start": 77.79,
+    "end": 81.41,
+    "snap": true,
+    "text": "365 days, with a leap year every fourth year."
+   },
+   {
+    "i": 22,
+    "start": 82.03,
+    "end": 84.32,
+    "snap": true,
+    "text": "The month of his birth is renamed in his honour:"
+   },
+   {
+    "i": 23,
+    "start": 84.8,
+    "end": 85.28,
+    "snap": true,
+    "text": "July."
+   },
+   {
+    "i": 24,
+    "start": 86.21,
+    "end": 90.18,
+    "snap": true,
+    "text": "In February 44 BC he is named dictator for life."
+   },
+   {
+    "i": 25,
+    "start": 90.73,
+    "end": 93.0,
+    "snap": true,
+    "text": "To many senators, that sounds like a king."
+   },
+   {
+    "i": 26,
+    "start": 93.76,
+    "end": 98.74,
+    "snap": true,
+    "text": "On the Ides of March, the fifteenth, a group of senators surrounds him at a meeting of the senate."
+   },
+   {
+    "i": 27,
+    "start": 99.24,
+    "end": 101.07,
+    "snap": true,
+    "text": "More than sixty men are in the plot."
+   },
+   {
+    "i": 28,
+    "start": 101.64,
+    "end": 103.97,
+    "snap": true,
+    "text": "He is stabbed twenty-three times."
+   },
+   {
+    "i": 29,
+    "start": 104.58,
+    "end": 107.03,
+    "snap": true,
+    "text": "The killers call themselves liberators."
+   }
+  ],
+  "cost": 1.8
+ },
+ "7": {
+  "dur": 100.206,
+  "lead": 0.0,
+  "tail": 0.31,
+  "words": 260,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.17,
+    "snap": true,
+    "text": "Caesar's will names an heir: his great-nephew Octavian, eighteen years old."
+   },
+   {
+    "i": 2,
+    "start": 5.72,
+    "end": 7.91,
+    "snap": true,
+    "text": "Thirteen years of civil war follow."
+   },
+   {
+    "i": 3,
+    "start": 8.5,
+    "end": 15.84,
+    "snap": true,
+    "text": "In the end it comes down to Octavian against Mark Antony, Caesar's old deputy, and his ally, Queen Cleopatra of Egypt."
+   },
+   {
+    "i": 4,
+    "start": 16.39,
+    "end": 20.14,
+    "snap": true,
+    "text": "In 31 BC their fleet is beaten at Actium, in Greece."
+   },
+   {
+    "i": 5,
+    "start": 20.64,
+    "end": 25.44,
+    "snap": true,
+    "text": "A year later both are dead, and Egypt, with all its grain, belongs to Rome."
+   },
+   {
+    "i": 6,
+    "start": 26.23,
+    "end": 30.71,
+    "snap": true,
+    "text": "In 27 BC Octavian makes a show of handing power back to the senate."
+   },
+   {
+    "i": 7,
+    "start": 31.22,
+    "end": 32.97,
+    "snap": true,
+    "text": "The grateful senate gives him a new name:"
+   },
+   {
+    "i": 8,
+    "start": 33.44,
+    "end": 35.29,
+    "snap": true,
+    "text": "Augustus, the revered one."
+   },
+   {
+    "i": 9,
+    "start": 35.96,
+    "end": 37.3,
+    "snap": true,
+    "text": "He never calls himself king."
+   },
+   {
+    "i": 10,
+    "start": 37.75,
+    "end": 40.35,
+    "snap": true,
+    "text": "He is simply princeps, the first citizen."
+   },
+   {
+    "i": 11,
+    "start": 40.92,
+    "end": 43.99,
+    "snap": true,
+    "text": "The consuls, the senate and the elections all carry on."
+   },
+   {
+    "i": 12,
+    "start": 44.57,
+    "end": 46.22,
+    "snap": true,
+    "text": "He just keeps the army and the money."
+   },
+   {
+    "i": 13,
+    "start": 46.81,
+    "end": 51.1,
+    "snap": true,
+    "text": "Augustus' real invention was running a monarchy while insisting it was not one."
+   },
+   {
+    "i": 14,
+    "start": 51.67,
+    "end": 52.3,
+    "snap": true,
+    "text": "It works."
+   },
+   {
+    "i": 15,
+    "start": 52.83,
+    "end": 56.98,
+    "snap": true,
+    "text": "His rule begins two centuries of relative peace, the Pax Romana."
+   },
+   {
+    "i": 16,
+    "start": 57.51,
+    "end": 61.76,
+    "snap": true,
+    "text": "He boasts that he found Rome a city of brick and left it a city of marble."
+   },
+   {
+    "i": 17,
+    "start": 62.27,
+    "end": 64.52,
+    "snap": true,
+    "text": "The month after July is renamed after him:"
+   },
+   {
+    "i": 18,
+    "start": 65.02,
+    "end": 65.53,
+    "snap": true,
+    "text": "August."
+   },
+   {
+    "i": 19,
+    "start": 66.17,
+    "end": 67.4,
+    "snap": true,
+    "text": "But there is one limit."
+   },
+   {
+    "i": 20,
+    "start": 67.85,
+    "end": 77.93,
+    "snap": true,
+    "text": "In AD 9, in the forests of Germany, a chieftain named Arminius, who had served as an officer in the Roman army, leads the governor Varus and three legions into an ambush."
+   },
+   {
+    "i": 21,
+    "start": 78.39,
+    "end": 79.94,
+    "snap": true,
+    "text": "All three are wiped out."
+   },
+   {
+    "i": 22,
+    "start": 80.57,
+    "end": 84.12,
+    "snap": true,
+    "text": "Suetonius says Augustus beat his head against a door, crying:"
+   },
+   {
+    "i": 23,
+    "start": 84.4,
+    "end": 86.93,
+    "snap": true,
+    "text": "Varus, give me back my legions!"
+   },
+   {
+    "i": 24,
+    "start": 87.52,
+    "end": 92.55,
+    "snap": true,
+    "text": "The numbers of those legions, seventeen, eighteen and nineteen, were never used again."
+   },
+   {
+    "i": 25,
+    "start": 93.13,
+    "end": 94.73,
+    "snap": true,
+    "text": "The Rhine becomes the frontier."
+   },
+   {
+    "i": 26,
+    "start": 95.44,
+    "end": 99.89,
+    "snap": true,
+    "text": "Augustus dies in AD 14, after more than forty years in power."
+   }
+  ],
+  "cost": 1.9
+ },
+ "8": {
+  "dur": 100.676,
+  "lead": 0.0,
+  "tail": 0.36,
+  "words": 255,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.01,
+    "snap": true,
+    "text": "By now Rome is the biggest city on Earth."
+   },
+   {
+    "i": 2,
+    "start": 3.41,
+    "end": 6.87,
+    "snap": true,
+    "text": "Estimates vary, but close to a million people may live here."
+   },
+   {
+    "i": 3,
+    "start": 7.52,
+    "end": 10.77,
+    "snap": true,
+    "text": "Most of them live in apartment blocks five or six storeys high."
+   },
+   {
+    "i": 4,
+    "start": 11.38,
+    "end": 17.07,
+    "snap": true,
+    "text": "Water comes from the hills along aqueducts, running mostly underground and flowing by gravity alone."
+   },
+   {
+    "i": 5,
+    "start": 17.81,
+    "end": 24.2,
+    "snap": true,
+    "text": "By AD 226 the city has eleven of them, feeding public fountains and huge public baths."
+   },
+   {
+    "i": 6,
+    "start": 24.71,
+    "end": 29.5,
+    "snap": true,
+    "text": "One, the Aqua Virgo, built under Augustus, still feeds the Trevi Fountain."
+   },
+   {
+    "i": 7,
+    "start": 30.21,
+    "end": 35.22,
+    "snap": true,
+    "text": "Under Augustus about two hundred thousand citizens receive free grain every month."
+   },
+   {
+    "i": 8,
+    "start": 35.68,
+    "end": 42.89,
+    "snap": true,
+    "text": "A century later the poet Juvenal sneered that the Roman people now wanted only two things: bread and circuses."
+   },
+   {
+    "i": 9,
+    "start": 43.52,
+    "end": 45.77,
+    "snap": true,
+    "text": "And the circuses are enormous."
+   },
+   {
+    "i": 10,
+    "start": 46.24,
+    "end": 50.99,
+    "snap": true,
+    "text": "At the Circus Maximus, crowds of more than a hundred thousand watch chariot races."
+   },
+   {
+    "i": 11,
+    "start": 51.58,
+    "end": 57.0,
+    "snap": true,
+    "text": "In AD 80 the emperor Titus opens a new amphitheatre with a hundred days of games."
+   },
+   {
+    "i": 12,
+    "start": 57.5,
+    "end": 58.89,
+    "snap": true,
+    "text": "We call it the Colosseum."
+   },
+   {
+    "i": 13,
+    "start": 59.27,
+    "end": 60.91,
+    "snap": true,
+    "text": "It seats about fifty thousand."
+   },
+   {
+    "i": 14,
+    "start": 61.61,
+    "end": 63.64,
+    "snap": true,
+    "text": "A word on the famous thumbs down."
+   },
+   {
+    "i": 15,
+    "start": 64.21,
+    "end": 67.77,
+    "snap": true,
+    "text": "The Latin phrase is pollice verso: with a turned thumb."
+   },
+   {
+    "i": 16,
+    "start": 68.4,
+    "end": 70.15,
+    "snap": true,
+    "text": "Nobody knows which way it turned."
+   },
+   {
+    "i": 17,
+    "start": 70.7,
+    "end": 76.12,
+    "snap": true,
+    "text": "The image of the crowd pointing their thumbs to the ground comes from a French painting of 1872."
+   },
+   {
+    "i": 18,
+    "start": 76.69,
+    "end": 78.01,
+    "snap": true,
+    "text": "Same with the vomitorium."
+   },
+   {
+    "i": 19,
+    "start": 78.4,
+    "end": 81.15,
+    "snap": false,
+    "text": "It was never a room for being sick after a feast."
+   },
+   {
+    "i": 20,
+    "start": 81.15,
+    "end": 82.21,
+    "snap": true,
+    "text": "It was an exit."
+   },
+   {
+    "i": 21,
+    "start": 82.74,
+    "end": 86.54,
+    "snap": true,
+    "text": "The building, as one Roman writer put it, spewed out its crowd."
+   },
+   {
+    "i": 22,
+    "start": 87.37,
+    "end": 89.9,
+    "snap": true,
+    "text": "Under all of this lies Roman concrete."
+   },
+   {
+    "i": 23,
+    "start": 90.41,
+    "end": 94.55,
+    "snap": true,
+    "text": "Around AD 125 the emperor Hadrian rebuilds the Pantheon."
+   },
+   {
+    "i": 24,
+    "start": 95.09,
+    "end": 97.78,
+    "snap": true,
+    "text": "Its dome is forty-three metres across."
+   },
+   {
+    "i": 25,
+    "start": 98.25,
+    "end": 100.31,
+    "snap": true,
+    "text": "It is the roof from the start of this film."
+   }
+  ],
+  "cost": 1.46
+ },
+ "9": {
+  "dur": 90.906,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 230,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 6.03,
+    "snap": true,
+    "text": "In AD 117, under the emperor Trajan, the empire reaches its largest size."
+   },
+   {
+    "i": 2,
+    "start": 6.46,
+    "end": 14.65,
+    "snap": true,
+    "text": "It runs from northern Britain to the Persian Gulf: about five million square kilometres, and somewhere between sixty and seventy million people."
+   },
+   {
+    "i": 3,
+    "start": 15.26,
+    "end": 18.45,
+    "snap": true,
+    "text": "Trajan's successor Hadrian decides that is enough."
+   },
+   {
+    "i": 4,
+    "start": 18.8,
+    "end": 21.13,
+    "snap": true,
+    "text": "He pulls back in the east and fixes the borders."
+   },
+   {
+    "i": 5,
+    "start": 21.59,
+    "end": 28.71,
+    "snap": true,
+    "text": "In Britain, from AD 122, soldiers build a stone wall a hundred and seventeen kilometres long, coast to coast."
+   },
+   {
+    "i": 6,
+    "start": 29.24,
+    "end": 31.72,
+    "snap": true,
+    "text": "Some thirty legions now guard the frontiers."
+   },
+   {
+    "i": 7,
+    "start": 32.29,
+    "end": 35.2,
+    "snap": true,
+    "text": "Being Roman no longer means being from Rome."
+   },
+   {
+    "i": 8,
+    "start": 35.76,
+    "end": 39.06,
+    "snap": true,
+    "text": "Trajan and Hadrian come from Roman families settled in Spain."
+   },
+   {
+    "i": 9,
+    "start": 39.62,
+    "end": 42.67,
+    "snap": true,
+    "text": "A later emperor, Septimius Severus, is born in Libya."
+   },
+   {
+    "i": 10,
+    "start": 43.13,
+    "end": 49.43,
+    "snap": true,
+    "text": "And in AD 212 the emperor Caracalla grants citizenship to almost every free person in the empire."
+   },
+   {
+    "i": 11,
+    "start": 49.98,
+    "end": 54.2,
+    "snap": true,
+    "text": "A shepherd in Syria and a merchant in Gaul can now say the same words:"
+   },
+   {
+    "i": 12,
+    "start": 54.68,
+    "end": 56.24,
+    "snap": true,
+    "text": "I am a Roman citizen."
+   },
+   {
+    "i": 13,
+    "start": 57.04,
+    "end": 58.4,
+    "snap": true,
+    "text": "It is not all golden."
+   },
+   {
+    "i": 14,
+    "start": 58.86,
+    "end": 61.96,
+    "snap": true,
+    "text": "In the 160s a plague sweeps the empire."
+   },
+   {
+    "i": 15,
+    "start": 62.42,
+    "end": 67.69,
+    "snap": true,
+    "text": "And the emperor Marcus Aurelius spends years in army camps on the Danube, fighting Germanic tribes."
+   },
+   {
+    "i": 16,
+    "start": 68.31,
+    "end": 71.65,
+    "snap": true,
+    "text": "In camp, he writes private notes to himself, in Greek."
+   },
+   {
+    "i": 17,
+    "start": 72.18,
+    "end": 75.17,
+    "snap": true,
+    "text": "They are about duty, death and staying calm."
+   },
+   {
+    "i": 18,
+    "start": 75.78,
+    "end": 81.94,
+    "snap": true,
+    "text": "One of them says: every morning, remind yourself that today you will meet people who are rude and ungrateful."
+   },
+   {
+    "i": 19,
+    "start": 82.63,
+    "end": 86.16,
+    "snap": true,
+    "text": "Eighteen centuries later, that book is sold in airport bookshops."
+   },
+   {
+    "i": 20,
+    "start": 86.75,
+    "end": 90.91,
+    "snap": true,
+    "text": "When Marcus Aurelius dies in 180, the long peace starts to end."
+   }
+  ],
+  "cost": 1.11
+ },
+ "10": {
+  "dur": 99.866,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 257,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.7,
+    "snap": true,
+    "text": "In 235 the emperor Severus Alexander is murdered by his own soldiers."
+   },
+   {
+    "i": 2,
+    "start": 6.35,
+    "end": 9.33,
+    "snap": true,
+    "text": "What follows is fifty years of chaos."
+   },
+   {
+    "i": 3,
+    "start": 10.02,
+    "end": 17.84,
+    "snap": true,
+    "text": "Between 235 and 284 more than twenty emperors are recognised in Rome, and many more claim the title."
+   },
+   {
+    "i": 4,
+    "start": 18.43,
+    "end": 20.0,
+    "snap": true,
+    "text": "Most last a year or two."
+   },
+   {
+    "i": 5,
+    "start": 20.52,
+    "end": 22.53,
+    "snap": true,
+    "text": "Most are killed by their own troops."
+   },
+   {
+    "i": 6,
+    "start": 23.16,
+    "end": 24.49,
+    "snap": true,
+    "text": "Goths cross the Danube."
+   },
+   {
+    "i": 7,
+    "start": 24.96,
+    "end": 29.46,
+    "snap": true,
+    "text": "In the east a new Persian dynasty, the Sasanians, attacks Roman Syria."
+   },
+   {
+    "i": 8,
+    "start": 30.06,
+    "end": 35.52,
+    "snap": true,
+    "text": "In 260, near Edessa, the Persian king Shapur takes the emperor Valerian prisoner."
+   },
+   {
+    "i": 9,
+    "start": 36.09,
+    "end": 39.75,
+    "snap": true,
+    "text": "It is the first time a Roman emperor is captured by a foreign enemy."
+   },
+   {
+    "i": 10,
+    "start": 40.35,
+    "end": 43.62,
+    "snap": true,
+    "text": "Shapur has the scene carved into a cliff near Persepolis."
+   },
+   {
+    "i": 11,
+    "start": 44.11,
+    "end": 44.89,
+    "snap": true,
+    "text": "It is still there."
+   },
+   {
+    "i": 12,
+    "start": 45.62,
+    "end": 47.52,
+    "snap": true,
+    "text": "The empire splits in three."
+   },
+   {
+    "i": 13,
+    "start": 48.08,
+    "end": 50.26,
+    "snap": true,
+    "text": "A breakaway Gallic Empire in the west."
+   },
+   {
+    "i": 14,
+    "start": 50.64,
+    "end": 54.77,
+    "snap": true,
+    "text": "In the east, the desert city of Palmyra, led by its queen Zenobia."
+   },
+   {
+    "i": 15,
+    "start": 55.2,
+    "end": 56.41,
+    "snap": true,
+    "text": "And Rome in the middle."
+   },
+   {
+    "i": 16,
+    "start": 57.0,
+    "end": 60.44,
+    "snap": true,
+    "text": "The emperor Aurelian puts it back together in the early 270s."
+   },
+   {
+    "i": 17,
+    "start": 60.91,
+    "end": 64.78,
+    "snap": true,
+    "text": "He also gives Rome new walls, nineteen kilometres of brick."
+   },
+   {
+    "i": 18,
+    "start": 65.23,
+    "end": 69.76,
+    "snap": true,
+    "text": "Then in 284 a soldier from Dalmatia, Diocletian, takes power."
+   },
+   {
+    "i": 19,
+    "start": 70.21,
+    "end": 72.93,
+    "snap": true,
+    "text": "He decides one man cannot rule all of this."
+   },
+   {
+    "i": 20,
+    "start": 73.32,
+    "end": 77.43,
+    "snap": true,
+    "text": "He splits the empire between four rulers, two senior and two junior."
+   },
+   {
+    "i": 21,
+    "start": 77.89,
+    "end": 83.56,
+    "snap": true,
+    "text": "He doubles the number of provinces and even tries to fix the price of over a thousand goods by law."
+   },
+   {
+    "i": 22,
+    "start": 84.11,
+    "end": 87.53,
+    "snap": true,
+    "text": "In 305 he does what no emperor had done before."
+   },
+   {
+    "i": 23,
+    "start": 88.21,
+    "end": 89.02,
+    "snap": true,
+    "text": "He retires."
+   },
+   {
+    "i": 24,
+    "start": 89.62,
+    "end": 99.87,
+    "snap": true,
+    "text": "When he is asked to come back and take power again, he answers, according to a later account: if you could see the cabbages I have grown with my own hands, you would never ask me."
+   }
+  ],
+  "cost": 1.83
+ },
+ "11": {
+  "dur": 92.186,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 232,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.02,
+    "snap": true,
+    "text": "Meanwhile a small religion from Judaea has been spreading through the cities of the empire:"
+   },
+   {
+    "i": 2,
+    "start": 5.49,
+    "end": 6.32,
+    "snap": true,
+    "text": "Christianity."
+   },
+   {
+    "i": 3,
+    "start": 6.95,
+    "end": 9.25,
+    "snap": true,
+    "text": "At times its followers are persecuted."
+   },
+   {
+    "i": 4,
+    "start": 9.8,
+    "end": 12.74,
+    "snap": true,
+    "text": "Diocletian launches the worst persecution of all."
+   },
+   {
+    "i": 5,
+    "start": 13.4,
+    "end": 19.82,
+    "snap": true,
+    "text": "Then in 312 the emperor Constantine fights a rival for Rome at the Milvian Bridge, just outside Rome."
+   },
+   {
+    "i": 6,
+    "start": 20.43,
+    "end": 27.49,
+    "snap": true,
+    "text": "Christian writers say that before the battle he saw a sign from God, and ordered the symbol of Christ painted on his soldiers' shields."
+   },
+   {
+    "i": 7,
+    "start": 28.06,
+    "end": 28.6,
+    "snap": true,
+    "text": "He wins."
+   },
+   {
+    "i": 8,
+    "start": 29.21,
+    "end": 35.07,
+    "snap": true,
+    "text": "In 313 Constantine and his co-emperor grant freedom of worship to all, Christians included."
+   },
+   {
+    "i": 9,
+    "start": 35.57,
+    "end": 44.44,
+    "snap": true,
+    "text": "In 325 Constantine presides over the first great council of bishops at Nicaea, which lays the basis of a creed still recited in churches today."
+   },
+   {
+    "i": 10,
+    "start": 45.01,
+    "end": 46.79,
+    "snap": true,
+    "text": "And he builds a new capital."
+   },
+   {
+    "i": 11,
+    "start": 47.26,
+    "end": 55.52,
+    "snap": true,
+    "text": "On the Bosporus, on the site of the Greek town of Byzantium, between Europe and Asia, close to the dangerous frontiers on the Danube and in the east."
+   },
+   {
+    "i": 12,
+    "start": 56.05,
+    "end": 57.99,
+    "snap": true,
+    "text": "In 330 he dedicates it:"
+   },
+   {
+    "i": 13,
+    "start": 58.43,
+    "end": 59.47,
+    "snap": true,
+    "text": "Constantinople."
+   },
+   {
+    "i": 14,
+    "start": 59.94,
+    "end": 60.8,
+    "snap": true,
+    "text": "A new Rome."
+   },
+   {
+    "i": 15,
+    "start": 61.43,
+    "end": 65.52,
+    "snap": true,
+    "text": "Constantine was baptised only on his deathbed, in 337."
+   },
+   {
+    "i": 16,
+    "start": 66.0,
+    "end": 68.09,
+    "snap": true,
+    "text": "Whatever else he was, he was careful."
+   },
+   {
+    "i": 17,
+    "start": 69.03,
+    "end": 74.14,
+    "snap": true,
+    "text": "In 380 the emperor Theodosius makes Christianity the official religion of the empire."
+   },
+   {
+    "i": 18,
+    "start": 74.59,
+    "end": 78.26,
+    "snap": true,
+    "text": "The old temples are closed, and sacrifices to the gods are banned."
+   },
+   {
+    "i": 19,
+    "start": 78.83,
+    "end": 83.87,
+    "snap": true,
+    "text": "When Theodosius dies in 395, the empire is divided between his two sons."
+   },
+   {
+    "i": 20,
+    "start": 84.32,
+    "end": 87.76,
+    "snap": true,
+    "text": "One rules the east from Constantinople, the other the west."
+   },
+   {
+    "i": 21,
+    "start": 88.19,
+    "end": 92.19,
+    "snap": true,
+    "text": "After that, no single emperor will ever rule the whole of it again."
+   }
+  ],
+  "cost": 0.82
+ },
+ "12": {
+  "dur": 118.988,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 303,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 6.64,
+    "snap": true,
+    "text": "In 376 a people called the Goths, fleeing the Huns, ask to cross the Danube into the empire."
+   },
+   {
+    "i": 2,
+    "start": 7.21,
+    "end": 9.19,
+    "snap": true,
+    "text": "They are let in, then mistreated."
+   },
+   {
+    "i": 3,
+    "start": 9.67,
+    "end": 10.25,
+    "snap": true,
+    "text": "They rebel."
+   },
+   {
+    "i": 4,
+    "start": 10.86,
+    "end": 16.46,
+    "snap": true,
+    "text": "In 378, at Adrianople, they destroy a Roman army and kill the emperor Valens."
+   },
+   {
+    "i": 5,
+    "start": 17.06,
+    "end": 23.25,
+    "snap": true,
+    "text": "On the twenty-fourth of August, 410, the Visigoths under their king Alaric enter Rome and sack it."
+   },
+   {
+    "i": 6,
+    "start": 23.63,
+    "end": 28.44,
+    "snap": true,
+    "text": "The first foreign enemy inside the city in eight hundred years, since the Gauls."
+   },
+   {
+    "i": 7,
+    "start": 29.03,
+    "end": 35.22,
+    "snap": true,
+    "text": "In Bethlehem, the scholar Jerome writes: the city which had taken the whole world was itself taken."
+   },
+   {
+    "i": 8,
+    "start": 36.02,
+    "end": 38.74,
+    "snap": true,
+    "text": "In 455 the Vandals sack Rome again."
+   },
+   {
+    "i": 9,
+    "start": 39.2,
+    "end": 41.61,
+    "snap": true,
+    "text": "They sail in from their new kingdom in North Africa."
+   },
+   {
+    "i": 10,
+    "start": 41.99,
+    "end": 43.43,
+    "snap": true,
+    "text": "Its capital is Carthage."
+   },
+   {
+    "i": 11,
+    "start": 44.09,
+    "end": 51.92,
+    "snap": true,
+    "text": "In 476 a Germanic officer named Odoacer removes the last emperor of the West, a teenager named Romulus Augustus."
+   },
+   {
+    "i": 12,
+    "start": 52.38,
+    "end": 55.46,
+    "snap": true,
+    "text": "Romans call him Augustulus, little Augustus."
+   },
+   {
+    "i": 13,
+    "start": 56.0,
+    "end": 58.34,
+    "snap": true,
+    "text": "Odoacer does not even bother to take the title."
+   },
+   {
+    "i": 14,
+    "start": 58.74,
+    "end": 61.29,
+    "snap": true,
+    "text": "He sends the imperial regalia to Constantinople."
+   },
+   {
+    "i": 15,
+    "start": 61.8,
+    "end": 66.33,
+    "snap": true,
+    "text": "The last emperor of the West was named after the founder of Rome and its first emperor."
+   },
+   {
+    "i": 16,
+    "start": 66.8,
+    "end": 68.23,
+    "snap": true,
+    "text": "History has a sense of humour."
+   },
+   {
+    "i": 17,
+    "start": 68.81,
+    "end": 70.36,
+    "snap": true,
+    "text": "But only the West has fallen."
+   },
+   {
+    "i": 18,
+    "start": 70.9,
+    "end": 79.51,
+    "snap": true,
+    "text": "In Constantinople the empire goes on for almost another thousand years, until 1453, and its people still call themselves Romans."
+   },
+   {
+    "i": 19,
+    "start": 80.09,
+    "end": 82.05,
+    "snap": true,
+    "text": "And the rest of Rome never left."
+   },
+   {
+    "i": 20,
+    "start": 82.57,
+    "end": 86.69,
+    "snap": true,
+    "text": "More than nine hundred million people speak languages that grew out of Latin."
+   },
+   {
+    "i": 21,
+    "start": 87.23,
+    "end": 89.19,
+    "snap": true,
+    "text": "The letters on this screen are its alphabet."
+   },
+   {
+    "i": 22,
+    "start": 89.67,
+    "end": 92.81,
+    "snap": true,
+    "text": "Your calendar is Caesar's, down to July and August."
+   },
+   {
+    "i": 23,
+    "start": 93.16,
+    "end": 96.1,
+    "snap": true,
+    "text": "Senate, republic, veto: all Latin."
+   },
+   {
+    "i": 24,
+    "start": 96.58,
+    "end": 100.77,
+    "snap": true,
+    "text": "And on the streets of Rome, the manhole covers still say SPQR."
+   },
+   {
+    "i": 25,
+    "start": 101.29,
+    "end": 104.39,
+    "snap": true,
+    "text": "A village of huts on the Tiber became an empire."
+   },
+   {
+    "i": 26,
+    "start": 104.93,
+    "end": 106.04,
+    "snap": true,
+    "text": "The empire fell."
+   },
+   {
+    "i": 27,
+    "start": 106.59,
+    "end": 108.59,
+    "snap": true,
+    "text": "The idea of Rome never did."
+   },
+   {
+    "i": 28,
+    "start": 110.06,
+    "end": 111.84,
+    "snap": true,
+    "text": "That was Rome in twenty minutes."
+   },
+   {
+    "i": 29,
+    "start": 112.21,
+    "end": 118.99,
+    "snap": true,
+    "text": "If you enjoyed it, subscribe, give it a thumbs up, the right way, and tell us in the comments which civilization we should cover next."
+   }
+  ],
+  "cost": 1.89
+ }
+}
