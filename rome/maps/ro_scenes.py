@@ -93,7 +93,7 @@ WALL = [(12.4790, 41.8890), (12.4805, 41.8945), (12.4840, 41.8975), (12.4870, 41
         (12.5030, 41.8890), (12.5000, 41.8850), (12.4985, 41.8825), (12.4930, 41.8800), (12.4880, 41.8790), (12.4830, 41.8775), (12.4775, 41.8795), (12.4760, 41.8830), (12.4775, 41.8865), (12.4790, 41.8890)]
 CLOACA = [(12.4895, 41.8950), (12.4870, 41.8934), (12.4853, 41.8922), (12.4835, 41.8908), (12.4818, 41.8898), (12.4797, 41.8888)]
 FORUM = (12.4853, 41.8922); MILVIAN = (12.4669, 41.9355)
-PLAN = cam_box(12.452, 12.518, 41.872, 41.912); PLANW = cam_box(12.43, 12.56, 41.868, 41.95)
+PLAN = cam_box(12.452, 12.518, 41.8755, 41.9085); PLANW = cam_box(12.43, 12.56, 41.868, 41.95)
 def ell(lon, lat, rx, ry, ang, k=1.0, n=40):
     c, s_ = math.cos(math.radians(ang)), math.sin(math.radians(ang)); out = []
     for i in range(n):
@@ -155,7 +155,7 @@ def _(fr, t):
     plan(fr, hi="PALATINE", hi_a=fr.R(49.3, 0.6))
     modern(fr, 12.4648, 41.8905, "TIBER", size=20, color=PAPER)
     gline(fr, [(12.4848, 41.8906), (12.4862, 41.8914), (12.4880, 41.8915), (12.4896, 41.8908)], color=INK, width=6, frac=fr.R(51.0, 1.2), halo=WHITE)
-    PQL(fr, 12.4873, 41.8890, "PALATINE HILL", dx=330, dy=10, a=fr.R(49.5, 0.4) * out(fr, 60), size=28); PQL(fr, 12.4873, 41.8890, "MID-700s BC", dx=330, dy=74, a=fr.R(52.6, 0.4) * out(fr, 60), size=26, light=True)
+    PQL(fr, 12.4873, 41.8890, "PALATINE HILL", dx=400, dy=10, a=fr.R(49.5, 0.4) * out(fr, 60), size=28); PQL(fr, 12.4873, 41.8890, "MID-700s BC", dx=400, dy=74, a=fr.R(52.6, 0.4) * out(fr, 60), size=26, light=True)
     a = fr.R(72.2, 0.6); x, y = P(fr.cam, *FORUM)
     if a > 0: gpoly(fr, ell(FORUM[0], FORUM[1], .0016, .0008, 28), ROM, 0.75 * a)
     gline(fr, smooth(CLOACA, 6), color=(40, 78, 110), width=6, frac=fr.R(67.2, 3.4), halo=WHITE, dash=(16, 9))
@@ -288,8 +288,8 @@ def _(fr, t):
 def _(fr, t):
     plan(fr, hi="CAPITOLINE", hi_a=fr.R(29.0, 0.6)); gline(fr, WALL, color=(110, 96, 74), width=3, a=0.7)
     pulse(fr, HILLS["CAPITOLINE"][:2], 29.2, 3.0, color=ROM_D)
-    PQL(fr, *HILLS["CAPITOLINE"][:2], "THE CAPITOL", dx=-330, dy=-30, a=fr.R(29.3, 0.4), size=30); PQL(fr, *HILLS["CAPITOLINE"][:2], "THREE HUNDRED", dx=-330, dy=40, a=fr.R(30.6, 0.4), size=28, light=True)
-    PQL(fr, *HILLS["CAPITOLINE"][:2], "GAIUS", dx=-330, dy=130, a=fr.R(37.4, 0.4), size=30)
+    PQL(fr, *HILLS["CAPITOLINE"][:2], "THE CAPITOL", dx=-400, dy=-30, a=fr.R(29.3, 0.4), size=30); PQL(fr, *HILLS["CAPITOLINE"][:2], "THREE HUNDRED", dx=-400, dy=40, a=fr.R(30.6, 0.4), size=28, light=True)
+    PQL(fr, *HILLS["CAPITOLINE"][:2], "GAIUS", dx=-400, dy=130, a=fr.R(37.4, 0.4), size=30)
 
 @sc("05c", "sulla", cam_box(11.4, 15.6, 40.2, 42.5), dict(it=PEN))
 def _(fr, t):
@@ -339,7 +339,7 @@ def _(fr, t):
 @sc("07b", "rhine", cam_box(1.5, 16.5, 46.3, 55.2), dict(emp=EMP14))
 def _(fr, t):
     terr(fr, "emp", ROM); region(fr, 10.6, 51.6, "GERMANY", a=fr.R(68.9, 0.4) * 0 + fr.R(67.9, 0.4), size=34)
-    PQ(fr, 1560, 200, "AD 9", a=fr.R(67.9, 0.4) * out(fr, 80), size=34); xmark(fr, "KALKRIESE", a=fr.R(68.4, 0.4), r=13, width=6); PQL(fr, *C["KALKRIESE"], "ARMINIUS", dx=150, dy=-50, a=fr.R(68.4, 0.4) * out(fr, 80), size=28)
+    PQ(fr, 1560, 200, "AD 9", a=fr.R(67.9, 0.4) * out(fr, 80), size=34); xmark(fr, "KALKRIESE", a=fr.R(68.4, 0.4), r=13, width=6)
     gline(fr, smooth(FRONT_RHINE, 6), color=ROM_D, width=9, frac=fr.R(93.1, 1.6), halo=WHITE)
     PQL(fr, 7.0, 50.7, "THE RHINE", dx=-170, dy=0, a=fr.R(93.3, 0.4), size=30); PQ(fr, 1560, 200, "AD 14", a=fr.R(96.4, 0.4), size=34)
 
@@ -364,7 +364,7 @@ def _(fr, t):
     pts += [(-L, Wd), (-L, -Wd)]
     ring = [(c[0] + u * math.cos(ang) - v * 1.34 * math.sin(ang), c[1] + (u * math.sin(ang) + v * 1.34 * math.cos(ang)) / 1.34) for u, v in pts]; ring.append(ring[0])
     a = fr.R(46.2, 0.6); gpoly(fr, ring, ROM, 0.85 * a); gline(fr, ring, color=ROM_D, width=4, a=a)
-    PQL(fr, *c, "CIRCUS MAXIMUS", dx=20, dy=110, a=fr.R(46.8, 0.4), size=30); PQL(fr, *c, "MORE THAN A HUNDRED THOUSAND", dx=20, dy=180, a=fr.R(48.6, 0.4), size=26, light=True)
+    PQL(fr, *c, "CIRCUS MAXIMUS", dx=20, dy=140, a=fr.R(46.8, 0.4), size=30); PQL(fr, *c, "MORE THAN A HUNDRED THOUSAND", dx=20, dy=208, a=fr.R(48.6, 0.4), size=26, light=True)
 
 # ================= chapter 9
 @sc("09a", "largest", EMPC, dict(emp=EMPH, ex=I(EMP117, EASTX_P)), res="50")
@@ -471,16 +471,16 @@ def _(fr, t):
     PQ(fr, 420, 170, "325", a=fr.R(35.8, 0.4), size=36); PQL(fr, *C["NICAEA"], "NICAEA", dx=130, dy=40, a=fr.R(39.4, 0.4), size=32)
 
 BOS = cam_box(28.3, 29.9, 40.72, 41.42); BOSW = cam_box(14, 47, 29.5, 48.6); BOS0 = cam_box(19, 39, 35.5, 46)
-@sc("11d", "byzantium", mover([(44.7, BOS0), (46.6, BOS0), (48.8, BOS), (51.2, BOS), (53.2, BOSW), (56.0, BOSW)]), dict(emp=EMP3))
+@sc("11d", "byzantium", mover([(44.7, BOS0), (46.6, BOS0), (48.8, BOS), (52.3, BOS), (53.7, BOSW), (56.0, BOSW)]), dict(emp=EMP3))
 def _(fr, t):
-    S = fr.cam[2]; near = S > BOS[2] * 0.6; terr(fr, "emp", ROM, 0.0 if near else 1.0)
+    S = fr.cam[2]; near = S > BOS[2] * 0.6; terr(fr, "emp", ROM)
     city(fr, "CONSTANTINOPLE", r=9 if near else 7, label="", icon=True)
-    if S > BOS[2] * 0.25: PQL(fr, *C["BYZANTIUM"], "BYZANTIUM", dx=-170, dy=-30, a=fr.R(49.2, 0.4) * out(fr, 52.0), size=32)
+    if S > BOS[2] * 0.25: PQL(fr, *C["BYZANTIUM"], "BYZANTIUM", dx=-170, dy=-30, a=fr.R(49.2, 0.4) * out(fr, 52.6), size=32)
     if near:
-        region(fr, 28.62, 41.26, "EUROPE", a=fr.R(50.4, 0.4), size=30); region(fr, 29.45, 40.93, "ASIA", a=fr.R(51.0, 0.4), size=30); sea(fr, 29.12, 41.14, "BOSPORUS", a=fr.R(48.6, 0.4), size=20, dx=64)
-    if fr.v > 53.0:
-        gline(fr, smooth(FRONT_DAN, 6), color=PAPER, width=8, frac=fr.R(53.2, 1.0), halo=ROM_D); gline(fr, smooth(FRONT_EAST, 6), color=PAPER, width=8, frac=fr.R(54.6, 0.8), halo=ROM_D)
-        PQL(fr, 22.6, 44.5, "THE DANUBE", dy=-50, a=fr.R(53.4, 0.3), size=26); PQL(fr, 40.4, 35.2, "THE EAST", dx=110, dy=0, a=fr.R(54.8, 0.3), size=26)
+        region(fr, 28.62, 41.26, "EUROPE", a=fr.R(50.4, 0.4), size=30, color=WHITE); region(fr, 29.45, 40.93, "ASIA", a=fr.R(51.0, 0.4), size=30, color=WHITE); sea(fr, 29.12, 41.14, "BOSPORUS", a=fr.R(48.6, 0.4), size=20, dx=64)
+    if fr.v > 53.4:
+        gline(fr, smooth(FRONT_DAN, 6), color=PAPER, width=8, frac=fr.R(53.7, 0.9), halo=ROM_D); gline(fr, smooth(FRONT_EAST, 6), color=PAPER, width=8, frac=fr.R(54.7, 0.8), halo=ROM_D)
+        PQL(fr, 22.6, 44.5, "THE DANUBE", dy=-50, a=fr.R(53.9, 0.3), size=26); PQL(fr, 40.4, 35.2, "THE EAST", dx=110, dy=0, a=fr.R(54.8, 0.3), size=26)
 
 @sc("11e", "east_west", EMPC, dict(emp=EMP3, e=EAST395, w=WEST395), res="50")
 def _(fr, t):
