@@ -36,6 +36,7 @@ J={
 "V17_jelling":("6227d258",None,"cut"),
 "V18_hvalsey":("b6ae2b8d",None,"full"),
 "V19_bayeux":("35a531d7",None,"full"),
+"V22_thor_hammer":("23a8d4c9",None,"cut"),
 "V20_denier":("70c90fc6",(0.2,0.18,0.88,0.75),"cut"),
 }
 ses=new_session("isnet-general-use")
