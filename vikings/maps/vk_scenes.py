@@ -558,6 +558,7 @@ def _(fr, t):
     PQ(fr, 400, 196, "IF THESE MEN ARE GOING TO FIGHT,", a=fr.R(28.4, 0.4), size=19, light=True, pad=(12, 8)); PQ(fr, 400, 250, "BETTER THAT THEY FIGHT FOR US", a=fr.R(30.2, 0.4), size=21)
 
 # ================= 8b. VO 32.3-50.5: Basil and Vladimir
+_k = min(range(len(ROAD_DN)), key=lambda i: (ROAD_DN[i][0] - 30.55) ** 2 + (ROAD_DN[i][1] - 50.45) ** 2); _DN_KYIV = ROAD_DN[_k:]
 @scene("08b_vladimir", 8, 32.3, 50.6, SOUTH, dict(byz=BYZANT, rus=RUSLAND), res="50")
 def _(fr, t):
     terr(fr, "byz", BYZ, 0.85); terr(fr, "rus", RUS, 0.75)
@@ -565,8 +566,7 @@ def _(fr, t):
     PQ(fr, 400, 130, "988", a=fr.R(32.4, 0.4), size=36)
     PQL(fr, *C["CONSTANTINOPLE"], "EMPEROR BASIL THE SECOND", dx=60, dy=70, a=fr.R(33.4, 0.4), size=20, pad=(12, 8)); PQL(fr, *C["CONSTANTINOPLE"], "NEEDS SOLDIERS", dx=60, dy=122, a=fr.R(35.4, 0.4) * out(fr, 44.8), size=18, light=True, pad=(10, 7))
     PQL(fr, *C["KYIV"], "VLADIMIR, PRINCE OF KYIV", dx=250, dy=-30, a=fr.R(36.9, 0.4), size=20, pad=(12, 8))
-    gline(fr, ROAD_DN, width=6, frac=_fa(ROAD_DN, 30.55, 50.45) + (1 - _fa(ROAD_DN, 30.55, 50.45)) * fr.R(38.6, 2.2), color=INK, halo=WHITE, arrow=True, a=fr.R(38.4, 0.3))
-    rect_cover = None
+    gline(fr, _DN_KYIV, width=6, frac=fr.R(38.6, 2.2), color=INK, halo=WHITE, arrow=True, a=fr.R(38.4, 0.3))          # only the stretch from Kyiv south
     PQL(fr, 33.6, 46.6, "SIX THOUSAND WARRIORS", dx=190, dy=-6, a=fr.R(39.2, 0.4), size=22)
     col(fr, 208, 204, [("VLADIMIR MARRIES THE EMPEROR'S SISTER", 41.0), ("AND IS BAPTISED", 43.4), ("THE RUS BECOME ORTHODOX CHRISTIANS", 45.2), ("THE SIX THOUSAND STAY", 48.6)], size=18, gap=50)
 
