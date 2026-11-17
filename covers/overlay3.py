@@ -29,7 +29,7 @@ def overlay(span=None):
         a, b = span; xa, xb = X(a), X(b)
         d.rectangle([s(xa), s(line - 5 * K), s(xb), s(line + 5 * K)], fill=YEL)
         for x in (xa, xb): d.rectangle([s(x - 2 * K), s(line - 14 * K), s(x + 2 * K), s(line + 14 * K)], fill=YEL)
-        t = f"{lab(a).replace(' BC', '') if b < 0 else lab(a)}–{lab(b)}"; tw = d.textlength(t, font=f) / SS
+        t = f"{lab(a).replace(' BC', '') if b < 0 else lab(a)}–{b if a > 0 else lab(b)}"; tw = d.textlength(t, font=f) / SS
         cx = min(max((xa + xb) / 2, X0 + tw / 2), X1 - tw / 2); occ.append(text(cx, t, YEL, "m"))
         marks = [(X0, "3500 BC", "l"), (X1, "TODAY", "r")]
     else:
