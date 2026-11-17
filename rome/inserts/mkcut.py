@@ -28,7 +28,7 @@ J={ # ключ: (хеш, режим, opts)
 "V17_pollice_verso":("bb1f37f4","full",{}),
 "V18_trajan":("24d97d18","cut",{"cuty":0.885}),
 "V19_hadrian":("3317e3fc","cut",{"cutline":((0,1800),(560,1738),(1700,1738))}),
-"V20_septimius":("bf823934","cut",{"cuty":0.935}),
+"V20_septimius":("bf823934","cut",{"cuty":0.80,"arc":0.02}),
 "V21_marcus_aurelius":("8ef5929f","cut",{"keepbig":0.1}),
 "V22_shapur":("aeebb1e6","full",{}),
 "V23_zenobia":("c2e08988","cut",{}),
@@ -38,9 +38,9 @@ J={ # ключ: (хеш, режим, opts)
 "V27_romulus_augustus":("94411ee9","cut",{"stack":True}),
 "V28_spqr_cover":("1961927c","full",{}),
 "V29_crassus":("b56fb332","cut",{"cuty":0.855}),
-"V30_cato":("cf9461bc","cut",{"cuty":0.825}),
+"V30_cato":("cf9461bc","cut",{"cuty":0.80}),
 "V31_hannibal":("a6db3266","cut",{"cuty":0.915}),
-"V32_scipio":("96966685","cut",{"brightbottom":0.80,"cuty":0.955}),
+"V32_scipio":("96966685","cut",{"brightbottom":0.80,"cuty":0.93}),
 "V33_marius":("79a5d0fd","cut",{}),
 }
 def load(h):
@@ -48,7 +48,13 @@ def load(h):
     return im.convert("RGB")
 def bbox(o): return o.getchannel("A").point(lambda v:255 if v>24 else 0).getbbox()
 def cut(im,ses,o):
-    r=remove(im,session=ses); a=np.array(r.getchannel("A"))>24
+    r=remove(im,session=ses)
+    A=np.array(r.getchannel("A")).astype(float); A=np.clip((A-100)/110.0,0,1)  # убрать полупрозрачные тени и ореол
+    lab,n=ndi.label(A>0.5)
+    if n>1:
+        sz=ndi.sum(A>0.5,lab,range(1,n+1)); keep=[i+1 for i,v in enumerate(sz) if v>=0.02*sz.max()]; A=A*np.isin(lab,keep)
+    A=np.array(Image.fromarray((A*255).astype("uint8")).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.0)))
+    r.putalpha(Image.fromarray(A)); a=A>24
     if o.get("fill"):
         lab,n=ndi.label(a); s=ndi.sum(a,lab,range(1,n+1)); a=ndi.binary_fill_holes(lab==(1+int(np.argmax(s))))
         r.putalpha(Image.fromarray((a*255).astype("uint8")).filter(ImageFilter.GaussianBlur(1.2)))
@@ -58,8 +64,11 @@ def cut(im,ses,o):
         m=m.filter(ImageFilter.GaussianBlur(2)); r.putalpha(Image.fromarray(np.minimum(np.array(r.getchannel("A")),np.array(m))))
     if o.get("cuty") or o.get("brightbottom"):
         bb=bbox(r); a=np.array(r.getchannel("A")).astype(float)
-        if o.get("cuty"):
-            y=int(bb[1]+o["cuty"]*(bb[3]-bb[1])); m=np.ones_like(a); m[y:]=0
+        if o.get("cuty"):  # срез по дуге: центр ниже краёв, как основание бюста
+            H=bb[3]-bb[1]; W=bb[2]-bb[0]; y0=bb[1]+o["cuty"]*H; cx=(bb[0]+bb[2])/2; hw=W/2
+            yy=np.arange(a.shape[0])[:,None]; xx=np.arange(a.shape[1])[None,:]
+            edge=y0-o.get("arc",0.03)*H*np.clip((xx-cx)/hw,-1,1)**2
+            m=(yy<edge).astype(float)
             m=np.array(Image.fromarray((m*255).astype("uint8")).filter(ImageFilter.GaussianBlur(2)))/255.0; a=a*m
         if o.get("brightbottom"):  # светлое основание под тёмной бронзой (V32)
             y0=int(bb[1]+o["brightbottom"]*(bb[3]-bb[1])); px=np.array(r.convert("RGB")).astype(int)
