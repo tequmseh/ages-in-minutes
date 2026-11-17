@@ -20,7 +20,7 @@ The Romans told it like this. On the twenty-first of April, 753 BC, a man named 
 
 Archaeology tells a quieter version. There were Iron Age huts on the Palatine Hill long before 753. But on its slope, archaeologists found the remains of a wall dated to the middle of the 700s BC. The wolf is a legend. The date is not far off.
 
-Tradition says seven kings followed. The last ones came from the Etruscans, the richer cities to the north. They drained the marshy valley between the hills with a great sewer, the Cloaca Maxima. On the drained ground rose the Forum.
+Tradition counts seven kings, with Romulus the first. The last ones came from the Etruscans, the richer cities to the north. They drained the marshy valley between the hills with a great sewer, the Cloaca Maxima. On the drained ground rose the Forum.
 
 Then in 509 BC the Romans drove out their last king, Tarquin the Proud, and swore they would never have another. For the next five hundred years, the word king was an insult in Rome.
 
@@ -46,17 +46,17 @@ The Romans build a stone wall about eleven kilometres long around their city. No
 
 ### 3. Italy
 
-[warm, confident narrator] Over the next century and a half, Rome fights its neighbours one after another: the Latins, the Etruscans, and the tough mountain tribes of the Samnites.
+[warm, confident narrator] Over the next century and more, Rome fights its neighbours one after another: the Latins, the Etruscans, and the tough mountain tribes of the Samnites.
 
 What makes Rome different is what it does after it wins. It does not wipe out the defeated cities. It turns them into allies. Some get full Roman citizenship, some get part of it. They pay no tribute. Instead, they send soldiers. So every victory makes the Roman army bigger.
 
-To hold it all together, Rome builds roads. In 312 BC an official named Appius Claudius begins a paved road south toward Capua, nearly two hundred kilometres long. It is the Via Appia, and parts of it are still walkable. In the same year he builds the city's first aqueduct.
+To hold it all together, Rome builds roads. In 312 BC an official named Appius Claudius begins a road south to Capua, nearly two hundred kilometres long. It is the Via Appia, and parts of it are still walkable. In the same year he builds the city's first aqueduct.
 
 On such roads a legion can march some thirty kilometres a day. Over the centuries, the network will grow to some eighty thousand kilometres of paved highway.
 
 In 280 BC the Greek city of Tarentum, in the far south, calls for help. Pyrrhus, king of Epirus, lands in Italy with a professional army and war elephants. He beats the Romans twice, but loses so many of his own men that, according to Plutarch, he says: one more victory like that, and we are finished.
 
-Rome simply raises new legions. By 275 Pyrrhus gives up and sails home. Within ten years Rome controls almost all of Italy south of the river Po.
+Rome simply raises new legions. By 275 Pyrrhus gives up and sails home. Within ten years Rome controls the whole Italian peninsula.
 
 [playful] Pyrrhus won almost every battle and lost the war. Today his name is the word for exactly that: a Pyrrhic victory.
 
@@ -76,7 +76,7 @@ Half a century later, the old senator Cato is still worried about Carthage.
 
 [playful] Plutarch says Cato ended his speeches, whatever the subject, by saying that Carthage must be destroyed.
 
-In 146 BC Rome does exactly that. Carthage is razed. The same year, the Romans destroy the Greek city of Corinth. Now they call the Mediterranean mare nostrum. Our sea.
+In 146 BC Rome does exactly that. Carthage is razed. The same year, the Romans destroy the Greek city of Corinth. In time they will call the Mediterranean mare nostrum. Our sea.
 
 ### 5. The Republic Breaks
 
@@ -88,7 +88,7 @@ In 133 BC a tribune named Tiberius Gracchus proposes giving public land to the p
 
 Then the army changes. The general Marius starts taking volunteers who own nothing at all. These men expect their general, not the state, to give them land when they retire. Soldiers now follow a man, not the Republic.
 
-In 88 BC his rival Sulla does something no Roman general has ever done. He marches his legions on Rome itself, and takes it. Then he posts lists of enemies who can be killed for a reward. Later he steps down and dies peacefully in bed.
+In 88 BC his rival Sulla does something no Roman general has ever done. He marches his legions on Rome itself, and takes it. Six years later, as dictator, he posts lists of enemies who can be killed for a reward. Then he steps down and dies in his bed.
 
 In 73 BC a gladiator named Spartacus breaks out of a training school near Capua. For two years an army of runaway slaves defeats Roman forces up and down Italy before it is finally crushed.
 
@@ -110,7 +110,7 @@ He wins the civil war. Pompey flees to Egypt and is murdered there. Caesar becom
 
 In February 44 BC he is named dictator for life. To many senators, that sounds like a king.
 
-On the Ides of March, the fifteenth, more than sixty senators surround him at a meeting of the senate. He is stabbed twenty-three times. The killers call themselves liberators.
+On the Ides of March, the fifteenth, a group of senators surrounds him at a meeting of the senate. More than sixty men are in the plot. He is stabbed twenty-three times. The killers call themselves liberators.
 
 ### 7. Augustus
 
@@ -126,7 +126,7 @@ It works. His rule begins two centuries of relative peace, the Pax Romana. He bo
 
 But there is one limit. In AD 9, in the forests of Germany, a chieftain named Arminius, who had served as an officer in the Roman army, leads the governor Varus and three legions into an ambush. All three are wiped out. Suetonius says Augustus beat his head against a door, crying: Varus, give me back my legions! The numbers of those legions, seventeen, eighteen and nineteen, were never used again.
 
-The Rhine becomes the frontier. Augustus dies in AD 14, after forty years in power.
+The Rhine becomes the frontier. Augustus dies in AD 14, after more than forty years in power.
 
 ### 8. The City
 
@@ -134,7 +134,7 @@ The Rhine becomes the frontier. Augustus dies in AD 14, after forty years in pow
 
 Most of them live in apartment blocks five or six storeys high. Water comes from the hills along aqueducts, running mostly underground and flowing by gravity alone. By AD 226 the city has eleven of them, feeding public fountains and huge public baths. One, the Aqua Virgo, built under Augustus, still feeds the Trevi Fountain.
 
-Under Augustus about two hundred thousand citizens receive free grain every month. The poet Juvenal sneered that the Roman people now wanted only two things: bread and circuses.
+Under Augustus about two hundred thousand citizens receive free grain every month. A century later the poet Juvenal sneered that the Roman people now wanted only two things: bread and circuses.
 
 And the circuses are enormous. At the Circus Maximus, crowds of more than a hundred thousand watch chariot races. In AD 80 the emperor Titus opens a new amphitheatre with a hundred days of games. We call it the Colosseum. It seats about fifty thousand.
 
@@ -150,13 +150,13 @@ Under all of this lies Roman concrete. Around AD 125 the emperor Hadrian rebuild
 
 Trajan's successor Hadrian decides that is enough. He pulls back in the east and fixes the borders. In Britain, from AD 122, soldiers build a stone wall a hundred and seventeen kilometres long, coast to coast. Some thirty legions now guard the frontiers.
 
-Being Roman no longer means being from Rome. Trajan and Hadrian come from Spain. A later emperor, Septimius Severus, is born in Libya. And in AD 212 the emperor Caracalla grants citizenship to almost every free man in the empire. A shepherd in Syria and a merchant in Gaul can now say the same words: I am a Roman citizen.
+Being Roman no longer means being from Rome. Trajan and Hadrian come from Roman families settled in Spain. A later emperor, Septimius Severus, is born in Libya. And in AD 212 the emperor Caracalla grants citizenship to almost every free person in the empire. A shepherd in Syria and a merchant in Gaul can now say the same words: I am a Roman citizen.
 
 It is not all golden. In the 160s a plague sweeps the empire. And the emperor Marcus Aurelius spends years in army camps on the Danube, fighting Germanic tribes.
 
-At night, in his tent, he writes private notes to himself, in Greek. They are about duty, death and staying calm.
+In camp, he writes private notes to himself, in Greek. They are about duty, death and staying calm.
 
-[playful] One of them says: every morning, remind yourself that today you will meet people who are rude and ungrateful. Two thousand years later, that book is sold in airport bookshops.
+[playful] One of them says: every morning, remind yourself that today you will meet people who are rude and ungrateful. Eighteen centuries later, that book is sold in airport bookshops.
 
 When Marcus Aurelius dies in 180, the long peace starts to end.
 
@@ -166,7 +166,7 @@ When Marcus Aurelius dies in 180, the long peace starts to end.
 
 Between 235 and 284 more than twenty emperors are recognised in Rome, and many more claim the title. Most last a year or two. Most are killed by their own troops.
 
-Goths cross the Danube. In the east a new Persian dynasty, the Sasanians, attacks Roman Syria. In 260, near Edessa, the Persian king Shapur takes the emperor Valerian prisoner. It is the first and only time a Roman emperor is captured by a foreign enemy. Shapur has the scene carved into a cliff near Persepolis. It is still there.
+Goths cross the Danube. In the east a new Persian dynasty, the Sasanians, attacks Roman Syria. In 260, near Edessa, the Persian king Shapur takes the emperor Valerian prisoner. It is the first time a Roman emperor is captured by a foreign enemy. Shapur has the scene carved into a cliff near Persepolis. It is still there.
 
 The empire splits in three. A breakaway Gallic Empire in the west. In the east, the desert city of Palmyra, led by its queen Zenobia. And Rome in the middle.
 
@@ -180,7 +180,7 @@ In 305 he does what no emperor had done before. He retires. When he is asked to 
 
 [curious] Meanwhile a small religion from Judaea has been spreading through the cities of the empire: Christianity. At times its followers are persecuted. Diocletian launches the worst persecution of all.
 
-Then in 312 a new emperor, Constantine, fights for the throne at the Milvian Bridge, just outside Rome. Christian writers say that before the battle he saw a sign from God, and ordered the symbol of Christ painted on his soldiers' shields. He wins.
+Then in 312 the emperor Constantine fights a rival for Rome at the Milvian Bridge, just outside Rome. Christian writers say that before the battle he saw a sign from God, and ordered the symbol of Christ painted on his soldiers' shields. He wins.
 
 In 313 Constantine and his co-emperor grant freedom of worship to all, Christians included. In 325 Constantine presides over the first great council of bishops at Nicaea, which lays the basis of a creed still recited in churches today.
 
@@ -206,7 +206,7 @@ In 476 a Germanic officer named Odoacer removes the last emperor of the West, a 
 
 But only the West has fallen. In Constantinople the empire goes on for almost another thousand years, until 1453, and its people still call themselves Romans.
 
-And the rest of Rome never left. More than nine hundred million people speak languages that grew out of Latin. You are reading its alphabet right now. Your calendar is Caesar's, down to July and August. Senate, republic, veto: all Latin. And on the streets of Rome, the manhole covers still say SPQR.
+And the rest of Rome never left. More than nine hundred million people speak languages that grew out of Latin. The letters on this screen are its alphabet. Your calendar is Caesar's, down to July and August. Senate, republic, veto: all Latin. And on the streets of Rome, the manhole covers still say SPQR.
 
 A village of huts on the Tiber became an empire. The empire fell. The idea of Rome never did.
 
