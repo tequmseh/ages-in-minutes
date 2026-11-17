@@ -301,13 +301,20 @@ def _(fr, t):
         a = fr.R(17.4 + 0.1 * i, 0.4); x, y = P(fr.cam, *ll); circ(fr, x, y, 7, INK, a); circ(fr, x, y, 5.2, GOLD, a)
     PQ(fr, 400, 196, "RICH TOWNS AND ABBEYS ON THE BANKS", a=fr.R(17.6, 0.4), size=18, light=True, pad=(12, 8))
 
-# ================= 4b. VO 29.4-52.2: Paris taken, paid off, besieged again
+# ================= 4b. VO 20.5-52.2: Paris taken, paid off, besieged again
 SEINEC = cam_box(-1.4, 4.6, 47.95, 50.45)
-@scene("04b_paris", 4, 29.4, 52.3, SEINEC, dict(), res="10")
+@scene("04b_paris", 4, 20.5, 52.3, SEINEC, dict(), res="10")
 def _(fr, t):
     rivers_hl(fr, R_SEINE, 1.0, width=6)
     city(fr, "PARIS", side="r", r=10, size=32); city(fr, "ROUEN", label="", r=4.5, icon=False)
-    for i in range(8): gship(fr, 1.55 + 0.085 * i, 49.02 - 0.012 * i + 0.06 * (i % 2), k=0.85, a=fr.R(29.5 + 0.06 * i, 0.4) * out(fr, 42.6, 1.2))
+    q = fr.R(21.0, 8.0); q = q * q * (3 - 2 * q)                                                                # the fleet rows up the Seine, 20.5-29.2
+    for i in range(8):
+        fl = (1.55 + 0.085 * i, 49.02 - 0.012 * i + 0.06 * (i % 2)); st = (-0.35 + 0.085 * i, 49.62 + 0.06 * (i % 2)); mid = (0.95 + 0.085 * i, 49.42 + 0.06 * (i % 2))
+        u = 1 - q; lon = u * u * st[0] + 2 * u * q * mid[0] + q * q * fl[0]; lat = u * u * st[1] + 2 * u * q * mid[1] + q * q * fl[1]
+        gship(fr, lon, lat, k=0.85, a=fr.R(20.6 + 0.06 * i, 0.4) * out(fr, 42.6, 1.2))
+    w0 = out(fr, 28.9, 0.4)
+    PQ(fr, 400, 130, "MARCH 845", a=fr.R(20.6, 0.4) * w0, size=32); PQ(fr, 400, 196, "ABOUT 120 SHIPS ROW UP THE SEINE", a=fr.R(22.2, 0.4) * w0, size=19, light=True, pad=(12, 8))
+    PQ(fr, 400, 262, "REGINHERUS", a=fr.R(26.6, 0.4) * w0, size=22, light=True, pad=(12, 8)); PQ(fr, 400, 322, "RAGNAR", a=fr.R(28.3, 0.3) * w0, size=26)
     PQ(fr, 400, 130, "EASTER 845", a=fr.R(29.6, 0.4) * out(fr, 44.5), size=32)
     PQ(fr, 400, 196, "THEY REACH PARIS AND TAKE IT", a=fr.R(30.4, 0.4) * out(fr, 44.5), size=20, light=True, pad=(12, 8))
     PQ(fr, 400, 262, "KING CHARLES THE BALD", a=fr.R(32.3, 0.4) * out(fr, 44.5), size=22)
@@ -378,14 +385,27 @@ def _(fr, t):
     PQ(fr, 330, 130, "878", a=fr.R(38.5, 0.4), size=36); PQ(fr, 330, 198, "ONLY WESSEX IS LEFT", a=fr.R(39.6, 0.4), size=22, light=True, pad=(12, 8))
     arrow(fr, [(-1.3, 52.1), (-1.9, 51.75), (-2.1, 51.45)], 41.6, 1.2, width=5, color=NOR_D); PQ(fr, 330, 258, "TAKEN BY SURPRISE", a=fr.R(42.4, 0.4), size=20)
 
-# ================= 5b. VO 55.0-84.8: Edington, the Danelaw, the names on the map
+# ================= 5b. VO 44.7-84.8: Edington, the Danelaw, the names on the map
 _BY = None
-@scene("05b_danelaw", 5, 55.0, 84.9, ENGC, dict(dl=DANELAW, en=NOTDANE, x_dl=I(DANELAW, [(-3.2, 52.3), (0.9, 52.3), (0.6, 54.6), (-3.2, 54.6)])), res="10")
+@scene("05b_danelaw", 5, 44.7, 84.9, ENGC, dict(nu=NORTHUMBRIA, me=MERCIA, ea=EASTANGLIA, we=WESSEX, dl=DANELAW, en=NOTDANE, x_dl=I(DANELAW, [(-3.2, 52.3), (0.9, 52.3), (0.6, 54.6), (-3.2, 54.6)])), res="10")
 def _(fr, t):
     k = fr.R(66.6, 1.4)
-    terr(fr, "dl", NOR, 1.0, border=k > 0.5); terr(fr, "en", mix(ENG4, NOR, k), 1.0, border=k > 0.5)
-    x, y = P(fr.cam, *C["ATHELNEY"]); circ(fr, x, y, 16, outline=WHITE, a=out(fr, 61.0), width=3)
-    TL(fr, *C["ATHELNEY"], "THE MARSHES", dx=-24, dy=0, size=15, sp=3, anchor="r", color=WHITE, a=out(fr, 61.0), w="m")
+    if t < 54.0:                                                                                               # 44.7-54: the map as 05a left it (the change hides under the clip)
+        for k_ in ("nu", "me", "ea"): terr(fr, k_, NOR)
+        terr(fr, "we", mix(NOR, ENG4, fr.R(45.2, 2.0)))                                                          # Wessex overrun while Alfred hides
+        region(fr, -1.9, 54.85, "NORTHUMBRIA", size=20, sp=5, w="b", color=WHITE); region(fr, -1.7, 52.55, "MERCIA", size=22, sp=7, w="b", color=WHITE)
+        region(fr, 1.05, 52.5, "EAST", size=17, sp=4, w="b", color=WHITE, dy=-11); region(fr, 1.05, 52.5, "ANGLIA", size=17, sp=4, w="b", color=WHITE, dy=11)
+        region(fr, -2.0, 51.0, "WESSEX", size=22, sp=7, w="b", color=WHITE, a=out(fr, 46.0, 0.4)); city(fr, "YORK", side="l", r=8, size=26, color=WHITE, label="JORVIK")
+    else:
+        terr(fr, "dl", NOR, 1.0, border=k > 0.5); terr(fr, "en", mix(ENG4, NOR, k), 1.0, border=k > 0.5)
+    ma = fr.R(46.6, 0.4) * out(fr, 61.0)
+    x, y = P(fr.cam, *C["ATHELNEY"]); circ(fr, x, y, 16, outline=WHITE, a=ma, width=3)
+    TL(fr, *C["ATHELNEY"], "THE MARSHES", dx=-24, dy=0, size=15, sp=3, anchor="r", color=WHITE, a=ma, w="m")
+    arrow(fr, [(-2.1, 51.45), (-2.5, 51.3), (-2.85, 51.1)], 45.0, 1.4, width=5, color=ENG4, halo=WHITE, a=out(fr, 54.2))
+    w0 = out(fr, 48.3, 0.3); w1 = out(fr, 54.4, 0.4)
+    PQ(fr, 330, 130, "KING ALFRED ESCAPES", a=fr.R(44.8, 0.4) * w0, size=26); PQ(fr, 330, 196, "INTO THE MARSHES OF SOMERSET", a=fr.R(46.6, 0.4) * w0, size=19, light=True, pad=(12, 8))
+    PQ(fr, 330, 130, "A MUCH LATER LEGEND", a=fr.R(48.8, 0.4) * w1, size=24); PQ(fr, 330, 196, "ASKED TO WATCH THE CAKES BAKING", a=fr.R(51.2, 0.4) * w1, size=18, light=True, pad=(12, 8))
+    PQ(fr, 330, 252, "AND BURNED THEM", a=fr.R(53.4, 0.3) * w1, size=20)
     PQ(fr, 330, 130, "MAY 878", a=fr.R(55.2, 0.4) * out(fr, 66.2), size=32)
     arrow(fr, [C["ATHELNEY"], (-2.6, 51.25), (-2.25, 51.28)], 56.8, 1.2, width=5, color=ENG4, halo=WHITE)
     cross(fr, *C["EDINGTON"], a=fr.R(58.9, 0.3), r=12, width=5, color=WHITE); TL(fr, *C["EDINGTON"], "EDINGTON", dx=20, dy=0, size=20, color=WHITE, a=fr.R(59.0, 0.4) * out(fr, 73.0))
@@ -480,13 +500,14 @@ def _(fr, t):
     PQL(fr, 45.4, 49.8, "VOLGA", dx=64, dy=0, a=fr.R(11.2, 0.4), size=18, light=True, pad=(10, 7)); sea(fr, 51.0, 42.6, "CASPIAN", a=fr.R(12.6, 0.4), size=18)
     PQ(fr, 330, 130, "RIVERS LEAD DEEP INLAND", a=fr.R(2.6, 0.4), size=24)
 
-# ================= 7b. VO 25.1-83.8: Ruotsi, Rus, Kyiv, Rurik, the names
-@scene("07b_rus", 7, 25.1, 83.9, EAST, dict(sw=SWEDEN, rus=RUSLAND), res="50")
+# ================= 7b. VO 21.0-83.8: Ruotsi, Rus, Kyiv, Rurik, the names
+@scene("07b_rus", 7, 21.0, 83.9, EAST, dict(sw=SWEDEN, rus=RUSLAND), res="50")
 def _(fr, t):
     terr(fr, "sw", NOR); terr(fr, "rus", RUS, fr.R(31.4, 1.2))
     region(fr, 15.6, 60.9, "SWEDEN", size=24, sp=7, w="b", color=WHITE, a=out(fr, 61.0))
     gline(fr, ROAD_DN, width=3.6, color=INK, halo=WHITE, a=0.85); gline(fr, ROAD_VO, width=3.6, color=INK, halo=WHITE, a=0.85 * out(fr, 39.2))
-    w1 = out(fr, 39.2)
+    w1 = out(fr, 39.2); w0 = out(fr, 24.7, 0.3)
+    PQ(fr, 400, 130, "THEY SELL FURS AND SLAVES", a=fr.R(21.2, 0.4) * w0, size=24); PQ(fr, 400, 196, "THEY ARE PAID IN SILVER", a=fr.R(23.0, 0.4) * w0, size=20, light=True, pad=(12, 8))
     PQL(fr, 25.5, 62.0, "THE FINNS", dx=0, dy=-30, a=fr.R(25.2, 0.4) * w1, size=18, light=True, pad=(10, 7)); gline(fr, arc((25.2, 61.6), (18.6, 60.6), 0.2), width=3, frac=fr.R(25.9, 1.0), dash=(9, 7), arrow=True, color=CHAR, a=w1)
     PQ(fr, 400, 130, "RUOTSI", a=fr.R(26.6, 0.4) * w1, size=34); PQ(fr, 400, 198, "AN OLD NORSE WORD FOR ROWING", a=fr.R(28.4, 0.4) * w1, size=19, light=True, pad=(12, 8))
     T(fr, 400, 262, "↓", size=30, w="b", anchor="m", a=fr.R(31.2, 0.3) * w1); PQ(fr, 400, 326, "RUS", a=fr.R(32.6, 0.4) * w1, size=34)
@@ -508,9 +529,9 @@ def _(fr, t):
     for i, (a_, b_, t0) in enumerate((("OLEG", "HELGI", 78.8), ("IGOR", "INGVAR", 79.6), ("OLGA", "HELGA", 80.4))):
         PQ(fr, 300, 204 + 62 * i, a_, a=fr.R(t0, 0.3), size=24, light=True); T(fr, 400, 204 + 62 * i, "=", size=26, w="b", anchor="m", a=fr.R(t0 + 0.3, 0.3)); PQ(fr, 510, 204 + 62 * i, b_, a=fr.R(t0 + 0.6, 0.3), size=24)
 
-# ================= 7c. VO 83.8-91.7: Ibn Fadlan on the Volga
+# ================= 7c. VO 83.8-106.6: Ibn Fadlan on the Volga
 VOLG = cam_box(22, 62, 30, 58.5)
-@scene("07c_ibn_fadlan", 7, 83.8, 91.8, VOLG, dict(rus=RUSLAND), res="50")
+@scene("07c_ibn_fadlan", 7, 83.8, 106.7, VOLG, dict(rus=RUSLAND), res="50")
 def _(fr, t):
     terr(fr, "rus", RUS, 0.75); rivers_hl(fr, R_VOLGA, 0.9, width=4.5)
     PQ(fr, 330, 130, "922", a=fr.R(83.9, 0.4), size=36)
@@ -519,6 +540,10 @@ def _(fr, t):
     PQL(fr, *C["BAGHDAD"], "AHMAD IBN FADLAN", dx=30, dy=56, a=fr.R(86.4, 0.4), size=22, pad=(12, 8))
     PQL(fr, *C["BULGAR"], "RUS TRADERS ON THE VOLGA", dx=-250, dy=-52, a=fr.R(88.4, 0.4), size=20, pad=(12, 8)); city(fr, "", ll=C["BULGAR"], label="", r=7, a=fr.R(88.6, 0.4))
     PQ(fr, 330, 198, "HE WRITES:", a=fr.R(90.6, 0.3), size=22, light=True, pad=(12, 8))
+    col(fr, 120, 268, [("“I HAVE NEVER SEEN BODIES", 91.7), ("MORE PERFECT THAN THEIRS.", 93.0), ("THEY WERE LIKE PALM TREES.”", 95.1)], size=20, gap=52, dim=out(fr, 100.9))
+    PQ(fr, 330, 432, "AN AXE, A SWORD AND A KNIFE", a=fr.R(98.4, 0.4) * out(fr, 100.9), size=20)
+    PQ(fr, 330, 268, "MUCH LESS IMPRESSED BY THEIR WASHING", a=fr.R(101.3, 0.4), size=18, light=True, pad=(12, 8))
+    PQ(fr, 330, 330, "THEY COMB THEIR HAIR EVERY DAY", a=fr.R(104.0, 0.4), size=20)
 
 # ================= 8a. VO 0-32.3: the Great City
 SOUTH = cam_box(17, 43, 39.3, 54)
@@ -576,9 +601,9 @@ def _(fr, t):
     PQ(fr, 330, 258, "RICH ENOUGH TO BECOME KING", a=fr.R(89.6, 0.4), size=19, light=True, pad=(12, 8))
     PQL(fr, 10.4, 63.4, "HARALD", dx=150, dy=-30, a=fr.R(92.4, 0.4), size=30); PQL(fr, 10.4, 63.4, "REMEMBER HIM", dx=150, dy=34, a=fr.R(94.0, 0.3), size=20, light=True, pad=(12, 8))
 
-# ================= 9a. VO 0-16.3: west across the Atlantic
+# ================= 9a. VO 0-23.8: west across the Atlantic
 NATL = cam_box(-29, 14, 56.3, 67.6)
-@scene("09a_go_west", 9, 0.0, 16.4, NATL, dict(no=NORWAY, ice=ICELAND), res="50")
+@scene("09a_go_west", 9, 0.0, 23.9, NATL, dict(no=NORWAY, ice=ICELAND), res="50")
 def _(fr, t):
     terr(fr, "no", NOR); terr(fr, "ice", NOR, fr.R(13.8, 1.2))
     PQ(fr, 330, 130, "NOW GO WEST", a=fr.R(0.1, 0.3) * out(fr, 9.6), size=30)
@@ -586,9 +611,13 @@ def _(fr, t):
         gline(fr, arc((5.0, 60.6 + 0.4 * i), ll, -0.1 - 0.04 * i), width=4, frac=fr.R(t0 - 0.6, 1.0), arrow=True, halo=WHITE, color=NOR_D)
         x, y = P(fr.cam, *ll); circ(fr, x, y, 9, WHITE, fr.R(t0, 0.3)); circ(fr, x, y, 6.5, NOR, fr.R(t0, 0.3)); PQL(fr, *ll, nm, dx=dx, dy=dy, a=fr.R(t0, 0.3), size=19, light=True, pad=(10, 7))
     gline(fr, arc(C["FAROE"], (-14.2, 64.6), -0.14), width=5, frac=fr.R(5.6, 1.8), arrow=True, halo=WHITE, color=NOR_D)
-    PQ(fr, 400, 800, "A LARGE EMPTY ISLAND", a=fr.R(7.4, 0.4), size=26)
-    PQ(fr, 400, 864, "IRISH MONKS HAD LIVED THERE", a=fr.R(9.9, 0.4), size=19, light=True, pad=(12, 8))
+    w0 = out(fr, 15.9, 0.3)
+    PQ(fr, 400, 800, "A LARGE EMPTY ISLAND", a=fr.R(7.4, 0.4) * w0, size=26)
+    PQ(fr, 400, 864, "IRISH MONKS HAD LIVED THERE", a=fr.R(9.9, 0.4) * w0, size=19, light=True, pad=(12, 8))
     PQ(fr, 820, 800, "874", a=fr.R(14.6, 0.4), size=34); PQ(fr, 820, 864, "THE TRADITIONAL DATE", a=fr.R(13.8, 0.4), size=17, light=True, pad=(12, 8))
+    PQ(fr, 400, 800, "INGOLF ARNARSON", a=fr.R(16.6, 0.4), size=26); PQ(fr, 400, 864, "A BAY FULL OF STEAM FROM HOT SPRINGS", a=fr.R(19.3, 0.4), size=17, light=True, pad=(12, 8))
+    ra = fr.R(17.6, 0.4); x, y = P(fr.cam, *C["REYKJAVIK"]); circ(fr, x, y, 10, WHITE, ra); circ(fr, x, y, 7, INK, ra); pulse(fr, C["REYKJAVIK"], 17.6, 2.4, color=WHITE, rmax=40, width=3)
+    PQL(fr, *C["REYKJAVIK"], "REYKJAVIK", dx=40, dy=-56, a=fr.R(22.3, 0.3), size=22); PQL(fr, *C["REYKJAVIK"], "SMOKE BAY", dx=40, dy=-6, a=fr.R(23.0, 0.3), size=18, light=True, pad=(10, 7))
 
 # ================= 9s. VO 23.9-33.7: the ash layer (scheme on black)
 @scene("09s_ash", 9, 23.9, 33.8, SCAND, dict(), res="50")
@@ -638,18 +667,31 @@ def _(fr, t):
     col(fr, 1330, 150, [("ONE LAW AND ONE FAITH", 84.5), ("PAGANS MAY STILL WORSHIP IN PRIVATE", 85.0), ("EVERYONE MAY KEEP EATING HORSE MEAT", 86.8)], size=18, gap=50, first_dark=True)
     PQ(fr, 400, 196, "BY COMMITTEE", a=fr.R(89.9, 0.4), size=26); PQ(fr, 400, 260, "AND NOBODY DIES.", a=fr.R(92.1, 0.3), size=22, light=True, pad=(12, 8))
 
-# ================= 10a. VO 0-28.5: Erik the Red and the name
+# ================= 10a. VO 0-37.3: Erik the Red and the name
 GRN = cam_box(-58, -10, 57.6, 69.4)
-@scene("10a_greenland", 10, 0.0, 28.6, GRN, dict(ice=ICELAND, gs=GREENSET), res="10")
+@scene("10a_greenland", 10, 0.0, 37.4, GRN, dict(ice=ICELAND, gs=GREENSET), res="10")
 def _(fr, t):
     terr(fr, "ice", NOR); terr(fr, "gs", NOR, fr.R(27.4, 1.0))
     region(fr, -18.4, 67.5, "ICELAND", size=22, sp=7, w="b", a=fr.R(0.1, 0.4))
-    PQ(fr, 1500, 150, "AROUND 982", a=fr.R(3.6, 0.4) * out(fr, 15.0), size=30); PQ(fr, 1500, 214, "ERIK THE RED", a=fr.R(4.8, 0.4), size=28)
+    PQ(fr, 1500, 150, "AROUND 982", a=fr.R(3.6, 0.4) * out(fr, 15.0), size=30); PQ(fr, 1500, 214, "ERIK THE RED", a=fr.R(4.8, 0.4) * out(fr, 28.1, 0.3), size=28)
     PQ(fr, 1500, 276, "OUTLAWED FOR THREE YEARS", a=fr.R(6.6, 0.4) * out(fr, 15.0), size=19, light=True, pad=(12, 8))
-    gline(fr, smooth([(-23.6, 64.9), (-30, 65.2), (-36.5, 64.0), (-41.0, 61.4), (-43.6, 59.6), (-46.4, 60.2), (-47.6, 61.2)], 12), width=5, frac=fr.R(11.0, 3.2), arrow=True, halo=WHITE, color=NOR_D)
+    route = smooth([(-23.6, 64.9), (-30, 65.2), (-36.5, 64.0), (-41.0, 61.4), (-43.6, 59.6), (-46.4, 60.2), (-47.6, 61.2)], 12)
+    gline(fr, route, width=5, frac=fr.R(11.0, 3.2), arrow=True, halo=WHITE, color=NOR_D)
     region(fr, -43.5, 66.6, "GREENLAND", a=fr.R(16.6, 0.5), size=40, sp=16, w="b", color=(70, 96, 110))
-    PQ(fr, 420, 880, "“AN ATTRACTIVE NAME”", a=fr.R(21.6, 0.4), size=26); PQ(fr, 420, 942, "THE OLDEST PROPERTY MARKETING ON RECORD", a=fr.R(24.2, 0.4), size=17, light=True, pad=(12, 8))
-    PQ(fr, 900, 880, "IT WORKS.", a=fr.R(27.5, 0.3), size=26)
+    w0 = out(fr, 33.3, 0.3)
+    PQ(fr, 420, 880, "“AN ATTRACTIVE NAME”", a=fr.R(21.6, 0.4) * w0, size=26); PQ(fr, 420, 942, "THE OLDEST PROPERTY MARKETING ON RECORD", a=fr.R(24.2, 0.4) * w0, size=17, light=True, pad=(12, 8))
+    PQ(fr, 900, 880, "IT WORKS.", a=fr.R(27.5, 0.3) * w0, size=26)
+    PQ(fr, 1500, 150, "AROUND 985", a=fr.R(28.6, 0.4), size=30); PQ(fr, 1500, 214, "TWENTY-FIVE SHIPS SET OUT", a=fr.R(29.6, 0.4), size=20, light=True, pad=(12, 8))
+    PQ(fr, 1500, 272, "FOURTEEN ARRIVE", a=fr.R(32.0, 0.4), size=24)
+    rng = np.random.default_rng(11); offs = rng.uniform(-1, 1, (25, 2)); lost = set(rng.choice(25, 11, replace=False).tolist())
+    for i in range(25):                                                                                        # 25 ships set out, 14 arrive
+        q = fr.R(28.8 + 0.035 * i, 3.9); q = q * q * (3 - 2 * q) * (0.86 + 0.14 * (i % 7) / 6)
+        a = fr.R(28.7 + 0.03 * i, 0.4) * (out(fr, 30.6 + 0.09 * i, 0.7) if i in lost else out(fr, 35.6, 0.8))
+        if a <= 0 or q <= 0: continue
+        px = partial(proj(fr.cam, route, 1), min(q, 1.0))[-1]; lship(fr, px[0] + 46 * offs[i, 0], px[1] - 4 + 30 * offs[i, 1], k=0.55, a=a)
+    PQ(fr, 420, 880, "THE SETTLERS BUILD FARMS", a=fr.R(33.8, 0.4), size=24); PQ(fr, 420, 942, "IN THE SHELTERED FJORDS OF THE SOUTHWEST", a=fr.R(35.0, 0.4), size=17, light=True, pad=(12, 8))
+    pts = scatter(fr, "gs", 26, seed=5)
+    dots_px(fr, pts, lambda i: fr.R(34.0 + 2.6 * i / max(1, len(pts)), 0.35), r=3.4, color=WHITE, ring=INK)
 
 # ================= 10b. VO 37.4-39.6: Leif goes further
 VIN = cam_box(-71, -34, 43.6, 64.6)
@@ -673,8 +715,8 @@ def _(fr, t):
     PQ(fr, 400, 194, "SOMEONE HAD SAILED FURTHER SOUTH", a=fr.R(69.0, 0.4), size=19, light=True, pad=(12, 8))
     PQL(fr, -65.6, 46.3, "WHERE WILD GRAPES GROW", dx=30, dy=62, a=fr.R(71.0, 0.4), size=20, pad=(12, 8))
 
-# ================= 10d. VO 85.0-106.6: 471 years before Columbus; America does not last; Hvalsey
-@scene("10d_silence", 10, 85.0, 106.7, VIN, dict(gs=GREENSET), res="50")
+# ================= 10d. VO 82.3-106.6: 471 years before Columbus; America does not last; Hvalsey
+@scene("10d_silence", 10, 82.3, 106.7, VIN, dict(gs=GREENSET), res="50")
 def _(fr, t):
     fade = fr.R(105.8, 0.9)
     terr(fr, "gs", NOR, 1 - 0.75 * fade)
@@ -683,6 +725,7 @@ def _(fr, t):
     gline(fr, LEIF, width=4.5, color=NOR_D, halo=WHITE, arrow=True, a=1 - gone)
     x, y = P(fr.cam, *C["LANSE"]); circ(fr, x, y, 12, WHITE, 1 - 0.7 * gone); circ(fr, x, y, 8.6, mix((160, 160, 160), NOR, gone), 1 - 0.5 * gone)
     tl = out(fr, 89.0)
+    PQL(fr, *C["LANSE"], "THE TREES WERE CUT IN 1021", dx=-210, dy=-6, a=fr.R(82.4, 0.4) * out(fr, 84.7, 0.3), size=22); pulse(fr, C["LANSE"], 82.4, 2.2, color=WHITE, rmax=44, width=3)
     tline(fr, fr.R(85.0, 0.4) * tl, fr.R(85.4, 2.2), left="1021", right="COLUMBUS", title="471 YEARS", ra=fr.R(86.6, 0.5))
     PQ(fr, 400, 130, "AMERICA DOES NOT LAST", a=fr.R(89.3, 0.4) * out(fr, 96.6), size=26)
     col(fr, 208, 196, [("THE SETTLERS ARE FEW", 91.4), ("HOME IS FAR AWAY", 92.8), ("THE PEOPLE ALREADY THERE FIGHT BACK", 94.0)], size=18, gap=48, dim=out(fr, 96.6))

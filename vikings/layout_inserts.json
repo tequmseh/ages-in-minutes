@@ -1,0 +1,27 @@
+{
+ "_note": "Единственный источник окон вставок Vikings. Номера V## — как в документе раскладки; files — имена в vikings/inserts (нумерация файлов другая, сверено 17 ноя). ch — глава, t0/t1 — секунды от начала озвучки главы. cut = вырезка PNG на карту, full = кадр целиком.",
+ "inserts": {
+  "V01": {"what": "Рёкский камень", "ch": 1, "t0": 65.7, "t1": 74.9, "files": ["full/V14_roek_a.jpg", "full/V14_roek_b.jpg"]},
+  "V02": {"what": "корабль из Осеберга", "ch": 2, "t0": 70.0, "t1": 74.2, "files": ["full/V13_oseberg_ship.jpg"]},
+  "V03": {"what": "раскопки Осеберга, 1904", "ch": 2, "t0": 60.0, "t1": 70.0, "files": ["full/V12_oseberg_dig.jpg"]},
+  "V04": {"what": "Евангелие из Линдисфарна", "ch": 3, "t0": 36.4, "t1": 47.5, "files": ["full/V11_gospels_page.jpg"]},
+  "V05": {"what": "камень с налётчиками, Линдисфарн", "ch": 3, "t0": 16.7, "t1": 25.0, "files": ["cut/V10_lindisfarne_stone.png"]},
+  "V06": {"what": "денарий Карла Лысого", "ch": 4, "t0": 29.4, "t1": 34.7, "files": ["cut/V20_denier.png"]},
+  "V07": {"what": "Драгоценность Альфреда", "ch": 5, "t0": 55.0, "t1": 61.0, "files": ["cut/V03_alfred_jewel.png"]},
+  "V08": {"what": "ключ", "ch": 6, "t0": 46.6, "t1": 50.4, "files": ["cut/V09_key_chain.png", "cut/V09_key_lesecq.png"]},
+  "V09": {"what": "овальная фибула", "ch": 6, "t0": 46.6, "t1": 50.4, "files": ["cut/V04_oval_brooch.png"]},
+  "V10": {"what": "весы", "ch": 6, "t0": 64.6, "t1": 76.6, "files": ["full/V05c_scales.jpg"]},
+  "V11": {"what": "клад из Спиллингса: слитки и дирхемы", "ch": 6, "t0": 83.7, "t1": 93.9, "files": ["cut/V05_silver_bars.png", "full/V05b_dirhams_case.jpg"]},
+  "V12": {"what": "находки из Гнёздова", "ch": 7, "t0": 75.5, "t1": 83.8, "files": ["cut/V06_gnezdovo_sheet.png", "cut/V06_pend1.png", "cut/V06_pend2.png", "cut/V06_pend3.png"]},
+  "V13": {"what": "руны Хальфдана, Айя-София", "ch": 8, "t0": 74.7, "t1": 81.1, "files": ["full/V08_halfdan_runes.jpg"]},
+  "V14": {"what": "гистаменон Василия II", "ch": 8, "t0": 32.3, "t1": 40.9, "files": ["cut/V07_hist_a.png", "cut/V07_hist_b.png", "cut/V07_hist_single.png", "cut/V07_hist_pair_photo_a.png", "cut/V07_hist_pair_photo_b.png"]},
+  "V15": {"what": "рунический камень U 112", "ch": 8, "t0": 59.9, "t1": 64.9, "files": ["full/V15_u112.jpg"]},
+  "V16": {"what": "церковь Хвальсей", "ch": 10, "t0": 99.8, "t1": 106.6, "files": ["full/V18_hvalsey.jpg"]},
+  "V17": {"what": "камень из Еллинга", "ch": 11, "t0": 9.7, "t1": 22.7, "files": ["cut/V17_jelling.png"]},
+  "V18": {"what": "пенни Кнуда", "ch": 11, "t0": 63.6, "t1": 72.4, "files": ["cut/V16_cnut_a.png", "cut/V16_cnut_b.png"]},
+  "V19": {"what": "гобелен из Байё, сцена 55", "ch": 12, "t0": 38.5, "t1": 50.1, "files": ["full/V19_bayeux.jpg"]},
+  "V20": {"what": "костюм Дёплера, 1876", "ch": 12, "t0": 50.1, "t1": 57.9, "files": ["cut/V02_valkyrie.png"]},
+  "V21": {"what": "шлем из Гьермундбю", "ch": 12, "t0": 57.9, "t1": 63.3, "files": ["cut/V01_helmet.png"]},
+  "V22": {"what": "подвеска-молот Тора", "ch": 6, "t0": 33.2, "t1": 41.7, "files": ["cut/V22_thor_hammer.png"]}
+ }
+}
