@@ -4,7 +4,12 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 import numpy as np, sys, os
 HERE = os.path.dirname(os.path.abspath(__file__)); SPAN = int(sys.argv[1]) if len(sys.argv) > 1 else 3300; Y = int(sys.argv[2]) if len(sys.argv) > 2 else 400
 src = Image.open(f"{HERE}/src/rome_picture_source.jpg").convert("RGB")
-W, Hh = 3840, 1764; k = W / src.width; im = src.resize((W, round(src.height * k)), Image.LANCZOS).crop((0, 0, W, Hh))          # keep the top: the eagle's wing tips; the soldiers at the bottom edge go
+W, Hh = 3840, 1764; k = W / src.width; PAD = int(os.environ.get("PAD", 0)); big = src.resize((W, round(src.height * k)), Image.LANCZOS)
+if PAD:          # extra sky above: the eagle moves down and the whole title clears its wings
+    top = np.asarray(big.crop((0, 0, W, 24))).astype(np.float32).mean(axis=0, keepdims=True); top = np.asarray(Image.fromarray(np.repeat(top, 8, axis=0).astype(np.uint8)).filter(ImageFilter.GaussianBlur(60)))[:1].astype(np.float32)
+    sky = np.repeat(top, PAD, axis=0) + np.random.default_rng(5).normal(0, 2.2, (PAD, W, 1)); ext = Image.new("RGB", (W, big.height + PAD)); ext.paste(Image.fromarray(np.clip(sky, 0, 255).astype(np.uint8)), (0, 0)); ext.paste(big, (0, PAD))
+    a_ = np.asarray(ext).astype(np.float32); j = slice(PAD - 40, PAD + 40); a_[j] = np.asarray(Image.fromarray(a_[j].astype(np.uint8)).filter(ImageFilter.GaussianBlur(14))) if False else a_[j]; big = ext
+im = big.crop((0, 0, W, Hh))          # keep the top: the eagle's wing tips; the soldiers at the bottom edge go
 im = im.filter(ImageFilter.UnsharpMask(radius=2.2, percent=60, threshold=2))
 a = np.asarray(im).astype(np.float32)
 yy = np.linspace(0, 1, Hh)[:, None, None]; grad = np.clip(0.62 + 0.38 * (yy / 0.42), 0.62, 1.0)          # darker sky at the top: a white title reads over it
@@ -18,7 +23,7 @@ x = (W - SPAN) / 2
 for c, w in zip(txt, ws): do.text((x, Y), c, font=fnt, fill=(246, 244, 238, 225), anchor="lm"); x += w + sp
 # the eagle and its pole stay in front of the letters: warm gold and dark bronze pixels against the blue sky, right part of the frame only
 R, G, B = a[..., 0], a[..., 1], a[..., 2]; lum = a.mean(axis=2)
-pm = np.zeros((Hh, W), np.float32); bx = slice(int(790 * k), W); by = slice(0, int(470 * k))
+pm = np.zeros((Hh, W), np.float32); bx = slice(int(790 * k), W); by = slice(0, int(470 * k) + PAD)
 pm[by, bx] = (((R[by, bx] - B[by, bx]) > 34) | (lum[by, bx] < 70)).astype(np.float32)
 pmi = Image.fromarray((pm * 255).astype(np.uint8)).filter(ImageFilter.MedianFilter(9)).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(2))
 lab_ = np.asarray(pmi) > 128
