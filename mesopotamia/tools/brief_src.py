@@ -5,6 +5,7 @@ import json,os,math
 H=os.path.dirname(os.path.abspath(__file__)); E=os.path.dirname(H)
 L=json.load(open(f'{E}/layout.json'))
 
+NEW="Every building is newly built and well kept, with crisp clean edges and fresh colors."
 STYLE=("Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, "
        "the look of real footage from a field documentary camera.")
 PLAIN="All visible surfaces are plain clay, brick, plaster, reed, wood and cloth."
@@ -133,7 +134,7 @@ C={
  scene='Ворота Иштар: синий кирпич, быки и драконы',
  epoch='Две высокие башни с зубцами, арочный проход; глазурованный кирпич глубокого синего цвета; горизонтальные ряды рельефных быков (жёлто-коричневые) и драконов-мушхушшу (белые и жёлтые: чешуйчатое тело, длинная шея, змеиная голова, задние лапы орла); полоса розеток наверху. Дорога из каменных плит. Четверо прохожих и ослик. В Берлине восстановлены только малые передние ворота — в кадре настоящие, в городской стене.',
  ref='Нужен: фото ворот Иштар в Пергамон-музее — только цвет, глазурь и ряды фигур.',
- img=("Image 1 is a photograph of a museum reconstruction of a glazed brick gate: use it only for the colors, the glazed brick surface and the rows of animal figures, not for the museum interior or lighting. The Ishtar Gate of Babylon in the reign of Nebuchadnezzar II around 575 BC, seen from the processional way outside the city. Two tall square towers with stepped crenellations flank a high arched passage set in the city wall; every surface is faced with glazed bricks of deep lapis blue decorated with horizontal rows of raised animal figures in relief: rows of striding bulls in yellow and brown alternate with rows of striding dragons with scaly bodies, long necks, serpent heads and eagle hind legs in white and yellow. A band of yellow and white rosettes runs along the top. The wide road in front is paved with large stone slabs. Four passers-by walk toward the gate: two bearded men in long fringed robes, a woman carrying a clay jar on her shoulder, and a boy leading a grey donkey with a basket on its back. Composition: the gate centred and seen front-on, the towers filling the upper frame, the people small in the lower third walking away from the camera toward the arch. Light: clear morning sun from the left, the glaze shining, deep blue against a pale sky. Camera: Arri Alexa Mini LF, 35 mm lens, f/8, eye level, wide shot."),
+ img=("Image 1 is a photograph of a museum reconstruction of a glazed brick gate: use it only for the colors, the glazed brick surface and the rows of animal figures, not for the museum interior or lighting. The Ishtar Gate of Babylon in the reign of Nebuchadnezzar II around 575 BC, seen from the processional way outside the city. The gate is brand new, finished only a few years ago. Two tall square towers with stepped crenellations flank a high arched passage; the towers and the wall sections on both sides of them, all the way to the edges of the frame, are faced with smooth, flawless glazed bricks of deep lapis blue laid in crisp straight courses decorated with horizontal rows of raised animal figures in relief: rows of striding bulls in yellow and brown alternate with rows of striding dragons with scaly bodies, long necks, serpent heads and eagle hind legs in white and yellow. A band of yellow and white rosettes runs along the top. The wide road in front is paved with large stone slabs. Four passers-by walk toward the gate: two bearded men in long fringed robes, a woman carrying a clay jar on her shoulder, and a boy leading a grey donkey with a basket on its back. Composition: the gate centred and seen front-on, the glazed blue façade filling the whole width of the frame, the people small in the lower third walking away from the camera toward the arch. Light: clear morning sun from the left, the glossy glaze shining with soft reflections, deep blue against a pale sky. Camera: Arri Alexa Mini LF, 35 mm lens, f/8, eye level, wide shot."),
  mov=("The four passers-by and the donkey keep walking slowly toward the arch, away from the camera; the camera tilts up gently along the blue towers. Sound: footsteps on stone, donkey hooves, distant city voices, birds, no music, no speech."),
  check='Прохожие идут от камеры, к воротам — совпадает с тем, куда они повёрнуты.'),
 'R19':dict(
@@ -163,7 +164,7 @@ for i in sorted(C):
     out.append(f"**Проверка эпохи:** {c['epoch']}\n")
     out.append(f"**Референс:** {c['ref']}\n")
     out.append("**Стартовый кадр (Nano Banana 2, 16:9, 2K):**\n")
-    out.append("```\n"+c['img']+" "+PLAIN+" "+STYLE+"\n```\n")
+    out.append("```\n"+c['img']+" "+({'R16':"The walls and carved stone panels are intact; only the wooden roof burns."}.get(i) or (NEW if i in ('R13','R17','R18') else PLAIN))+" "+STYLE+"\n```\n")
     out.append(f"**Движение (Grok Imagine Video, {ln} с):**\n")
     out.append("```\n"+c['mov']+"\n```\n")
     out.append(f"**Кадр → движение:** {c['check']}\n")
