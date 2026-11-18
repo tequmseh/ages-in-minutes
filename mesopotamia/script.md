@@ -28,7 +28,7 @@ By about 5000 BC villages stand all over the south. Their houses are made of mud
 
 By 3100 BC up to fifty thousand people live here, and many more in the villages around it. It is the largest city on Earth.
 
-In the middle stand the temples of the sky god An and the goddess Inanna, raised on platforms high above the rooftops. The temple collects the harvest and hands out rations of barley, oil and beer.
+In the middle stand the temples of the sky god An and the goddess Inanna, one of them raised on a platform high above the rooftops. The temple collects the harvest and hands out rations of barley, oil and beer.
 
 [curious] And that creates a problem. How do you keep track of thousands of jars and hundreds of workers? Memory is not enough.
 
@@ -40,7 +40,7 @@ Over the centuries the pictures turn into wedges, pressed in with a cut reed. We
 
 ### 3. Gods and Neighbours
 
-[warm, confident narrator] By 2900 BC Uruk is not alone. The south is full of cities: Ur, Lagash, Umma, Kish, Nippur. They share one language, Sumerian, and one family of gods, but not one country.
+[warm, confident narrator] By 2900 BC Uruk is not alone. The south is full of cities: Ur, Lagash, Umma, Kish, Nippur. Most of them speak one language, Sumerian, and they share one family of gods, but not one country.
 
 Each city belongs to its god. The god owns the land and the fields, and the ruler is the god's steward. In the middle of each city the temple platform keeps climbing, until it becomes a stepped mountain of brick: the ziggurat.
 
@@ -58,9 +58,9 @@ Eannatum marks the border with stones and a ditch. Umma breaks the deal again. A
 
 [playful] His legend tells it like this. His mother could not keep him. She put her baby in a basket of reeds, sealed it with tar, and set it on the river. A water-drawer named Akki fished him out and raised him as a gardener. If that sounds familiar, you are not the first to notice.
 
-The gardener's boy becomes cupbearer to the king of Kish. Then he overthrows him. Then he defeats Lugalzagesi of Uruk and leads him in a neck-stock to the temple of Enlil at Nippur.
+The gardener's boy becomes cupbearer to the king of Kish. Then, somehow, he is king himself. He defeats Lugalzagesi of Uruk and leads him in a neck-stock to the gate of Enlil at Nippur.
 
-For the first time, the whole land answers to one man. Sargon builds a new capital, Akkad. Archaeologists have never found it.
+For the first time, north and south, Akkad and Sumer, answer to one man. Sargon builds a new capital, Akkad. Archaeologists have never found it.
 
 He makes his daughter high priestess of the moon god at Ur. Her name is Enheduanna. She writes hymns to the goddess Inanna and puts her own name in them. She is usually counted as the first author in history known by name.
 
@@ -70,7 +70,7 @@ His grandson Naram-Sin goes further. He calls himself king of the four quarters 
 
 ### 5. Ur
 
-[warm, confident narrator] Out of the wreckage, the old Sumerian city of Ur takes over. Around 2112 BC its king, Ur-Nammu, founds a new dynasty and raises the great ziggurat of Ur. Its lower stages still stand today, in the desert of southern Iraq.
+[warm, confident narrator] Out of the wreckage, the old Sumerian city of Ur takes over. Around 2112 BC its king, Ur-Nammu, founds a new dynasty and raises the great ziggurat of Ur. Its lowest stage, partly restored, still stands today in the desert of southern Iraq.
 
 He also leaves the oldest law code that survives, three centuries older than the famous one of Hammurabi. It is surprisingly mild. Most injuries are paid for in silver. Knock out a man's tooth, and you pay two shekels.
 
@@ -88,7 +88,7 @@ Sumerian slowly dies as a spoken language. But it survives in the schools for an
 
 In 1792 BC a young king named Hammurabi takes its throne. For thirty years he makes allies, then turns on them one by one. By the end of his reign he rules all of southern Mesopotamia, and Babylon will be its capital for well over a thousand years.
 
-He sets up a pillar of black stone more than two metres tall. At the top, Hammurabi stands before Shamash, the sun god of justice. Below are 282 laws.
+He sets up a pillar of black stone more than two metres tall. At the top, Hammurabi stands before Shamash, the sun god of justice. Below are two hundred and eighty-two laws.
 
 Some are famous. If a man puts out the eye of another man, his own eye shall be put out. If a house collapses and kills its owner, the builder shall be put to death.
 
@@ -106,7 +106,7 @@ That is why, four thousand years later, an hour still has sixty minutes, a minut
 
 [curious] Some of their work is startling. A small round school tablet, now at Yale, shows a square with its diagonals and gives the square root of two, accurate to better than one part in a million. Another tablet, called Plimpton 322, lists the sides of right-angled triangles in whole numbers, the rule we call the theorem of Pythagoras. Both are from around 1800 BC. Pythagoras was born more than a thousand years later.
 
-Then there was the sky. Babylonian astronomers watched the moon and the planets night after night and wrote it all down, for centuries. Their reason was omens: the sky carried messages from the gods about the king. But those records became the longest series of observations in the ancient world, and Greek astronomers used them.
+Then there was the sky. In later centuries Babylonian astronomers watched the moon and the planets night after night and wrote it all down, for centuries. Their reason was omens: the sky carried messages from the gods about the king. But those records became the longest series of observations in the ancient world, and Greek astronomers used them.
 
 ### 8. Strangers on the Throne
 
@@ -116,11 +116,9 @@ Into the gap come the Kassites, a people from the Zagros mountains. Foreigners w
 
 This is a world of great kings. Egypt, the Hittites, Mitanni, Assyria and Babylon write to each other as brothers, in Akkadian cuneiform, the diplomatic language of the age.
 
-[playful] And brothers argue about money. Around 1350 BC the Kassite king Burna-Buriash writes to the pharaoh Akhenaten: I put the forty minas of gold you sent into the furnace, and almost nothing of value came out.
+[playful] And brothers argue about money. Around 1350 BC the Kassite king Burna-Buriash writes to the pharaoh Akhenaten: I put the forty minas of gold you sent into the furnace, and not even ten came out.
 
-[serious] Around 1200 BC that whole world shakes. The Hittite empire vanishes, and cities fall from Greece to the Levant.
-
-Around 1158 BC Elam raids Babylonia, and the Kassite dynasty soon ends. The Elamite king, Shutruk-Nahhunte, carries trophies home to Susa: the victory stele of Naram-Sin and the law stele of Hammurabi. That is why both were dug up not in Iraq, but in Iran, three thousand years later. Today both stand in the Louvre.
+[serious] Around 1158 BC Elam raids Babylonia, and the Kassite dynasty soon ends. The Elamite king, Shutruk-Nahhunte, carries trophies home to Susa: the victory stele of Naram-Sin and the law stele of Hammurabi. That is why both were dug up not in Iraq, but in Iran, three thousand years later. Today both stand in the Louvre.
 
 ### 9. Assyria
 
@@ -128,15 +126,15 @@ Around 1158 BC Elam raids Babylonia, and the Kassite dynasty soon ends. The Elam
 
 From the 900s BC their kings march out to war almost every year. They build the most effective army the world has yet seen: chariots, cavalry, siege engines and iron weapons.
 
-Ashurnasirpal the Second builds a new capital at Nimrud. Its palace doors are guarded by giant winged bulls with human heads. When the palace is finished, he throws a party, and lists the guests in stone: 69,574 people, fed for ten days. Among the supplies are ten thousand jars of beer and ten thousand skins of wine.
+Ashurnasirpal the Second builds a new capital at Nimrud. Its palace doors are guarded by giant winged bulls with human heads. When the palace is finished, he throws a party, and lists the guests in stone: sixty-nine thousand, five hundred and seventy-four people, fed for ten days. Among the supplies are ten thousand jars of beer and ten thousand skins of wine.
 
-[serious] The other side of the empire is fear. Assyrian kings boast in stone about the cities they burned and the rebels they punished. And from Tiglath-Pileser the Third onward, they move whole peoples. Rebels are marched to the far end of the empire, and strangers are settled in their place. One estimate puts the total at more than four million people over two and a half centuries. In 720 BC the kingdom of Israel is deported this way, and its ten tribes vanish from history.
+[serious] The other side of the empire is fear. Assyrian kings boast in stone about the cities they burned and the rebels they punished. And from Tiglath-Pileser the Third onward, they move whole peoples. Rebels are marched to the far end of the empire, and strangers are settled in their place. One estimate puts the total at some four million people over two and a half centuries. In the 720s BC the kingdom of Israel is destroyed this way. Its deported people became the ten lost tribes.
 
 In 701 BC Sennacherib invades Judah. His palace reliefs show the siege of the city of Lachish across a whole room. Then he surrounds Jerusalem. His annals boast that he shut up its king, Hezekiah, like a bird in a cage. He never took the city. He took tribute and went home.
 
 ### 10. The Library
 
-[warm, confident narrator] The last great king of Assyria is Ashurbanipal, from 668 BC. On his palace walls at Nineveh he hunts lions from his chariot.
+[warm, confident narrator] The last great king of Assyria is Ashurbanipal, from 668 BC. At its height his empire reaches from the Nile to the mountains of Iran. On his palace walls at Nineveh he hunts lions from his chariot.
 
 But unusually for an Assyrian king, he could read, and he boasted about it. And he collected. His agents copied or seized every text they could find in Babylonia: omens, spells, medicine, dictionaries, epics. At Nineveh he built the greatest library of the ancient Near East.
 
@@ -154,7 +152,7 @@ It was the eleventh tablet of the Epic of Gilgamesh. In it, the king of Uruk los
 
 You enter by the Ishtar Gate, faced with blue glazed bricks and rows of bulls and dragons. A processional way lined with lions leads to the temple of Marduk and its ziggurat, Etemenanki, the house of the foundation of heaven and earth. Its base was about ninety-one metres on each side, and a tablet gives the same figure for its height. To foreigners and exiles it became the Tower of Babel.
 
-[curious] And the Hanging Gardens? No Babylonian text mentions them, and archaeologists have never found them. Some scholars think the Greeks confused them with Sennacherib's gardens at Nineveh. Babylon's most famous wonder may never have stood in Babylon.
+[curious] And the Hanging Gardens? No cuneiform text mentions them, and archaeologists have never found them. Some scholars think the Greeks confused them with Sennacherib's gardens at Nineveh. Babylon's most famous wonder may never have stood in Babylon.
 
 [serious] In 587 BC Nebuchadnezzar destroys Jerusalem and its temple and takes its people to Babylon. By the rivers of Babylon, there we sat down and wept, says the psalm.
 
@@ -168,7 +166,7 @@ In 539 BC the Persian king Cyrus defeats the Babylonian army, and Babylon opens 
 
 His successors build a new Greek city, Seleucia, on the Tigris, and Babylon slowly empties. Ink and the alphabet replace clay and wedges. Only a few temple scholars keep cuneiform alive, for their astronomy. The last tablet we can date is an almanac from Uruk, written around AD 79, the year Vesuvius buried Pompeii. Uruk, where writing began more than three thousand years earlier, is also where it ended.
 
-[serious] Even now, this past is not safe. In April 2003, as Baghdad fell, looters stripped the Iraq Museum. Among the losses was the Warka Vase, carved in Uruk five thousand years ago. In June it came back in pieces, in the back of a car. It has been restored and is on display again.
+[serious] Even now, this past is not safe. In April 2003, as Baghdad fell, looters broke into the Iraq Museum and took some fifteen thousand objects. Among them was the Warka Vase, carved in Uruk five thousand years ago. In June it came back in pieces, in the back of a car. It has been restored and is on display again.
 
 Look at what they left. Writing. Written law. Sixty minutes in your hour and three hundred and sixty degrees in a circle. The oldest story of a flood, and the oldest story about the fear of death.
 
