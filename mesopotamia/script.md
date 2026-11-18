@@ -106,7 +106,7 @@ That is why, four thousand years later, an hour still has sixty minutes, a minut
 
 [curious] Some of their work is startling. A small round school tablet, now at Yale, shows a square with its diagonals and gives the square root of two, accurate to better than one part in a million. Another tablet, called Plimpton 322, lists the sides of right-angled triangles in whole numbers, the rule we call the theorem of Pythagoras. Both are from around 1800 BC. Pythagoras was born more than a thousand years later.
 
-Then there was the sky. In later centuries Babylonian astronomers watched the moon and the planets night after night and wrote it all down, for centuries. Their reason was omens: the sky carried messages from the gods about the king. But those records became the longest series of observations in the ancient world, and Greek astronomers used them.
+Then there was the sky. In later centuries Babylonian astronomers watched the moon and the planets night after night and wrote it all down. Their reason was omens: the sky carried messages from the gods about the king. But those records became the longest series of observations in the ancient world, and Greek astronomers used them.
 
 ### 8. Strangers on the Throne
 
