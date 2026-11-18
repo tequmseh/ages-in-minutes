@@ -103,15 +103,25 @@ def ell(lon, lat, rx, ry, ang, k=1.0, n=40):
 def gpoly(fr, lonlat, color, a=1.0):
     p = proj(fr.cam, lonlat, 1); poly(fr, [tuple(q) for q in p], color, a)
 def plan(fr, hi=None, hi_a=0.0, hills_a=1.0):
-    """river, island and the seven hills; hi = hill name to highlight"""
-    for nm, (lon, lat, rx, ry, ang) in HILLS.items():
-        gpoly(fr, ell(lon + rx * 0.10, lat - ry * 0.14, rx, ry, ang, 1.12), (150, 132, 98), 0.34 * hills_a)
-        gpoly(fr, ell(lon, lat, rx, ry, ang), (236, 222, 184), 0.80 * hills_a)
-        gpoly(fr, ell(lon - rx * 0.08, lat + ry * 0.10, rx, ry, ang, 0.62), (246, 236, 206), 0.75 * hills_a)
-        if nm == hi and hi_a > 0: gpoly(fr, ell(lon, lat, rx, ry, ang), ROM, 0.62 * hi_a)
+    """river, island and the seven hills as soft relief (lit from the north-west); hi = hill name to highlight"""
+    c = getattr(fr.scene, "_hills", None)
+    if c is None:
+        S = fr.cam[2] * SS; lay = Image.new("RGBA", fr.im.size, (0, 0, 0, 0))
+        def blob(k, off, color, alpha, blur):
+            m = Image.new("L", fr.im.size, 0); dd = ImageDraw.Draw(m)
+            for lon, lat, rx, ry, ang in HILLS.values():
+                dd.polygon([tuple(q) for q in proj(fr.cam, ell(lon + rx * off[0], lat + ry * off[1], rx, ry, ang, k))], fill=255)
+            m = m.filter(ImageFilter.GaussianBlur(blur * S)).point(lambda v: int(v * alpha)); lay.paste(color, (0, 0), m)
+        blob(1.25, (0.22, -0.26), (96, 84, 60), 0.42, 0.00055)      # shadow on the south-east side
+        blob(1.05, (0.0, 0.0), (214, 200, 160), 0.85, 0.00040)       # the slope
+        blob(0.70, (-0.14, 0.16), (238, 228, 196), 0.80, 0.00050)    # the lit top
+        c = fr.scene._hills = lay
+    fr.im.paste(c, (0, 0), c if hills_a >= 1 else c.getchannel("A").point(lambda v: int(v * hills_a))); fr.d = ImageDraw.Draw(fr.im)
+    if hi and hi_a > 0:
+        lon, lat, rx, ry, ang = HILLS[hi]; gpoly(fr, ell(lon, lat, rx, ry, ang, 0.92), ROM, 0.55 * hi_a)
     gline(fr, smooth(TIBER, 6), color=(62, 104, 126), width=max(7.0, 0.00105 * fr.cam[2]))
     gline(fr, smooth(TIBER, 6), color=(104, 160, 184), width=max(5.0, 0.00085 * fr.cam[2]))
-    gpoly(fr, ell(12.4777, 41.8905, .0013, .00042, -18), (236, 222, 184), 1.0)
+    gpoly(fr, ell(12.4777, 41.8905, .0013, .00042, -18), (214, 200, 160), 1.0)
 ALLIES = [(12.71, 41.80), (12.89, 41.84), (12.80, 41.96), (12.40, 42.02), (12.10, 42.0), (14.25, 41.08), (14.25, 40.84), (11.76, 42.25), (14.05, 40.85), (13.61, 41.65), (12.63, 41.45),
           (13.41, 42.08), (12.74, 42.73), (13.25, 41.29), (14.78, 41.13), (12.11, 43.11), (13.02, 43.58)]
 APPIA = [C["ROME"], (12.72, 41.72), (13.02, 41.47), (13.25, 41.29), (13.60, 41.26), (13.83, 41.16), C["CAPUA"]]
@@ -144,7 +154,7 @@ def _(fr, t):
     if z:
         modern(fr, 12.47, 42.20, "TIBER", a=fr.R(10.6, 0.5), size=20, color=SEA_T, dx=58)
         x, y = P(fr.cam, *C["ROME"])
-        for i, (dx, dy) in enumerate(((-10, -30), (16, -34), (34, -16), (36, 8), (20, 28), (-6, 30), (-4, 0))): circ(fr, x + dx + 22, y + dy, 13, (236, 222, 184), fr.R(11.6 + i * 0.1, 0.4) * 0.9, outline=(150, 132, 98), width=1.6)
+        for i, (dx, dy) in enumerate(((-10, -30), (16, -34), (34, -16), (36, 8), (20, 28), (-6, 30), (-4, 0))): circ(fr, x + dx + 25, y + dy + 3, 13, (120, 104, 76), fr.R(11.6 + i * 0.1, 0.4) * 0.35); circ(fr, x + dx + 22, y + dy, 12, (226, 212, 172), fr.R(11.6 + i * 0.1, 0.4) * 0.9)
         rome(fr, a=fr.R(13.1, 0.4), label=False, r=8)
         PQ(fr, x - 150, y - 4, "ROME", a=fr.R(13.3, 0.4), size=34)
         PQ(fr, 1380, 330, "21 APRIL 753 BC", a=fr.R(15.2, 0.4), size=30, light=True); PQ(fr, 1380, 400, "ROMULUS", a=fr.R(18.3, 0.4), size=30)
@@ -169,7 +179,7 @@ def _(fr, t):
 # ================= chapter 2
 @sc("02a", "plebs_walk_out", PLANW, {}, rivers=False)
 def _(fr, t):
-    plan(fr); gline(fr, WALL, color=(110, 96, 74), width=3, a=0.7)
+    plan(fr); gline(fr, WALL, color=(110, 96, 74), width=3, a=0.7); modern(fr, 12.4905, 41.9125, "ROME", size=30, color=ROM_D)
     live(fr, 39.0, 46.0); rng = np.random.default_rng(4)
     for i in range(46):
         o = rng.normal(0, 1, 4); st = (12.488 + o[0] * .004, 41.891 + o[1] * .003); en = (12.531 + o[2] * .0035, 41.937 + o[3] * .0022)
