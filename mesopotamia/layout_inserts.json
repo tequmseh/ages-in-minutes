@@ -1,0 +1,547 @@
+{
+ "_note": "Единственный источник вставок Mesopotamia. Окна — из layout.json (секунды от начала озвучки главы). kind: cut — вырезка PNG на фон с мягкой тенью; full — кадр целиком. files — заполняются после получения материалов. Изображения в git не лежат.",
+ "inserts": {
+  "V01": {
+   "what": "Ваза из Варки (Урук, ок. 3000 до н. э.), Иракский музей",
+   "kind": "cut",
+   "source": "Commons: «Warka Vase» (фото Osama Shukir Muhammed Amin, CC BY-SA) — целиком, все три пояса",
+   "uses": [
+    {
+     "ch": 2,
+     "t0": 25.19,
+     "t1": 30.15,
+     "on": "frame",
+     "text": "Ваза из Варки. BARLEY · OIL · BEER"
+    },
+    {
+     "ch": 12,
+     "t0": 54.43,
+     "t1": 65.97,
+     "on": "frame",
+     "text": "Ваза из Варки. 5,000 YEARS · IN PIECES · RESTORED"
+    }
+   ],
+   "files": []
+  },
+  "V02": {
+   "what": "Протоклинописная табличка о выдаче ячменя (Урук, ок. 3100–2900)",
+   "kind": "cut",
+   "source": "Met 1988.433.1 или Met 327384 — Open Access CC0",
+   "uses": [
+    {
+     "ch": 2,
+     "t0": 44.88,
+     "t1": 49.44,
+     "on": "frame",
+     "text": "Протоклинописная табличка. A SHEEP · A JAR · BARLEY · NUMBERS"
+    },
+    {
+     "ch": 12,
+     "t0": 65.97,
+     "t1": 68.78,
+     "on": "frame",
+     "text": "Протоклинописная табличка. WRITING"
+    }
+   ],
+   "files": []
+  },
+  "V03": {
+   "what": "Клинописная табличка крупно, хорошо видны клинья (Ур III, ок. 2028)",
+   "kind": "cut",
+   "source": "Met 327069 «record of rations of beer, bread, oil, and onions for messengers» — CC0",
+   "uses": [
+    {
+     "ch": 2,
+     "t0": 58.03,
+     "t1": 69.39,
+     "on": "frame",
+     "text": "Клинописная табличка крупно, клинья. CUNEIFORM · CUNEUS — WEDGE · 3,000 YEARS"
+    }
+   ],
+   "files": []
+  },
+  "V04": {
+   "what": "Табличка Кушима (Урук III, MS 1717, бывшая коллекция Шёйен)",
+   "kind": "cut",
+   "source": "Commons: «Kushim tablet». Если свободного фото нет (только аукцион с водяным знаком) — не брать, окно закрою плашкой",
+   "uses": [
+    {
+     "ch": 2,
+     "t0": 69.39,
+     "t1": 86.674,
+     "on": "frame",
+     "text": "Табличка Кушима. 29,086 · 37 MONTHS · KUSHIM → A NAME OR A JOB TITLE? · AN ACCOUNTANT"
+    }
+   ],
+   "files": []
+  },
+  "V05": {
+   "what": "Стела коршунов Эаннатума (Лувр): 1) целиком, 2) фрагмент со строем воинов",
+   "kind": "cut",
+   "source": "Commons: «Stele of the Vultures Louvre» (фото Eric Gaba и др., CC BY-SA). Нужны оба: общий вид и крупный фрагмент со щитами и копьями. Фрагмент с головами в клювах крупно не брать",
+   "uses": [
+    {
+     "ch": 3,
+     "t0": 49.53,
+     "t1": 57.38,
+     "on": "frame",
+     "text": "Стела коршунов целиком. 2450 BC · EANNATUM · LAGASH"
+    },
+    {
+     "ch": 3,
+     "t0": 62.11,
+     "t1": 69.95,
+     "on": "frame",
+     "text": "Стела коршунов, фрагмент со строем. THE STELE OF THE VULTURES · THE OLDEST WAR MONUMENT"
+    }
+   ],
+   "files": []
+  },
+  "V06": {
+   "what": "Бронзовая голова аккадского правителя из Ниневии (Иракский музей)",
+   "kind": "cut",
+   "source": "Commons: «Bronze head of an Akkadian ruler» / «Mask of Sargon». По правилу о портретах ставлю как Саргона",
+   "uses": [
+    {
+     "ch": 4,
+     "t0": 6.12,
+     "t1": 12.79,
+     "on": "frame",
+     "text": "Бронзовая голова аккадского царя. SARGON — TRUE KING"
+    }
+   ],
+   "files": []
+  },
+  "V07": {
+   "what": "Диск Энхедуанны (Пенсильванский музей, B16665)",
+   "kind": "cut",
+   "source": "Commons: «Disk of Enheduanna» (CC BY-SA)",
+   "uses": [
+    {
+     "ch": 4,
+     "t0": 52.39,
+     "t1": 65.88,
+     "on": "frame",
+     "text": "Диск Энхедуанны. UR · ENHEDUANNA · THE FIRST AUTHOR KNOWN BY NAME"
+    }
+   ],
+   "files": []
+  },
+  "V08": {
+   "what": "Победная стела Нарам-Сина (Лувр, Sb 4)",
+   "kind": "cut",
+   "source": "Commons: «Victory Stele of Naram-Sin» — целиком. Нужна и для карты 08d (врезка едет в Сузы)",
+   "uses": [
+    {
+     "ch": 4,
+     "t0": 65.88,
+     "t1": 78.26,
+     "on": "frame",
+     "text": "Стела Нарам-Сина. NARAM-SIN · KING OF THE FOUR QUARTERS · A GOD"
+    },
+    {
+     "ch": 8,
+     "t0": 62.64,
+     "t1": 86.282,
+     "on": "map 08d",
+     "text": "Элам: Сузы → Вавилон и обратно; на карте врезки V08 и V13 едут в Сузы. 1158 BC · SHUTRUK-NAHHUNTE · SUSA → IRAN · THE LOUVRE"
+    }
+   ],
+   "files": []
+  },
+  "V09": {
+   "what": "Зиккурат Ура сегодня (фото)",
+   "kind": "full",
+   "source": "Commons: «Ziggurat of Ur 2005» — фото армии США, PD. Без людей и техники на переднем плане",
+   "uses": [
+    {
+     "ch": 5,
+     "t0": 12.1,
+     "t1": 17.62,
+     "on": "frame",
+     "text": "Фото зиккурата Ура сегодня. STILL STANDS TODAY"
+    }
+   ],
+   "files": []
+  },
+  "V10": {
+   "what": "Табличка законов Ур-Намму (Стамбул, Ni 3191)",
+   "kind": "cut",
+   "source": "Commons: «Code of Ur-Nammu Istanbul» (CC BY-SA)",
+   "uses": [
+    {
+     "ch": 5,
+     "t0": 17.62,
+     "t1": 24.02,
+     "on": "frame",
+     "text": "Табличка законов Ур-Намму. THE OLDEST LAW CODE · 300 YEARS BEFORE HAMMURABI"
+    }
+   ],
+   "files": []
+  },
+  "V11": {
+   "what": "Закладная фигура Шульги с корзиной (медь)",
+   "kind": "cut",
+   "source": "Met 324831 — CC0",
+   "uses": [
+    {
+     "ch": 5,
+     "t0": 31.05,
+     "t1": 34.2,
+     "on": "frame",
+     "text": "Закладная фигура Шульги. SHULGI · 48 YEARS"
+    }
+   ],
+   "files": []
+  },
+  "V12": {
+   "what": "Хозяйственная табличка Ура III с оттиском печати («отгрузка ячменя», ок. 2029)",
+   "kind": "cut",
+   "source": "Met 321819 — CC0",
+   "uses": [
+    {
+     "ch": 5,
+     "t0": 39.24,
+     "t1": 47.5,
+     "on": "frame",
+     "text": "Хозяйственная табличка Ура III. TENS OF THOUSANDS OF TABLETS"
+    }
+   ],
+   "files": []
+  },
+  "V13": {
+   "what": "Стела законов Хаммурапи (Лувр): верх с царём и Шамашем + целиком",
+   "kind": "cut",
+   "source": "Commons: «Code of Hammurabi Louvre» — целиком, от основания до верха, ≥ 2000 px по высоте (нужен проход сверху вниз). Нужна и для карты 08d",
+   "uses": [
+    {
+     "ch": 6,
+     "t0": 8.62,
+     "t1": 13.45,
+     "on": "frame",
+     "text": "Стела Хаммурапи, верх: царь перед Шамашем. 1792 BC · HAMMURABI"
+    },
+    {
+     "ch": 6,
+     "t0": 25.02,
+     "t1": 36.58,
+     "on": "frame",
+     "text": "Стела целиком, проход сверху вниз. 2 METRES · SHAMASH · 282 LAWS"
+    },
+    {
+     "ch": 8,
+     "t0": 62.64,
+     "t1": 86.282,
+     "on": "map 08d",
+     "text": "Элам: Сузы → Вавилон и обратно; на карте врезки V08 и V13 едут в Сузы. 1158 BC · SHUTRUK-NAHHUNTE · SUSA → IRAN · THE LOUVRE"
+    },
+    {
+     "ch": 12,
+     "t0": 68.78,
+     "t1": 70.1,
+     "on": "frame",
+     "text": "Стела Хаммурапи. WRITTEN LAW"
+    }
+   ],
+   "files": []
+  },
+  "V14": {
+   "what": "Старовавилонское частное письмо (табличка)",
+   "kind": "cut",
+   "source": "Met 321706 (86.11.111) — CC0",
+   "uses": [
+    {
+     "ch": 6,
+     "t0": 61.86,
+     "t1": 65.68,
+     "on": "frame",
+     "text": "Старовавилонское частное письмо. LETTERS ON CLAY"
+    }
+   ],
+   "files": []
+  },
+  "V15": {
+   "what": "Табличка с жалобой Нанни на Эа-насира (Ур, ок. 1750)",
+   "kind": "cut",
+   "source": "Commons: «Complaint tablet to Ea-nasir» — фото посетителя музея, CC BY-SA. Собственные снимки Британского музея (BY-NC-SA) не брать",
+   "uses": [
+    {
+     "ch": 6,
+     "t0": 72.66,
+     "t1": 83.11,
+     "on": "frame",
+     "text": "Табличка с жалобой Эа-насиру + строки цитаты. FINE COPPER · BAD INGOTS · CONTEMPT · FINE QUALITY"
+    },
+    {
+     "ch": 6,
+     "t0": 87.45,
+     "t1": 90.671,
+     "on": "frame",
+     "text": "Табличка жалобы. THE OLDEST CUSTOMER COMPLAINT ON RECORD"
+    }
+   ],
+   "files": []
+  },
+  "V16": {
+   "what": "Школьная табличка-«линза»: образец учителя и копия ученика",
+   "kind": "cut",
+   "source": "Met 321878 (86.11.251) — CC0",
+   "uses": [
+    {
+     "ch": 7,
+     "t0": 6.67,
+     "t1": 13.23,
+     "on": "frame",
+     "text": "Школьная табличка. COPYING · CANED FOR MISTAKES"
+    }
+   ],
+   "files": []
+  },
+  "V17": {
+   "what": "YBC 7289: квадрат с диагоналями и √2 (Йель)",
+   "kind": "cut",
+   "source": "Commons: «YBC 7289» (фото Bill Casselman; лицензию проверю по файлу)",
+   "uses": [
+    {
+     "ch": 7,
+     "t0": 37.01,
+     "t1": 48.74,
+     "on": "frame",
+     "text": "YBC 7289. √2 = 1.414213"
+    }
+   ],
+   "files": []
+  },
+  "V18": {
+   "what": "Плимптон 322 (Колумбийский университет)",
+   "kind": "cut",
+   "source": "Commons: «Plimpton 322» (PD)",
+   "uses": [
+    {
+     "ch": 7,
+     "t0": 48.74,
+     "t1": 58.42,
+     "on": "frame",
+     "text": "Плимптон 322. RIGHT-ANGLED TRIANGLES · WHOLE NUMBERS"
+    }
+   ],
+   "files": []
+  },
+  "V19": {
+   "what": "Касситский кудурру (межевой камень с символами богов)",
+   "kind": "cut",
+   "source": "Commons: «Kudurru Melishipak Louvre» или другой касситский кудурру; Met CC0, если найдётся",
+   "uses": [
+    {
+     "ch": 8,
+     "t0": 29.09,
+     "t1": 36.51,
+     "on": "frame",
+     "text": "Касситский кудурру. MORE BABYLONIAN THAN THE BABYLONIANS"
+    }
+   ],
+   "files": []
+  },
+  "V20": {
+   "what": "Письмо из Амарны: царь Ассирии Ашшур-убаллит — фараону",
+   "kind": "cut",
+   "source": "Met 24.2.11 — CC0. Это не письмо Бурна-Буриаша (EA 7 погибло в Берлине); на экране не подписываю его как EA 7",
+   "uses": [
+    {
+     "ch": 8,
+     "t0": 51.26,
+     "t1": 62.64,
+     "on": "frame",
+     "text": "Письмо из Амарны (не EA 7 — оно утрачено). BURNA-BURIASH → AKHENATEN · 40 MINAS → NOT EVEN 10"
+    }
+   ],
+   "files": []
+  },
+  "V21": {
+   "what": "Ламассу из Нимруда — крылатый бык с человеческой головой",
+   "kind": "cut",
+   "source": "Met 32.143.1 — CC0. Он же референс для ролика R13",
+   "uses": [
+    {
+     "ch": 9,
+     "t0": 24.83,
+     "t1": 29.41,
+     "on": "frame",
+     "text": "Ламассу из Нимруда"
+    }
+   ],
+   "files": []
+  },
+  "V22": {
+   "what": "Стела пира Ашшурнасирпала II (Мосульский музей)",
+   "kind": "cut",
+   "source": "Commons: «Banquet Stele of Ashurnasirpal II»",
+   "uses": [
+    {
+     "ch": 9,
+     "t0": 32.4,
+     "t1": 39.05,
+     "on": "frame",
+     "text": "Стела пира. 69,574 GUESTS · TEN DAYS"
+    }
+   ],
+   "files": []
+  },
+  "V23": {
+   "what": "Рельеф с Тиглатпаласаром III (Нимруд)",
+   "kind": "cut",
+   "source": "Commons: «Tiglath-Pileser III relief» — фото посетителя, CC BY-SA",
+   "uses": [
+    {
+     "ch": 9,
+     "t0": 52.77,
+     "t1": 57.08,
+     "on": "frame",
+     "text": "Рельеф Тиглатпаласара III. TIGLATH-PILESER III"
+    }
+   ],
+   "files": []
+  },
+  "V24": {
+   "what": "Рельеф осады Лахиша — фрагмент штурма стен",
+   "kind": "full",
+   "source": "Commons: «Lachish relief» — кадрирую только штурм стен; посаженных на кол и казни в кадр не беру",
+   "uses": [
+    {
+     "ch": 9,
+     "t0": 78.33,
+     "t1": 82.69,
+     "on": "frame",
+     "text": "Рельеф осады Лахиша (только штурм стен)"
+    }
+   ],
+   "files": []
+  },
+  "V25": {
+   "what": "Призма Синаххериба (Тейлора или Чикагская)",
+   "kind": "cut",
+   "source": "Commons: «Sennacherib prism» / «Taylor prism»",
+   "uses": [
+    {
+     "ch": 9,
+     "t0": 84.87,
+     "t1": 89.77,
+     "on": "frame",
+     "text": "Призма Синаххериба. HEZEKIAH · LIKE A BIRD IN A CAGE"
+    }
+   ],
+   "files": []
+  },
+  "V26": {
+   "what": "Рельеф: Ашшурбанапал на колеснице на охоте",
+   "kind": "full",
+   "source": "Commons: «Ashurbanipal lion hunt chariot» — кадр с царём и колесницей; умирающих львов (львица со стрелами) в кадр не беру",
+   "uses": [
+    {
+     "ch": 10,
+     "t0": 0.0,
+     "t1": 5.25,
+     "on": "frame",
+     "text": "Рельеф: Ашшурбанапал на колеснице (без раненых львов). ASHURBANIPAL · 668 BC"
+    },
+    {
+     "ch": 10,
+     "t0": 9.71,
+     "t1": 13.7,
+     "on": "frame",
+     "text": "Тот же рельеф. NINEVEH · LIONS"
+    }
+   ],
+   "files": []
+  },
+  "V27": {
+   "what": "Фото Джорджа Смита (1870-е)",
+   "kind": "full",
+   "source": "Commons: «George Smith (assyriologist)» — PD",
+   "uses": [
+    {
+     "ch": 10,
+     "t0": 59.17,
+     "t1": 68.19,
+     "on": "frame",
+     "text": "Фото Джорджа Смита. 1872 · GEORGE SMITH"
+    }
+   ],
+   "files": []
+  },
+  "V28": {
+   "what": "Табличка о потопе (табличка XI «Эпоса о Гильгамеше», K.3375)",
+   "kind": "cut",
+   "source": "Commons: «Flood Tablet Gilgamesh» — фото посетителя, CC BY-SA / PD",
+   "uses": [
+    {
+     "ch": 10,
+     "t0": 68.19,
+     "t1": 80.69,
+     "on": "frame",
+     "text": "Табличка о потопе. A BOAT · A FLOOD · A MOUNTAIN · BIRDS · OLDER THAN THE BIBLE"
+    },
+    {
+     "ch": 10,
+     "t0": 86.37,
+     "t1": 89.78,
+     "on": "frame",
+     "text": "Табличка о потопе. TABLET XI · THE EPIC OF GILGAMESH"
+    },
+    {
+     "ch": 12,
+     "t0": 74.58,
+     "t1": 79.72,
+     "on": "frame",
+     "text": "Табличка о потопе. A FLOOD · THE FEAR OF DEATH"
+    }
+   ],
+   "files": []
+  },
+  "V29": {
+   "what": "Лев с дороги процессий в Вавилоне (глазурованный кирпич)",
+   "kind": "cut",
+   "source": "Met 31.13.2 — CC0",
+   "uses": [
+    {
+     "ch": 11,
+     "t0": 14.61,
+     "t1": 16.72,
+     "on": "frame",
+     "text": "Лев с дороги процессий. THE PROCESSIONAL WAY"
+    }
+   ],
+   "files": []
+  },
+  "V30": {
+   "what": "Стела Набонида",
+   "kind": "cut",
+   "source": "Commons: «Stele of Nabonidus» (Британский музей — только фото посетителя, CC BY-SA)",
+   "uses": [
+    {
+     "ch": 11,
+     "t0": 57.78,
+     "t1": 60.45,
+     "on": "frame",
+     "text": "Стела Набонида. NABONIDUS"
+    }
+   ],
+   "files": []
+  },
+  "V31": {
+   "what": "Питер Брейгель Старший, «Вавилонская башня» (1563, Вена)",
+   "kind": "full",
+   "source": "Commons: «Pieter Bruegel the Elder – The Tower of Babel (Vienna)» — PD, Google Art Project",
+   "uses": [
+    {
+     "ch": 11,
+     "t0": 28.72,
+     "t1": 32.24,
+     "on": "frame",
+     "text": "«Вавилонская башня» Брейгеля (1563). THE TOWER OF BABEL"
+    }
+   ],
+   "files": []
+  }
+ }
+}

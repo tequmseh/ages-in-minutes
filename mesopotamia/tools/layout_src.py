@@ -76,7 +76,7 @@ L={
 (7,'INS','V13','Стела целиком, проход сверху вниз. 2 METRES · SHAMASH · 282 LAWS'),
 (10,'PLATE','p6a','AN EYE FOR AN EYE · THE BUILDER SHALL BE PUT TO DEATH'),
 (13,'PLATE','p6b','EQUAL → AN EYE · COMMONER → 1 MINA OF SILVER · SLAVE → HALF HIS PRICE · WHO YOU WERE'),
-(18,'INS','V14','Старовавилонское письмо в конверте. LETTERS ON CLAY'),
+(18,'INS','V14','Старовавилонское частное письмо. LETTERS ON CLAY'),
 (19,'CLIP','R09','Двор медника: слитки, гонец с табличкой. 1750 BC · UR · NANNI · EA-NASIR'),
 (20,'INS','V15','Табличка с жалобой Эа-насиру + строки цитаты. FINE COPPER · BAD INGOTS · CONTEMPT · FINE QUALITY'),
 (23,'CLIP','R09','Тот же двор. THE HOUSE OF EA-NASIR?'),
