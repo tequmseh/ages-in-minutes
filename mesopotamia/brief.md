@@ -22,27 +22,27 @@ The man at the bow pushes his pole into the water and the boat glides steadily t
 
 **Кадр → движение:** Шест уже в воде; лодка и камера идут вправо; цапли есть в кадре до взлёта.
 
-### R02. Крестьяне открывают проход в валу канала, вода идёт в поле ячменя — 8 с
+### R02. Крестьяне пускают воду из канала в поле ячменя — 8 с
 
 **Окна:** гл. 0: 4,8–9,8 (5,1 с) · гл. 1: 46,0–52,8 (6,8 с). Длина файла = самое длинное окно + 1 с.
 
-**Проверка эпохи:** Мотыги деревянные короткие, землю носят в корзинах из тростника. Канал прямой, валы из утрамбованной глины, финиковые пальмы вдали. Ячмень молодой, зелёный (поле только поливают). Четыре человека, одежда как в R01, босые.
+**Проверка эпохи:** Каналы шли по насыпям выше полей: воду выпускали, прорезая вал, и она самотёком уходила вниз в борозды. Мотыги деревянные короткие, землю носят в корзинах из тростника. Финиковые пальмы вдали. Ячмень молодой, зелёный. Четыре человека, одежда как в R01, босые.
 
 **Референс:** Не нужен.
 
 **Стартовый кадр (Nano Banana 2, 16:9, 2K):**
 
 ```
-Four Sumerian farmers open a gap in the earthen bank of an irrigation canal so that water begins to flow into a field of young green barley, southern Mesopotamia, around 3500 BC. Two men stand in the gap pulling away wet earth with short wooden hoes; a third carries a woven reed basket of earth on his shoulder; a fourth stands on the bank watching. A thin stream of brown water is already running through the gap into the first furrows. The canal is straight, about four metres wide, between raised banks of packed grey-brown mud; the field stretches flat to the horizon with a row of date palms in the distance. The men are lean and sunburnt, with close-cropped dark hair, bare-chested, in knee-length wraparound skirts of undyed wool, barefoot, legs muddy to the knee. Composition: the gap and the flowing water in the centre, field on the right, canal on the left, horizon at the upper third. Light: clear morning sun from the left, crisp shadows, hazy distant palms. Camera: Arri Alexa Mini, 28 mm lens, f/8, chest height from the canal bank, medium-wide shot. All visible surfaces are plain clay, brick, plaster, reed, wood and cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+Four Sumerian farmers let water out of an irrigation canal into a field of young green barley, southern Mesopotamia, around 3500 BC. The canal runs along the left side of the frame on a raised earthen embankment, brimful of calm brown water, its surface clearly higher than the field. The farmers have cut a narrow breach in the canal's right bank, and canal water is already pouring out of the canal through the breach, spilling down a short muddy slope and spreading to the right into the first furrows of the lower field. Two men stand ankle-deep in the outflow beside the breach, widening it with short wooden hoes; a third walks away from the breach to the right with a woven reed basket of earth on his shoulder; a fourth stands on top of the embankment watching the water leave the canal. The field stretches flat to the horizon with a row of date palms in the distance. The men are lean and sunburnt, with close-cropped dark hair, bare-chested, in knee-length wraparound skirts of undyed wool, barefoot, legs muddy to the knee. Composition: the full canal high on the left, the breach in the centre, the water running downhill from left to right into the barley on the right, horizon at the upper third. Light: clear morning sun from the left, crisp shadows, glinting water, hazy distant palms. Camera: Arri Alexa Mini, 28 mm lens, f/8, eye level from the edge of the field, looking slightly up at the embankment, medium-wide shot. All visible surfaces are plain clay, brick, plaster, reed, wood and cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
 ```
 
 **Движение (Grok Imagine Video, 8 с):**
 
 ```
-Water flows steadily through the gap and spreads along the furrows into the barley; the two men keep pulling earth aside with slow strokes of their hoes; the man with the basket walks out of the gap to the left. Camera: slow push-in toward the flowing water. Sound: running water, thuds of wet earth, wooden hoes scraping, light wind, distant birds, no music, no speech.
+Canal water keeps pouring out through the breach from left to right, running downhill into the furrows and spreading across the barley field away from the canal; the canal stays full; the two men keep widening the breach with slow strokes of their hoes; the man with the basket keeps walking to the right along the field edge. Camera: slow push-in toward the breach. Sound: rushing water, thuds of wet earth, wooden hoes scraping, light wind, distant birds, no music, no speech.
 ```
 
-**Кадр → движение:** Вода уже течёт в стартовом кадре; четверо людей с теми же предметами.
+**Кадр → движение:** Канал полный и выше поля; вода уже вытекает из канала и идёт слева направо вниз, в поле; человек с корзиной идёт вправо.
 
 ### R03. Урук сверху около 3100 до н. э.: Белый храм на платформе, город, стена — 11 с
 
