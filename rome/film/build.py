@@ -82,11 +82,20 @@ def _mux(spec, gfx, D, vo, out):
         if on_card:
             fc.append(f"[{mi}:a]aresample=48000,atempo={tp:.4f},atrim=0:{need:.3f},asetpts=PTS-STARTPTS,{eq}volume='if(lt(t,{CARD - 0.3}),{gc:.5f},if(lt(t,{CARD + 0.9}),{gc:.5f}+({gb:.5f}-{gc:.5f})*(t-{CARD - 0.3})/1.2,{gb:.5f}))':eval=frame,afade=t=in:d=0.05,afade=t=out:st={need - 2.5:.3f}:d=2.5[mus]")
         else:
-            fc.append(f"[{mi}:a]aresample=48000,atempo={tp:.4f},atrim=0:{D:.3f},asetpts=PTS-STARTPTS,{eq}volume={gb:.5f},afade=t=in:d=0.8,afade=t=out:st={D - 2.5:.3f}:d=2.5,adelay={int(CARD * 1000)}:all=1[mus]")
+            cut = mu[3] if len(mu) > 3 and mu[3] else D; fo = 4.0 if cut < D else 2.5          # mu[3]: stop this track early (another one takes over)
+            fc.append(f"[{mi}:a]aresample=48000,atempo={tp:.4f},atrim=0:{cut:.3f},asetpts=PTS-STARTPTS,{eq}volume={gb:.5f},afade=t=in:d=0.8,afade=t=out:st={cut - fo:.3f}:d={fo},adelay={int(CARD * 1000)}:all=1[mus]")
         aud.append("[mus]")
         if CARD and not on_card and len(mu) > 1 and mu[1] and os.path.exists(mu[1]):
             si = len([x for x in ins if x == "-i"]); ins += ["-i", mu[1]]; I = float(loud(mu[1])["input_i"])
             fc.append(f"[{si}:a]aresample=48000,atrim=0:{CARD + 0.6},volume={MUS_CARD - I:.2f}dB,afade=t=in:d=0.05,afade=t=out:st={CARD - 0.5}:d=1.1[sting]"); aud.append("[sting]")
+    m2 = spec.get("music2")          # (file, level): a second track placed so that its own ending falls on the end of the chapter
+    if m2 and os.path.exists(m2[0]):
+        f = m2[0]; I = float(loud(f)["input_i"]); L = dur(f)
+        e = run(["ffmpeg", "-hide_banner", "-i", f, "-af", "silencedetect=noise=-50dB:d=0.3", "-f", "null", "-"]).stderr; ss_ = re.findall(r"silence_start: ([\d.]+)", e)
+        if ss_ and float(ss_[-1]) > L - 15: L = float(ss_[-1]) + 0.3          # drop the silent tail so that the last note lands on the end
+        st = max(0.0, D - L); g2 = 10 ** (((m2[1] if len(m2) > 1 and m2[1] is not None else MUS) - I) / 20)
+        qi = len([x for x in ins if x == "-i"]); ins += ["-i", f]
+        fc.append(f"[{qi}:a]aresample=48000,atrim=0:{D - st:.3f},asetpts=PTS-STARTPTS,equalizer=f=2600:t=q:w=0.8:g=-4,volume={g2:.5f},afade=t=in:d=4.0,adelay={int((CARD + st) * 1000)}:all=1[mus2]"); aud.append("[mus2]")
     fc.append(f"[vo]{''.join(aud)}amix=inputs={len(aud) + 1}:normalize=0:duration=longest,alimiter=limit=0.84:level=disabled,aformat=channel_layouts=stereo[a]")
     tmp = out.replace(".mp4", ".tmp.mp4")
     rr = run(["ffmpeg", "-loglevel", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", CRF, "-preset", PRESET, "-profile:v", "high", "-bf", "2", "-g", str(FPS // 2 * 2),

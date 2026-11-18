@@ -2,7 +2,7 @@
 All seconds are voice-over seconds of the chapter. Plaque text repeats the voice-over wording."""
 from gfxlib import *
 from gfxlib import _load
-from PIL import ImageFilter
+from PIL import ImageFilter, ImageFont
 import os, json, subprocess, math
 R = os.path.dirname(os.path.abspath(__file__)); C = os.path.dirname(R); cx = W // 2
 GR = dict(color=GRAY, bold=False)
@@ -234,12 +234,11 @@ plate("V22", ("P", cx, 910, "NEAR PERSEPOLIS", 50, at(10, "near Persepolis", -0.
 plate("V24", ("T", 1280, 420, "FOUR RULERS", 100, at(10, "four rulers", -0.2)), ("G", 1280, 600, "TWO SENIOR AND TWO JUNIOR", 38, at(10, "two senior")), pre=O("V24_tetrarchs", 540, 550, 1000))
 plate("p10c", ("T", cx, 400, "305", 240, at(10, "In 305")), ("P", cx, 700, "HE RETIRES", 80, at(10, "He retires", -0.15)))
 # ---------------- chapter 11
+_XP = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 430)
 def _sign(im, d, t, A):
-    a = A * r(t, at(11, "painted on his soldiers", -0.6)); c = (cx, 560); R_ = 250
-    d.ellipse([c[0] - R_, c[1] - R_, c[0] + R_, c[1] + R_], outline=col(WHITE, A * r(t, 20.4)), width=8)
-    line(d, [(c[0] - 110, c[1] - 110), (c[0] + 110, c[1] + 110)], a, 14); line(d, [(c[0] + 110, c[1] - 110), (c[0] - 110, c[1] + 110)], a, 14); line(d, [(c[0], c[1] - 190), (c[0], c[1] + 190)], a, 14)
-    if a > 0: d.arc([c[0] - 6, c[1] - 196, c[0] + 104, c[1] - 86], -90, 90, fill=col(WHITE, a), width=14)
-plate("p11a", ("T", cx, 170, "A SIGN", 80, at(11, "a sign from God", -0.1)), ("G", cx, 900, "THE SYMBOL OF CHRIST ON HIS SOLDIERS' SHIELDS", 32, at(11, "the symbol of Christ")), ("P", cx, 990, "HE WINS", 50, at(11, "He wins", -0.1)), extra=_sign)
+    a = A * r(t, at(11, "the symbol of Christ", -0.4), 0.6)          # the Chi-Rho, set as a glyph
+    if a > 0: bb = d.textbbox((0, 0), "\u2627", font=_XP); d.text((cx - (bb[0] + bb[2]) / 2, 530 - (bb[1] + bb[3]) / 2), "\u2627", font=_XP, fill=col(WHITE, a))
+plate("p11a", ("G", cx, 110, "BEFORE THE BATTLE", 30, 20.4), ("T", cx, 210, "A SIGN", 80, at(11, "a sign from God", -0.1)), ("G", cx, 900, "THE SYMBOL OF CHRIST ON HIS SOLDIERS' SHIELDS", 32, at(11, "the symbol of Christ")), ("P", cx, 990, "HE WINS", 50, at(11, "He wins", -0.1)), extra=_sign)
 plate("p11b", ("T", cx, 380, "313", 240, at(11, "In 313")), ("P", cx, 660, "FREEDOM OF WORSHIP", 64, at(11, "freedom of worship", -0.2)), ("G", cx, 800, "TO ALL, CHRISTIANS INCLUDED", 38, at(11, "to all, Christians")))
 plate("V25", ("T", 1280, 420, "337", 200, at(11, "in 337", -0.1)), ("G", 1280, 640, "BAPTISED ONLY ON HIS DEATHBED", 34, at(11, "baptised only")), pre=O("V25_constantine", 540, 550, 980))
 plate("V26", ("T", 1340, 360, "380", 170, at(11, "In 380")), ("P", 1340, 570, "THEODOSIUS", 56, at(11, "Theodosius", -0.1)), ("G", 1340, 700, "THE OFFICIAL RELIGION", 36, at(11, "the official religion")), pre=O("V26_missorium", 560, 550, 800))
@@ -296,7 +295,7 @@ def STILLS(n):
                         C_(12, "d", ["AUGUSTULUS — LITTLE AUGUSTUS"], "Augustulus", 55.7), C_(12, "e", ["A VILLAGE OF HUTS"], "A village of huts", 104.6), C_(12, "f", ["THE IDEA OF ROME NEVER DID"], "The idea of Rome", 108.7)]
     return []
 # music: chapters 10 and 11 reuse tracks 4 and 7 until their own tracks arrive; chapter 12 has none
-MUSIC = {n: f"{C}/music/{n:02d}.flac" for n in range(10)}; MUSIC.update({10: f"{C}/music/04.flac", 11: f"{C}/music/07.flac", 12: None}); STING = f"{R}/sting.wav"
+MUSIC = {n: f"{C}/music/{n:02d}.flac" for n in range(10)}; MUSIC.update({10: f"{C}/music/04.flac", 11: f"{C}/music/07.flac", 12: f"{C}/music/04.flac"}); STING = f"{R}/sting.wav"
 
 def spec(n):
     segs = LAY[str(n)]["segs"]; ov = []; wins = []
@@ -311,7 +310,7 @@ def spec(n):
             if a <= t < b or (t == b and b == segs[-1][1]): G[i](im, d, t)
         return im
     return dict(n=n, gfx=gfx, gfx_windows=[(a, b) for a, b, _ in wins], overlays=ov, stills=STILLS(n), card=card(n) if n else None, fade_out=1.2 if n == 12 else 0.5,
-                music=(MUSIC[n], STING, -27.0 if n == 0 else None))
+                music=(MUSIC[n], STING, -27.0 if n == 0 else None, 24.0 if n == 12 else None), music2=(f"{C}/music/01.flac", -32.0) if n == 12 else None)
 class _S(dict):
     def __missing__(s, k): s[k] = spec(k); return s[k]
 SPECS = _S()
