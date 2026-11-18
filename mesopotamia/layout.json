@@ -1,0 +1,1082 @@
+{
+ "0": {
+  "dur": 44.931,
+  "segs": [
+   [
+    0.0,
+    4.76,
+    "CLIP",
+    "R11",
+    "Астроном на крыше ночью. 60 SECONDS · 60 MINUTES"
+   ],
+   [
+    4.76,
+    9.81,
+    "CLIP",
+    "R02",
+    "Канал и поле ячменя. SOUTHERN IRAQ · 4,000 YEARS AGO"
+   ],
+   [
+    9.81,
+    17.19,
+    "CLIP",
+    "R03",
+    "Урук сверху. THE FIRST CITIES · THE FIRST WRITTEN LAWS · THE OLDEST EPIC POEM"
+   ],
+   [
+    17.19,
+    24.47,
+    "CLIP",
+    "R04",
+    "Писец давит знаки в глину. AN ACCOUNTANT"
+   ],
+   [
+    24.47,
+    27.47,
+    "CLIP",
+    "R07",
+    "Корзина в тростнике на реке. A BABY IN A BASKET"
+   ],
+   [
+    27.47,
+    29.93,
+    "CLIP",
+    "R09",
+    "Двор медника. THE OLDEST CUSTOMER COMPLAINT"
+   ],
+   [
+    29.93,
+    32.33,
+    "CLIP",
+    "R13",
+    "Ворота дворца с ламассу, гости. 69,000 GUESTS"
+   ],
+   [
+    32.33,
+    34.91,
+    "CLIP",
+    "R16",
+    "Горящий дворец ночью. A LIBRARY THAT SURVIVED BECAUSE IT BURNED"
+   ],
+   [
+    34.91,
+    37.83,
+    "CLIP",
+    "R17",
+    "Вавилон сверху, зиккурат. THE TOWER OF BABEL"
+   ],
+   [
+    37.83,
+    44.931,
+    "CLIP",
+    "R01",
+    "Тростниковые дома и лодки на болотах. MUD AND REEDS → MESOPOTAMIA · IT TAKES TWENTY MINUTES"
+   ]
+  ]
+ },
+ "1": {
+  "dur": 84.349,
+  "segs": [
+   [
+    0.0,
+    18.45,
+    "MAP",
+    "01a",
+    "Горы Турции → две реки → залив. EUPHRATES · TIGRIS · PERSIAN GULF · MESOPOTAMIA — BETWEEN THE RIVERS · IRAQ"
+   ],
+   [
+    18.45,
+    28.46,
+    "PLATE",
+    "p1a",
+    "ALMOST NO RAIN · NO STONE · NO TIMBER · NO METAL"
+   ],
+   [
+    28.46,
+    31.96,
+    "CLIP",
+    "R01",
+    "Болота. WATER, MUD AND REEDS"
+   ],
+   [
+    31.96,
+    45.95,
+    "PLATE",
+    "p1b",
+    "NILE · SUMMER · ON TIME ↔ TIGRIS & EUPHRATES · APRIL–MAY · THE BARLEY IS RIPENING"
+   ],
+   [
+    45.95,
+    52.8,
+    "CLIP",
+    "R02",
+    "Крестьяне поднимают вал канала, вода идёт в поле. CANALS · BANKS"
+   ],
+   [
+    52.8,
+    56.98,
+    "MAP",
+    "01b",
+    "Юг: сеть каналов зеленеет. THE RICHEST FARMLAND ON EARTH"
+   ],
+   [
+    56.98,
+    71.79,
+    "MAP",
+    "01c",
+    "Точки деревень по югу, затем Эриду у берега залива. 5000 BC · ERIDU"
+   ],
+   [
+    71.79,
+    84.349,
+    "PLATE",
+    "p1c",
+    "Ряды-слои растут снизу вверх (18 полос). EIGHTEEN TEMPLES"
+   ]
+  ]
+ },
+ "2": {
+  "dur": 86.674,
+  "segs": [
+   [
+    0.0,
+    8.2,
+    "MAP",
+    "02a",
+    "Наезд на Урук на Евфрате. 3500 BC · URUK"
+   ],
+   [
+    8.2,
+    17.31,
+    "CLIP",
+    "R03",
+    "Урук сверху. 3100 BC · 50,000 PEOPLE · THE LARGEST CITY ON EARTH"
+   ],
+   [
+    17.31,
+    25.19,
+    "MAP",
+    "02b",
+    "План Урука: два храмовых квартала. AN · INANNA"
+   ],
+   [
+    25.19,
+    30.15,
+    "INS",
+    "V01",
+    "Ваза из Варки. BARLEY · OIL · BEER"
+   ],
+   [
+    30.15,
+    37.84,
+    "PLATE",
+    "p2a",
+    "Ряды точек. THOUSANDS OF JARS · HUNDREDS OF WORKERS"
+   ],
+   [
+    37.84,
+    44.88,
+    "CLIP",
+    "R04",
+    "Писец давит знаки в мокрую глину. 3300 BC"
+   ],
+   [
+    44.88,
+    49.44,
+    "INS",
+    "V02",
+    "Протоклинописная табличка. A SHEEP · A JAR · BARLEY · NUMBERS"
+   ],
+   [
+    49.44,
+    58.03,
+    "MAP",
+    "02c",
+    "Урук и Египет на одной карте. THE OLDEST WRITING ON EARTH · TO KEEP ACCOUNTS"
+   ],
+   [
+    58.03,
+    69.39,
+    "INS",
+    "V03",
+    "Клинописная табличка крупно, клинья. CUNEIFORM · CUNEUS — WEDGE · 3,000 YEARS"
+   ],
+   [
+    69.39,
+    86.674,
+    "INS",
+    "V04",
+    "Табличка Кушима. 29,086 · 37 MONTHS · KUSHIM → A NAME OR A JOB TITLE? · AN ACCOUNTANT"
+   ]
+  ]
+ },
+ "3": {
+  "dur": 94.746,
+  "segs": [
+   [
+    0.0,
+    16.75,
+    "MAP",
+    "03a",
+    "Шумер: города по словам озвучки. UR · LAGASH · UMMA · KISH · NIPPUR · SUMERIAN"
+   ],
+   [
+    16.75,
+    23.77,
+    "PLATE",
+    "p3a",
+    "EACH CITY BELONGS TO ITS GOD · THE RULER — THE GOD'S STEWARD"
+   ],
+   [
+    23.77,
+    31.54,
+    "CLIP",
+    "R05",
+    "Зиккурат над городом. ZIGGURAT"
+   ],
+   [
+    31.54,
+    49.53,
+    "MAP",
+    "03b",
+    "Лагаш и Умма, полоса Гуэдены. GU'EDENA — THE EDGE OF THE PLAIN · THE EARLIEST WAR BETWEEN STATES"
+   ],
+   [
+    49.53,
+    57.38,
+    "INS",
+    "V05",
+    "Стела коршунов целиком. 2450 BC · EANNATUM · LAGASH"
+   ],
+   [
+    57.38,
+    62.11,
+    "CLIP",
+    "R06",
+    "Строй Лагаша перед боем: щиты сомкнуты, копья вперёд"
+   ],
+   [
+    62.11,
+    69.95,
+    "INS",
+    "V05",
+    "Стела коршунов, фрагмент со строем. THE STELE OF THE VULTURES · THE OLDEST WAR MONUMENT"
+   ],
+   [
+    69.95,
+    77.22,
+    "MAP",
+    "03b",
+    "Граница проведена, дважды нарушена. AGAIN · AND AGAIN"
+   ],
+   [
+    77.22,
+    83.84,
+    "PLATE",
+    "p3b",
+    "GILGAMESH · KING OF URUK · NO INSCRIPTION FOUND"
+   ],
+   [
+    83.84,
+    94.746,
+    "MAP",
+    "02b",
+    "План Урука, обводится стена. URUK'S GREAT WALL · THE OLDEST GREAT STORY"
+   ]
+  ]
+ },
+ "4": {
+  "dur": 98.351,
+  "segs": [
+   [
+    0.0,
+    6.12,
+    "MAP",
+    "04a",
+    "Север, Киш; Аккад — область, не точка. 2334 BC"
+   ],
+   [
+    6.12,
+    12.79,
+    "INS",
+    "V06",
+    "Бронзовая голова аккадского царя. SARGON — TRUE KING"
+   ],
+   [
+    12.79,
+    21.8,
+    "CLIP",
+    "R07",
+    "Корзина из тростника плывёт по реке"
+   ],
+   [
+    21.8,
+    29.62,
+    "PLATE",
+    "p4a",
+    "AKKI · A WATER-DRAWER · A GARDENER"
+   ],
+   [
+    29.62,
+    41.7,
+    "MAP",
+    "04b",
+    "Киш → Урук → Ниппур. CUPBEARER · LUGALZAGESI · THE GATE OF ENLIL"
+   ],
+   [
+    41.7,
+    52.39,
+    "MAP",
+    "04c",
+    "Аккад и Шумер одним цветом; знак вопроса на месте Аккада. AKKAD + SUMER · NEVER FOUND"
+   ],
+   [
+    52.39,
+    65.88,
+    "INS",
+    "V07",
+    "Диск Энхедуанны. UR · ENHEDUANNA · THE FIRST AUTHOR KNOWN BY NAME"
+   ],
+   [
+    65.88,
+    78.26,
+    "INS",
+    "V08",
+    "Стела Нарам-Сина. NARAM-SIN · KING OF THE FOUR QUARTERS · A GOD"
+   ],
+   [
+    78.26,
+    84.83,
+    "CLIP",
+    "R08",
+    "Потрескавшиеся поля, пустая деревня. 2200 BC · DROUGHT"
+   ],
+   [
+    84.83,
+    87.94,
+    "MAP",
+    "04d",
+    "Гутии с гор Загроса. GUTIANS"
+   ],
+   [
+    87.94,
+    98.351,
+    "PLATE",
+    "p4b",
+    "THE CURSE OF AKKAD: THE GREAT FIELDS GAVE NO GRAIN… THE FLOODED FIELDS GAVE NO FISH"
+   ]
+  ]
+ },
+ "5": {
+  "dur": 90.514,
+  "segs": [
+   [
+    0.0,
+    4.17,
+    "MAP",
+    "05a",
+    "Ур подсвечен. UR"
+   ],
+   [
+    4.17,
+    12.1,
+    "CLIP",
+    "R05",
+    "Зиккурат Ура. 2112 BC · UR-NAMMU"
+   ],
+   [
+    12.1,
+    17.62,
+    "INS",
+    "V09",
+    "Фото зиккурата Ура сегодня. STILL STANDS TODAY"
+   ],
+   [
+    17.62,
+    24.02,
+    "INS",
+    "V10",
+    "Табличка законов Ур-Намму. THE OLDEST LAW CODE · 300 YEARS BEFORE HAMMURABI"
+   ],
+   [
+    24.02,
+    31.05,
+    "PLATE",
+    "p5a",
+    "SURPRISINGLY MILD → A TOOTH = 2 SHEKELS OF SILVER"
+   ],
+   [
+    31.05,
+    34.2,
+    "INS",
+    "V11",
+    "Закладная фигура Шульги. SHULGI · 48 YEARS"
+   ],
+   [
+    34.2,
+    39.24,
+    "PLATE",
+    "p5b",
+    "ROADS · WEIGHTS · CALENDAR · ARMY"
+   ],
+   [
+    39.24,
+    47.5,
+    "INS",
+    "V12",
+    "Хозяйственная табличка Ура III. TENS OF THOUSANDS OF TABLETS"
+   ],
+   [
+    47.5,
+    62.14,
+    "MAP",
+    "05b",
+    "Ниппур → Ур и обратно, линия бега. A GOD · 160 KM · AND BACK · ONE DAY"
+   ],
+   [
+    62.14,
+    81.49,
+    "MAP",
+    "05c",
+    "Амореи с запада, Элам на Ур. AMORITES · GRAIN ×60 · 2004 BC · ELAM"
+   ],
+   [
+    81.49,
+    90.514,
+    "PLATE",
+    "p5c",
+    "SUMERIAN → THE SCHOOLS · 2,000 YEARS · LIKE LATIN"
+   ]
+  ]
+ },
+ "6": {
+  "dur": 90.671,
+  "segs": [
+   [
+    0.0,
+    8.62,
+    "MAP",
+    "06a",
+    "Вавилон на Евфрате. AMORITES · BABYLON"
+   ],
+   [
+    8.62,
+    13.45,
+    "INS",
+    "V13",
+    "Стела Хаммурапи, верх: царь перед Шамашем. 1792 BC · HAMMURABI"
+   ],
+   [
+    13.45,
+    25.02,
+    "MAP",
+    "06b",
+    "Вавилон забирает весь юг. ALL OF SOUTHERN MESOPOTAMIA · CAPITAL FOR 1,000+ YEARS"
+   ],
+   [
+    25.02,
+    36.58,
+    "INS",
+    "V13",
+    "Стела целиком, проход сверху вниз. 2 METRES · SHAMASH · 282 LAWS"
+   ],
+   [
+    36.58,
+    46.59,
+    "PLATE",
+    "p6a",
+    "AN EYE FOR AN EYE · THE BUILDER SHALL BE PUT TO DEATH"
+   ],
+   [
+    46.59,
+    61.86,
+    "PLATE",
+    "p6b",
+    "EQUAL → AN EYE · COMMONER → 1 MINA OF SILVER · SLAVE → HALF HIS PRICE · WHO YOU WERE"
+   ],
+   [
+    61.86,
+    65.68,
+    "INS",
+    "V14",
+    "Старовавилонское письмо в конверте. LETTERS ON CLAY"
+   ],
+   [
+    65.68,
+    72.66,
+    "CLIP",
+    "R09",
+    "Двор медника: слитки, гонец с табличкой. 1750 BC · UR · NANNI · EA-NASIR"
+   ],
+   [
+    72.66,
+    83.11,
+    "INS",
+    "V15",
+    "Табличка с жалобой Эа-насиру + строки цитаты. FINE COPPER · BAD INGOTS · CONTEMPT · FINE QUALITY"
+   ],
+   [
+    83.11,
+    87.45,
+    "CLIP",
+    "R09",
+    "Тот же двор. THE HOUSE OF EA-NASIR?"
+   ],
+   [
+    87.45,
+    90.671,
+    "INS",
+    "V15",
+    "Табличка жалобы. THE OLDEST CUSTOMER COMPLAINT ON RECORD"
+   ]
+  ]
+ },
+ "7": {
+  "dur": 85.473,
+  "segs": [
+   [
+    0.0,
+    6.67,
+    "CLIP",
+    "R10",
+    "Дом табличек: ученики пишут, учитель. THE TABLET HOUSE"
+   ],
+   [
+    6.67,
+    13.23,
+    "INS",
+    "V16",
+    "Школьная табличка. COPYING · CANED FOR MISTAKES"
+   ],
+   [
+    13.23,
+    27.03,
+    "PLATE",
+    "p7a",
+    "60 → 2 · 3 · 4 · 5 · 6 · 10 · 12 · 15 · 20 · 30 (по словам)"
+   ],
+   [
+    27.03,
+    37.01,
+    "PLATE",
+    "p7b",
+    "60 MINUTES · 60 SECONDS · 360°"
+   ],
+   [
+    37.01,
+    48.74,
+    "INS",
+    "V17",
+    "YBC 7289. √2 = 1.414213"
+   ],
+   [
+    48.74,
+    58.42,
+    "INS",
+    "V18",
+    "Плимптон 322. RIGHT-ANGLED TRIANGLES · WHOLE NUMBERS"
+   ],
+   [
+    58.42,
+    64.61,
+    "PLATE",
+    "p7c",
+    "Шкала: 1800 BC → PYTHAGORAS · 1,000+ YEARS LATER"
+   ],
+   [
+    64.61,
+    73.62,
+    "CLIP",
+    "R11",
+    "Астроном на крыше ночью, табличка в руках. THE MOON AND THE PLANETS"
+   ],
+   [
+    73.62,
+    85.473,
+    "PLATE",
+    "p7d",
+    "OMENS → THE LONGEST SERIES OF OBSERVATIONS IN THE ANCIENT WORLD · GREEK ASTRONOMERS"
+   ]
+  ]
+ },
+ "8": {
+  "dur": 86.282,
+  "segs": [
+   [
+    0.0,
+    16.69,
+    "MAP",
+    "08a",
+    "Царство Хаммурапи сжимается; хетты: Хаттуса → Вавилон → домой. 1595 BC · MURSILI · MARDUK"
+   ],
+   [
+    16.69,
+    29.09,
+    "MAP",
+    "08b",
+    "Касситы с Загроса. KASSITES · 400+ YEARS"
+   ],
+   [
+    29.09,
+    36.51,
+    "INS",
+    "V19",
+    "Касситский кудурру. MORE BABYLONIAN THAN THE BABYLONIANS"
+   ],
+   [
+    36.51,
+    51.26,
+    "MAP",
+    "08c",
+    "Великие державы и линии писем. EGYPT · HITTITES · MITANNI · ASSYRIA · BABYLON · AKKADIAN"
+   ],
+   [
+    51.26,
+    62.64,
+    "INS",
+    "V20",
+    "Письмо из Амарны (не EA 7 — оно утрачено). BURNA-BURIASH → AKHENATEN · 40 MINAS → NOT EVEN 10"
+   ],
+   [
+    62.64,
+    86.282,
+    "MAP",
+    "08d",
+    "Элам: Сузы → Вавилон и обратно; на карте врезки V08 и V13 едут в Сузы. 1158 BC · SHUTRUK-NAHHUNTE · SUSA → IRAN · THE LOUVRE"
+   ]
+  ]
+ },
+ "9": {
+  "dur": 93.388,
+  "segs": [
+   [
+    0.0,
+    8.52,
+    "MAP",
+    "09a",
+    "Ашшур на Тигре. ASHUR · ASSYRIANS"
+   ],
+   [
+    8.52,
+    13.29,
+    "MAP",
+    "09a",
+    "Стрелки походов каждый год. 900s BC"
+   ],
+   [
+    13.29,
+    21.08,
+    "CLIP",
+    "R12",
+    "Две колесницы на равнине. CHARIOTS · CAVALRY · SIEGE ENGINES · IRON"
+   ],
+   [
+    21.08,
+    24.83,
+    "MAP",
+    "09a",
+    "Нимруд. ASHURNASIRPAL II · NIMRUD"
+   ],
+   [
+    24.83,
+    29.41,
+    "INS",
+    "V21",
+    "Ламассу из Нимруда"
+   ],
+   [
+    29.41,
+    32.4,
+    "CLIP",
+    "R13",
+    "Ворота дворца, гости с факелами"
+   ],
+   [
+    32.4,
+    39.05,
+    "INS",
+    "V22",
+    "Стела пира. 69,574 GUESTS · TEN DAYS"
+   ],
+   [
+    39.05,
+    44.26,
+    "PLATE",
+    "p9a",
+    "10,000 JARS OF BEER · 10,000 SKINS OF WINE"
+   ],
+   [
+    44.26,
+    52.77,
+    "PLATE",
+    "p9b",
+    "FEAR · THE CITIES THEY BURNED · THE REBELS THEY PUNISHED"
+   ],
+   [
+    52.77,
+    57.08,
+    "INS",
+    "V23",
+    "Рельеф Тиглатпаласара III. TIGLATH-PILESER III"
+   ],
+   [
+    57.08,
+    62.11,
+    "CLIP",
+    "R14",
+    "Колонна переселенцев: семья, повозка, двое конвойных"
+   ],
+   [
+    62.11,
+    74.75,
+    "MAP",
+    "09b",
+    "Стрелки переселений по державе; Самария. ≈ 4,000,000 · 720s BC · ISRAEL · THE TEN LOST TRIBES"
+   ],
+   [
+    74.75,
+    78.33,
+    "MAP",
+    "09c",
+    "Иудея. 701 BC · SENNACHERIB · LACHISH"
+   ],
+   [
+    78.33,
+    82.69,
+    "INS",
+    "V24",
+    "Рельеф осады Лахиша (только штурм стен)"
+   ],
+   [
+    82.69,
+    84.87,
+    "MAP",
+    "09c",
+    "Иерусалим в кольце. JERUSALEM"
+   ],
+   [
+    84.87,
+    89.77,
+    "INS",
+    "V25",
+    "Призма Синаххериба. HEZEKIAH · LIKE A BIRD IN A CAGE"
+   ],
+   [
+    89.77,
+    93.388,
+    "MAP",
+    "09c",
+    "Стрелка домой. NEVER TOOK THE CITY · TRIBUTE"
+   ]
+  ]
+ },
+ "10": {
+  "dur": 102.269,
+  "segs": [
+   [
+    0.0,
+    5.25,
+    "INS",
+    "V26",
+    "Рельеф: Ашшурбанапал на колеснице (без раненых львов). ASHURBANIPAL · 668 BC"
+   ],
+   [
+    5.25,
+    9.71,
+    "MAP",
+    "10a",
+    "Ассирия в наибольших границах. THE NILE → THE MOUNTAINS OF IRAN"
+   ],
+   [
+    9.71,
+    13.7,
+    "INS",
+    "V26",
+    "Тот же рельеф. NINEVEH · LIONS"
+   ],
+   [
+    13.7,
+    20.5,
+    "PLATE",
+    "p10a",
+    "HE COULD READ · AND HE COLLECTED"
+   ],
+   [
+    20.5,
+    28.93,
+    "CLIP",
+    "R15",
+    "Писцы раскладывают таблички по корзинам. OMENS · SPELLS · MEDICINE · DICTIONARIES · EPICS"
+   ],
+   [
+    28.93,
+    33.12,
+    "MAP",
+    "10b",
+    "Ниневия. THE GREATEST LIBRARY OF THE ANCIENT NEAR EAST"
+   ],
+   [
+    33.12,
+    45.64,
+    "MAP",
+    "10c",
+    "631 BC; вавилоняне и мидяне на Ниневию; держава гаснет. 612 BC · BABYLONIANS · MEDES"
+   ],
+   [
+    45.64,
+    53.02,
+    "CLIP",
+    "R16",
+    "Горящий дворец ночью, крыша рушится. THE FIRE SAVED THE LIBRARY"
+   ],
+   [
+    53.02,
+    59.17,
+    "PLATE",
+    "p10b",
+    "30,000+ TABLETS · THE 1850s · THE BRITISH MUSEUM"
+   ],
+   [
+    59.17,
+    68.19,
+    "INS",
+    "V27",
+    "Фото Джорджа Смита. 1872 · GEORGE SMITH"
+   ],
+   [
+    68.19,
+    80.69,
+    "INS",
+    "V28",
+    "Табличка о потопе. A BOAT · A FLOOD · A MOUNTAIN · BIRDS · OLDER THAN THE BIBLE"
+   ],
+   [
+    80.69,
+    86.37,
+    "PLATE",
+    "p10c",
+    "HE JUMPED UP… AND BEGAN TO TAKE OFF HIS CLOTHES"
+   ],
+   [
+    86.37,
+    89.78,
+    "INS",
+    "V28",
+    "Табличка о потопе. TABLET XI · THE EPIC OF GILGAMESH"
+   ],
+   [
+    89.78,
+    96.52,
+    "MAP",
+    "02b",
+    "План Урука со стеной. ENKIDU · NEVER TO DIE"
+   ],
+   [
+    96.52,
+    102.269,
+    "CLIP",
+    "R03",
+    "Урук сверху, стена. THE WALL OF HIS CITY"
+   ]
+  ]
+ },
+ "11": {
+  "dur": 90.828,
+  "segs": [
+   [
+    0.0,
+    8.75,
+    "MAP",
+    "11a",
+    "Вавилония в наибольших границах. 605 BC · NEBUCHADNEZZAR II"
+   ],
+   [
+    8.75,
+    14.61,
+    "CLIP",
+    "R18",
+    "Ворота Иштар: синий кирпич, быки и драконы"
+   ],
+   [
+    14.61,
+    16.72,
+    "INS",
+    "V29",
+    "Лев с дороги процессий. THE PROCESSIONAL WAY"
+   ],
+   [
+    16.72,
+    28.72,
+    "CLIP",
+    "R17",
+    "Вавилон сверху, Этеменанки. ETEMENANKI · 91 M × 91 M × 91 M"
+   ],
+   [
+    28.72,
+    32.24,
+    "INS",
+    "V31",
+    "«Вавилонская башня» Брейгеля (1563). THE TOWER OF BABEL"
+   ],
+   [
+    32.24,
+    37.99,
+    "PLATE",
+    "p11a",
+    "THE HANGING GARDENS? · NO CUNEIFORM TEXT · NEVER FOUND"
+   ],
+   [
+    37.99,
+    46.36,
+    "MAP",
+    "11b",
+    "Вавилон и Ниневия. SENNACHERIB'S GARDENS?"
+   ],
+   [
+    46.36,
+    53.11,
+    "MAP",
+    "11c",
+    "Иерусалим → Вавилон. 587 BC"
+   ],
+   [
+    53.11,
+    57.78,
+    "PLATE",
+    "p11b",
+    "BY THE RIVERS OF BABYLON, THERE WE SAT DOWN AND WEPT"
+   ],
+   [
+    57.78,
+    60.45,
+    "INS",
+    "V30",
+    "Стела Набонида. NABONIDUS"
+   ],
+   [
+    60.45,
+    65.56,
+    "MAP",
+    "11d",
+    "Оазис Тейма в Аравии. TEN YEARS · BELSHAZZAR"
+   ],
+   [
+    65.56,
+    76.78,
+    "PLATE",
+    "p11c",
+    "Шкала: NARAM-SIN ~2250 BC ← NABONIDUS ~550 BC · THE FIRST ARCHAEOLOGIST"
+   ],
+   [
+    76.78,
+    90.828,
+    "MAP",
+    "11e",
+    "Персы, Вавилон открывает ворота. 539 BC · CYRUS"
+   ]
+  ]
+ },
+ "12": {
+  "dur": 93.962,
+  "segs": [
+   [
+    0.0,
+    10.68,
+    "MAP",
+    "12a",
+    "Александр → Вавилон. 331 BC · JUNE 323 BC"
+   ],
+   [
+    10.68,
+    15.55,
+    "CLIP",
+    "R11",
+    "Астроном на крыше. THEIR DIARY OF THE SKY"
+   ],
+   [
+    15.55,
+    21.99,
+    "MAP",
+    "12b",
+    "Селевкия на Тигре, Вавилон бледнеет. SELEUCIA"
+   ],
+   [
+    21.99,
+    29.58,
+    "PLATE",
+    "p12a",
+    "CLAY AND WEDGES → INK AND THE ALPHABET"
+   ],
+   [
+    29.58,
+    37.19,
+    "CLIP",
+    "R19",
+    "Последний писец Урука при лампе. AD 79 · URUK"
+   ],
+   [
+    37.19,
+    43.36,
+    "PLATE",
+    "p12b",
+    "Шкала: 3300 BC URUK → AD 79 URUK"
+   ],
+   [
+    43.36,
+    54.43,
+    "PLATE",
+    "p12c",
+    "APRIL 2003 · THE IRAQ MUSEUM · 15,000 OBJECTS"
+   ],
+   [
+    54.43,
+    65.97,
+    "INS",
+    "V01",
+    "Ваза из Варки. 5,000 YEARS · IN PIECES · RESTORED"
+   ],
+   [
+    65.97,
+    68.78,
+    "INS",
+    "V02",
+    "Протоклинописная табличка. WRITING"
+   ],
+   [
+    68.78,
+    70.1,
+    "INS",
+    "V13",
+    "Стела Хаммурапи. WRITTEN LAW"
+   ],
+   [
+    70.1,
+    74.58,
+    "PLATE",
+    "p12d",
+    "60 MINUTES · 360°"
+   ],
+   [
+    74.58,
+    79.72,
+    "INS",
+    "V28",
+    "Табличка о потопе. A FLOOD · THE FEAR OF DEATH"
+   ],
+   [
+    79.72,
+    84.41,
+    "CLIP",
+    "R01",
+    "Болота на рассвете. A PLAIN OF MUD BETWEEN TWO RIVERS"
+   ],
+   [
+    84.41,
+    93.962,
+    "CARD",
+    "outro",
+    "Аутро-карточка: SUBSCRIBE · WHICH CIVILIZATION NEXT?; затемнение"
+   ]
+  ]
+ }
+}
