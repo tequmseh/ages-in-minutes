@@ -9,7 +9,7 @@ im = im.filter(ImageFilter.UnsharpMask(radius=2.2, percent=60, threshold=2))
 a = np.asarray(im).astype(np.float32)
 yy = np.linspace(0, 1, Hh)[:, None, None]; grad = np.clip(0.62 + 0.38 * (yy / 0.42), 0.62, 1.0)          # darker sky at the top: a white title reads over it
 base = ImageEnhance.Contrast(Image.fromarray(np.clip(a * grad, 0, 255).astype(np.uint8))).enhance(1.05)
-txt = "ROME"; ov = Image.new("RGBA", (W, Hh), (0, 0, 0, 0)); do = ImageDraw.Draw(ov); size = 900
+txt = os.environ.get("TITLE", "ROME"); L = len(txt) - 1; ov = Image.new("RGBA", (W, Hh), (0, 0, 0, 0)); do = ImageDraw.Draw(ov); size = 900
 while True:
     fnt = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf", size); ws = [do.textlength(c, font=fnt) for c in txt]; sp = (SPAN - sum(ws)) / (len(txt) - 1)
     if sp >= size * 0.16: break
@@ -24,9 +24,9 @@ pmi = Image.fromarray((pm * 255).astype(np.uint8)).filter(ImageFilter.MedianFilt
 lab_ = np.asarray(pmi) > 128
 from scipy import ndimage as ndi
 lab, n = ndi.label(lab_); sz = ndi.sum(lab_, lab, range(1, n + 1)); keep = np.isin(lab, [i + 1 for i, v in enumerate(sz) if v > 0.02 * sz.max()]); pmf = np.asarray(pmi).astype(np.float32) / 255 * keep
-xs = np.cumsum([0] + [w + sp for w in ws]); xe = (W - SPAN) / 2 + xs[3] - sp * 0.45          # the last letter stays whole: it lies over the right wing, the eagle covers only the M
+xs = np.cumsum([0] + [w + sp for w in ws]); xe = (W - SPAN) / 2 + xs[L] - sp * 0.45          # the last letter stays whole: it lies over the right wing, the eagle covers only the M
 ramp = np.clip((xe - np.arange(W)) / 60.0, 0, 1)[None, :]; pmf = pmf * ramp
-sh = Image.new("L", (W, Hh), 0); dsh = ImageDraw.Draw(sh); dsh.text(((W - SPAN) / 2 + xs[3], Y + 6), txt[3], font=fnt, fill=150, anchor="lm"); sh = sh.filter(ImageFilter.GaussianBlur(22))          # soft shade under the E so it reads on the gold wing
+sh = Image.new("L", (W, Hh), 0); dsh = ImageDraw.Draw(sh); dsh.text(((W - SPAN) / 2 + xs[L], Y + 6), txt[L], font=fnt, fill=150, anchor="lm"); sh = sh.filter(ImageFilter.GaussianBlur(22))          # soft shade under the E so it reads on the gold wing
 base = Image.composite(Image.new("RGB", (W, Hh), (20, 16, 10)), base, sh.point(lambda v: int(v * 0.75)))
 al = np.asarray(ov).astype(np.float32); al[..., 3] *= (1 - pmf); ov = Image.fromarray(al.astype(np.uint8), "RGBA")
 bb = Image.fromarray(np.asarray(ov)[..., 3]).getbbox(); print("size", size, "title ink", bb, "margins", bb[0], W - bb[2])
