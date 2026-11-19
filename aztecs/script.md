@@ -1,3 +1,5 @@
+<!-- Mesheeka — фонетическая запись «мешика» для синтеза речи. В кадре, в плашках и на карте писать MEXICA. -->
+
 ### 0. Cold open
 
 [curious] November 1519. A few hundred Spanish soldiers walk onto a road built across a lake. Ahead of them, on an island, stands a city. Temples, straight canals, canoes everywhere. About two hundred thousand people live there, four times as many as in London.
@@ -10,21 +12,21 @@ In the next twenty minutes: farms built on water, money that grows on trees, a s
 
 ### 1. The People with the Wrong Name
 
-[warm, confident narrator] Start with the name. The people in this story never called themselves Aztecs. They called themselves the Mexica. And yes, that is where the word Mexico comes from.
+[warm, confident narrator] Start with the name. The people in this story never called themselves Aztecs. They called themselves the Mesheeka. And yes, that is where the word Mexico comes from.
 
 Aztec comes from Aztlan, the homeland of their legends, somewhere far to the north. Nobody knows where it was, or whether it was a real place at all. The name Aztec only caught on in the nineteenth century, when the German scientist Alexander von Humboldt and the American historian William Prescott made it popular. We will use both names.
 
-According to their own story, the Mexica leave Aztlan on the orders of their god Huitzilopochtli, god of the sun and of war. Priests carry his image, and he speaks through them. The march lasts about two hundred years.
+According to their own story, the Mesheeka leave Aztlan on the orders of their god Huitzilopochtli, god of the sun and of war. Priests carry his image, and he speaks through them. The march lasts about two hundred years.
 
 They speak Nahuatl. So do many of the peoples already living in the place they are heading for: the Valley of Mexico. It is a high basin ringed by mountains, more than two thousand two hundred metres above the sea. On its floor lie five connected lakes. No river leaves the valley, so the largest of them, Lake Texcoco, is salty.
 
-[curious] Around 1250 the Mexica arrive. They are late. Every good stretch of shore already belongs to a city: Culhuacan in the south, Azcapotzalco in the west, Texcoco in the east.
+[curious] Around 1250 the Mesheeka arrive. They are late. Every good stretch of shore already belongs to a city: Culhuacan in the south, Azcapotzalco in the west, Texcoco in the east.
 
 The newcomers are poor and tough, and by most accounts the neighbours dislike them. So they take the land nobody else wants, and they fight other people's wars for a living.
 
 ### 2. The Eagle and the Cactus
 
-[warm, confident narrator] For decades the Mexica move around the lake, serving one city and then another. But their god has promised them a sign. Somewhere they will find an eagle perched on a prickly pear cactus. There they must build.
+[warm, confident narrator] For decades the Mesheeka move around the lake, serving one city and then another. But their god has promised them a sign. Somewhere they will find an eagle perched on a prickly pear cactus. There they must build.
 
 In the traditional year 1325 they find it, on a marshy little island near the western shore of Lake Texcoco. They call the place Tenochtitlan: the place of the prickly pear cactus.
 
@@ -34,19 +36,19 @@ The island itself looks like a bad joke. It is mud and reeds. The water around i
 
 But it has three advantages. Nobody else wants it. It is hard to attack. And it sits in the middle of a lake where everything travels by canoe.
 
-A second group of Mexica settles the northern end of the same island and calls its town Tlatelolco. Remember that name. It will have the greatest market in the land.
+A second group of Mesheeka settles the northern end of the same island and calls its town Tlatelolco. Remember that name. It will have the greatest market in the land.
 
-Around 1375 Tenochtitlan gets its first king, Acamapichtli. His title is tlatoani, the speaker. For the next fifty years the Mexica pay tribute to the strongest city on the lake, Azcapotzalco, and fight in its wars.
+Around 1375 Tenochtitlan gets its first king, Acamapichtli. His title is tlatoani, the speaker. For the next fifty years the Mesheeka pay tribute to the strongest city on the lake, Azcapotzalco, and fight in its wars.
 
 ### 3. A City Built on Water
 
-[warm, confident narrator] First the Mexica need land. So they make it.
+[warm, confident narrator] First the Mesheeka need land. So they make it.
 
 They fence off a rectangle of shallow lake with stakes and woven branches. They fill it with mud from the lake bottom and layers of water plants, and they plant trees along the edges, so the roots hold everything together. The result is called a chinampa.
 
 People call them floating gardens, but they do not float. They are fixed to the lake bed, with canals between them for canoes. The soil is rich and never dries out.
 
-Next comes drinking water. The lake is salty, so the Mexica build an aqueduct across it, from the springs of Chapultepec on the mainland. It has two channels, side by side.
+Next comes drinking water. The lake is salty, so the Mesheeka build an aqueduct across it, from the springs of Chapultepec on the mainland. It has two channels, side by side.
 
 Three long causeways tie the island to the shore: one to the north, one to the west, one to the south. Each is cut by bridges. Canoes pass underneath, and the gaps make the city very hard to storm.
 
@@ -58,17 +60,17 @@ Nezahualcoyotl designs a dike of stone and earth, up to sixteen kilometres long,
 
 ### 4. Three Cities Against One
 
-[warm, confident narrator] Around 1427 old Tezozomoc, lord of Azcapotzalco, dies. His son Maxtla seizes the throne and tightens his grip on every city around the lake. The young Mexica king, Chimalpopoca, soon dies, possibly murdered on Maxtla's orders. The prince of Texcoco, Nezahualcoyotl, is driven into exile.
+[warm, confident narrator] Around 1427 old Tezozomoc, lord of Azcapotzalco, dies. His son Maxtla seizes the throne and tightens his grip on every city around the lake. The young Mesheeka king, Chimalpopoca, soon dies, possibly murdered on Maxtla's orders. The prince of Texcoco, Nezahualcoyotl, is driven into exile.
 
-[serious] Maxtla has made too many enemies at once. The Mexica choose a new king, Itzcoatl, a soldier. He joins forces with the exiled Nezahualcoyotl and with a third city, Tlacopan. In 1428 the allies take Azcapotzalco and destroy it.
+[serious] Maxtla has made too many enemies at once. The Mesheeka choose a new king, Itzcoatl, a soldier. He joins forces with the exiled Nezahualcoyotl and with a third city, Tlacopan. In 1428 the allies take Azcapotzalco and destroy it.
 
 The three winners stay together. Historians call them the Triple Alliance: Tenochtitlan, Texcoco and Tlacopan. This is what we mean by the Aztec Empire.
 
 It is never one country. It is three cities sharing out the tribute of everyone they defeat. Two fifths go to Tenochtitlan, two fifths to Texcoco, and one fifth to Tlacopan.
 
-Beside the king stands his nephew Tlacaelel, a general who becomes the power behind the throne. He reshapes both the state and its religion. At the centre he puts war, and the god of the Mexica, Huitzilopochtli.
+Beside the king stands his nephew Tlacaelel, a general who becomes the power behind the throne. He reshapes both the state and its religion. At the centre he puts war, and the god of the Mesheeka, Huitzilopochtli.
 
-[curious] And the winners edit the past. A later Aztec account says that under Itzcoatl the old painted histories were burned. A new story took their place. In it, the Mexica were never unwanted wanderers. They were a chosen people, and their god had promised them an empire.
+[curious] And the winners edit the past. A later Aztec account says that under Itzcoatl the old painted histories were burned. A new story took their place. In it, the Mesheeka were never unwanted wanderers. They were a chosen people, and their god had promised them an empire.
 
 It was a bold thing to say for a city barely a hundred years old.
 
