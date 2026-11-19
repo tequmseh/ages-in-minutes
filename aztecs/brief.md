@@ -237,10 +237,10 @@ A green chinampa with tall maize and willow trees seen from a canoe on the canal
 **Движение (Grok Imagine Video, 8 с):**
 
 ```
-The canoe glides slowly forward along the canal; the man among the maize works along his row, his hands moving among the stalks, the maize leaves swaying around him; willow leaves move in the breeze. Camera: slow dolly forward along the canal. Sound: water lapping, rustling maize leaves, soft birdsong, no music, no speech.
+The canoe drifts very slowly to the left along the canal with the gentle current, bow first, covering less than a metre; the woman sits still with her hands resting on the rim of the basket and turns her head a little toward the man on the chinampa. The man among the tall maize keeps working along his row, his hands moving among the young plants, and the maize leaves sway around him. The willow leaves move in the breeze, soft rings of ripples spread from the canoe and sunlight glints on the dark water. Camera: slow gentle drift to the left at water level, following the canoe, with the man and the canoe both kept in frame. Sound: water lapping against the hull, rustling maize leaves, soft birdsong, no music, no speech.
 ```
 
-**Кадр → движение:** Каноэ уже на воде; мужчина по пояс среди кукурузы, торс закрыт плащом; камера идёт по каналу.
+**Кадр → движение:** Каноэ с корзинами кабачков и початков уже на воде, носом влево, женщина сидит на корме и смотрит влево; мужчина по пояс в кукурузе, плащ закрывает торс; движение каноэ вдоль канала, как и её взгляд.
 
 ### R12. Рынок Тлателолко: циновки, перья, какао — 11 с
 
