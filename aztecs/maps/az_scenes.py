@@ -237,10 +237,9 @@ def _(fr, t):
 # ================= city plan helpers (schematic island)
 def plan(fr, a=1.0, canals=True, grid_a=1.0, precinct=True, palace=True, market=False):
     """the island of Tenochtitlan with Tlatelolco: land colour over the lake, a canal grid, the Great Temple precinct, the king's palace"""
-    for ring in (TEN_P, TLA_P):
-        p = [tuple(q) for q in proj(fr.cam, engine._chaikin(np.asarray(ring, float), 1), 1)]
-        poly(fr, p, ISLAND_C, a)
-        pline(fr, p + [p[0]], color=ISLAND_E, width=2.4, a=a)
+    p = [tuple(q) for q in proj(fr.cam, engine._chaikin(np.asarray(CITY_P, float), 2), 1)]
+    poly(fr, p, ISLAND_C, a)
+    pline(fr, p + [p[0]], color=ISLAND_E, width=2.4, a=a)
     if canals and grid_a > 0:
         ang = math.radians(17.0); ux, uy = math.sin(ang), math.cos(ang); vx, vy = uy, -ux       # canal axes: along the temple axis and across it
         for ax, bx in ((ux, uy), (vx, vy)):
@@ -248,7 +247,7 @@ def plan(fr, a=1.0, canals=True, grid_a=1.0, precinct=True, palace=True, market=
                 ptsl = []; run = []
                 for t_ in np.linspace(-0.07, 0.07, 280):
                     ll = (TEMPLE[0] + k * (vx if ax == ux else ux) / 1.0 + t_ * ax, TEMPLE[1] + k * (vy if ax == ux else uy) + t_ * bx)
-                    ins = _inside(ll, TEN_P) or _inside(ll, TLA_P)
+                    ins = _inside(ll, CITY_P)
                     if ins: run.append(ll)
                     elif run: ptsl.append(run); run = []
                 if run: ptsl.append(run)

@@ -131,19 +131,6 @@ TLXM = M(TLX_P); TARM = M(TAR_P); HUEXM = M(HUEX_P)
 DRY_C = (206, 194, 150)           # dry lake bed
 TAXIMAROA = (-100.57, 19.69)
 # ---------------------------------------------------------------- the city plan (schematic): the island of Tenochtitlan and Tlatelolco, canals, the Great Temple precinct, the palace
-def _isl(c, w, h, ang=17.0, seed=3, n=9, jit=0.07):
-    """a slightly irregular quadrilateral island (km -> lon/lat), turned to the temple axis"""
-    rng = np.random.RandomState(seed); a = math.radians(ang); pts = []
-    cs = [(-w / 2, -h / 2), (w / 2, -h / 2), (w / 2, h / 2), (-w / 2, h / 2)]
-    for k in range(4):
-        (x0, y0), (x1, y1) = cs[k], cs[(k + 1) % 4]
-        for q in range(n):
-            f = q / n; x = x0 + (x1 - x0) * f; y = y0 + (y1 - y0) * f
-            if q: x += rng.uniform(-jit, jit); y += rng.uniform(-jit, jit)
-            xr = x * math.cos(a) + y * math.sin(a); yr = -x * math.sin(a) + y * math.cos(a)
-            pts.append((c[0] + xr / 104.9, c[1] + yr / 111.0))
-    return pts
-TEN_P = _isl((-99.1315, 19.4285), 3.3, 3.1, seed=3)
-TLA_P = _isl((-99.1352, 19.4535), 1.7, 1.5, seed=5)
+CITY_P = [tuple(q) for q in json.load(open(os.path.join(HERE, "city.json")))["ring"]]   # one island: Tenochtitlan + Tlatelolco (city.py: traced islands + landfill belt, ~10.5 km2)
 TEMPLE = C["TENOCHTITLAN"]; PALACE = (-99.1285, 19.4328); MARKET = (-99.1352, 19.4515); SKULLS = (-99.1330, 19.4364)
 CAN = (150, 214, 236); ISLAND_C = (236, 226, 192); ISLAND_E = (150, 128, 90)
