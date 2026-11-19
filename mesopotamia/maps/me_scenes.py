@@ -194,7 +194,7 @@ def _(fr, t):
     # the fight: short arrows into the strip from both sides
     for k in range(3):
         t0 = 42.6 + k * 0.9
-        arrow(fr, [(45.93, 31.67), (46.07, 31.65)], t0, 0.5, color=UMM, width=6, a=out(fr, t0 + 0.9, 0.3) if k < 2 else out(fr, 60)); arrow(fr, [(46.36, 31.71), (46.21, 31.70)], t0 + 0.45, 0.5, color=ASY_D, width=6, a=out(fr, t0 + 1.35, 0.3) if k < 2 else out(fr, 60))
+        arrow(fr, [(45.93, 31.67), (46.07, 31.65)], t0, 0.5, color=UMM, width=6, a=out(fr, t0 + 0.9, 0.3) if k < 2 else out(fr, 60)); arrow(fr, [(46.27, 31.58), (46.15, 31.67)], t0 + 0.45, 0.5, color=(128, 82, 30), width=6, a=out(fr, t0 + 1.35, 0.3) if k < 2 else out(fr, 60))
     PQ(fr, 960, 930, "THE EARLIEST WAR BETWEEN STATES", a=fr.R(cue(3, "It is the earliest"), 0.4) * (1 if v1 else 0), size=28, light=True)
     # second window: the border, broken twice
     tb = cue(3, "Eannatum marks"); gline(fr, smooth(BORDER, 8), color=INK, width=6, frac=fr.R(tb + 0.3, 1.8), halo=WHITE, dash=(10, 7))

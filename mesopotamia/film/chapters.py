@@ -63,7 +63,7 @@ def wrap(s, maxc):
         if best is None or abs(len(l1) - len(l2)) < abs(len(best[0]) - len(best[1])): best = (l1, l2)
     return list(best) if best else [s]
 def tsize(s, wmax, top): return int(max(30, min(top, wmax / (max(1, len(s)) * 0.64))))
-def column(d, t, x, its, ts, A, wmax, y0=None, big=150):
+def column(d, t, x, its, ts, A, wmax, y0=None, big=150, ghost=0.0):
     """a centred column: first item large, last on a plaque, the rest grey; returns nothing"""
     rows = []
     for i, s in enumerate(its):
@@ -75,7 +75,7 @@ def column(d, t, x, its, ts, A, wmax, y0=None, big=150):
         for l in ls: rows.append((kind, l, size, ts[i], size * (1.3 if kind == "T" else 2.3 if kind == "P" else 1.9)))
     tot = sum(r_[4] for r_ in rows); y = (y0 if y0 is not None else 540) - tot / 2
     for kind, l, size, t0, hh in rows:
-        a = r(t, t0) * A; yy = y + hh / 2
+        a = max(r(t, t0), ghost) * A; yy = y + hh / 2
         if kind == "T": text(d, x, yy, l, size, a, sp=max(2, size // 14), dy=18)
         elif kind == "P": plaque(d, x, yy, l, size, a, sp=max(2, size // 9))
         else: text(d, x, yy, l, size, a, sp=max(2, size // 9), **GR)
@@ -91,26 +91,27 @@ def framed(im, name, x, y, h, a):
     if a > 0: ImageDraw.Draw(im).rectangle([x - w / 2 - 6, y - h / 2 - 6, x + w / 2 + 6, y + h / 2 + 6], fill=col(WHITE, a))
     obj(im, name, x, y, h=h, a=a)
 
+GHOST = 0.3          # a plate is never an empty screen: every line is there from the first frame, dim, and lights up when it is spoken
 G = {}          # (chapter, window start) -> draw(im, d, t)
 def mk_plate(n, a, b, i, txt):
     its = parse(txt); ts = times(n, its, a, b, first_now=True)
     def f(im, d, t):
-        A = fade(t, a, b)
+        A = fade(t, a, b) * r(t, a, 0.25)
         if i == "p7a":          # sixty and what divides it
-            text(d, cx, 300, its[0], 260, r(t, ts[0]) * A, sp=10, dy=18)
-            for k, s in enumerate(its[1:]): text(d, 330 + k * 140, 720, s, 90, r(t, ts[k + 1]) * A, color=WHITE if k % 2 == 0 else GRAY)
+            text(d, cx, 300, its[0], 260, A, sp=10, dy=18)
+            for k, s in enumerate(its[1:]): text(d, 330 + k * 140, 720, s, 90, max(r(t, ts[k + 1]), GHOST) * A, color=WHITE if k % 2 == 0 else GRAY)
         elif i == "p1c":          # eighteen temples, one on top of another
-            t0 = at(1, "one on top", lo=a, hi=b) if _has(1, "one on top", a, b) else a + 2.0
+            step = (b - a - 3.0) / 18          # all eighteen layers are on screen from the first frame, they light up one by one through the window
             for k in range(18):
-                aa = r(t, t0 + k * 0.22, 0.3) * A; y = 860 - k * 34; w = 760 - k * 22
+                aa = max(r(t, a + 0.5 + k * step, 0.4), GHOST) * A; y = 860 - k * 34; w = 760 - k * 22
                 if aa > 0: d.rectangle([cx - w / 2, y - 12, cx + w / 2, y + 12], fill=col(GRAY if k < 17 else WHITE, aa))
-            plaque(d, cx, 960, its[-1], 54, r(t, ts[-1]) * A, sp=6)
+            plaque(d, cx, 960, its[-1], 54, A, sp=6)
         elif i in ("p7c", "p11c", "p12b"):
             la, lb = {"p7c": ("1800 BC", "PYTHAGORAS"), "p11c": ("NARAM-SIN ~2250 BC", "NABONIDUS ~550 BC"), "p12b": ("3300 BC · URUK", "AD 79 · URUK")}[i]
             tscale(d, t, 360, 1560, 470, la, lb, a + 0.3, min(3.0, (b - a) * 0.5), A)
             rest = {"p7c": its[2:], "p11c": its[2:], "p12b": []}[i]; rt = ts[len(its) - len(rest):]
-            if rest: column(d, t, cx, ["", *rest][1:], rt, A, 1500, y0=760, big=70)
-        else: column(d, t, cx, its, ts, A, 1650)
+            if rest: column(d, t, cx, rest, rt, A, 1500, y0=760, big=70, ghost=GHOST)
+        else: column(d, t, cx, its, ts, A, 1650, ghost=GHOST)
     G[(n, a)] = f
 def _has(n, ph, a, b):
     try: at(n, ph, lo=a, hi=b); return True
@@ -118,13 +119,14 @@ def _has(n, ph, a, b):
 USE = {}
 def mk_ins(n, a, b, i, txt):
     its = parse(txt); ts = times(n, its, a, b); k = USE[i] = USE.get(i, 0) + 1
-    name = {"V05": "V05a" if k == 1 else "V05b"}.get(i, i)
+    name = {"V05": "V05a"}.get(i, i); top = (i == "V05" and k == 2)          # second showing of the stele: its upper part, the phalanx
     wide = asp(name) > 1.25; photo_ = name in ("V09", "V26", "V31", "V29")
     def f(im, d, t):
         A = fade(t, a, b) * r(t, a, 0.3)
         if photo_ and name != "V29":
             photo(im, name, A); d = ImageDraw.Draw(im); vis = [k for k in range(len(its)) if t >= ts[k]]
             if vis: plaque(d, cx, 970, its[vis[-1]], 44 if len(its[vis[-1]]) < 30 else 34, r(t, ts[vis[-1]]) * A, sp=5)
+        elif top: obj(im, name, cx, 400, h=660, a=A, crop=(0.0, 0.0, 1.0, 0.44)); d = ImageDraw.Draw(im); column(d, t, cx, its, ts, A, 1600, y0=900, big=64)
         elif i == "V13" and n == 6 and k == 1:          # the top of the stele: the king before Shamash
             obj(im, name, 560, 540, h=940, a=A, crop=(0.0, 0.0, 1.0, 0.27)); d = ImageDraw.Draw(im); column(d, t, 1340, its, ts, A, 800)
         elif i == "V13" and n == 6:          # the whole stele, passing from top to bottom
@@ -139,7 +141,7 @@ def mk_ins(n, a, b, i, txt):
             if its: column(d, t, cx, its, ts, A, 1600, y0=880, big=64)
         elif not its: obj(im, name, cx, 540, h=980, a=A)
         else:
-            h = min(940, int(720 / asp(name)), int(_load(name).height * 1.45)); (framed if name in ("V27", "V05a", "V05b", "V23") else obj_)(im, name, 540, 540, h, A); d = ImageDraw.Draw(im); column(d, t, 1340, its, ts, A, 800, big=110)
+            h = min(940, int(720 / asp(name)), int(_load(name).height * 1.45)); (framed if name in ("V27",) else obj_)(im, name, 540, 540, h, A); d = ImageDraw.Draw(im); column(d, t, 1340, its, ts, A, 800, big=110)
     G[(n, a)] = f
 _PAN = {}
 def obj_(im, name, x, y, h, a): obj(im, name, x, y, h=h, a=a)
