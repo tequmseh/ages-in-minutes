@@ -116,3 +116,34 @@ def valley_rivers(fr, a=1.0, width=2.6, color=(74, 128, 156), frac=1.0, fade=0.0
             q = arr[i:min(i + 4, k)]; m = q.mean(0)
             d = min(m[0] - _FR[0], _FR[1] - m[0], m[1] - _FR[2], _FR[3] - m[1]); f = max(0.0, min(1.0, d / fade))
             if f > 0: pline(fr, proj(fr.cam, q, 1), color=color, width=width, a=a * f)
+
+# ---------------------------------------------------------------- empire and neighbours (schematic, borders "very approximate" even in the sources: Barlow 1949 / Berdan 1996)
+# Triple Alliance tribute provinces about 1502-1519; coast and sea are cut by the land mask, so the polygon may run out into the water.
+# Not conquered: Tlaxcala, Huexotzinco, the Tarascan state (Taximaroa = Ciudad Hidalgo was the frontier), the Mixtec coast (Tututepec, Yopes).
+EMP_P = [(-100.2, 20.75), (-99.5, 21.6), (-98.9, 22.4), (-97.5, 22.4), (-96.0, 22.5), (-91.5, 20.5), (-91.5, 18.0), (-92.8, 17.3), (-92.7, 16.0), (-91.6, 14.9), (-91.0, 13.8),
+         (-95.0, 13.8), (-99.0, 15.5), (-101.9, 16.6), (-101.8, 17.9), (-100.9, 18.3), (-100.55, 19.2), (-100.45, 19.9)]
+TLX_P = [(-98.47, 19.5), (-98.22, 19.6), (-97.96, 19.5), (-97.92, 19.3), (-98.06, 19.16), (-98.36, 19.18), (-98.5, 19.3)]
+HUEX_P = [(-98.6, 19.15), (-98.35, 19.2), (-98.25, 18.95), (-98.5, 18.85)]
+TUT_P = [(-99.3, 15.8), (-99.3, 17.0), (-97.0, 17.0), (-96.4, 15.8)]
+TAR_P = [(-103.3, 19.9), (-102.2, 20.45), (-101.0, 20.3), (-100.55, 19.9), (-100.5, 19.0), (-100.9, 18.3), (-101.8, 17.8), (-102.6, 18.0), (-103.4, 18.7)]
+EMP = Dm(M(EMP_P), M(TLX_P), M(HUEX_P), M(TUT_P), M(TAR_P))
+TLXM = M(TLX_P); TARM = M(TAR_P); HUEXM = M(HUEX_P)
+DRY_C = (206, 194, 150)           # dry lake bed
+TAXIMAROA = (-100.57, 19.69)
+# ---------------------------------------------------------------- the city plan (schematic): the island of Tenochtitlan and Tlatelolco, canals, the Great Temple precinct, the palace
+def _isl(c, w, h, ang=17.0, seed=3, n=9, jit=0.07):
+    """a slightly irregular quadrilateral island (km -> lon/lat), turned to the temple axis"""
+    rng = np.random.RandomState(seed); a = math.radians(ang); pts = []
+    cs = [(-w / 2, -h / 2), (w / 2, -h / 2), (w / 2, h / 2), (-w / 2, h / 2)]
+    for k in range(4):
+        (x0, y0), (x1, y1) = cs[k], cs[(k + 1) % 4]
+        for q in range(n):
+            f = q / n; x = x0 + (x1 - x0) * f; y = y0 + (y1 - y0) * f
+            if q: x += rng.uniform(-jit, jit); y += rng.uniform(-jit, jit)
+            xr = x * math.cos(a) + y * math.sin(a); yr = -x * math.sin(a) + y * math.cos(a)
+            pts.append((c[0] + xr / 104.9, c[1] + yr / 111.0))
+    return pts
+TEN_P = _isl((-99.1315, 19.4285), 3.3, 3.1, seed=3)
+TLA_P = _isl((-99.1352, 19.4535), 1.7, 1.5, seed=5)
+TEMPLE = C["TENOCHTITLAN"]; PALACE = (-99.1285, 19.4328); MARKET = (-99.1352, 19.4515); SKULLS = (-99.1330, 19.4364)
+CAN = (150, 214, 236); ISLAND_C = (236, 226, 192); ISLAND_E = (150, 128, 90)

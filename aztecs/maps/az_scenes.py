@@ -234,6 +234,342 @@ def _(fr, t):
     PQ(fr, 960, 190, "TENOCHTITLAN · TEXCOCO · TLACOPAN", a=fr.R(cue(4, "Tenochtitlan, Texcoco"), 0.4), size=24, light=True)
     PQ(fr, 960, 250, "IT IS NEVER ONE COUNTRY", a=fr.R(cue(4, "It is never one"), 0.4), size=26)
 
+# ================= city plan helpers (schematic island)
+def plan(fr, a=1.0, canals=True, grid_a=1.0, precinct=True, palace=True, market=False):
+    """the island of Tenochtitlan with Tlatelolco: land colour over the lake, a canal grid, the Great Temple precinct, the king's palace"""
+    for ring in (TEN_P, TLA_P):
+        p = [tuple(q) for q in proj(fr.cam, engine._chaikin(np.asarray(ring, float), 1), 1)]
+        poly(fr, p, ISLAND_C, a)
+        pline(fr, p + [p[0]], color=ISLAND_E, width=2.4, a=a)
+    if canals and grid_a > 0:
+        ang = math.radians(17.0); ux, uy = math.sin(ang), math.cos(ang); vx, vy = uy, -ux       # canal axes: along the temple axis and across it
+        for ax, bx in ((ux, uy), (vx, vy)):
+            for k in np.arange(-0.040, 0.0401, 0.0042):
+                ptsl = []; run = []
+                for t_ in np.linspace(-0.07, 0.07, 280):
+                    ll = (TEMPLE[0] + k * (vx if ax == ux else ux) / 1.0 + t_ * ax, TEMPLE[1] + k * (vy if ax == ux else uy) + t_ * bx)
+                    ins = _inside(ll, TEN_P) or _inside(ll, TLA_P)
+                    if ins: run.append(ll)
+                    elif run: ptsl.append(run); run = []
+                if run: ptsl.append(run)
+                for r_ in ptsl:
+                    if len(r_) > 3: pline(fr, proj(fr.cam, np.asarray(r_, float), 1), color=CAN, width=1.8, a=a * grid_a * 0.9)
+    if precinct:
+        x, y = P(fr.cam, *TEMPLE); hw = abs(P(fr.cam, TEMPLE[0] + 0.0014, TEMPLE[1])[0] - x); hh = abs(P(fr.cam, TEMPLE[0], TEMPLE[1] + 0.0014)[1] - y)
+        poly(fr, [(x - hw, y - hh), (x + hw, y - hh), (x + hw, y + hh), (x - hw, y + hh)], AZ_L, a)
+        pline(fr, [(x - hw, y - hh), (x + hw, y - hh), (x + hw, y + hh), (x - hw, y + hh), (x - hw, y - hh)], color=AZ_D, width=2.6, a=a)
+        circ(fr, x, y, max(4, hw * 0.28), AZ, a)
+    if palace:
+        x, y = P(fr.cam, *PALACE); hw = abs(P(fr.cam, PALACE[0] + 0.0011, PALACE[1])[0] - x); hh = abs(P(fr.cam, PALACE[0], PALACE[1] + 0.0007)[1] - y)
+        poly(fr, [(x - hw, y - hh), (x + hw, y - hh), (x + hw, y + hh), (x - hw, y + hh)], TAR, a)
+    if market:
+        x, y = P(fr.cam, *MARKET); hw = abs(P(fr.cam, MARKET[0] + 0.0016, MARKET[1])[0] - x); hh = abs(P(fr.cam, MARKET[0], MARKET[1] + 0.0011)[1] - y)
+        poly(fr, [(x - hw, y - hh), (x + hw, y - hh), (x + hw, y + hh), (x - hw, y + hh)], PAPER, a)
+        pline(fr, [(x - hw, y - hh), (x + hw, y - hh), (x + hw, y + hh), (x - hw, y + hh), (x - hw, y - hh)], color=AZ_D, width=2.6, a=a)
+def causeways(fr, a=1.0, which=("N", "W", "S"), width=5.0):
+    for nm, cw in (("N", CW_TEPEYAC), ("W", CW_TLACOPAN), ("S", CW_IZTAP)):
+        if nm in which: gline(fr, smooth(cw, 6), color=AZ, width=width, a=a, halo=WHITE)
+def fillemp(fr, a=1.0, color=AZ, k=0.62): terr(fr, "EMP", color, a * k)
+def onland(fr, ll, key="EMP"):
+    x, y = P(fr.cam, *ll); m = fr.masks[key]; k = m.size[0] / W; xi, yi = int(x * k), int(y * k)
+    return 0 <= xi < m.size[0] and 0 <= yi < m.size[1] and m.getpixel((xi, yi)) > 100
+def PW(fr, x, y, txt, t_in, t_out=None, size=28, **kw):
+    """a plaque shown from chapter second t_in until t_out"""
+    a = fr.R(t_in, 0.4) * (1 - (fr.R(t_out - 0.4, 0.4) if t_out else 0.0))
+    PQ(fr, x, y, txt, a=a, size=size, **kw)
+
+# ================= chapter 5
+CORE_C = cam_box(-101.3, -94.2, 16.2, 20.9)
+@sc("05a", "1440", CORE_C, {})
+def _(fr, t):
+    t0 = cue(5, "In 1440")
+    PQ(fr, 400, 150, "1440", a=fr.R(t0, 0.4), size=44)
+    PQ(fr, 1500, 230, "THE FIRST MOCTEZUMA", a=fr.R(word(5, "In 1440", "first Moctezuma"), 0.4), size=30)
+    PQ(fr, 1500, 290, "NOT THE FAMOUS ONE", a=fr.R(cue(5, "This is not the famous"), 0.4), size=24)
+    PQ(fr, 1500, 345, "HIS GREAT-GRANDFATHER", a=fr.R(cue(5, "This is his great"), 0.4), size=24)
+    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"])
+    tu = cue(5, "Under him")
+    pulse(fr, C["TENOCH_ISL"], tu, 2.4, color=AZ)
+    te = word(5, "They march east", "east"); ts_ = word(5, "They march east", "south")
+    EAST = [C["TENOCH_ISL"], (-98.0, 19.25), (-96.9, 19.0), (-96.25, 18.85)]
+    SOUTH = [C["TENOCH_ISL"], (-98.7, 18.6), (-97.9, 18.0), (-97.33, 17.69)]
+    arrow(fr, EAST, te - 0.6, d=2.4, color=AZ, width=5.2); arrow(fr, SOUTH, ts_ - 0.6, d=2.4, color=AZ, width=5.2)
+    sea(fr, -95.6, 20.75, "GULF OF MEXICO", a=fr.R(word(5, "They march east", "Gulf"), 0.5), size=22)
+    region(fr, -98.9, 17.25, "OAXACA", a=fr.R(word(5, "They march east", "Oaxaca"), 0.5), size=26)
+    tk = cue(5, "The kings after him")
+    PQ(fr, 1500, 400, "THE KINGS AFTER HIM KEEP GOING", a=fr.R(tk, 0.4), size=24)
+    arrow(fr, [(-96.25, 18.85), (-95.6, 18.2), (-94.7, 17.4)], tk + 0.2, d=1.4, color=AZ_D, width=4.2, dash=(10, 8))
+    arrow(fr, [(-97.33, 17.69), (-96.6, 16.9), (-95.6, 16.4)], tk + 0.4, d=1.4, color=AZ_D, width=4.2, dash=(10, 8))
+
+EMPC = cam_box(-102.8, -90.6, 13.6, 22.7)
+def empire_tint(fr, a):
+    """Tarascans and Tlaxcala in the neighbours' grey"""
+    if a > 0:
+        for k in ("TAR", "TLX", "HUEX"):
+            if k in fr.masks: fr.fill(fr.masks[k], ENM, a * 0.5)
+@sc("05b", "empire", EMPC, {"EMP": EMP, "TAR": TARM, "TLX": TLXM, "HUEX": HUEXM})
+def _(fr, t):
+    t0 = cue(5, "By 1502")
+    terr(fr, "EMP", AZ, 0.62 * fr.R(t0 + 0.2, 7.0))
+    PQ(fr, 400, 150, "1502", a=fr.R(t0, 0.4), size=44)
+    PQ(fr, 400, 215, "AHUITZOTL", a=fr.R(word(5, "By 1502", "Ahuitzotl"), 0.4), size=28)
+    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=7, size=22, dot=AZ_D, icon=False, ll=C["TENOCH_ISL"], dy=-30)
+    sea(fr, -94.0, 21.4, "GULF OF MEXICO", a=fr.R(word(5, "By 1502", "Gulf"), 0.5), size=24)
+    sea(fr, -98.5, 14.4, "PACIFIC OCEAN", a=fr.R(word(5, "By 1502", "Pacific"), 0.5), size=24)
+    ts = word(5, "By 1502", "Soconusco")
+    tdot(fr, C["TAPACHULA"], a=fr.R(ts, 0.4), r=7, color=AZ_D); PQL(fr, *C["TAPACHULA"], "SOCONUSCO", dx=-120, dy=34, a=fr.R(ts, 0.4), size=24)
+    modern(fr, -90.6, 15.35, "GUATEMALA", a=fr.R(word(5, "By 1502", "Guatemala"), 0.5), size=22)
+    PQ(fr, 430, 800, "400–500 SMALL STATES", a=fr.R(cue(5, "Four to five"), 0.4), size=28)
+    PQ(fr, 430, 865, "5–6 MILLION PEOPLE", a=fr.R(cue(5, "Five or six"), 0.4), size=28)
+    PW(fr, 960, 960, "A DEFEATED KING USUALLY KEEPS HIS THRONE", cue(5, "A defeated king"), cue(5, "The rule is simple"), size=26)
+    tr = cue(5, "The rule is simple"); tp = word(5, "The rule is simple", "pay")
+    SRC = [C["TOCHTEPEC"], C["COIXTLAHUACA"], C["TAPACHULA"], C["CUERNAVACA"], (-93.5, 17.4), (-97.0, 20.6)]
+    tx_ = cue(5, "Pay, and you are left alone")
+    for i, src in enumerate(SRC):
+        arrow(fr, [src, C["TENOCH_ISL"]], tp + 0.15 * i, d=2.2, color=AZ_D, width=3.6, halo=WHITE, a=out(fr, tx_, 0.8))
+    PW(fr, 960, 960, "PAY · TWICE A YEAR · SEND SOLDIERS WHEN ASKED", tp, tx_, size=26)
+    tg = cue(5, "And some neighbours")
+    for i, ll in enumerate(((-96.6, 17.6), (-94.0, 17.3), (-98.3, 16.9), (-92.6, 15.8), (-97.2, 20.6))):
+        pulse(fr, ll, cue(5, "Every Aztec king") + 0.25 * i, 2.8, color=AZ_D, rmax=40)
+    PQ(fr, 960, 960, "EVERY AZTEC KING HAS TO PUT DOWN REBELLIONS", a=fr.R(cue(5, "Every Aztec king"), 0.4) * (1 - fr.R(tg - 0.4, 0.4)), size=26)
+    empire_tint(fr, fr.R(tg, 1.4))
+    PQ(fr, 960, 960, "SOME NEIGHBOURS NEVER GIVE IN", a=fr.R(tg, 0.4), size=26)
+
+WESTC = cam_box(-103.9, -96.4, 17.3, 21.3)
+@sc("05c", "neighbours", WESTC, {"EMP": EMP, "TAR": TARM, "TLX": TLXM, "HUEX": HUEXM})
+def _(fr, t):
+    terr(fr, "EMP", AZ, 0.30); empire_tint(fr, 1.0)
+    city(fr, "TENOCHTITLAN", a=1.0, side="r", r=7, size=22, dot=AZ_D, icon=False, ll=C["TENOCH_ISL"], dy=34)
+    tt = cue(5, "To the west")
+    region(fr, -102.1, 20.1, "TARASCANS", a=fr.R(word(5, "To the west", "Tarascans"), 0.5), size=26)
+    arrow(fr, [C["TENOCH_ISL"], (-99.9, 19.5), TAXIMAROA], tt + 1.2, d=2.0, color=AZ, width=5)
+    cross(fr, *TAXIMAROA, a=fr.R(tt + 3.0, 0.4), r=16, width=6, color=AZ_D)
+    PQ(fr, 400, 150, "LATE 1470s", a=fr.R(tt + 0.2, 0.4), size=40)
+    PQ(fr, 960, 960, "THE EMPIRE'S ONE GREAT DEFEAT", a=fr.R(cue(5, "It is the empire"), 0.4), size=28)
+    tl = cue(5, "To the east, the small")
+    region(fr, -98.15, 19.95, "TLAXCALA", a=fr.R(tl, 0.5), size=26)
+    pulse(fr, C["TLAXCALA"], tl + 0.5, 3.0, color=TLX, rmax=48)
+    PQ(fr, 1480, 150, "AZTEC LAND ON EVERY SIDE", a=fr.R(word(5, "To the east, the small", "Aztec land"), 0.4), size=26)
+    PQ(fr, 960, 880, "REMEMBER TLAXCALA", a=fr.R(cue(5, "Remember Tlaxcala"), 0.4), size=34)
+
+# ================= chapter 6
+ISLP = cam_box(-99.158, -99.102, 19.405, 19.470)
+@sc("06a", "plan", ISLP, {}, rivers=False)
+def _(fr, t):
+    plan(fr); causeways(fr)
+    PQL(fr, -99.112, 19.425, "TENOCHTITLAN", dx=150, dy=0, a=1.0, size=28)
+    tp = cue(6, "Most estimates")
+    PQ(fr, 400, 150, "200,000", a=fr.R(tp, 0.4), size=48)
+    PQ(fr, 400, 215, "SOME SCHOLARS SAY FEWER, SOME SAY MANY MORE", a=fr.R(cue(6, "Some scholars"), 0.4), size=22, anchor="l")
+    PQ(fr, 960, 960, "THE LARGEST CITY ANCIENT MEXICO EVER SAW", a=fr.R(cue(6, "Either way"), 0.4), size=28)
+
+MKTC = cam_box(-99.152, -99.114, 19.428, 19.470)
+@sc("06b", "tlatelolco", MKTC, {}, rivers=False)
+def _(fr, t):
+    plan(fr, market=True, palace=False); causeways(fr, which=("N",))
+    tg = cue(6, "Then go north")
+    arrow(fr, [TEMPLE, (-99.1335, 19.4430), MARKET], tg + 0.2, d=1.8, color=AZ, width=4.6)
+    PQL(fr, *MARKET, "TLATELOLCO", dx=-250, dy=-18, a=fr.R(word(6, "Then go north", "Tlatelolco"), 0.4), size=34)
+    PQ(fr, 1480, 150, "CORTES CLAIMS 60,000 A DAY", a=fr.R(cue(6, "Cort"), 0.4), size=26)
+    PQ(fr, 1480, 215, "OTHER WITNESSES: 20,000–40,000", a=fr.R(cue(6, "Other witnesses"), 0.4), size=26)
+
+# ================= chapter 8
+TEMPC = cam_box(-99.150, -99.112, 19.419, 19.452)
+@sc("08a", "temple", TEMPC, {}, rivers=False)
+def _(fr, t):
+    plan(fr, canals=True, palace=False)
+    ts = cue(8, "Then, in 2015")
+    x, y = P(fr.cam, *TEMPLE)
+    PQ(fr, x + 190, y + 40, "GREAT TEMPLE", a=fr.R(word(8, "Then, in 2015", "Great Temple"), 0.4), size=30)
+    PQ(fr, 400, 150, "2015", a=fr.R(ts, 0.4), size=44)
+    ta = word(8, "Then, in 2015", "tower")
+    tdot(fr, SKULLS, a=fr.R(ta, 0.3), r=9, color=AZ_D); pulse(fr, SKULLS, ta, 2.4, color=AZ_D)
+    PQL(fr, *SKULLS, "A TOWER OF HUMAN SKULLS", dx=-190, dy=-70, a=fr.R(ta, 0.4), size=26)
+    PQ(fr, 1480, 150, "MORE THAN 600 SO FAR", a=fr.R(cue(8, "More than six hundred"), 0.4), size=28)
+    PQ(fr, 960, 960, "A CONQUISTADOR HAD DESCRIBED EXACTLY SUCH A TOWER", a=fr.R(cue(8, "A conquistador"), 0.4), size=26)
+
+# ================= chapter 9
+FLOWC = cam_box(-99.5, -96.9, 18.7, 20.1)
+@sc("09a", "tlaxcala", FLOWC, {"EMP": EMP, "TLX": TLXM, "HUEX": HUEXM}, rivers=False)
+def _(fr, t):
+    terr(fr, "EMP", AZ, 0.34); terr(fr, "TLX", TLX, 0.9 * fr.R(0.5, 1.0)); fr.fill(fr.masks["HUEX"], ENM, 0.45)
+    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"])
+    city(fr, "TLAXCALA", a=fr.R(0.3, 0.4), side="r", r=8, size=26, dot=TLX, icon=False); pulse(fr, C["TLAXCALA"], 0.6, 2.4, color=TLX)
+    tf = cue(9, "The Aztecs fought")
+    for i in range(3): arrow(fr, [C["TENOCH_ISL"], (-98.7, 19.40), C["TLAXCALA"]], tf + 0.5 + 0.8 * i, d=1.6, color=AZ, width=4.4)
+    PQ(fr, 960, 140, "THE FLOWER WAR", a=fr.R(word(9, "The Aztecs fought", "flower war"), 0.4), size=40)
+    PQ(fr, 960, 960, "AT AN AGREED PLACE AND TIME", a=fr.R(cue(9, "A flower war was"), 0.4) * (1 - fr.R(cue(9, "The warriors arrived") - 0.4, 0.4)), size=28)
+    PQ(fr, 960, 960, "THE POINT WAS TO TAKE PRISONERS", a=fr.R(cue(9, "The point was to take"), 0.4) * (1 - fr.R(cue(9, "These wars began") - 0.4, 0.4)), size=28)
+    PQ(fr, 400, 215, "UNDER THE FIRST MOCTEZUMA", a=fr.R(cue(9, "These wars began"), 0.4), size=26)
+    PQ(fr, 960, 960, "TRAINING · RELIGION · A SHOW OF STRENGTH", a=fr.R(cue(9, "For the Aztecs"), 0.4) * (1 - fr.R(cue(9, "For Tlaxcala") - 0.4, 0.4)), size=28)
+    tk = cue(9, "Year after year")
+    arrow(fr, [C["TLAXCALA"], (-98.7, 19.40), C["TENOCH_ISL"]], tk, d=2.4, color=TLX, width=5.4)
+    PQ(fr, 960, 960, "CARRIED OFF TO DIE IN TENOCHTITLAN", a=fr.R(tk, 0.4), size=28)
+
+CITIES9 = [C[k] for k in ("CUERNAVACA", "TEOTITLAN", "COIXTLAHUACA", "TOCHTEPEC", "OAXACA", "TAPACHULA", "CEMPOALA", "TOLLAN", "TABASCO")]
+EMPD = cam_box(-102.8, -91.5, 14.4, 22.4)
+@sc("09b", "weakness", EMPD, {"EMP": EMP, "TAR": TARM, "TLX": TLXM, "HUEX": HUEXM})
+def _(fr, t):
+    terr(fr, "EMP", AZ, 0.58)
+    tdot(fr, C["TENOCH_ISL"], r=8, color=AZ_D); PQL(fr, *C["TENOCH_ISL"], "TENOCHTITLAN", dx=-10, dy=-60, size=22)
+    ti = cue(9, "Inside its borders")
+    rng = np.random.RandomState(7)
+    k = 0
+    for ll in CITIES9:
+        for j in range(5):
+            q = (ll[0] + rng.uniform(-0.55, 0.55), ll[1] + rng.uniform(-0.45, 0.45))
+            if _inside(q, EMP_P) and not _inside(q, TLX_P) and not _inside(q, TUT_P) and onland(fr, q):
+                tdot(fr, q, a=fr.R(ti + 0.045 * k, 0.3), r=3.6, color=AZ_D); k += 1
+    PQ(fr, 960, 960, "HUNDREDS OF CITIES · THEY PAY ONLY BECAUSE THEY MUST", a=fr.R(ti, 0.4) * (1 - fr.R(cue(9, "Next door") - 0.4, 0.4)), size=26)
+    tn = cue(9, "Next door")
+    empire_tint(fr, fr.R(tn, 1.2))
+    region(fr, -97.4, 19.9, "TLAXCALA", a=fr.R(tn + 0.6, 0.5), size=24); region(fr, -102.1, 20.35, "TARASCANS", a=fr.R(tn + 0.3, 0.5), size=24)
+    PQ(fr, 960, 960, "ENEMIES WITH EVERY REASON TO WANT REVENGE", a=fr.R(tn, 0.4) * (1 - fr.R(cue(9, "All that holds") - 0.4, 0.4)), size=26)
+    tf = cue(9, "All that holds")
+    pulse(fr, C["TENOCH_ISL"], tf, 3.4, color=AZ_D, n=3, rmax=70, width=4, period=1.0)
+    PQ(fr, 960, 960, "FEAR OF ONE CITY ON A LAKE", a=fr.R(tf, 0.4) * (1 - fr.R(cue(9, "In 1502") - 0.4, 0.4)), size=28)
+    t19 = cue(9, "As the year 1519")
+    PQ(fr, 400, 150, "1519", a=fr.R(t19, 0.4), size=44)
+    pulse(fr, C["TENOCH_ISL"], t19 + 1.0, 4.0, color=AZ, n=3, rmax=80, width=4, period=1.1)
+    PQ(fr, 960, 960, "NO POWER CAN CHALLENGE TENOCHTITLAN", a=fr.R(word(9, "As the year 1519", "no power"), 0.4), size=28)
+
+# ================= chapter 10
+SEAC = cam_box(-97.6, -79.6, 16.4, 24.2)
+@sc("10a", "voyage", SEAC, {})
+def _(fr, t):
+    t0 = cue(10, "In February")
+    PQ(fr, 440, 150, "FEBRUARY 1519", a=fr.R(t0, 0.4), size=40)
+    region(fr, -80.7, 22.35, "CUBA", a=fr.R(t0 - 0.2, 0.5), size=26)
+    tdot(fr, C["HAVANA"], r=7, color=AZ_D)
+    VOY = [C["HAVANA"], (-85.0, 21.3), C["COZUMEL"], (-86.6, 21.35), (-88.2, 21.7), (-90.3, 21.5), (-91.2, 20.3), (-92.0, 19.0), C["TABASCO"], (-94.6, 18.9), C["VERACRUZ"]]
+    arrow(fr, VOY, t0 + 0.4, d=9.0, color=AZ, width=5.0, n=12)
+    for i, (txt, w) in enumerate((("11 SHIPS", "eleven"), ("ABOUT 500 SOLDIERS", "five hundred"), ("16 HORSES", "sixteen"))):
+        PQ(fr, 440, 230 + 62 * i, txt, a=fr.R(word(10, "In February", w), 0.4), size=28)
+    PQ(fr, 960, 960, "THE GOVERNOR OF CUBA HAS TRIED TO REPLACE HIM", a=fr.R(cue(10, "The governor"), 0.4), size=26)
+
+ROUTEB = cam_box(-99.7, -95.7, 18.4, 20.1)
+@sc("10b", "inland", ROUTEB, {"EMP": EMP, "TLX": TLXM, "HUEX": HUEXM})
+def _(fr, t):
+    terr(fr, "EMP", AZ, 0.30); fr.fill(fr.masks["HUEX"], ENM, 0.45)
+    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=8, size=24, dot=AZ_D, icon=False, ll=C["TENOCH_ISL"], dy=-30)
+    t0 = cue(10, "Cort" + "\u00e9s destroys")
+    tdot(fr, C["VERACRUZ"], r=7, color=INK); cross(fr, *C["VERACRUZ"], a=fr.R(t0, 0.4), r=14, width=6, color=AZ_D)
+    PQ(fr, 400, 150, "SHIPS DESTROYED", a=fr.R(word(10, "Cort" + "és destroys", "ships"), 0.4), size=30)
+    ta = word(10, "Cort" + "és destroys", "August")
+    PQ(fr, 400, 215, "AUGUST", a=fr.R(ta, 0.4), size=30)
+    ROUTE1 = [C["VERACRUZ"], (-96.6, 19.5), (-97.1, 19.55), (-97.7, 19.5), C["TLAXCALA"]]
+    arrow(fr, ROUTE1, ta - 0.4, d=4.0, color=AZ, width=5.0)
+    tt = cue(10, "Tlaxcala fights")
+    city(fr, "TLAXCALA", a=fr.R(tt, 0.4), side="l", r=8, size=26, dot=TLX, icon=False, dy=44); pulse(fr, C["TLAXCALA"], tt, 2.6, color=TLX, rmax=40)
+    fr.fill(fr.masks["TLX"], TLX, 0.6 * fr.R(tt, 1.2))
+    PQ(fr, 960, 960, "THEN IT MAKES A DECISION", a=fr.R(cue(10, "Then it makes"), 0.4) * (1 - fr.R(cue(10, "These strangers") - 0.4, 0.4)), size=28)
+    tw = cue(10, "These strangers")
+    ROUTE2 = [C["TLAXCALA"], C["CHOLULA"], (-98.75, 19.17), (-99.0, 19.30), C["IZTAPALAPA"], C["TENOCH_ISL"]]
+    arrow(fr, ROUTE2, tw, d=2.8, color=TLX, width=5.4)
+    PQ(fr, 960, 960, "A WEAPON AGAINST TENOCHTITLAN", a=fr.R(tw, 0.4), size=28)
+
+# ================= chapter 11
+RTC = cam_box(-99.7, -95.9, 18.7, 20.1)
+ISL4 = cam_box(-99.19, -99.07, 19.385, 19.485)
+LAKEC = cam_box(-99.32, -98.15, 19.18, 19.72)
+W2 = cam_box(-99.5, -97.9, 19.0, 19.95)
+CAM11 = mover([(0, RTC), (9.5, RTC), (13.0, ISL4), (30.0, ISL4), (37.0, LAKEW), (49.0, LAKEW), (53.0, W2), (60.0, W2)])
+@sc("11a", "alvarado", CAM11, {"TLX": TLXM})
+def _(fr, t):
+    live(fr, 0, 60)
+    pa = fr.R(10.5, 2.0) * (1 - fr.R(35.0, 3.0))
+    if pa > 0: plan(fr, a=pa); causeways(fr, a=pa)
+    city(fr, "TENOCHTITLAN", a=1.0, side="r", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"], dy=34)
+    t1 = cue(11, "Then, in the spring")
+    PQ(fr, 400, 150, "SPRING 1520", a=fr.R(t1, 0.4), size=40)
+    COAST = (-96.4, 19.45)
+    arrow(fr, [C["TENOCH_ISL"], (-98.4, 19.55), (-97.3, 19.5), COAST], t1 + 0.4, d=3.4, color=AZ, width=5.0, a=out(fr, 14.0, 1.0))
+    t2 = cue(11, "A second Spanish")
+    arrow(fr, [(-95.3, 19.65), COAST], t2 + 0.2, d=1.8, color=SPA, width=5.0, a=out(fr, 14.0, 1.0))
+    PQ(fr, 1480, 150, "800+ SOLDIERS FROM CUBA TO ARREST HIM", a=fr.R(t2, 0.4) * (1 - fr.R(cue(11, "He leaves about") - 0.4, 0.4)), size=24)
+    t3 = cue(11, "He leaves about")
+    PW(fr, 960, 960, "ABOUT 80 MEN UNDER PEDRO DE ALVARADO", t3, 29.0, size=28)
+    t4 = cue(11, "On the night of the thirtieth")
+    gline(fr, smooth(CW_TLACOPAN, 6), color=AZ, width=5.0, a=fr.R(t4 - 2.0, 0.6), halo=WHITE)
+    PQ(fr, 400, 150, "30 JUNE 1520", a=fr.R(t4, 0.4), size=40)
+    ESC = [C["TENOCH_ISL"], (-99.150, 19.4430), (-99.170, 19.4515), C["TLACOPAN"]]
+    arrow(fr, ESC, t4 + 1.0, d=3.0, color=SPA, width=5.4)
+    tc = cue(11, "They are caught")
+    cross(fr, -99.163, 19.449, a=fr.R(tc, 0.4), r=16, width=6, color=AZ_D); pulse(fr, (-99.163, 19.449), tc, 2.6, color=AZ_D, rmax=44)
+    PQ(fr, 960, 960, "MORE THAN HALF HIS MEN", a=fr.R(cue(11, "Cort" + "és loses"), 0.4) * (1 - fr.R(cue(11, "The Spanish call it") - 0.4, 0.4)), size=28)
+    PQ(fr, 960, 960, "THE NIGHT OF SORROWS", a=fr.R(cue(11, "The Spanish call it"), 0.4), size=34)
+    ts = cue(11, "The survivors")
+    FLEE = [C["TLACOPAN"], (-99.15, 19.55), (-99.05, 19.66), (-98.75, 19.70), (-98.50, 19.62), C["TLAXCALA"]]
+    arrow(fr, FLEE, ts, d=2.4, color=SPA, width=5.4)
+    tk = cue(11, "And Tlaxcala")
+    city(fr, "TLAXCALA", a=fr.R(ts + 1.4, 0.4), side="l", r=8, size=26, dot=TLX, icon=False, dy=40)
+    fr.fill(fr.masks["TLX"], TLX, 0.6 * fr.R(tk, 1.0)); pulse(fr, C["TLAXCALA"], tk, 2.4, color=TLX, rmax=40)
+    PQ(fr, 960, 960, "TLAXCALA TAKES THEM IN", a=fr.R(tk, 0.4), size=28)
+
+SIEGE = mover([(69.75, LAKEC), (78.0, LAKEC), (83.0, LAKEW), (90.0, LAKEW)])
+@sc("11b", "siege", SIEGE, {"TLX": TLXM})
+def _(fr, t):
+    live(fr, 69.75, 90)
+    valley_rivers(fr, a=0.7)
+    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"], dy=-44)
+    city(fr, "TLAXCALA", a=1.0, side="l", r=7, size=24, dot=TLX, icon=False, dy=40)
+    t0 = cue(11, "In May 1521")
+    PQ(fr, 400, 150, "MAY 1521", a=fr.R(t0, 0.4), size=44)
+    t1 = cue(11, "He has thirteen")
+    for i in range(13):
+        tdot(fr, (-98.99 + 0.012 * (i % 7) - 0.006 * (i // 7), 19.50 - 0.010 * (i // 7)), a=fr.R(t1 + 0.12 * i, 0.3), r=5, color=INK)
+    PQ(fr, 1480, 150, "13 SHIPS BUILT FOR THE LAKE", a=fr.R(t1, 0.4), size=26)
+    PQ(fr, 1480, 215, "ABOUT 1,000 SPANIARDS", a=fr.R(t1 + 2.0, 0.4), size=26)
+    t2 = cue(11, "With them march")
+    for i, src in enumerate((C["TLAXCALA"], C["TEXCOCO"], C["CHALCO"], C["COYOACAN"])):
+        arrow(fr, [src, C["TENOCH_ISL"]], t2 + 0.3 * i, d=2.0, color=TLX, width=4.2, dash=(10, 8))
+    PQ(fr, 1480, 280, "ALLIES: TENS OF THOUSANDS", a=fr.R(t2, 0.4), size=26)
+    PQ(fr, 1480, 345, "SOME COUNTS SAY 200,000", a=fr.R(cue(11, "Some counts"), 0.4), size=24)
+    t3 = cue(11, "They cut the aqueduct")
+    ax_, ay_ = along(AQUEDUCT, 0.5); cross(fr, ax_, ay_, a=fr.R(t3, 0.3), r=14, width=6, color=AZ_D)
+    PQ(fr, 960, 960, "THEY CUT THE AQUEDUCT", a=fr.R(t3, 0.3) * (1 - fr.R(t3 + 1.2, 0.3)), size=28)
+    t4 = cue(11, "They block")
+    for k, cw in enumerate((CW_TEPEYAC, CW_TLACOPAN, CW_IZTAP)):
+        q = along(cw, 0.7); cross(fr, *q, a=fr.R(t4 + 0.25 * k, 0.3), r=14, width=6, color=AZ_D)
+    PQ(fr, 960, 960, "THEY BLOCK THE CAUSEWAYS", a=fr.R(t4, 0.3) * (1 - fr.R(cue(11, "The siege lasts") - 0.3, 0.3)), size=28)
+    PQ(fr, 960, 960, "THE SIEGE LASTS ABOUT THREE MONTHS", a=fr.R(cue(11, "The siege lasts"), 0.3), size=28)
+
+# ================= chapter 12
+HOND = cam_box(-100.2, -86.5, 13.6, 20.6)
+CAM12 = mover([(0, ISL4), (6.5, ISL4), (10.0, HOND), (16.0, HOND)])
+@sc("12a", "ruins", CAM12, {})
+def _(fr, t):
+    live(fr, 0, 16)
+    pa = 1 - fr.R(6.5, 1.5)
+    if pa > 0: plan(fr, a=pa); causeways(fr, a=pa)
+    t0 = 0.2
+    PQ(fr, 960, 960, "ON TOP OF THE RUINS", a=fr.R(word(12, "Cort" + "és builds", "on top"), 0.4) * (1 - fr.R(cue(12, "It is Mexico City") - 0.4, 0.4)), size=28)
+    tm = cue(12, "It is Mexico City")
+    PQL(fr, *C["TENOCH_ISL"], "MEXICO CITY", dx=0, dy=-60, a=fr.R(tm, 0.4) * (1 - fr.R(8.4, 1.0)), size=36)
+    tdot(fr, C["TENOCH_ISL"], r=8, color=AZ_D)
+    tc = cue(12, "Cuauhtemoc stays")
+    PQ(fr, 960, 140, "CUAUHTEMOC STAYS A PRISONER", a=fr.R(tc, 0.4) * (1 - fr.R(9.0, 0.6)), size=30)
+    th = cue(12, "In 1525")
+    PQ(fr, 400, 150, "1525", a=fr.R(th, 0.4), size=44)
+    MARCH = [C["TENOCH_ISL"], (-97.0, 18.7), (-94.4, 18.15), (-92.7, 17.9), (-91.0, 17.6), (-89.2, 16.4), (-88.5, 15.7)]
+    arrow(fr, MARCH, th + 0.3, d=3.4, color=AZ, width=5.0, n=10)
+    modern(fr, -88.0, 14.9, "HONDURAS", a=fr.R(word(12, "In 1525", "Honduras"), 0.5), size=22)
+    cross(fr, -91.0, 17.6, a=fr.R(th + 3.2, 0.4), r=16, width=6, color=AZ_D)
+    PQ(fr, 960, 960, "CORTES HAS HIM HANGED", a=fr.R(word(12, "In 1525", "has him"), 0.4), size=28)
+
+DRYC = cam_box(-99.32, -98.82, 19.20, 19.82)
+def LAKES_M(cam, lm):
+    return reduce(IC.lighter, [engine.poly_mask(cam, r, True) for r in LAKE_RINGS])
+@sc("12b", "drained", DRYC, {"LAKES": LAKES_M})
+def _(fr, t):
+    valley_rivers(fr, a=0.8)
+    td = cue(12, "The lake goes too"); tn = cue(12, "The new rulers")
+    dry = fr.R(td + 0.4, 6.0) * 0.96
+    if dry > 0: fr.fill(fr.masks["LAKES"], DRY_C, dry)
+    PQ(fr, 960, 140, "THE LAKE GOES TOO", a=fr.R(td, 0.4) * (1 - fr.R(tn - 0.4, 0.4)), size=40)
+    PQ(fr, 960, 960, "FINISHED IN THE LATE 19TH CENTURY", a=fr.R(word(12, "The new rulers", "late nineteenth"), 0.4), size=28)
+    modern(fr, -99.13, 19.43, "MEXICO CITY", a=fr.R(tn + 2.0, 0.6), size=24, color=(70, 60, 46))
+
 if __name__ == "__main__":
     import time
     mode = sys.argv[1]
