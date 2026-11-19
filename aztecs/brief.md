@@ -215,10 +215,10 @@ In shallow lake water, three men in loincloths stand waist-deep and drive long w
 **Движение (Grok Imagine Video, 10 с):**
 
 ```
-The men press the stakes down into the lake bed and weave a branch between two of them; the canoe stays beside them; gentle ripples spread. Camera: slow push-in. Sound: water splashing, wood knocking, low voices, no music, no speech.
+The man on the left brings his wooden mallet down onto the top of the stake he holds upright with his left hand, the stake sinks a few centimetres into the lake bed, and he lifts the mallet again. The man in the centre leans his weight on his tall stake with both hands and pushes it slowly down into the lake bed. The man on the right keeps pressing the bundle of branches against the stakes with both hands, adjusting it into place. The empty dugout canoe with the mud and green water plants stays beside them and rocks very slightly. Gentle rings of ripples spread across the calm water around the legs of the men. Camera: slow steady push-in toward the three men, the mountains stay in the background. Sound: dull thud of the wooden mallet on the stake, water splashing and dripping, soft lapping against the canoe, distant birds, no music, no speech.
 ```
 
-**Кадр → движение:** Колья и плетёнка уже частично стоят; каноэ с илом рядом; люди в воде.
+**Кадр → движение:** Киянка уже поднята в правой руке левого, его левая рука держит кол; средний держит высокий кол обеими руками; правый держит пучок веток; каноэ пустое с илом и водорослями; озеро спокойное.
 
 ### R11. Канал между чинампами, каноэ с овощами — 8 с
 

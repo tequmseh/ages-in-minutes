@@ -65,9 +65,9 @@ R['R10']=dict(t='Строительство чинампы: колья и пле
 era='Способ: колья вбиваются в дно, между ними плетёнка из веток, потом заполнение илом и водорослями. Работают по пояс в воде, в набедренных повязках; рядом каноэ с илом и срезанными водными растениями.',
 ref='Не нужен.',
 sf='In shallow lake water, three men in loincloths stand waist-deep and drive long wooden stakes into the lake bed to form a rectangle about ten metres long; woven reed branches are already attached to the stakes along two sides. A dugout canoe loaded with dark mud and cut green water plants floats beside them. Calm water, a low green shore behind. Composition: the rectangle of stakes in the centre, canoe at the right edge. Light: morning sun from the left, soft reflections. Camera: Sony FX6 documentary camera, 35 mm lens, f/5.6, height 1.5 metres, medium-wide shot.',
-mv='The men press the stakes down into the lake bed and weave a branch between two of them; the canoe stays beside them; gentle ripples spread.',
-cam='slow push-in.',snd='water splashing, wood knocking, low voices',
-lk='Колья и плетёнка уже частично стоят; каноэ с илом рядом; люди в воде.')
+mv='The man on the left brings his wooden mallet down onto the top of the stake he holds upright with his left hand, the stake sinks a few centimetres into the lake bed, and he lifts the mallet again. The man in the centre leans his weight on his tall stake with both hands and pushes it slowly down into the lake bed. The man on the right keeps pressing the bundle of branches against the stakes with both hands, adjusting it into place. The empty dugout canoe with the mud and green water plants stays beside them and rocks very slightly. Gentle rings of ripples spread across the calm water around the legs of the men.',
+cam='slow steady push-in toward the three men, the mountains stay in the background.',snd='dull thud of the wooden mallet on the stake, water splashing and dripping, soft lapping against the canoe, distant birds',
+lk='Киянка уже поднята в правой руке левого, его левая рука держит кол; средний держит высокий кол обеими руками; правый держит пучок веток; каноэ пустое с илом и водорослями; озеро спокойное.')
 R['R11']=dict(t='Канал между чинампами, каноэ с овощами',
 era='Канал шириной около двух метров, вода тёмная и чистая; на чинампах кукуруза и ивы. Женщина в белой блузе в каноэ с овощами, мужчина работает на соседней грядке.',
 ref='Не нужен.',
