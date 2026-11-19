@@ -83,12 +83,12 @@ mv='A seller counts cacao beans in her hands while a buyer holds out a folded cl
 cam='slow lateral move to the left.',snd='market murmur, clay pots clinking, a distant flute',
 lk='Продавщица уже держит бобы; покупатель с тканью в кадре; людей около дюжины.')
 R['R13']=dict(t='Новый огонь на горной вершине ночью',
-era='Ночь, голая вершина, жрец в длинном тёмном плаще; огонь добывают трением палочки (лучковое сверло); внизу тёмная долина без огней. Крови и жертв в кадре нет.',
+era='Огонь добывали вращением палочки-сверла в углублении деревянной дощечки (ручное сверло): жрец сидит или стоит на колене над дощечкой, дощечка лежит на плоском камне и прижата коленом, рядом пучок сухой травы-трута. Стоя огонь так не добыть. Крови, жертв и людей рядом в кадре нет.',
 ref='Не нужен.',
-sf='At night, on a bare mountain summit, a priest in a long dark cloak stands alone beside a small wooden fire drill and a pile of dry sticks and grass; far below lies a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Composition: priest in the lower left third, valley and horizon in the upper half. Light: starlight only, faint cool blue, with first warm glow expected at his feet. Camera: Arri Alexa Mini, 35 mm lens, f/2.0, height 1.5 metres, medium-wide shot, slightly low.',
-mv='The priest spins the drill between his palms; a spark glows and a first flame appears in the dry grass; far below in the valley, tiny fires appear one by one.',
-cam='very slow push-in toward the priest.',snd='dry wood rasping, wind, the crackle of catching fire',
-lk='Сверло уже у него в ладонях; трава сухая сложена; долина тёмная до появления огней.')
+sf='At night, on a bare mountain summit, a priest in a long dark cotton cloak kneels on one knee over a flat wooden fire board that lies on a flat stone, pressing the board down with his left knee. Between his palms he holds a thin straight wooden drill upright, its lower tip set in a small notch of the board; beside the notch lies a loose bundle of dry grass and shredded bark. His head is bowed over his hands. Far below lies a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Composition: priest kneeling in the lower left third, valley and horizon in the upper half. Light: starlight only, faint cool blue, a soft pale light on his hands and the board. Camera: Arri Alexa Mini, 35 mm lens, f/2.0, height 0.8 metres, medium shot, slightly low.',
+mv='The priest spins the drill quickly between his palms, sliding his hands down the drill and bringing them back to the top again and again; a thin thread of smoke rises from the notch, a small orange ember appears in the dark dust beside the drill and glows brighter. He tips the ember into the bundle of dry grass, lifts it in both hands and blows on it gently, and the grass bursts into a small yellow flame that lights his face and cloak.',
+cam='very slow push-in toward the priest.',snd='dry wood rasping, a faint hiss, soft breathing, wind, the crackle of catching grass',
+lk='Жрец стоит на колене, сверло вертикально в ладонях, остриё в выемке доски, пучок сухой травы рядом; ничего нового не появляется, кроме дыма, тлеющего уголька и пламени.')
 R['R14']=dict(t='Два строя воинов перед цветочной войной',
 era='Воины в хлопковых доспехах-ичкауипилли, оранжевых/зелёных и красных/синих, с перьевыми уборами и щитами; в руках деревянные дубины — обсидиановых лезвий в кадре не нужно. Бой не показывать: только строй, сторона против стороны.',
 ref='Не нужен.',

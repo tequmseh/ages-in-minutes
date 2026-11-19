@@ -268,23 +268,23 @@ A seller counts cacao beans in her hands while a buyer holds out a folded cloth;
 
 **Окна:** гл. 8: 86,2–97,2 (11,0 с). Длина файла = самое длинное окно + 1 с.
 
-**Проверка эпохи:** Ночь, голая вершина, жрец в длинном тёмном плаще; огонь добывают трением палочки (лучковое сверло); внизу тёмная долина без огней. Крови и жертв в кадре нет.
+**Проверка эпохи:** Огонь добывали вращением палочки-сверла в углублении деревянной дощечки (ручное сверло): жрец сидит или стоит на колене над дощечкой, дощечка лежит на плоском камне и прижата коленом, рядом пучок сухой травы-трута. Стоя огонь так не добыть. Крови, жертв и людей рядом в кадре нет.
 
 **Референс:** Не нужен.
 
 **Стартовый кадр (Nano Banana 2, 16:9, 2K):**
 
 ```
-At night, on a bare mountain summit, a priest in a long dark cloak stands alone beside a small wooden fire drill and a pile of dry sticks and grass; far below lies a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Composition: priest in the lower left third, valley and horizon in the upper half. Light: starlight only, faint cool blue, with first warm glow expected at his feet. Camera: Arri Alexa Mini, 35 mm lens, f/2.0, height 1.5 metres, medium-wide shot, slightly low. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+At night, on a bare mountain summit, a priest in a long dark cotton cloak kneels on one knee over a flat wooden fire board that lies on a flat stone, pressing the board down with his left knee. Between his palms he holds a thin straight wooden drill upright, its lower tip set in a small notch of the board; beside the notch lies a loose bundle of dry grass and shredded bark. His head is bowed over his hands. Far below lies a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Composition: priest kneeling in the lower left third, valley and horizon in the upper half. Light: starlight only, faint cool blue, a soft pale light on his hands and the board. Camera: Arri Alexa Mini, 35 mm lens, f/2.0, height 0.8 metres, medium shot, slightly low. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
 ```
 
 **Движение (Grok Imagine Video, 12 с):**
 
 ```
-The priest spins the drill between his palms; a spark glows and a first flame appears in the dry grass; far below in the valley, tiny fires appear one by one. Camera: very slow push-in toward the priest. Sound: dry wood rasping, wind, the crackle of catching fire, no music, no speech.
+The priest spins the drill quickly between his palms, sliding his hands down the drill and bringing them back to the top again and again; a thin thread of smoke rises from the notch, a small orange ember appears in the dark dust beside the drill and glows brighter. He tips the ember into the bundle of dry grass, lifts it in both hands and blows on it gently, and the grass bursts into a small yellow flame that lights his face and cloak. Camera: very slow push-in toward the priest. Sound: dry wood rasping, a faint hiss, soft breathing, wind, the crackle of catching grass, no music, no speech.
 ```
 
-**Кадр → движение:** Сверло уже у него в ладонях; трава сухая сложена; долина тёмная до появления огней.
+**Кадр → движение:** Жрец стоит на колене, сверло вертикально в ладонях, остриё в выемке доски, пучок сухой травы рядом; ничего нового не появляется, кроме дыма, тлеющего уголька и пламени.
 
 ### R14. Два строя воинов перед цветочной войной — 15 с
 
