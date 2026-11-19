@@ -91,6 +91,7 @@ def framed(im, name, x, y, h, a):
     if a > 0: ImageDraw.Draw(im).rectangle([x - w / 2 - 6, y - h / 2 - 6, x + w / 2 + 6, y + h / 2 + 6], fill=col(WHITE, a))
     obj(im, name, x, y, h=h, a=a)
 
+PLATE_OBJ = {"p3b": "V32"}          # a plate with an object beside the words
 GHOST = 0.3          # a plate is never an empty screen: every line is there from the first frame, dim, and lights up when it is spoken
 G = {}          # (chapter, window start) -> draw(im, d, t)
 def mk_plate(n, a, b, i, txt):
@@ -111,6 +112,7 @@ def mk_plate(n, a, b, i, txt):
             tscale(d, t, 360, 1560, 470, la, lb, a + 0.3, min(3.0, (b - a) * 0.5), A)
             rest = {"p7c": its[2:], "p11c": its[2:], "p12b": []}[i]; rt = ts[len(its) - len(rest):]
             if rest: column(d, t, cx, rest, rt, A, 1500, y0=760, big=70, ghost=GHOST)
+        elif i in PLATE_OBJ: obj(im, PLATE_OBJ[i], 560, 540, h=1000, a=A); d = ImageDraw.Draw(im); column(d, t, 1300, its, ts, A, 900, ghost=GHOST)
         else: column(d, t, cx, its, ts, A, 1650, ghost=GHOST)
     G[(n, a)] = f
 def _has(n, ph, a, b):

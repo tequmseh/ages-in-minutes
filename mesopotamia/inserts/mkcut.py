@@ -36,6 +36,7 @@ J = {  # ключ: (исходник, режим, opts)
 "V29": ("V29", "full", {"crop": (0.004, 0.01, 0.996, 0.99)}),
 "V30": ("V30", "cut", {"fill": True}),
 "V31": ("V31", "full", {}),
+"V32": ("V32", "key", {"warm": 9}),          # герой со львом из Хорсабада — на плашке Гильгамеша (вне раскладки, добавлен Рустамом)
 }
 Image.MAX_IMAGE_PIXELS = None
 def key(im, thr=16, const=False, shadows=True, warm=0, corner="tl", sh=60):
