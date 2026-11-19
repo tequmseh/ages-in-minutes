@@ -93,9 +93,9 @@ R['R14']=dict(t='Два строя воинов перед цветочной в
 era='Воины в хлопковых доспехах-ичкауипилли, оранжевых/зелёных и красных/синих, с перьевыми уборами и щитами; в руках деревянные дубины — обсидиановых лезвий в кадре не нужно. Бой не показывать: только строй, сторона против стороны.',
 ref='Не нужен.',
 sf='Seen from a high angle, two groups of ten warriors stand facing each other across a flat grass field about forty metres apart, motionless in two straight lines: the left group in orange and green quilted cotton suits with feathered headdresses, the right group in red and blue suits with feathered shields, all holding wooden clubs upright at their sides. Mountains rise behind. Composition: the two lines left and right, empty grass between them, mountains across the upper third. Light: clear morning sun from the left. Camera: Arri Alexa Mini, 35 mm lens, f/5.6, height 8 metres, high wide shot.',
-mv='The warriors stay in formation; the feathers on their headdresses move in the wind; one man in each line steps forward half a pace. No fighting.',
-cam='slow push-in from above.',snd='wind over grass, feathers rustling, a distant drum',
-lk='Два строя по десять человек стоят до движения; никто не бежит и не бьёт.')
+mv='The two lines of warriors stand facing each other across the grass and hold their positions: the feathers on the headdresses and the fringes of the shields sway gently in the breeze, the men shift their weight slightly from foot to foot, and the nearest warrior in each line takes half a pace forward and lifts his club a few centimetres, then lowers it again. The long shadows on the grass stay still. No one runs, no one strikes.',
+cam='slow steady push-in from above, the two lines kept in frame.',snd='wind over the grass, feathers rustling, shields creaking, a distant drum',
+lk='Десять воинов в оранжевом слева и десять в красном и синем справа стоят строем, дубины у бёдер, щиты у правой группы; движение: ветер в перьях, перенос веса, шаг вперёд на полшага ближних; бега и ударов нет.')
 R['R15']=dict(t='Испанские корабли на якоре у побережья Мексики, 1519',
 era='Нао/каравеллы начала XVI в.: квадратные паруса, высокая корма, красные кресты на флагах; не галеоны. Бухта спокойная, пальмы, песчаный берег.',
 ref='Желателен: корабль XVI в. (поиск «Spanish nao 1519 Cortes ship») — только форма корпуса и такелажа.',

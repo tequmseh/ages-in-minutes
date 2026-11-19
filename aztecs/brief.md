@@ -303,10 +303,10 @@ Seen from a high angle, two groups of ten warriors stand facing each other acros
 **Движение (Grok Imagine Video, 15 с):**
 
 ```
-The warriors stay in formation; the feathers on their headdresses move in the wind; one man in each line steps forward half a pace. No fighting. Camera: slow push-in from above. Sound: wind over grass, feathers rustling, a distant drum, no music, no speech.
+The two lines of warriors stand facing each other across the grass and hold their positions: the feathers on the headdresses and the fringes of the shields sway gently in the breeze, the men shift their weight slightly from foot to foot, and the nearest warrior in each line takes half a pace forward and lifts his club a few centimetres, then lowers it again. The long shadows on the grass stay still. No one runs, no one strikes. Camera: slow steady push-in from above, the two lines kept in frame. Sound: wind over the grass, feathers rustling, shields creaking, a distant drum, no music, no speech.
 ```
 
-**Кадр → движение:** Два строя по десять человек стоят до движения; никто не бежит и не бьёт.
+**Кадр → движение:** Десять воинов в оранжевом слева и десять в красном и синем справа стоят строем, дубины у бёдер, щиты у правой группы; движение: ветер в перьях, перенос веса, шаг вперёд на полшага ближних; бега и ударов нет.
 
 ### R15. Испанские корабли на якоре у побережья Мексики, 1519 — 10 с
 
