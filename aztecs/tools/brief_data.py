@@ -100,9 +100,9 @@ R['R15']=dict(t='Испанские корабли на якоре у побер
 era='Нао/каравеллы начала XVI в.: квадратные паруса, высокая корма, красные кресты на флагах; не галеоны. Бухта спокойная, пальмы, песчаный берег.',
 ref='Желателен: корабль XVI в. (поиск «Spanish nao 1519 Cortes ship») — только форма корпуса и такелажа.',
 sf='Seen from a low rocky headland, three small Spanish sailing ships of 1519 with square sails, high sterns and red cross flags stand at anchor in a calm blue bay, a few hundred metres from a sandy shore with palms; a small rowing boat with four oarsmen, oars in the water, lies beside the middle ship. Composition: ships in the centre third, shore at the right, headland rocks in the lower left. Light: clear morning sun from the left. Camera: Sony FX6 documentary camera, 50 mm lens, f/8, height 4 metres, wide shot.',
-mv='The ships rock gently at anchor, sails flapping slightly; the rowing boat moves from the middle ship toward the shore.',
-cam='slow push-in.',snd='water slapping hulls, creaking rope, gulls',
-lk='Лодка с гребцами и вёслами в воде уже в кадре; корабли на якоре.')
+mv='The three anchored ships rock very gently on the calm water, the red cross flags flutter on the mastheads and the furled sails and rigging stir slightly in the breeze. The small rowing boat beside the middle ship, with its four men and two oars already in the water, moves slowly forward toward the sandy shore on the right as the two oarsmen pull together, leaving soft ripples behind. The palm trees on the shore sway a little and the water glints in the morning light.',
+cam='slow steady push-in from the headland, the three ships and the boat kept in frame.',snd='water lapping against hulls, creaking wood and rope, oars dipping in rhythm, gulls, wind in the flags',
+lk='Три корабля на якоре со свёрнутыми парусами, красные кресты на флагах; шлюпка с четырьмя людьми и двумя вёслами в воде у среднего корабля уже в кадре; идёт к берегу вправо, как и положено по расположению вёсел; новых кораблей и людей нет.')
 R['R16']=dict(t='Каноэ уходит по озеру на рассвете, август 1521',
 era='Три человека в каноэ: молодой мужчина в белом плаще и двое гребцов; позади разрушенный город с белыми стенами и тонким дымом. Без тел и огня на переднем плане.',
 ref='Не нужен.',

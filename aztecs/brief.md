@@ -325,10 +325,10 @@ Seen from a low rocky headland, three small Spanish sailing ships of 1519 with s
 **Движение (Grok Imagine Video, 10 с):**
 
 ```
-The ships rock gently at anchor, sails flapping slightly; the rowing boat moves from the middle ship toward the shore. Camera: slow push-in. Sound: water slapping hulls, creaking rope, gulls, no music, no speech.
+The three anchored ships rock very gently on the calm water, the red cross flags flutter on the mastheads and the furled sails and rigging stir slightly in the breeze. The small rowing boat beside the middle ship, with its four men and two oars already in the water, moves slowly forward toward the sandy shore on the right as the two oarsmen pull together, leaving soft ripples behind. The palm trees on the shore sway a little and the water glints in the morning light. Camera: slow steady push-in from the headland, the three ships and the boat kept in frame. Sound: water lapping against hulls, creaking wood and rope, oars dipping in rhythm, gulls, wind in the flags, no music, no speech.
 ```
 
-**Кадр → движение:** Лодка с гребцами и вёслами в воде уже в кадре; корабли на якоре.
+**Кадр → движение:** Три корабля на якоре со свёрнутыми парусами, красные кресты на флагах; шлюпка с четырьмя людьми и двумя вёслами в воде у среднего корабля уже в кадре; идёт к берегу вправо, как и положено по расположению вёсел; новых кораблей и людей нет.
 
 ### R16. Каноэ уходит по озеру на рассвете, август 1521 — 10 с
 
