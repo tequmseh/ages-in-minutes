@@ -224,23 +224,23 @@ The man on the left brings his wooden mallet down onto the top of the stake he h
 
 **Окна:** гл. 3: 22,0–28,8 (6,8 с). Длина файла = самое длинное окно + 1 с.
 
-**Проверка эпохи:** Канал шириной около двух метров, вода тёмная и чистая; на чинампах кукуруза и ивы. Женщина в белой блузе в каноэ с овощами, мужчина работает на соседней грядке.
+**Проверка эпохи:** Канал шириной около двух метров, вода тёмная и чистая; на чинампах высокая кукуруза и ивы. Женщина в белой блузе в каноэ с овощами; мужчина работает среди кукурузы, его видно по пояс, в белом хлопковом плаще, закрывающем торс (плащ-тильматли, узел на плече). Тело в кадре не показывать: модерация генератора отклоняет голый торс.
 
 **Референс:** Не нужен.
 
 **Стартовый кадр (Nano Banana 2, 16:9, 2K):**
 
 ```
-A green chinampa with maize and willow trees seen from a canoe on the canal beside it; the canal is two metres wide, the water dark and clear. A woman in a white blouse sits in a canoe loaded with vegetables in the foreground; a man in a loincloth on the next chinampa bends over a row of plants. Composition: canal in the centre, chinampa on the left, canoe in the lower right. Light: morning sun from the right, soft glints on the water. Camera: Sony FX6 documentary camera, 35 mm lens, f/4, height 1 metre at water level, medium shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+A green chinampa with tall maize and willow trees seen from a canoe on the canal beside it; the canal is two metres wide, the water dark and clear. A woman in a long white embroidered blouse sits in a canoe loaded with vegetables in the foreground. On the next chinampa a man stands among the tall green maize stalks, visible from the waist up between the leaves, wearing a plain white cotton cape knotted on his right shoulder that covers his chest, back and upper arms; he bends over a row of young plants with both hands among the stalks. Composition: canal in the centre, chinampa with the maize and the man on the left, canoe in the lower right. Light: morning sun from the right, soft glints on the water. Camera: Sony FX6 documentary camera, 35 mm lens, f/4, height 1 metre at water level, medium shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
 ```
 
 **Движение (Grok Imagine Video, 8 с):**
 
 ```
-The canoe glides slowly forward along the canal; the man works along his row; willow leaves move in the breeze. Camera: slow dolly forward along the canal. Sound: water lapping, rustling leaves, soft birdsong, no music, no speech.
+The canoe glides slowly forward along the canal; the man among the maize works along his row, his hands moving among the stalks, the maize leaves swaying around him; willow leaves move in the breeze. Camera: slow dolly forward along the canal. Sound: water lapping, rustling maize leaves, soft birdsong, no music, no speech.
 ```
 
-**Кадр → движение:** Каноэ уже на воде; мужчина согнут над грядкой; камера идёт по каналу.
+**Кадр → движение:** Каноэ уже на воде; мужчина по пояс среди кукурузы, торс закрыт плащом; камера идёт по каналу.
 
 ### R12. Рынок Тлателолко: циновки, перья, какао — 11 с
 
