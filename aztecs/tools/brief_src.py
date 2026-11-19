@@ -58,12 +58,11 @@ R['R17']=dict(ref='Не нужен.',
  sf='Seen from behind at walking height, a causeway of packed earth six metres wide runs straight ahead across a lake toward the white city of Tenochtitlan; a wooden bridge crosses a gap in the causeway; a few traders with bundles walk ahead. Pyramid temples at the end. Midday light from the right, haze. Camera: cinema camera, 35 mm lens, f/5.6, height 1.7 metres, wide shot. 16:9.',
  mv='The camera walks forward along the causeway at a steady pace; the traders ahead walk away from it; canoes pass under the bridge; slow forward move.')
 out=['# Aztecs — бриф реконструкций\n',
-'Длина ролика = окно озвучки + 1 с (считается из `layout.json`). Нужно: Nano Banana 2.1 для стартовых кадров, Grok image-to-video для движения. Модель путает лево и право — проверять на каждом кадре.\n',
-'Общий хвост (добавлять в конец каждого промпта стартового кадра): '+TAIL+'\n',
+'Длина ролика = окно озвучки + 1 с (считается из `layout.json`). Каждый промпт цельный — копировать целиком, ничего не добавляя. Нужно: Nano Banana 2.1 для стартовых кадров, Grok image-to-video для движения. Модель путает лево и право — проверять на каждом кадре.\n',
 'Не показывать: кровь, кости, жертвоприношения, толпы и бой.\n']
 for r in sorted(R):
     w=W[r]; ln=math.ceil(max(b-a for _,a,b in w)+1)
     out+= [f'## {r} — {ln} с','Показы: '+'; '.join(f'гл{g} {a:.1f}–{b:.1f} ({b-a:.1f} с)' for g,a,b in w),
-      f'Референс: {R[r]["ref"]}','**Стартовый кадр:** '+R[r]['sf'],'**Движение:** '+R[r]['mv'],'']
+      f'Референс: {R[r]["ref"]}','**Стартовый кадр:** '+R[r]['sf']+' '+TAIL,'**Движение:** '+R[r]['mv'],'']
 open(f'{E}/brief.md','w').write('\n'.join(out))
 print(len(R),'роликов', sorted(set(W)-set(R)), sorted(set(R)-set(W)))
