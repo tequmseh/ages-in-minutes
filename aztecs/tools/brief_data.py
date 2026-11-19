@@ -33,6 +33,13 @@ sf='A chinampa field in the valley of Mexico: a rectangle of dark wet earth abou
 mv='The farmer, standing in the canoe, pushes it slowly along the canal; leaves of the willows and the maize move gently in the breeze; a few birds cross the sky.',
 cam='slow dolly to the right at the pace of the canoe.',snd='water dripping from the pole, rustling leaves, birdsong',
 lk='Шест уже в воде; каноэ идёт вправо; камера в том же темпе.')
+R['R06']=dict(t='Какао-бобы в ладонях: деньги, которые растут на деревьях',
+era='Какао-бобы — мелкие овальные коричневые семена; деньги считали кучками. Руки — взрослые, смуглые, без колец (золото и серебро не монета); рядом плетёная циновка и глиняная миска. Показ короткий, в окне 1,6 с, но файл 3 с (минимум генератора).',
+ref='Не нужен.',
+sf='A close shot of a seller\'s hands on a woven reed mat in a market in 1519: a weathered brown hand pours a small heap of dark brown oval cacao beans from a clay bowl into the open palm of a second hand, while more beans lie in neat heaps of twenty on the mat; at the edge of the frame a folded white cotton cloth. Composition: the two hands in the centre, beans in a diagonal line across the lower third. Light: soft midday daylight from the left. Camera: Sony FX6 documentary camera, 50 mm lens, f/2.8, height 0.6 metres, close-up.',
+mv='The beans pour slowly from the bowl into the palm; the second hand closes over them; a few beans roll on the mat.',
+cam='very slow push-in.',snd='soft rattle of beans, a murmur of the market',
+lk='Миска и ладонь уже в кадре; бобы кучками на циновке; движение — пересыпание.')
 R['R07']=dict(t='Семья ацтеков за столом: томаты, чили, авокадо, какао',
 era='Дом из саманного кирпича, побелённые стены, циновки (петлатль) на полу, глиняный очаг. Еда: томаты, чили, авокадо; напиток — горький какао с водой в высоком глиняном стакане (без сахара и молока). Нет ни стульев, ни вилок, ни стола — сидят на циновках.',
 ref='Не нужен.',

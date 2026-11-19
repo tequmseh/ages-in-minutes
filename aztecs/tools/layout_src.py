@@ -10,7 +10,9 @@ L[0]=[(1,'CLIP','R01','Солдаты идут по дамбе через озе
 (3,'CLIP','R02','Город на острове издали, храмы. TENOCHTITLAN'),
 (5,'CLIP','R03','Каналы, каноэ. 200,000 PEOPLE · 4× LONDON'),
 (7,'CLIP','R04','Кочевники у берега озера. WANDERERS NOBODY WANTED'),
-(9,'CLIP','R05','Огороды на воде, рынок, школа. FARMS BUILT ON WATER · MONEY THAT GROWS ON TREES · A SCHOOL FOR EVERY CHILD'),
+(9,'CLIP','R05','Огороды на воде. FARMS BUILT ON WATER'),
+((9,'money'),'CLIP','R06','Какао-бобы в ладонях. MONEY THAT GROWS ON TREES'),
+((9,'a school'),'INS','V15','Кодекс Мендоса, воспитание. A SCHOOL FOR EVERY CHILD'),
 ((9,'a calendar'),'INS','V01','Камень Солнца. EVERY 52 YEARS'),
 ((9,'and a conquest'),'CLIP','R15','Корабли у побережья. NOT WON BY 500 SPANIARDS'),
 (10,'CLIP','R02','Город на острове. THE AZTECS · IT TAKES TWENTY MINUTES')]

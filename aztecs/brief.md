@@ -88,9 +88,9 @@ The group stays mostly still: one man feeds the fire with a stick, a woman rocks
 
 **Кадр → движение:** Девять человек в кадре до движения; огонь уже горит; никто не уходит и не приходит.
 
-### R05. Чинампа утром: кукуруза, чили, ивы — 8 с
+### R05. Чинампа утром: кукуруза, чили, ивы — 5 с
 
-**Окна:** гл. 0: 30,3–36,8 (6,5 с). Длина файла = самое длинное окно + 1 с.
+**Окна:** гл. 0: 30,3–33,6 (3,3 с). Длина файла = самое длинное окно + 1 с.
 
 **Проверка эпохи:** Чинампа — прямоугольная грядка из ила и водорослей, закреплённая в озере; по краям тополя/ивы (ауэхоте), вокруг каналы. Культуры: кукуруза, чили, амарант, цветы. Фермер в белом плаще и набедренной повязке, в каноэ. Рядом ни плугов, ни скота.
 
@@ -102,13 +102,35 @@ The group stays mostly still: one man feeds the fire with a stick, a woman rocks
 A chinampa field in the valley of Mexico: a rectangle of dark wet earth about fifteen metres long, bordered on three sides by a row of slim willow trees, with neat rows of green maize, dark red chilli plants and yellow flowers, and a narrow canal beside it with one dugout canoe holding a farmer in a white cotton cape and loincloth who stands with a long pole already in the water. Behind, a second chinampa and a white city on the horizon. Composition: field in the left two thirds, canal and canoe on the right, horizon in the upper third. Light: morning sun from the left, clear air. Camera: Sony FX6 documentary camera, 35 mm lens, f/5.6, height 2 metres, medium-wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
 ```
 
-**Движение (Grok Imagine Video, 8 с):**
+**Движение (Grok Imagine Video, 5 с):**
 
 ```
 The farmer, standing in the canoe, pushes it slowly along the canal; leaves of the willows and the maize move gently in the breeze; a few birds cross the sky. Camera: slow dolly to the right at the pace of the canoe. Sound: water dripping from the pole, rustling leaves, birdsong, no music, no speech.
 ```
 
 **Кадр → движение:** Шест уже в воде; каноэ идёт вправо; камера в том же темпе.
+
+### R06. Какао-бобы в ладонях: деньги, которые растут на деревьях — 3 с
+
+**Окна:** гл. 0: 33,6–35,2 (1,6 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Какао-бобы — мелкие овальные коричневые семена; деньги считали кучками. Руки — взрослые, смуглые, без колец (золото и серебро не монета); рядом плетёная циновка и глиняная миска. Показ короткий, в окне 1,6 с, но файл 3 с (минимум генератора).
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A close shot of a seller's hands on a woven reed mat in a market in 1519: a weathered brown hand pours a small heap of dark brown oval cacao beans from a clay bowl into the open palm of a second hand, while more beans lie in neat heaps of twenty on the mat; at the edge of the frame a folded white cotton cloth. Composition: the two hands in the centre, beans in a diagonal line across the lower third. Light: soft midday daylight from the left. Camera: Sony FX6 documentary camera, 50 mm lens, f/2.8, height 0.6 metres, close-up. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 3 с):**
+
+```
+The beans pour slowly from the bowl into the palm; the second hand closes over them; a few beans roll on the mat. Camera: very slow push-in. Sound: soft rattle of beans, a murmur of the market, no music, no speech.
+```
+
+**Кадр → движение:** Миска и ладонь уже в кадре; бобы кучками на циновке; движение — пересыпание.
 
 ### R07. Семья ацтеков за столом: томаты, чили, авокадо, какао — 10 с
 
