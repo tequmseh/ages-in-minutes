@@ -281,10 +281,10 @@ At night, on a bare mountain summit, a priest in a long dark cotton cloak kneels
 **Движение (Grok Imagine Video, 12 с):**
 
 ```
-The priest spins the drill quickly between his palms, sliding his hands down the drill and bringing them back to the top again and again; a thin thread of smoke rises from the notch, a small orange ember appears in the dark dust beside the drill and glows brighter. He tips the ember into the bundle of dry grass, lifts it in both hands and blows on it gently, and the grass bursts into a small yellow flame that lights his face and cloak. Camera: very slow push-in toward the priest. Sound: dry wood rasping, a faint hiss, soft breathing, wind, the crackle of catching grass, no music, no speech.
+The man spins the upright drill quickly between his palms, sliding his hands down the drill and back to the top again and again; a thin thread of smoke rises from the notch in the board and a small orange spark glows in the dark dust at the tip of the drill. He stops, lifts the drill out of the notch and lays it down on the ground beside the board. With his right hand he picks up the bundle of dry grass from the flat stone and sets it down on the glowing sparks, then bends close and blows on it gently with soft breath; the grass begins to glow, smoulders and bursts into a small yellow flame that lights his face, hands and cloak. Camera: very slow push-in toward the priest. Sound: dry wood rasping, a faint hiss, soft breathing, wind, the crackle of catching grass, no music, no speech.
 ```
 
-**Кадр → движение:** Жрец стоит на колене, сверло вертикально в ладонях, остриё в выемке доски, пучок сухой травы рядом; ничего нового не появляется, кроме дыма, тлеющего уголька и пламени.
+**Кадр → движение:** Сверло вертикально в ладонях, остриё в выемке доски; доска под коленом; пучок сухой травы лежит на плоском камне справа от доски, рядом с рукой; порядок: вращение → искра → сверло отложено → трава на искры → пламя.
 
 ### R14. Два строя воинов перед цветочной войной — 15 с
 
