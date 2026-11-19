@@ -342,8 +342,8 @@ def _(fr, t):
         if nm not in _INS: _INS[nm] = _ins(nm, 190)
         im = _INS[nm]
         if im is not None:
-            px = (int(s(x + off * 70) - im.size[0] / 2), int(s(y - 120) - im.size[1] / 2)); fr.im.paste(im, px, im.getchannel("A").point(lambda v: int(v * a))); fr.d = ImageDraw.Draw(fr.im)
-            T(fr, x + off * 70, y + 4, lab, size=15, sp=3, anchor="m", w="b", a=a)
+            px = (int(s(x + off * 105) - im.size[0] / 2), int(s(y - 120) - im.size[1] / 2)); fr.im.paste(im, px, im.getchannel("A").point(lambda v: int(v * a))); fr.d = ImageDraw.Draw(fr.im)
+            T(fr, x + off * 105, y - (236 if off < 0 else 258), lab, size=15, sp=3, anchor="m", w="b", a=a)
         else: PQ(fr, x, y + off * 46, lab, a=a, size=22, light=(off > 0))
     modern(fr, 49.7, 33.75, "IRAN", a=fr.R(word(8, "That is why", "but in Iran"), 0.4), size=26); modern(fr, 44.4, 31.3, "IRAQ", a=fr.R(word(8, "That is why", "not in Iraq"), 0.4), size=26)
     PQ(fr, 400, 900, "FOUND AT SUSA · 1901–02", a=fr.R(word(8, "That is why", "three thousand"), 0.4), size=24, light=True); PQ(fr, 400, 974, "THE LOUVRE", a=fr.R(word(8, "Today both", "Louvre"), 0.4), size=30)

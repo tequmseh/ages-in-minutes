@@ -119,9 +119,7 @@ USE = {}
 def mk_ins(n, a, b, i, txt):
     its = parse(txt); ts = times(n, its, a, b); k = USE[i] = USE.get(i, 0) + 1
     name = {"V05": "V05a" if k == 1 else "V05b"}.get(i, i)
-    if i == "V22":          # the file sent is a different relief (Ashurbanipal's garden scene): words only until the banquet stele arrives
-        return mk_plate(n, a, b, "V22", txt)
-    wide = asp(name) > 1.25; photo_ = name in ("V09", "V24", "V26", "V31", "V29")
+    wide = asp(name) > 1.25; photo_ = name in ("V09", "V26", "V31", "V29")
     def f(im, d, t):
         A = fade(t, a, b) * r(t, a, 0.3)
         if photo_ and name != "V29":
@@ -141,7 +139,7 @@ def mk_ins(n, a, b, i, txt):
             if its: column(d, t, cx, its, ts, A, 1600, y0=880, big=64)
         elif not its: obj(im, name, cx, 540, h=980, a=A)
         else:
-            h = min(940, int(820 / asp(name))); (framed if name in ("V27", "V05a", "V05b", "V23") else obj_)(im, name, 540, 540, h, A); d = ImageDraw.Draw(im); column(d, t, 1340, its, ts, A, 800, big=110)
+            h = min(940, int(720 / asp(name)), int(_load(name).height * 1.45)); (framed if name in ("V27", "V05a", "V05b", "V23") else obj_)(im, name, 540, 540, h, A); d = ImageDraw.Draw(im); column(d, t, 1340, its, ts, A, 800, big=110)
     G[(n, a)] = f
 _PAN = {}
 def obj_(im, name, x, y, h, a): obj(im, name, x, y, h=h, a=a)
