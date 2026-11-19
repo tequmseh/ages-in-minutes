@@ -1,101 +1,353 @@
-# Aztecs — бриф реконструкций
+# Бриф реконструкций Aztecs R01–R17
 
-Длина ролика = окно озвучки + 1 с (считается из `layout.json`). Каждый промпт цельный — копировать целиком, ничего не добавляя. Нужно: Nano Banana 2.1 для стартовых кадров, Grok image-to-video для движения. Модель путает лево и право — проверять на каждом кадре.
+### R01. Испанский отряд идёт по дамбе к городу, ноябрь 1519 — 8 с
 
-Не показывать: кровь, кости, жертвоприношения, толпы и бой.
+**Окна:** гл. 0: 0,0–6,9 (6,9 с). Длина файла = самое длинное окно + 1 с.
 
-## R01 — 8 с
-Показы: гл0 0.0–6.9 (6.9 с)
-Референс: Не нужен.
-**Стартовый кадр:** Seen from behind and slightly above, a column of twenty Spanish soldiers in 1519 walks away from the camera along a long, straight causeway of packed earth and stone, about eight metres wide, running across a flat grey-green lake. The soldiers wear steel morion helmets, quilted cotton jackets and steel breastplates, carry swords at their hips and long pikes upright on their shoulders; two ride horses at the head of the column. Reeds grow at the water edge on both sides. Far ahead, small and hazy on the horizon, a city of white towers rises from the lake. Early morning, low pale sun from the left, thin mist over the water. Camera: cinema camera, 35 mm lens, f/5.6, height 3 metres, locked wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The column walks straight away from the camera at a steady pace along the causeway; the soldiers' pikes sway gently, the horses walk at the same pace. Slow dolly forward behind them. The mist drifts slowly.
+**Проверка эпохи:** Отряд Кортеса: стальные шлемы-морионы и кабассеты, стёганые хлопковые куртки, кирасы, мечи и пики; всадников единицы (лошадей было 16). Полных рыцарских лат нет — это эпоха до них. Дамба шире нескольких всадников в ряд, из земли и камня, с мостами.
 
-## R02 — 9 с
-Показы: гл0 6.9–13.8 (7.0 с); гл0 44.8–52.5 (7.7 с)
-Референс: Желательно: вид острова с храмами. Поиск: «Tenochtitlan reconstruction Great Temple causeway».
-**Стартовый кадр:** A wide view from a causeway across a shallow lake toward the island city of Tenochtitlan in 1519. White plastered buildings with flat roofs stand in dense rows on the island; in the centre rises one tall stepped pyramid with two small shrines on top, red and white. Straight canals divide the city and about thirty small dugout canoes cross the water. Bright afternoon light from the right, blue sky with a few clouds, distant mountains with snow on two peaks. Camera: cinema camera, 24 mm lens, f/8, height 6 metres, wide establishing shot, slightly high angle. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** Slow push-in toward the city. Small canoes glide across the lake, each in the same direction as the one already on the water; a little smoke rises from two rooftops; the surface of the lake ripples.
+**Референс:** Не обязателен. Если шлемы выходят средневековыми: поиск «Spanish conquistador morion cabasset 1519» — только форма шлема.
 
-## R03 — 10 с
-Показы: гл0 13.8–22.7 (8.9 с)
-Референс: Не нужен.
-**Стартовый кадр:** A narrow canal between whitewashed adobe houses in Tenochtitlan in 1519. Three wooden dugout canoes with flat sterns float on the water: one carries a standing man in a plain white cotton cape knotted on the shoulder, loaded with bundles of green maize; one carries a woman in a long embroidered white blouse and skirt with a basket of fruit; one is empty with a paddle across it. Wooden footbridges cross the canal, a stone quay with clay jars at the left. Warm afternoon sun from the right. Camera: cinema camera, 35 mm lens, f/4, height 1.2 metres at water level, medium-wide shot looking along the canal. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The canoes drift slowly forward along the canal, the standing man pushes with a long pole already in his hands and in the water; ripples spread; the camera glides forward at water level.
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
 
-## R04 — 9 с
-Показы: гл0 22.7–30.3 (7.6 с)
-Референс: Не нужен.
-**Стартовый кадр:** Seen from a distance, a group of nine poor travellers in the 13th century sit and stand around a small fire on a bare, stony lake shore: men in rough maguey-fibre cloaks and loincloths with long black hair, two women in plain wrapped skirts with children, a few bundles and a wooden carrying frame. Behind them, a lake with grey water and a far shore with a small settlement of white buildings on a green hill. Dull overcast light from the left. Camera: cinema camera, 50 mm lens, f/4, height 1.6 metres, medium-wide shot, slightly low. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The group sits mostly still: one man feeds the fire, a woman rocks a child, smoke rises and bends in the wind. Slow lateral move to the right.
+```
+Seen from behind and slightly above, a column of twenty Spanish soldiers in November 1519 walks away from the camera along a long straight causeway of packed earth and stone, about eight metres wide, across a flat grey-green lake. The soldiers wear steel morion helmets, quilted cotton jackets and steel breastplates, with swords at their hips and long pikes upright on their shoulders; two of them ride brown horses at the head of the column. Reeds grow at the water edge on both sides. Far ahead, small and hazy on the horizon, a city of white towers rises from the lake. Composition: column in the lower centre, causeway converging toward the city in the upper third, wide empty sky. Light: early morning, low pale sun from the left, thin mist over the water. Camera: Arri Alexa Mini, 35 mm lens, f/5.6, height 3 metres, high behind the column, locked wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
 
-## R05 — 8 с
-Показы: гл0 30.3–36.8 (6.5 с)
-Референс: Желательно: чинампы Сочимилько. Поиск: «Xochimilco chinampa canal willow».
-**Стартовый кадр:** A chinampa field in the valley of Mexico: a rectangle of dark wet earth, about fifteen metres long, bordered on three sides by a row of slim willow trees, with neat rows of green maize, red chilli plants and yellow flowers, and a narrow canal beside it with one dugout canoe holding a farmer in a white cotton cape and loincloth. Behind, a second chinampa and a white city on the horizon. Morning light from the left, clear air. Camera: cinema camera, 35 mm lens, f/5.6, height 2 metres, medium-wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The farmer, standing in the canoe, pushes it slowly along the canal with the pole in his hands; leaves of the willows and maize move gently in the breeze; slow dolly to the right.
+**Движение (Grok Imagine Video, 8 с):**
 
-## R07 — 10 с
-Показы: гл7 69.3–77.9 (8.6 с)
-Референс: Не нужен.
-**Стартовый кадр:** Inside a simple Aztec house, a family of four sits on reed mats around a low clay hearth: a man in a white cotton cape and loincloth, a woman in a long embroidered blouse and skirt, a boy of ten and a girl of six. On the mat in front of them stand a clay bowl with red tomatoes, a bowl of dark chilli peppers, a halved avocado on a plate and a tall clay cup of brown frothy drink. Walls of plain white plaster, a doorway with daylight at the back. Warm light from the doorway on the left. Camera: cinema camera, 35 mm lens, f/2.8, height 1 metre, medium shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The woman lifts the cup in her hands and offers it to the man; the children look at the bowls; a thin wisp of smoke rises from the hearth. Very slow push-in.
+```
+The column walks straight away from the camera along the causeway at a steady pace; the pikes sway gently, the two horses walk at the same pace as the men. Mist drifts slowly over the lake. Camera: slow dolly forward behind the column. Sound: boots on packed earth, jingle of metal, horses' hooves, wind over water, no music, no speech.
+```
 
-## R08 — 8 с
-Показы: гл2 7.7–14.0 (6.3 с)
-Референс: Желательно: нопаль с плодами и орёл. Поиск: «golden eagle perched on prickly pear».
-**Стартовый кадр:** A golden eagle perches on a large prickly pear cactus with red fruits growing on a small rock in shallow lake water, on a marshy island with reeds. The eagle faces left, wings folded, head turned slightly toward the camera, beak empty. Low golden light from the right at sunrise, still water in the foreground. Camera: cinema camera, 200 mm lens, f/4, height 1.5 metres, medium close shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The eagle slowly spreads its wings once and folds them again; the reeds sway; the water ripples; slight push-in.
+**Кадр → движение:** Все идут от камеры, как в кадре; лошади и пехота в одном темпе; ничто не появляется из-за кадра.
 
-## R09 — 11 с
-Показы: гл2 46.8–56.0 (9.1 с)
-Референс: Не нужен.
-**Стартовый кадр:** A small marshy island in a shallow lake: wet black mud, dense green reeds and a few low reed huts with grass roofs. Three men in loincloths stand in mud to their knees, each holding a long wooden stake; a woman in a long skirt carries a bundle of reeds. Grey water around the island, a distant shore with hills. Soft overcast light. Camera: cinema camera, 35 mm lens, f/5.6, height 2 metres, wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The men push their stakes into the mud one after another; the woman sets down her reeds; reeds sway in the wind; slow lateral move to the right.
+### R02. Теночтитлан издали, остров с храмами — 9 с
 
-## R10 — 10 с
-Показы: гл3 0.0–8.1 (8.1 с)
-Референс: Не нужен.
-**Стартовый кадр:** In shallow lake water, three men in loincloths stand waist-deep and drive long wooden stakes into the lake bed to form a rectangle about ten metres long; woven reed branches are already attached to the stakes on two sides. A dugout canoe loaded with dark mud and cut water plants floats beside them. Calm water, morning light from the left. Camera: cinema camera, 35 mm lens, f/5.6, height 1.5 metres, medium-wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The men press the stakes down and weave a branch between two of them; the canoe stays beside them; gentle ripples; slow push-in.
+**Окна:** гл. 0: 6,9–13,8 (7,0 с) · гл. 0: 44,8–52,5 (7,7 с). Длина файла = самое длинное окно + 1 с.
 
-## R11 — 8 с
-Показы: гл3 22.0–28.8 (6.8 с)
-Референс: Не нужен.
-**Стартовый кадр:** A green chinampa with maize and willow trees seen from a canoe on the canal beside it; the canal is two metres wide, water dark and clear. A woman in a white blouse sits in a canoe loaded with vegetables; a man on the next chinampa bends over a row of plants. Morning light from the right. Camera: cinema camera, 35 mm lens, f/4, height 1 metre at water level, medium shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The canoe glides slowly forward along the canal; the man works along his row; willow leaves move; slow dolly forward.
+**Проверка эпохи:** Город 1519 г.: белые оштукатуренные дома с плоскими крышами, прямые каналы, одна большая ступенчатая пирамида с двумя святилищами на вершине (красное и синее/белое), дамбы. Купола, колонны, арки и черепичные крыши — ошибка. Город целый и живой.
 
-## R12 — 11 с
-Показы: гл6 56.8–65.9 (9.1 с)
-Референс: Не нужен.
-**Стартовый кадр:** A market square in Tlatelolco in 1519 seen from a raised point: rows of reed mats on the ground with piles of coloured goods — red chilli, yellow maize, bundles of green feathers, folded white cloth, clay pots, cacao beans in heaps. About twelve people in cotton capes and long skirts stand and sit among the mats; a stone building with a flat roof at the back, blue sky. Midday light from above. Camera: cinema camera, 35 mm lens, f/5.6, height 3 metres, medium-wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** A seller weighs and counts cacao beans in her hands while a buyer holds out a folded cloth; people shift slowly between the mats; slow lateral move.
+**Референс:** Желателен: реконструкция Теночтитлана (поиск «Tenochtitlan reconstruction Great Temple causeway») — только форма пирамиды и план города, не цвета.
 
-## R13 — 12 с
-Показы: гл8 86.2–97.2 (11.0 с)
-Референс: Не нужен.
-**Стартовый кадр:** At night, on a bare mountain summit, a priest in a long dark cloak stands alone beside a small wooden fire drill and a pile of dry sticks; far below, a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Camera: cinema camera, 35 mm lens, f/2.0, height 1.5 metres, medium-wide shot, slightly low. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The priest spins the drill between his palms; a small spark glows and a first flame appears in the dry sticks; far below, tiny fires appear one by one in the valley. The camera pushes in very slowly.
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
 
-## R14 — 15 с
-Показы: гл9 11.1–24.7 (13.6 с)
-Референс: Не нужен.
-**Стартовый кадр:** Seen from a high angle, two groups of ten warriors stand facing each other across a flat grass field about forty metres apart, motionless in two straight lines: the left group in orange and green cotton suits with feathered headdresses, the right group in red and blue suits with feathered shields, all holding wooden clubs upright at their sides. Mountains behind, clear morning light from the left. Camera: cinema camera, 35 mm lens, f/5.6, height 8 metres, high wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The warriors stand in formation; feathers on their headdresses move in the wind; one man in each line steps forward half a pace; slow push-in. No fighting.
+```
+A wide view from a causeway across a shallow lake toward the island city of Tenochtitlan in 1519. Dense rows of whitewashed adobe houses with flat roofs stand on the island; in the centre rises one tall stepped pyramid with two small shrines on its top, painted red and white. Straight canals divide the city and about thirty small dugout canoes cross the water. Behind the city, distant mountains with snow on two peaks. Composition: pyramid at the centre of the upper third, lake in the lower half, canoes scattered across it. Light: bright afternoon sun from the right, blue sky with a few clouds. Camera: Sony FX6 documentary camera, 24 mm lens, f/8, height 6 metres, slightly high angle, wide establishing shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
 
-## R15 — 10 с
-Показы: гл0 40.9–44.8 (3.9 с); гл9 76.4–84.9 (8.6 с)
-Референс: Желательно: каравелла/нао XVI в. Поиск: «Spanish nao 1519 Cortes ship».
-**Стартовый кадр:** Seen from a low rocky headland, three small Spanish sailing ships of 1519 with square sails, high sterns and red cross flags stand at anchor in a calm blue bay, a few hundred metres from a sandy shore with palms. Clear sky, morning light from the left. Camera: cinema camera, 50 mm lens, f/8, height 4 metres, wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The ships rock gently at anchor; sails flap slightly; a small boat with four rowers, oars in the water, moves from the middle ship toward the shore; slow push-in.
+**Движение (Grok Imagine Video, 9 с):**
 
-## R16 — 10 с
-Показы: гл11 89.2–97.5 (8.3 с)
-Референс: Не нужен.
-**Стартовый кадр:** At dawn on a wide lake, one dugout canoe carries a young man in a white cotton cape and two paddlers, moving away from the camera across still grey water; far behind, a burnt city with broken white walls and thin smoke; pale pink sky. Camera: cinema camera, 35 mm lens, f/4, height 1 metre, wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The canoe is paddled slowly away from the camera across the lake; smoke rises in the distance; slow push-in.
+```
+Small canoes glide across the lake, all heading toward the city; thin smoke rises from two rooftops; the surface of the lake ripples in the breeze. Camera: slow steady push-in toward the city. Sound: distant city murmur, water lapping, a conch horn far away, no music, no speech.
+```
 
-## R17 — 13 с
-Показы: гл6 0.0–11.2 (11.2 с)
-Референс: Не нужен.
-**Стартовый кадр:** Seen from behind at walking height, a causeway of packed earth six metres wide runs straight ahead across a lake toward the white city of Tenochtitlan; a wooden bridge crosses a gap in the causeway; a few traders with bundles walk ahead. Pyramid temples at the end. Midday light from the right, haze. Camera: cinema camera, 35 mm lens, f/5.6, height 1.7 metres, wide shot. 16:9. Raw documentary footage look, natural colour, soft realistic grain, slight handheld breathing, no text, no captions, no logos. Everything is new and well kept: clean plastered temples, intact stone and wood, no ruins, no modern objects.
-**Движение:** The camera walks forward along the causeway at a steady pace; the traders ahead walk away from it; canoes pass under the bridge; slow forward move.
+**Кадр → движение:** Каноэ уже на воде и идут к городу; дым есть в кадре; пирамида одна.
+
+### R03. Канал в Теночтитлане с каноэ — 10 с
+
+**Окна:** гл. 0: 13,8–22,7 (8,9 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Каноэ — выдолбленные из ствола, плоская корма, без паруса и вёсел-уключин, толкаются шестом или гребут короткими вёслами. Одежда: мужчины — набедренная повязка и плащ-тильматли, завязанный на плече; женщины — длинные вышитые блузы и юбки. Дома из саманного кирпича, побелены, плоские крыши.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A narrow canal between whitewashed adobe houses in Tenochtitlan in 1519. Three wooden dugout canoes with flat sterns float on the dark water: one carries a standing man in a plain white cotton cape knotted on the right shoulder, with a loincloth, loaded with bundles of green maize and a long pole already set in the water; one carries a seated woman in a long embroidered white blouse and skirt with a basket of fruit; one is empty with a paddle lying across it. Wooden footbridges cross the canal; at the left a stone quay with clay jars. Composition: canal converging toward the vanishing point, canoes in the lower half, houses on both sides. Light: warm afternoon sun from the right, soft shadows. Camera: Sony FX6 documentary camera, 35 mm lens, f/4, height 1.2 metres at water level, medium-wide shot looking along the canal. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 10 с):**
+
+```
+The canoes drift slowly forward along the canal; the standing man pushes with his pole, the woman sits still holding her basket; ripples spread from the hulls; a few people on the quay move jars. Camera: slow gliding dolly forward at water level. Sound: water lapping, wooden hulls knocking softly, voices in the distance, a dog barking, no music, no speech.
+```
+
+**Кадр → движение:** Шест уже в воде; женщина сидит с корзиной; все плывут вперёд.
+
+### R04. Мешики-бродяги у озера, XIII в. — 9 с
+
+**Окна:** гл. 0: 22,7–30,3 (7,6 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Бедные пришельцы: плащи из волокна агавы (ичтли), набедренные повязки, длинные чёрные волосы; женщины в простых запашных юбках; железа нет. Берег голый и каменистый, поселение на дальнем берегу маленькое, домики побелены.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+Seen from a distance, nine poor travellers in the 13th century sit and stand around a small fire on a bare stony lake shore: four men in rough maguey-fibre cloaks and loincloths with long black hair, two women in plain wrapped skirts each with a small child, a few bundles and a wooden carrying frame lying on the ground. Behind them lies a lake of grey water, and on the far shore a small settlement of whitewashed houses on a green hill. Composition: group in the lower left third, lake and far shore filling the rest. Light: dull overcast daylight from the left, muted colours. Camera: Arri Alexa Mini, 50 mm lens, f/4, height 1.6 metres, medium-wide shot, slightly low. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 9 с):**
+
+```
+The group stays mostly still: one man feeds the fire with a stick, a woman rocks her child, smoke rises and bends in the wind; the others look toward the far shore. Camera: slow lateral move to the right. Sound: crackle of fire, wind, lapping water, a child fussing, no music, no speech.
+```
+
+**Кадр → движение:** Девять человек в кадре до движения; огонь уже горит; никто не уходит и не приходит.
+
+### R05. Чинампа утром: кукуруза, чили, ивы — 8 с
+
+**Окна:** гл. 0: 30,3–36,8 (6,5 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Чинампа — прямоугольная грядка из ила и водорослей, закреплённая в озере; по краям тополя/ивы (ауэхоте), вокруг каналы. Культуры: кукуруза, чили, амарант, цветы. Фермер в белом плаще и набедренной повязке, в каноэ. Рядом ни плугов, ни скота.
+
+**Референс:** Желателен: чинампы Сочимилько (поиск «Xochimilco chinampa canal willow») — только форма грядки и деревьев.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A chinampa field in the valley of Mexico: a rectangle of dark wet earth about fifteen metres long, bordered on three sides by a row of slim willow trees, with neat rows of green maize, dark red chilli plants and yellow flowers, and a narrow canal beside it with one dugout canoe holding a farmer in a white cotton cape and loincloth who stands with a long pole already in the water. Behind, a second chinampa and a white city on the horizon. Composition: field in the left two thirds, canal and canoe on the right, horizon in the upper third. Light: morning sun from the left, clear air. Camera: Sony FX6 documentary camera, 35 mm lens, f/5.6, height 2 metres, medium-wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 8 с):**
+
+```
+The farmer, standing in the canoe, pushes it slowly along the canal; leaves of the willows and the maize move gently in the breeze; a few birds cross the sky. Camera: slow dolly to the right at the pace of the canoe. Sound: water dripping from the pole, rustling leaves, birdsong, no music, no speech.
+```
+
+**Кадр → движение:** Шест уже в воде; каноэ идёт вправо; камера в том же темпе.
+
+### R07. Семья ацтеков за столом: томаты, чили, авокадо, какао — 10 с
+
+**Окна:** гл. 7: 69,3–77,9 (8,6 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Дом из саманного кирпича, побелённые стены, циновки (петлатль) на полу, глиняный очаг. Еда: томаты, чили, авокадо; напиток — горький какао с водой в высоком глиняном стакане (без сахара и молока). Нет ни стульев, ни вилок, ни стола — сидят на циновках.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+Inside a simple Aztec house, a family of four sits on reed mats around a low clay hearth: a man in a white cotton cape and loincloth, a woman in a long embroidered blouse and skirt, a boy of ten and a girl of six. On the mat in front of them stand a clay bowl with red tomatoes, a bowl of dark chilli peppers, a halved avocado on a clay plate and a tall clay cup of dark brown frothy drink held by the woman. The walls are plain white plaster, a doorway with daylight at the back. Composition: the four around the hearth in the centre, doorway at the back left. Light: warm daylight from the doorway on the left, soft shadows. Camera: Sony FX6 documentary camera, 35 mm lens, f/2.8, height 1 metre, medium shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 10 с):**
+
+```
+The woman offers the cup to the man, who takes it in both hands; the children look at the bowls; a thin wisp of smoke rises from the hearth. Camera: very slow push-in toward the hearth. Sound: low murmur of voices, crackle of the hearth, clay knocking softly, no music, no speech.
+```
+
+**Кадр → движение:** Стакан уже в руках женщины; четверо сидят на циновках; очаг горит.
+
+### R08. Орёл на нопале на острове — 8 с
+
+**Окна:** гл. 2: 7,7–14,0 (6,3 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Нопаль (опунция) с красными плодами; беркут сидит на нём, клюв пустой (змея в кодексе Мендоса появляется позже). Остров заболоченный, камыш, мелкая вода.
+
+**Референс:** Желателен: беркут на опунции (поиск «golden eagle perched on prickly pear cactus») — только поза и форма.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A golden eagle perches on a large prickly pear cactus with red fruits growing on a small rock in shallow lake water, on a marshy island with reeds. The eagle faces left, wings folded, head turned slightly toward the camera, beak empty. Composition: eagle and cactus in the centre right, reeds and still water around, empty sky on the left. Light: low golden sunrise from the right, rim light on the feathers. Camera: Arri Alexa Mini, 200 mm lens, f/4, height 1.5 metres, medium close shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 8 с):**
+
+```
+The eagle slowly spreads its wings once and folds them again, turning its head; the reeds sway; the water ripples around the rock. Camera: slight slow push-in. Sound: wind in the reeds, a soft wingbeat, distant bird call, no music, no speech.
+```
+
+**Кадр → движение:** Орёл уже сидит на кактусе с сложенными крыльями; клюв пустой.
+
+### R09. Остров из грязи и тростника: люди вбивают колья — 11 с
+
+**Окна:** гл. 2: 46,8–56,0 (9,1 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** 1325 г.: болотистый остров, чёрная грязь, тростник, несколько хижин с травяной крышей. Люди — в набедренных повязках, женщины в длинных юбках; железа нет, колья деревянные.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A small marshy island in a shallow lake: wet black mud, dense green reeds and a few low reed huts with grass roofs. Three men in loincloths stand in mud to their knees, each holding a long wooden stake in both hands, and a woman in a long skirt carries a bundle of reeds on her back. Grey water surrounds the island; the far shore has low hills. Composition: men in the centre, huts at the left, water and hills across the upper third. Light: soft overcast daylight. Camera: Sony FX6 documentary camera, 35 mm lens, f/5.6, height 2 metres, wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 11 с):**
+
+```
+The men push their stakes into the mud one after another; the woman sets her bundle of reeds down beside a hut; reeds sway in the wind. Camera: slow lateral move to the right. Sound: squelch of mud, wind in the reeds, muffled voices, no music, no speech.
+```
+
+**Кадр → движение:** Колья уже в руках у троих; женщина с тростником в кадре; хижины стоят.
+
+### R10. Строительство чинампы: колья и плетёнка в мелководье — 10 с
+
+**Окна:** гл. 3: 0,0–8,1 (8,1 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Способ: колья вбиваются в дно, между ними плетёнка из веток, потом заполнение илом и водорослями. Работают по пояс в воде, в набедренных повязках; рядом каноэ с илом и срезанными водными растениями.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+In shallow lake water, three men in loincloths stand waist-deep and drive long wooden stakes into the lake bed to form a rectangle about ten metres long; woven reed branches are already attached to the stakes along two sides. A dugout canoe loaded with dark mud and cut green water plants floats beside them. Calm water, a low green shore behind. Composition: the rectangle of stakes in the centre, canoe at the right edge. Light: morning sun from the left, soft reflections. Camera: Sony FX6 documentary camera, 35 mm lens, f/5.6, height 1.5 metres, medium-wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 10 с):**
+
+```
+The men press the stakes down into the lake bed and weave a branch between two of them; the canoe stays beside them; gentle ripples spread. Camera: slow push-in. Sound: water splashing, wood knocking, low voices, no music, no speech.
+```
+
+**Кадр → движение:** Колья и плетёнка уже частично стоят; каноэ с илом рядом; люди в воде.
+
+### R11. Канал между чинампами, каноэ с овощами — 8 с
+
+**Окна:** гл. 3: 22,0–28,8 (6,8 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Канал шириной около двух метров, вода тёмная и чистая; на чинампах кукуруза и ивы. Женщина в белой блузе в каноэ с овощами, мужчина работает на соседней грядке.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A green chinampa with maize and willow trees seen from a canoe on the canal beside it; the canal is two metres wide, the water dark and clear. A woman in a white blouse sits in a canoe loaded with vegetables in the foreground; a man in a loincloth on the next chinampa bends over a row of plants. Composition: canal in the centre, chinampa on the left, canoe in the lower right. Light: morning sun from the right, soft glints on the water. Camera: Sony FX6 documentary camera, 35 mm lens, f/4, height 1 metre at water level, medium shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 8 с):**
+
+```
+The canoe glides slowly forward along the canal; the man works along his row; willow leaves move in the breeze. Camera: slow dolly forward along the canal. Sound: water lapping, rustling leaves, soft birdsong, no music, no speech.
+```
+
+**Кадр → движение:** Каноэ уже на воде; мужчина согнут над грядкой; камера идёт по каналу.
+
+### R12. Рынок Тлателолко: циновки, перья, какао — 11 с
+
+**Окна:** гл. 6: 56,8–65,9 (9,1 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Рынок 1519 г.: товар на циновках на земле — красный чили, жёлтая кукуруза, связки зелёных перьев, сложенная белая ткань, глиняные горшки, кучки какао-бобов. Людей около дюжины (не толпа). Здание с плоской крышей позади, купола и арки — ошибка.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+A market square in Tlatelolco in 1519 seen from a raised point: rows of reed mats on the ground with piles of goods — red chilli, yellow maize, bundles of green feathers, folded white cloth, clay pots and heaps of cacao beans. About twelve people in cotton capes and long skirts stand and sit among the mats; a flat-roofed whitewashed stone building at the back. Composition: mats in the lower two thirds, building across the top. Light: midday sun from above, bright and clear, blue sky. Camera: Arri Alexa Mini, 35 mm lens, f/5.6, height 3 metres, medium-wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 11 с):**
+
+```
+A seller counts cacao beans in her hands while a buyer holds out a folded cloth; people shift slowly between the mats. Camera: slow lateral move to the left. Sound: market murmur, clay pots clinking, a distant flute, no music, no speech.
+```
+
+**Кадр → движение:** Продавщица уже держит бобы; покупатель с тканью в кадре; людей около дюжины.
+
+### R13. Новый огонь на горной вершине ночью — 12 с
+
+**Окна:** гл. 8: 86,2–97,2 (11,0 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Ночь, голая вершина, жрец в длинном тёмном плаще; огонь добывают трением палочки (лучковое сверло); внизу тёмная долина без огней. Крови и жертв в кадре нет.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+At night, on a bare mountain summit, a priest in a long dark cloak stands alone beside a small wooden fire drill and a pile of dry sticks and grass; far below lies a vast dark valley with no lights. Stars across the sky, a pale glow on the eastern horizon. Composition: priest in the lower left third, valley and horizon in the upper half. Light: starlight only, faint cool blue, with first warm glow expected at his feet. Camera: Arri Alexa Mini, 35 mm lens, f/2.0, height 1.5 metres, medium-wide shot, slightly low. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 12 с):**
+
+```
+The priest spins the drill between his palms; a spark glows and a first flame appears in the dry grass; far below in the valley, tiny fires appear one by one. Camera: very slow push-in toward the priest. Sound: dry wood rasping, wind, the crackle of catching fire, no music, no speech.
+```
+
+**Кадр → движение:** Сверло уже у него в ладонях; трава сухая сложена; долина тёмная до появления огней.
+
+### R14. Два строя воинов перед цветочной войной — 15 с
+
+**Окна:** гл. 9: 11,1–24,7 (13,6 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Воины в хлопковых доспехах-ичкауипилли, оранжевых/зелёных и красных/синих, с перьевыми уборами и щитами; в руках деревянные дубины — обсидиановых лезвий в кадре не нужно. Бой не показывать: только строй, сторона против стороны.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+Seen from a high angle, two groups of ten warriors stand facing each other across a flat grass field about forty metres apart, motionless in two straight lines: the left group in orange and green quilted cotton suits with feathered headdresses, the right group in red and blue suits with feathered shields, all holding wooden clubs upright at their sides. Mountains rise behind. Composition: the two lines left and right, empty grass between them, mountains across the upper third. Light: clear morning sun from the left. Camera: Arri Alexa Mini, 35 mm lens, f/5.6, height 8 metres, high wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 15 с):**
+
+```
+The warriors stay in formation; the feathers on their headdresses move in the wind; one man in each line steps forward half a pace. No fighting. Camera: slow push-in from above. Sound: wind over grass, feathers rustling, a distant drum, no music, no speech.
+```
+
+**Кадр → движение:** Два строя по десять человек стоят до движения; никто не бежит и не бьёт.
+
+### R15. Испанские корабли на якоре у побережья Мексики, 1519 — 10 с
+
+**Окна:** гл. 0: 40,9–44,8 (3,9 с) · гл. 9: 76,4–84,9 (8,6 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Нао/каравеллы начала XVI в.: квадратные паруса, высокая корма, красные кресты на флагах; не галеоны. Бухта спокойная, пальмы, песчаный берег.
+
+**Референс:** Желателен: корабль XVI в. (поиск «Spanish nao 1519 Cortes ship») — только форма корпуса и такелажа.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+Seen from a low rocky headland, three small Spanish sailing ships of 1519 with square sails, high sterns and red cross flags stand at anchor in a calm blue bay, a few hundred metres from a sandy shore with palms; a small rowing boat with four oarsmen, oars in the water, lies beside the middle ship. Composition: ships in the centre third, shore at the right, headland rocks in the lower left. Light: clear morning sun from the left. Camera: Sony FX6 documentary camera, 50 mm lens, f/8, height 4 metres, wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 10 с):**
+
+```
+The ships rock gently at anchor, sails flapping slightly; the rowing boat moves from the middle ship toward the shore. Camera: slow push-in. Sound: water slapping hulls, creaking rope, gulls, no music, no speech.
+```
+
+**Кадр → движение:** Лодка с гребцами и вёслами в воде уже в кадре; корабли на якоре.
+
+### R16. Каноэ уходит по озеру на рассвете, август 1521 — 10 с
+
+**Окна:** гл. 11: 89,2–97,5 (8,3 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Три человека в каноэ: молодой мужчина в белом плаще и двое гребцов; позади разрушенный город с белыми стенами и тонким дымом. Без тел и огня на переднем плане.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+At dawn on a wide lake, one dugout canoe carries a young man in a white cotton cape and two paddlers, moving away from the camera across still grey water; far behind them a burnt city with broken white walls and thin smoke. Pale pink sky. Composition: canoe in the lower centre, city in the distance on the left. Light: pale dawn light from the left, soft haze. Camera: Sony FX6 documentary camera, 35 mm lens, f/4, height 1 metre, wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 10 с):**
+
+```
+The canoe is paddled slowly away from the camera across the lake; thin smoke rises from the distant city. Camera: slow push-in behind the canoe. Sound: paddles dipping, quiet water, distant crow, no music, no speech.
+```
+
+**Кадр → движение:** Каноэ уже идёт от камеры; двое гребцов с вёслами в воде.
+
+### R17. Идём по дамбе в Теночтитлан — 13 с
+
+**Окна:** гл. 6: 0,0–11,2 (11,2 с). Длина файла = самое длинное окно + 1 с.
+
+**Проверка эпохи:** Дамба шириной шесть метров из земли и камня; деревянный мост на разрыве (его поднимали при обороне); торговцы с поклажей. Город в конце — белые стены и пирамиды.
+
+**Референс:** Не нужен.
+
+**Стартовый кадр (Nano Banana 2, 16:9, 2K):**
+
+```
+Seen from behind at walking height, a causeway of packed earth and stone six metres wide runs straight across a lake toward the white city of Tenochtitlan; a wooden bridge spans a gap in the causeway; three traders with bundles on their backs walk ahead. Stepped pyramid temples rise at the end. Composition: causeway converging to the centre, city at the vanishing point. Light: midday sun from the right, slight haze. Camera: Arri Alexa Mini, 35 mm lens, f/5.6, height 1.7 metres, wide shot. All visible surfaces are plain adobe, plaster, packed earth, stone, reed, wood and cotton cloth. Photorealistic documentary still, raw natural colors, true-to-life textures and skin, slight film grain, the look of real footage from a field documentary camera.
+```
+
+**Движение (Grok Imagine Video, 13 с):**
+
+```
+The traders ahead walk away from the camera; a canoe passes under the wooden bridge. Camera: slow forward move along the causeway at walking pace. Sound: footsteps on earth, water under the bridge, distant city murmur, no music, no speech.
+```
+
+**Кадр → движение:** Торговцы идут от камеры; мост уже в кадре; каноэ под мостом.
