@@ -1,0 +1,2254 @@
+{
+ "0": {
+  "dur": 52.506,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 136,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.07,
+    "snap": true,
+    "text": "November 1519."
+   },
+   {
+    "i": 2,
+    "start": 2.7,
+    "end": 6.56,
+    "snap": true,
+    "text": "A few hundred Spanish soldiers walk onto a road built across a lake."
+   },
+   {
+    "i": 3,
+    "start": 7.18,
+    "end": 9.72,
+    "snap": true,
+    "text": "Ahead of them, on an island, stands a city."
+   },
+   {
+    "i": 4,
+    "start": 10.28,
+    "end": 13.51,
+    "snap": true,
+    "text": "Temples, straight canals, canoes everywhere."
+   },
+   {
+    "i": 5,
+    "start": 14.14,
+    "end": 18.38,
+    "snap": true,
+    "text": "About two hundred thousand people live there, four times as many as in London."
+   },
+   {
+    "i": 6,
+    "start": 18.99,
+    "end": 22.39,
+    "snap": true,
+    "text": "The people who built it rule five or six million subjects."
+   },
+   {
+    "i": 7,
+    "start": 23.0,
+    "end": 26.76,
+    "snap": true,
+    "text": "Two hundred years earlier they were wanderers nobody wanted as neighbours."
+   },
+   {
+    "i": 8,
+    "start": 27.28,
+    "end": 29.93,
+    "snap": true,
+    "text": "Two years from now their city will be rubble."
+   },
+   {
+    "i": 9,
+    "start": 30.64,
+    "end": 44.51,
+    "snap": true,
+    "text": "In the next twenty minutes: farms built on water, money that grows on trees, a school for every child, a calendar that threatens to end the world every fifty-two years, and a conquest that was not won by five hundred Spaniards."
+   },
+   {
+    "i": 10,
+    "start": 45.09,
+    "end": 49.37,
+    "snap": true,
+    "text": "So who were the Aztecs, and how did they rise and fall so fast?"
+   },
+   {
+    "i": 11,
+    "start": 49.99,
+    "end": 50.73,
+    "snap": true,
+    "text": "Let's find out."
+   },
+   {
+    "i": 12,
+    "start": 51.15,
+    "end": 52.51,
+    "snap": true,
+    "text": "It takes twenty minutes."
+   }
+  ],
+  "cost": 1.02
+ },
+ "1": {
+  "dur": 89.078,
+  "lead": 0.28,
+  "tail": 0.0,
+  "words": 248,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.28,
+    "end": 1.27,
+    "snap": true,
+    "text": "Start with the name."
+   },
+   {
+    "i": 2,
+    "start": 1.86,
+    "end": 4.95,
+    "snap": true,
+    "text": "The people in this story never called themselves Aztecs."
+   },
+   {
+    "i": 3,
+    "start": 5.35,
+    "end": 7.17,
+    "snap": true,
+    "text": "They called themselves the Mesheeka."
+   },
+   {
+    "i": 4,
+    "start": 7.54,
+    "end": 10.61,
+    "snap": true,
+    "text": "And yes, that is where the word Mexico comes from."
+   },
+   {
+    "i": 5,
+    "start": 11.25,
+    "end": 16.46,
+    "snap": true,
+    "text": "Aztec comes from Aztlan, the homeland of their legends, somewhere far to the north."
+   },
+   {
+    "i": 6,
+    "start": 17.0,
+    "end": 20.4,
+    "snap": true,
+    "text": "Nobody knows where it was, or whether it was a real place at all."
+   },
+   {
+    "i": 7,
+    "start": 20.96,
+    "end": 29.72,
+    "snap": true,
+    "text": "The name Aztec only caught on in the nineteenth century, when the German scientist Alexander von Humboldt and the American historian William Prescott made it popular."
+   },
+   {
+    "i": 8,
+    "start": 30.27,
+    "end": 31.5,
+    "snap": true,
+    "text": "We will use both names."
+   },
+   {
+    "i": 9,
+    "start": 32.17,
+    "end": 39.43,
+    "snap": true,
+    "text": "According to their own story, the Mesheeka leave Aztlan on the orders of their god Huitzilopochtli, god of the sun and of war."
+   },
+   {
+    "i": 10,
+    "start": 40.03,
+    "end": 42.65,
+    "snap": true,
+    "text": "Priests carry his image, and he speaks through them."
+   },
+   {
+    "i": 11,
+    "start": 43.23,
+    "end": 45.63,
+    "snap": true,
+    "text": "The march lasts about two hundred years."
+   },
+   {
+    "i": 12,
+    "start": 46.35,
+    "end": 47.39,
+    "snap": true,
+    "text": "They speak Nahuatl."
+   },
+   {
+    "i": 13,
+    "start": 47.78,
+    "end": 52.59,
+    "snap": true,
+    "text": "So do many of the peoples already living in the place they are heading for: the Valley of Mexico."
+   },
+   {
+    "i": 14,
+    "start": 53.2,
+    "end": 58.48,
+    "snap": true,
+    "text": "It is a high basin ringed by mountains, more than two thousand two hundred metres above the sea."
+   },
+   {
+    "i": 15,
+    "start": 59.1,
+    "end": 61.5,
+    "snap": true,
+    "text": "On its floor lie five connected lakes."
+   },
+   {
+    "i": 16,
+    "start": 61.99,
+    "end": 66.33,
+    "snap": true,
+    "text": "No river leaves the valley, so the largest of them, Lake Texcoco, is salty."
+   },
+   {
+    "i": 17,
+    "start": 67.04,
+    "end": 69.47,
+    "snap": true,
+    "text": "Around 1250 the Mesheeka arrive."
+   },
+   {
+    "i": 18,
+    "start": 69.9,
+    "end": 70.53,
+    "snap": true,
+    "text": "They are late."
+   },
+   {
+    "i": 19,
+    "start": 70.98,
+    "end": 73.71,
+    "snap": true,
+    "text": "Every good stretch of shore already belongs to a city:"
+   },
+   {
+    "i": 20,
+    "start": 74.07,
+    "end": 78.71,
+    "snap": true,
+    "text": "Culhuacan in the south, Azcapotzalco in the west, Texcoco in the east."
+   },
+   {
+    "i": 21,
+    "start": 79.24,
+    "end": 83.77,
+    "snap": true,
+    "text": "The newcomers are poor and tough, and by most accounts the neighbours dislike them."
+   },
+   {
+    "i": 22,
+    "start": 84.29,
+    "end": 89.08,
+    "snap": true,
+    "text": "So they take the land nobody else wants, and they fight other people's wars for a living."
+   }
+  ],
+  "cost": 1.16
+ },
+ "2": {
+  "dur": 90.906,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 252,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 4.84,
+    "snap": true,
+    "text": "For decades the Mesheeka move around the lake, serving one city and then another."
+   },
+   {
+    "i": 2,
+    "start": 5.36,
+    "end": 7.41,
+    "snap": true,
+    "text": "But their god has promised them a sign."
+   },
+   {
+    "i": 3,
+    "start": 7.97,
+    "end": 11.87,
+    "snap": true,
+    "text": "Somewhere they will find an eagle perched on a prickly pear cactus."
+   },
+   {
+    "i": 4,
+    "start": 12.26,
+    "end": 13.67,
+    "snap": true,
+    "text": "There they must build."
+   },
+   {
+    "i": 5,
+    "start": 14.3,
+    "end": 21.12,
+    "snap": true,
+    "text": "In the traditional year 1325 they find it, on a marshy little island near the western shore of Lake Texcoco."
+   },
+   {
+    "i": 6,
+    "start": 21.63,
+    "end": 25.98,
+    "snap": true,
+    "text": "They call the place Tenochtitlan: the place of the prickly pear cactus."
+   },
+   {
+    "i": 7,
+    "start": 26.44,
+    "end": 27.65,
+    "snap": true,
+    "text": "Look at the Mexican flag."
+   },
+   {
+    "i": 8,
+    "start": 28.09,
+    "end": 31.59,
+    "snap": true,
+    "text": "The eagle is still there, on its cactus, with a snake in its beak."
+   },
+   {
+    "i": 9,
+    "start": 32.02,
+    "end": 33.68,
+    "snap": true,
+    "text": "But the snake is a late guest."
+   },
+   {
+    "i": 10,
+    "start": 34.17,
+    "end": 40.38,
+    "snap": true,
+    "text": "In the Codex Mendoza, painted by Aztec artists around 1541, the eagle holds nothing at all."
+   },
+   {
+    "i": 11,
+    "start": 40.93,
+    "end": 46.53,
+    "snap": true,
+    "text": "The snake first appears in a drawing made by a Spanish friar, Diego Durán, in 1581."
+   },
+   {
+    "i": 12,
+    "start": 47.15,
+    "end": 49.44,
+    "snap": true,
+    "text": "The island itself looks like a bad joke."
+   },
+   {
+    "i": 13,
+    "start": 49.82,
+    "end": 51.31,
+    "snap": true,
+    "text": "It is mud and reeds."
+   },
+   {
+    "i": 14,
+    "start": 51.67,
+    "end": 55.74,
+    "snap": true,
+    "text": "The water around it is too salty to drink, and there is hardly room for a field."
+   },
+   {
+    "i": 15,
+    "start": 56.24,
+    "end": 58.11,
+    "snap": true,
+    "text": "But it has three advantages."
+   },
+   {
+    "i": 16,
+    "start": 58.55,
+    "end": 59.64,
+    "snap": true,
+    "text": "Nobody else wants it."
+   },
+   {
+    "i": 17,
+    "start": 59.97,
+    "end": 61.08,
+    "snap": true,
+    "text": "It is hard to attack."
+   },
+   {
+    "i": 18,
+    "start": 61.41,
+    "end": 64.99,
+    "snap": true,
+    "text": "And it sits in the middle of a lake where everything travels by canoe."
+   },
+   {
+    "i": 19,
+    "start": 65.59,
+    "end": 70.87,
+    "snap": true,
+    "text": "A second group of Mesheeka settles the northern end of the same island and calls its town Tlatelolco."
+   },
+   {
+    "i": 20,
+    "start": 71.32,
+    "end": 72.15,
+    "snap": true,
+    "text": "Remember that name."
+   },
+   {
+    "i": 21,
+    "start": 72.57,
+    "end": 74.8,
+    "snap": true,
+    "text": "It will have the greatest market in the land."
+   },
+   {
+    "i": 22,
+    "start": 75.35,
+    "end": 80.16,
+    "snap": true,
+    "text": "Around 1375 Tenochtitlan gets its first king, Acamapichtli."
+   },
+   {
+    "i": 23,
+    "start": 80.63,
+    "end": 83.11,
+    "snap": true,
+    "text": "His title is tlatoani, the speaker."
+   },
+   {
+    "i": 24,
+    "start": 83.67,
+    "end": 90.91,
+    "snap": true,
+    "text": "For the next fifty years the Mesheeka pay tribute to the strongest city on the lake, Azcapotzalco, and fight in its wars."
+   }
+  ],
+  "cost": 1.16
+ },
+ "3": {
+  "dur": 85.473,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 244,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.97,
+    "snap": true,
+    "text": "First the Mesheeka need land."
+   },
+   {
+    "i": 2,
+    "start": 2.39,
+    "end": 3.52,
+    "snap": true,
+    "text": "So they make it."
+   },
+   {
+    "i": 3,
+    "start": 3.94,
+    "end": 7.94,
+    "snap": true,
+    "text": "They fence off a rectangle of shallow lake with stakes and woven branches."
+   },
+   {
+    "i": 4,
+    "start": 8.35,
+    "end": 15.83,
+    "snap": true,
+    "text": "They fill it with mud from the lake bottom and layers of water plants, and they plant trees along the edges, so the roots hold everything together."
+   },
+   {
+    "i": 5,
+    "start": 16.26,
+    "end": 18.21,
+    "snap": true,
+    "text": "The result is called a chinampa."
+   },
+   {
+    "i": 6,
+    "start": 18.67,
+    "end": 21.81,
+    "snap": true,
+    "text": "People call them floating gardens, but they do not float."
+   },
+   {
+    "i": 7,
+    "start": 22.19,
+    "end": 25.44,
+    "snap": true,
+    "text": "They are fixed to the lake bed, with canals between them for canoes."
+   },
+   {
+    "i": 8,
+    "start": 25.84,
+    "end": 28.47,
+    "snap": true,
+    "text": "The soil is rich and never dries out."
+   },
+   {
+    "i": 9,
+    "start": 29.06,
+    "end": 30.67,
+    "snap": true,
+    "text": "Next comes drinking water."
+   },
+   {
+    "i": 10,
+    "start": 31.16,
+    "end": 36.87,
+    "snap": true,
+    "text": "The lake is salty, so the Mesheeka build an aqueduct across it, from the springs of Chapultepec on the mainland."
+   },
+   {
+    "i": 11,
+    "start": 37.28,
+    "end": 39.36,
+    "snap": true,
+    "text": "It has two channels, side by side."
+   },
+   {
+    "i": 12,
+    "start": 39.75,
+    "end": 45.91,
+    "snap": true,
+    "text": "Three long causeways tie the island to the shore: one to the north, one to the west, one to the south."
+   },
+   {
+    "i": 13,
+    "start": 46.28,
+    "end": 47.77,
+    "snap": true,
+    "text": "Each is cut by bridges."
+   },
+   {
+    "i": 14,
+    "start": 48.19,
+    "end": 52.14,
+    "snap": true,
+    "text": "Canoes pass underneath, and the gaps make the city very hard to storm."
+   },
+   {
+    "i": 15,
+    "start": 52.66,
+    "end": 55.68,
+    "snap": true,
+    "text": "One danger is left: the lake itself."
+   },
+   {
+    "i": 16,
+    "start": 56.09,
+    "end": 59.37,
+    "snap": true,
+    "text": "In 1449 it rises and floods the city."
+   },
+   {
+    "i": 17,
+    "start": 59.85,
+    "end": 64.11,
+    "snap": true,
+    "text": "The king asks for help from his ally Nezahualcoyotl, ruler of Texcoco."
+   },
+   {
+    "i": 18,
+    "start": 64.55,
+    "end": 70.78,
+    "snap": true,
+    "text": "Nezahualcoyotl designs a dike of stone and earth, up to sixteen kilometres long, right across the lake."
+   },
+   {
+    "i": 19,
+    "start": 71.21,
+    "end": 72.58,
+    "snap": true,
+    "text": "It holds back the floods."
+   },
+   {
+    "i": 20,
+    "start": 72.95,
+    "end": 77.43,
+    "snap": true,
+    "text": "It also keeps the salty water of the east away from the fresher water around the city."
+   },
+   {
+    "i": 21,
+    "start": 77.94,
+    "end": 79.62,
+    "snap": true,
+    "text": "It works for generations."
+   },
+   {
+    "i": 22,
+    "start": 80.02,
+    "end": 85.47,
+    "snap": true,
+    "text": "There is no record of the lake flooding Tenochtitlan again until the Spanish arrive and damage the dike."
+   }
+  ],
+  "cost": 1.51
+ },
+ "4": {
+  "dur": 99.474,
+  "lead": 0.0,
+  "tail": 0.38,
+  "words": 243,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 5.4,
+    "snap": true,
+    "text": "Around 1427 old Tezozomoc, lord of Azcapotzalco, dies."
+   },
+   {
+    "i": 2,
+    "start": 5.95,
+    "end": 10.86,
+    "snap": true,
+    "text": "His son Maxtla seizes the throne and tightens his grip on every city around the lake."
+   },
+   {
+    "i": 3,
+    "start": 11.43,
+    "end": 17.15,
+    "snap": true,
+    "text": "The young Mesheeka king, Chimalpopoca, soon dies, possibly murdered on Maxtla's orders."
+   },
+   {
+    "i": 4,
+    "start": 17.65,
+    "end": 21.61,
+    "snap": true,
+    "text": "The prince of Texcoco, Nezahualcoyotl, is driven into exile."
+   },
+   {
+    "i": 5,
+    "start": 22.15,
+    "end": 24.69,
+    "snap": true,
+    "text": "Maxtla has made too many enemies at once."
+   },
+   {
+    "i": 6,
+    "start": 25.31,
+    "end": 28.59,
+    "snap": true,
+    "text": "The Mesheeka choose a new king, Itzcoatl, a soldier."
+   },
+   {
+    "i": 7,
+    "start": 29.14,
+    "end": 34.04,
+    "snap": true,
+    "text": "He joins forces with the exiled Nezahualcoyotl and with a third city, Tlacopan."
+   },
+   {
+    "i": 8,
+    "start": 34.66,
+    "end": 38.83,
+    "snap": true,
+    "text": "In 1428 the allies take Azcapotzalco and destroy it."
+   },
+   {
+    "i": 9,
+    "start": 39.32,
+    "end": 41.0,
+    "snap": true,
+    "text": "The three winners stay together."
+   },
+   {
+    "i": 10,
+    "start": 41.53,
+    "end": 43.85,
+    "snap": true,
+    "text": "Historians call them the Triple Alliance:"
+   },
+   {
+    "i": 11,
+    "start": 44.13,
+    "end": 46.57,
+    "snap": true,
+    "text": "Tenochtitlan, Texcoco and Tlacopan."
+   },
+   {
+    "i": 12,
+    "start": 47.16,
+    "end": 49.79,
+    "snap": true,
+    "text": "This is what we mean by the Aztec Empire."
+   },
+   {
+    "i": 13,
+    "start": 50.25,
+    "end": 51.65,
+    "snap": true,
+    "text": "It is never one country."
+   },
+   {
+    "i": 14,
+    "start": 52.07,
+    "end": 55.62,
+    "snap": true,
+    "text": "It is three cities sharing out the tribute of everyone they defeat."
+   },
+   {
+    "i": 15,
+    "start": 56.11,
+    "end": 61.32,
+    "snap": true,
+    "text": "Two fifths go to Tenochtitlan, two fifths to Texcoco, and one fifth to Tlacopan."
+   },
+   {
+    "i": 16,
+    "start": 61.88,
+    "end": 67.29,
+    "snap": true,
+    "text": "Beside the king stands his nephew Tlacaelel, a general who becomes the power behind the throne."
+   },
+   {
+    "i": 17,
+    "start": 67.86,
+    "end": 70.51,
+    "snap": true,
+    "text": "He reshapes both the state and its religion."
+   },
+   {
+    "i": 18,
+    "start": 71.04,
+    "end": 75.49,
+    "snap": true,
+    "text": "At the centre he puts war, and the god of the Mesheeka, Huitzilopochtli."
+   },
+   {
+    "i": 19,
+    "start": 76.08,
+    "end": 78.04,
+    "snap": true,
+    "text": "And the winners edit the past."
+   },
+   {
+    "i": 20,
+    "start": 78.39,
+    "end": 83.18,
+    "snap": true,
+    "text": "A later Aztec account says that under Itzcoatl the old painted histories were burned."
+   },
+   {
+    "i": 21,
+    "start": 83.57,
+    "end": 85.16,
+    "snap": true,
+    "text": "A new story took their place."
+   },
+   {
+    "i": 22,
+    "start": 85.6,
+    "end": 88.56,
+    "snap": true,
+    "text": "In it, the Mesheeka were never unwanted wanderers."
+   },
+   {
+    "i": 23,
+    "start": 88.92,
+    "end": 92.79,
+    "snap": true,
+    "text": "They were a chosen people, and their god had promised them an empire."
+   },
+   {
+    "i": 24,
+    "start": 93.37,
+    "end": 97.86,
+    "snap": true,
+    "text": "It was a bold thing to say for a city barely a hundred years old."
+   },
+   {
+    "i": 25,
+    "start": 98.13,
+    "end": 99.09,
+    "snap": true,
+    "text": "Then they made it true."
+   }
+  ],
+  "cost": 1.14
+ },
+ "5": {
+  "dur": 98.926,
+  "lead": 0.0,
+  "tail": 0.42,
+  "words": 262,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 4.73,
+    "snap": true,
+    "text": "In 1440 Itzcoatl dies, and the first Moctezuma becomes king."
+   },
+   {
+    "i": 2,
+    "start": 5.36,
+    "end": 7.23,
+    "snap": true,
+    "text": "This is not the famous Moctezuma."
+   },
+   {
+    "i": 3,
+    "start": 7.57,
+    "end": 9.22,
+    "snap": true,
+    "text": "This is his great-grandfather."
+   },
+   {
+    "i": 4,
+    "start": 9.81,
+    "end": 11.79,
+    "snap": true,
+    "text": "Under him the armies leave the valley."
+   },
+   {
+    "i": 5,
+    "start": 12.23,
+    "end": 15.58,
+    "snap": true,
+    "text": "They march east to the Gulf of Mexico and south into Oaxaca."
+   },
+   {
+    "i": 6,
+    "start": 16.09,
+    "end": 17.76,
+    "snap": true,
+    "text": "The kings after him keep going."
+   },
+   {
+    "i": 7,
+    "start": 18.21,
+    "end": 27.24,
+    "snap": true,
+    "text": "By 1502, under King Ahuitzotl, Aztec power reaches from the Gulf to the Pacific, and down the coast to Soconusco, at the edge of modern Guatemala."
+   },
+   {
+    "i": 8,
+    "start": 27.69,
+    "end": 30.0,
+    "snap": true,
+    "text": "Four to five hundred small states."
+   },
+   {
+    "i": 9,
+    "start": 30.33,
+    "end": 31.97,
+    "snap": true,
+    "text": "Five or six million people."
+   },
+   {
+    "i": 10,
+    "start": 32.53,
+    "end": 34.67,
+    "snap": true,
+    "text": "But it is a strange kind of empire."
+   },
+   {
+    "i": 11,
+    "start": 35.13,
+    "end": 37.46,
+    "snap": true,
+    "text": "A defeated king usually keeps his throne."
+   },
+   {
+    "i": 12,
+    "start": 37.93,
+    "end": 39.7,
+    "snap": true,
+    "text": "Life in his city goes on as before."
+   },
+   {
+    "i": 13,
+    "start": 40.21,
+    "end": 44.46,
+    "snap": true,
+    "text": "The rule is simple: pay, twice a year, and send soldiers when asked."
+   },
+   {
+    "i": 14,
+    "start": 44.96,
+    "end": 47.24,
+    "snap": true,
+    "text": "We know what they paid, because the list survives."
+   },
+   {
+    "i": 15,
+    "start": 47.6,
+    "end": 52.63,
+    "snap": true,
+    "text": "The Codex Mendoza shows the tribute of thirty-eight provinces, drawn item by item."
+   },
+   {
+    "i": 16,
+    "start": 53.15,
+    "end": 59.31,
+    "snap": true,
+    "text": "One rich province in the hot lowlands, Tochtepec, owes sixteen hundred decorated cloaks every six months."
+   },
+   {
+    "i": 17,
+    "start": 59.73,
+    "end": 67.76,
+    "snap": true,
+    "text": "Others send cacao beans, jaguar skins, bright feathers, beads of jade and turquoise, warrior costumes, even baskets of dried chili."
+   },
+   {
+    "i": 18,
+    "start": 68.28,
+    "end": 69.9,
+    "snap": true,
+    "text": "Pay, and you are left alone."
+   },
+   {
+    "i": 19,
+    "start": 70.35,
+    "end": 72.38,
+    "snap": true,
+    "text": "Refuse, and the army comes back."
+   },
+   {
+    "i": 20,
+    "start": 72.94,
+    "end": 75.62,
+    "snap": true,
+    "text": "It makes the empire cheap to run and quick to grow."
+   },
+   {
+    "i": 21,
+    "start": 76.11,
+    "end": 79.04,
+    "snap": true,
+    "text": "It also means that almost nobody inside it is loyal."
+   },
+   {
+    "i": 22,
+    "start": 79.49,
+    "end": 81.98,
+    "snap": true,
+    "text": "Every Aztec king has to put down rebellions."
+   },
+   {
+    "i": 23,
+    "start": 82.36,
+    "end": 83.82,
+    "snap": true,
+    "text": "And some neighbours never give in."
+   },
+   {
+    "i": 24,
+    "start": 84.33,
+    "end": 88.64,
+    "snap": true,
+    "text": "To the west, in the late 1470s, the Tarascans crush an Aztec army."
+   },
+   {
+    "i": 25,
+    "start": 89.07,
+    "end": 91.26,
+    "snap": true,
+    "text": "It is the empire's one great defeat."
+   },
+   {
+    "i": 26,
+    "start": 91.69,
+    "end": 96.69,
+    "snap": true,
+    "text": "To the east, the small state of Tlaxcala holds out, with Aztec land on every side."
+   },
+   {
+    "i": 27,
+    "start": 97.2,
+    "end": 98.51,
+    "snap": true,
+    "text": "Remember Tlaxcala too."
+   }
+  ],
+  "cost": 1.28
+ },
+ "6": {
+  "dur": 92.761,
+  "lead": 0.0,
+  "tail": 0.38,
+  "words": 250,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 3.89,
+    "snap": true,
+    "text": "Now walk into Tenochtitlan as it was in 1519."
+   },
+   {
+    "i": 2,
+    "start": 4.54,
+    "end": 10.79,
+    "snap": true,
+    "text": "You come in along a causeway, over bridges wide enough, Cortés wrote, for ten horses side by side."
+   },
+   {
+    "i": 3,
+    "start": 11.54,
+    "end": 14.8,
+    "snap": true,
+    "text": "Most estimates give the city about two hundred thousand people."
+   },
+   {
+    "i": 4,
+    "start": 15.27,
+    "end": 17.86,
+    "snap": true,
+    "text": "Some scholars say fewer, some say many more."
+   },
+   {
+    "i": 5,
+    "start": 18.37,
+    "end": 24.11,
+    "snap": true,
+    "text": "Either way, it is the largest city ancient Mexico ever saw, and one of the largest on Earth."
+   },
+   {
+    "i": 6,
+    "start": 24.67,
+    "end": 28.94,
+    "snap": true,
+    "text": "In the centre stands the Great Temple, a pyramid with two shrines on top."
+   },
+   {
+    "i": 7,
+    "start": 29.47,
+    "end": 32.76,
+    "snap": true,
+    "text": "One belongs to Huitzilopochtli, god of war and the sun."
+   },
+   {
+    "i": 8,
+    "start": 33.31,
+    "end": 35.81,
+    "snap": true,
+    "text": "The other belongs to Tlaloc, god of rain."
+   },
+   {
+    "i": 9,
+    "start": 36.41,
+    "end": 40.92,
+    "snap": true,
+    "text": "The temple has been rebuilt six times, each new pyramid wrapped around the old one."
+   },
+   {
+    "i": 10,
+    "start": 41.55,
+    "end": 45.76,
+    "snap": true,
+    "text": "Close by is the king's palace, with its gardens, an aviary and a zoo."
+   },
+   {
+    "i": 11,
+    "start": 46.28,
+    "end": 48.92,
+    "snap": true,
+    "text": "Then go north, to the market of Tlatelolco."
+   },
+   {
+    "i": 12,
+    "start": 49.35,
+    "end": 53.72,
+    "snap": true,
+    "text": "Cortés claims that sixty thousand people come here every day to buy and sell."
+   },
+   {
+    "i": 13,
+    "start": 54.2,
+    "end": 56.56,
+    "snap": true,
+    "text": "Other witnesses say twenty to forty thousand."
+   },
+   {
+    "i": 14,
+    "start": 57.06,
+    "end": 61.57,
+    "snap": true,
+    "text": "You can buy jewels of gold and silver, cloth, and food from every province."
+   },
+   {
+    "i": 15,
+    "start": 61.92,
+    "end": 63.39,
+    "snap": true,
+    "text": "And you pay in chocolate."
+   },
+   {
+    "i": 16,
+    "start": 63.84,
+    "end": 65.71,
+    "snap": true,
+    "text": "Small change is cacao beans."
+   },
+   {
+    "i": 17,
+    "start": 66.05,
+    "end": 71.37,
+    "snap": true,
+    "text": "A price list written down in 1545, a generation after the conquest, gives the idea."
+   },
+   {
+    "i": 18,
+    "start": 71.94,
+    "end": 73.89,
+    "snap": true,
+    "text": "One bean buys a large tomato."
+   },
+   {
+    "i": 19,
+    "start": 74.28,
+    "end": 75.71,
+    "snap": true,
+    "text": "Three buy a turkey egg."
+   },
+   {
+    "i": 20,
+    "start": 76.13,
+    "end": 78.13,
+    "snap": true,
+    "text": "A hundred buy a good turkey hen."
+   },
+   {
+    "i": 21,
+    "start": 78.65,
+    "end": 81.43,
+    "snap": true,
+    "text": "For bigger purchases there are lengths of white cotton cloth."
+   },
+   {
+    "i": 22,
+    "start": 81.96,
+    "end": 84.49,
+    "snap": true,
+    "text": "Money that grows on trees has one problem."
+   },
+   {
+    "i": 23,
+    "start": 85.0,
+    "end": 85.88,
+    "snap": true,
+    "text": "People fake it."
+   },
+   {
+    "i": 24,
+    "start": 86.25,
+    "end": 92.38,
+    "snap": true,
+    "text": "An Aztec account complains about the bad cacao seller, who slips worthless wild beans in among the good ones."
+   }
+  ],
+  "cost": 0.99
+ },
+ "7": {
+  "dur": 90.358,
+  "lead": 0.0,
+  "tail": 0.33,
+  "words": 256,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.2,
+    "snap": true,
+    "text": "Who lives in this city?"
+   },
+   {
+    "i": 2,
+    "start": 1.76,
+    "end": 3.35,
+    "snap": true,
+    "text": "At the top are the nobles."
+   },
+   {
+    "i": 3,
+    "start": 3.72,
+    "end": 8.92,
+    "snap": true,
+    "text": "Below them is the great majority, the commoners: farmers, craftsmen and traders."
+   },
+   {
+    "i": 4,
+    "start": 9.37,
+    "end": 11.07,
+    "snap": true,
+    "text": "Whichever you are, you go to school."
+   },
+   {
+    "i": 5,
+    "start": 11.54,
+    "end": 18.25,
+    "snap": true,
+    "text": "Sons of nobles go to the calmecac, where priests teach them history, the calendar, religion and the art of war."
+   },
+   {
+    "i": 6,
+    "start": 18.75,
+    "end": 20.97,
+    "snap": true,
+    "text": "Sons of commoners go to the telpochcalli."
+   },
+   {
+    "i": 7,
+    "start": 21.46,
+    "end": 25.74,
+    "snap": true,
+    "text": "There is one in every neighbourhood, and it is heavy on hard work and weapons training."
+   },
+   {
+    "i": 8,
+    "start": 26.26,
+    "end": 28.67,
+    "snap": true,
+    "text": "A gifted commoner can be picked for the nobles' school."
+   },
+   {
+    "i": 9,
+    "start": 29.24,
+    "end": 31.62,
+    "snap": true,
+    "text": "Girls are taught too, for the roles expected of them."
+   },
+   {
+    "i": 10,
+    "start": 32.14,
+    "end": 35.6,
+    "snap": true,
+    "text": "Hardly any society of that time tried to school every child."
+   },
+   {
+    "i": 11,
+    "start": 36.09,
+    "end": 39.5,
+    "snap": true,
+    "text": "School leads to war, because war is the ladder."
+   },
+   {
+    "i": 12,
+    "start": 40.01,
+    "end": 41.29,
+    "snap": true,
+    "text": "There is no standing army."
+   },
+   {
+    "i": 13,
+    "start": 41.7,
+    "end": 43.91,
+    "snap": true,
+    "text": "Men are called up when a campaign begins."
+   },
+   {
+    "i": 14,
+    "start": 44.38,
+    "end": 48.47,
+    "snap": true,
+    "text": "A boy wears a lock of hair at the back of his neck until he takes his first captive."
+   },
+   {
+    "i": 15,
+    "start": 48.83,
+    "end": 50.15,
+    "snap": true,
+    "text": "Then he may cut it off."
+   },
+   {
+    "i": 16,
+    "start": 50.66,
+    "end": 54.32,
+    "snap": true,
+    "text": "More captives bring better cloaks, jewellery, feathers and rank."
+   },
+   {
+    "i": 17,
+    "start": 54.82,
+    "end": 59.07,
+    "snap": true,
+    "text": "The best join the elite: the eagle warriors and the jaguar warriors."
+   },
+   {
+    "i": 18,
+    "start": 59.53,
+    "end": 65.27,
+    "snap": true,
+    "text": "The favourite weapon is a wooden club, edged with razor-sharp blades of obsidian, a volcanic glass."
+   },
+   {
+    "i": 19,
+    "start": 65.67,
+    "end": 69.01,
+    "snap": true,
+    "text": "But the real prize in battle is an enemy taken alive."
+   },
+   {
+    "i": 20,
+    "start": 69.57,
+    "end": 70.15,
+    "snap": true,
+    "text": "And at home?"
+   },
+   {
+    "i": 21,
+    "start": 70.6,
+    "end": 77.6,
+    "snap": true,
+    "text": "On the table are tomatoes, chili peppers and avocados, and for those who can afford it, a bitter drink of cacao and water."
+   },
+   {
+    "i": 22,
+    "start": 78.18,
+    "end": 79.65,
+    "snap": true,
+    "text": "Listen to the Nahuatl words."
+   },
+   {
+    "i": 23,
+    "start": 80.18,
+    "end": 80.7,
+    "snap": true,
+    "text": "Tomatl."
+   },
+   {
+    "i": 24,
+    "start": 81.17,
+    "end": 81.49,
+    "snap": true,
+    "text": "Chilli."
+   },
+   {
+    "i": 25,
+    "start": 82.03,
+    "end": 82.71,
+    "snap": true,
+    "text": "Ahuacatl."
+   },
+   {
+    "i": 26,
+    "start": 83.13,
+    "end": 83.75,
+    "snap": true,
+    "text": "Chocolatl."
+   },
+   {
+    "i": 27,
+    "start": 84.31,
+    "end": 87.04,
+    "snap": true,
+    "text": "Out in the hills there is a wild dog called a coyotl."
+   },
+   {
+    "i": 28,
+    "start": 87.57,
+    "end": 90.03,
+    "snap": true,
+    "text": "You have been speaking a little Aztec all your life."
+   }
+  ],
+  "cost": 1.19
+ },
+ "8": {
+  "dur": 97.228,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 261,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 1.76,
+    "snap": true,
+    "text": "Why take enemies alive?"
+   },
+   {
+    "i": 2,
+    "start": 2.54,
+    "end": 5.11,
+    "snap": true,
+    "text": "This is the part of the story everybody has heard."
+   },
+   {
+    "i": 3,
+    "start": 5.64,
+    "end": 9.72,
+    "snap": true,
+    "text": "The Aztecs believed that the gods had sacrificed themselves to create the world."
+   },
+   {
+    "i": 4,
+    "start": 10.2,
+    "end": 13.67,
+    "snap": true,
+    "text": "Humans owed them a debt, and the debt was paid in lives."
+   },
+   {
+    "i": 5,
+    "start": 14.06,
+    "end": 16.47,
+    "snap": true,
+    "text": "Stop paying, and the universe would end."
+   },
+   {
+    "i": 6,
+    "start": 16.99,
+    "end": 20.18,
+    "snap": true,
+    "text": "So people were sacrificed, most of them prisoners of war."
+   },
+   {
+    "i": 7,
+    "start": 20.84,
+    "end": 22.84,
+    "snap": true,
+    "text": "Two things are worth knowing."
+   },
+   {
+    "i": 8,
+    "start": 23.12,
+    "end": 25.11,
+    "snap": true,
+    "text": "First, the Aztecs did not invent this."
+   },
+   {
+    "i": 9,
+    "start": 25.46,
+    "end": 31.33,
+    "snap": true,
+    "text": "Human sacrifice was practised across ancient Mexico, by the Maya and by the Aztecs' enemies too."
+   },
+   {
+    "i": 10,
+    "start": 31.81,
+    "end": 33.97,
+    "snap": true,
+    "text": "Second, the numbers are disputed."
+   },
+   {
+    "i": 11,
+    "start": 34.37,
+    "end": 43.51,
+    "snap": true,
+    "text": "Sources written after the conquest say that when the Great Temple was rededicated in 1487, eighty thousand four hundred prisoners died in four days."
+   },
+   {
+    "i": 12,
+    "start": 43.96,
+    "end": 48.3,
+    "snap": true,
+    "text": "Most historians think that figure is inflated, and put the real number in the thousands."
+   },
+   {
+    "i": 13,
+    "start": 48.8,
+    "end": 52.99,
+    "snap": true,
+    "text": "For a long time, some scholars suspected that the Spanish had invented the worst of it."
+   },
+   {
+    "i": 14,
+    "start": 53.43,
+    "end": 60.21,
+    "snap": true,
+    "text": "Then, in 2015, archaeologists digging beside the Great Temple found a tower built of human skulls."
+   },
+   {
+    "i": 15,
+    "start": 60.57,
+    "end": 64.45,
+    "snap": true,
+    "text": "More than six hundred so far: men, women and children."
+   },
+   {
+    "i": 16,
+    "start": 64.97,
+    "end": 67.88,
+    "snap": true,
+    "text": "A conquistador had described exactly such a tower."
+   },
+   {
+    "i": 17,
+    "start": 68.47,
+    "end": 70.19,
+    "snap": true,
+    "text": "Time itself was dangerous."
+   },
+   {
+    "i": 18,
+    "start": 70.61,
+    "end": 77.91,
+    "snap": true,
+    "text": "The Aztecs ran two calendars at once: a solar year of three hundred and sixty-five days, and a sacred count of two hundred and sixty."
+   },
+   {
+    "i": 19,
+    "start": 78.34,
+    "end": 82.65,
+    "snap": true,
+    "text": "The two came back to the same starting point only once every fifty-two years."
+   },
+   {
+    "i": 20,
+    "start": 83.09,
+    "end": 86.06,
+    "snap": true,
+    "text": "On that night, every fire in the land was put out."
+   },
+   {
+    "i": 21,
+    "start": 86.44,
+    "end": 88.35,
+    "snap": true,
+    "text": "Priests tried to light a new flame."
+   },
+   {
+    "i": 22,
+    "start": 88.8,
+    "end": 92.01,
+    "snap": true,
+    "text": "If it caught, the world had another fifty-two years."
+   },
+   {
+    "i": 23,
+    "start": 92.5,
+    "end": 94.91,
+    "snap": true,
+    "text": "A New Fire was lit in 1507."
+   },
+   {
+    "i": 24,
+    "start": 95.57,
+    "end": 97.23,
+    "snap": true,
+    "text": "Nobody knew it was the last."
+   }
+  ],
+  "cost": 1.45
+ },
+ "9": {
+  "dur": 84.924,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 235,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 4.11,
+    "snap": true,
+    "text": "Go back to Tlaxcala, the small state the empire never swallowed."
+   },
+   {
+    "i": 2,
+    "start": 4.66,
+    "end": 10.79,
+    "snap": true,
+    "text": "The Aztecs fought it again and again, in a kind of battle with a beautiful name: the flower war."
+   },
+   {
+    "i": 3,
+    "start": 11.34,
+    "end": 15.21,
+    "snap": true,
+    "text": "A flower war was arranged in advance, at an agreed place and time."
+   },
+   {
+    "i": 4,
+    "start": 15.84,
+    "end": 19.76,
+    "snap": true,
+    "text": "The warriors arrived in paint and feathers, wearing the emblems of their rank."
+   },
+   {
+    "i": 5,
+    "start": 20.36,
+    "end": 21.99,
+    "snap": true,
+    "text": "The point was not to take land."
+   },
+   {
+    "i": 6,
+    "start": 22.46,
+    "end": 24.36,
+    "snap": true,
+    "text": "The point was to take prisoners."
+   },
+   {
+    "i": 7,
+    "start": 24.97,
+    "end": 29.41,
+    "snap": true,
+    "text": "These wars began under the first Moctezuma, and they went on for generations."
+   },
+   {
+    "i": 8,
+    "start": 29.96,
+    "end": 33.7,
+    "snap": true,
+    "text": "For the Aztecs it was training, religion and a show of strength."
+   },
+   {
+    "i": 9,
+    "start": 34.16,
+    "end": 37.06,
+    "snap": true,
+    "text": "For Tlaxcala there was nothing ceremonial about it."
+   },
+   {
+    "i": 10,
+    "start": 37.52,
+    "end": 41.81,
+    "snap": true,
+    "text": "Year after year, its young men were carried off to die in Tenochtitlan."
+   },
+   {
+    "i": 11,
+    "start": 42.4,
+    "end": 45.01,
+    "snap": true,
+    "text": "Now you can see the whole weakness of this empire."
+   },
+   {
+    "i": 12,
+    "start": 45.46,
+    "end": 49.47,
+    "snap": true,
+    "text": "Inside its borders are hundreds of cities that pay only because they must."
+   },
+   {
+    "i": 13,
+    "start": 49.95,
+    "end": 53.22,
+    "snap": true,
+    "text": "Next door are enemies with every reason to want revenge."
+   },
+   {
+    "i": 14,
+    "start": 53.7,
+    "end": 57.47,
+    "snap": true,
+    "text": "All that holds it together is fear of one city on a lake."
+   },
+   {
+    "i": 15,
+    "start": 57.99,
+    "end": 63.1,
+    "snap": true,
+    "text": "In 1502 a new king takes the throne: the second Moctezuma, the famous one."
+   },
+   {
+    "i": 16,
+    "start": 63.58,
+    "end": 65.45,
+    "snap": true,
+    "text": "He will rule for eighteen years."
+   },
+   {
+    "i": 17,
+    "start": 65.89,
+    "end": 70.07,
+    "snap": true,
+    "text": "He tightens the king's control and makes the empire stronger than it has ever been."
+   },
+   {
+    "i": 18,
+    "start": 70.57,
+    "end": 76.13,
+    "snap": true,
+    "text": "As the year 1519 begins, no power in this part of the world can challenge Tenochtitlan."
+   },
+   {
+    "i": 19,
+    "start": 76.6,
+    "end": 78.76,
+    "snap": true,
+    "text": "Then news comes from the Gulf coast."
+   },
+   {
+    "i": 20,
+    "start": 79.11,
+    "end": 82.14,
+    "snap": true,
+    "text": "Strange ships have arrived, with strange men on board."
+   },
+   {
+    "i": 21,
+    "start": 82.63,
+    "end": 84.92,
+    "snap": true,
+    "text": "Moctezuma sends messengers to look at them."
+   }
+  ],
+  "cost": 0.65
+ },
+ "10": {
+  "dur": 100.441,
+  "lead": 0.0,
+  "tail": 0.37,
+  "words": 253,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.23,
+    "snap": true,
+    "text": "Their leader is Hernán Cortés."
+   },
+   {
+    "i": 2,
+    "start": 2.73,
+    "end": 9.78,
+    "snap": true,
+    "text": "In February 1519 he leaves Cuba with eleven ships, about five hundred soldiers and sixteen horses."
+   },
+   {
+    "i": 3,
+    "start": 10.32,
+    "end": 14.45,
+    "snap": true,
+    "text": "The governor of Cuba has tried to replace him, and Cortés has sailed anyway."
+   },
+   {
+    "i": 4,
+    "start": 15.05,
+    "end": 16.73,
+    "snap": true,
+    "text": "His first problem is language."
+   },
+   {
+    "i": 5,
+    "start": 17.2,
+    "end": 23.94,
+    "snap": true,
+    "text": "First he picks up Gerónimo de Aguilar, a Spaniard who was shipwrecked years before and lived as a captive among the Maya."
+   },
+   {
+    "i": 6,
+    "start": 24.46,
+    "end": 29.93,
+    "snap": true,
+    "text": "Then, in March, after a battle on the coast, the local Maya hand over twenty young women."
+   },
+   {
+    "i": 7,
+    "start": 30.56,
+    "end": 32.96,
+    "snap": true,
+    "text": "One of them speaks both Maya and Nahuatl."
+   },
+   {
+    "i": 8,
+    "start": 33.47,
+    "end": 35.35,
+    "snap": true,
+    "text": "The Spanish baptize her Marina."
+   },
+   {
+    "i": 9,
+    "start": 35.76,
+    "end": 37.55,
+    "snap": true,
+    "text": "The Nahuas call her Malintzin."
+   },
+   {
+    "i": 10,
+    "start": 38.15,
+    "end": 40.03,
+    "snap": true,
+    "text": "Cortés speaks Spanish to Aguilar."
+   },
+   {
+    "i": 11,
+    "start": 40.49,
+    "end": 42.44,
+    "snap": true,
+    "text": "Aguilar speaks Maya to Malintzin."
+   },
+   {
+    "i": 12,
+    "start": 42.88,
+    "end": 45.42,
+    "snap": true,
+    "text": "Malintzin speaks Nahuatl to everyone else."
+   },
+   {
+    "i": 13,
+    "start": 45.81,
+    "end": 48.01,
+    "snap": true,
+    "text": "Without her, there are no alliances."
+   },
+   {
+    "i": 14,
+    "start": 48.47,
+    "end": 54.55,
+    "snap": true,
+    "text": "Cortés destroys his own ships, so that nobody can turn back, and in August he marches inland."
+   },
+   {
+    "i": 15,
+    "start": 55.02,
+    "end": 57.73,
+    "snap": true,
+    "text": "Tlaxcala fights him first, and fights hard."
+   },
+   {
+    "i": 16,
+    "start": 58.19,
+    "end": 59.54,
+    "snap": true,
+    "text": "Then it makes a decision."
+   },
+   {
+    "i": 17,
+    "start": 60.12,
+    "end": 62.93,
+    "snap": true,
+    "text": "These strangers could be a weapon against Tenochtitlan."
+   },
+   {
+    "i": 18,
+    "start": 63.49,
+    "end": 70.02,
+    "snap": true,
+    "text": "On the eighth of November 1519, Cortés, his men and their Tlaxcalan allies walk along the causeway."
+   },
+   {
+    "i": 19,
+    "start": 70.55,
+    "end": 72.18,
+    "snap": true,
+    "text": "Moctezuma comes out to meet them."
+   },
+   {
+    "i": 20,
+    "start": 72.7,
+    "end": 77.27,
+    "snap": true,
+    "text": "You may have heard that Moctezuma took Cortés for a returning god, Quetzalcoatl."
+   },
+   {
+    "i": 21,
+    "start": 77.79,
+    "end": 79.86,
+    "snap": true,
+    "text": "Cortés never says so in his own letters."
+   },
+   {
+    "i": 22,
+    "start": 80.25,
+    "end": 85.77,
+    "snap": true,
+    "text": "The story first appears in a book of 1552, by a writer who never set foot in America."
+   },
+   {
+    "i": 23,
+    "start": 86.33,
+    "end": 89.61,
+    "snap": true,
+    "text": "Most historians now think it was invented after the conquest."
+   },
+   {
+    "i": 24,
+    "start": 90.14,
+    "end": 93.44,
+    "snap": true,
+    "text": "Moctezuma was doing what kings do with dangerous guests."
+   },
+   {
+    "i": 25,
+    "start": 93.87,
+    "end": 95.79,
+    "snap": true,
+    "text": "He kept them close, and watched."
+   },
+   {
+    "i": 26,
+    "start": 96.34,
+    "end": 100.07,
+    "snap": true,
+    "text": "Within days he is their hostage, in his own city."
+   }
+  ],
+  "cost": 2.08
+ },
+ "11": {
+  "dur": 108.826,
+  "lead": 0.0,
+  "tail": 0.0,
+  "words": 274,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.0,
+    "end": 2.44,
+    "snap": true,
+    "text": "For months there is an uneasy peace."
+   },
+   {
+    "i": 2,
+    "start": 2.98,
+    "end": 7.35,
+    "snap": true,
+    "text": "Then, in the spring of 1520, Cortés rushes back to the coast."
+   },
+   {
+    "i": 3,
+    "start": 7.82,
+    "end": 12.8,
+    "snap": true,
+    "text": "A second Spanish force, more than eight hundred soldiers, has come from Cuba to arrest him."
+   },
+   {
+    "i": 4,
+    "start": 13.43,
+    "end": 16.98,
+    "snap": true,
+    "text": "He leaves about eighty men in Tenochtitlan under Pedro de Alvarado."
+   },
+   {
+    "i": 5,
+    "start": 17.6,
+    "end": 26.09,
+    "snap": true,
+    "text": "In May, during a religious festival at the Great Temple, Alvarado attacks the unarmed Aztec nobles and kills them."
+   },
+   {
+    "i": 6,
+    "start": 26.53,
+    "end": 27.73,
+    "snap": true,
+    "text": "The city rises."
+   },
+   {
+    "i": 7,
+    "start": 28.23,
+    "end": 28.85,
+    "snap": true,
+    "text": "Cortés returns."
+   },
+   {
+    "i": 8,
+    "start": 29.2,
+    "end": 30.43,
+    "snap": true,
+    "text": "In June, Moctezuma dies."
+   },
+   {
+    "i": 9,
+    "start": 30.97,
+    "end": 34.24,
+    "snap": true,
+    "text": "The Spanish say he was hit by stones thrown by his own people."
+   },
+   {
+    "i": 10,
+    "start": 34.8,
+    "end": 37.09,
+    "snap": true,
+    "text": "Aztec accounts say the Spanish killed him."
+   },
+   {
+    "i": 11,
+    "start": 37.8,
+    "end": 43.13,
+    "snap": true,
+    "text": "On the night of the thirtieth of June 1520 the Spaniards try to slip out along a causeway."
+   },
+   {
+    "i": 12,
+    "start": 43.62,
+    "end": 44.28,
+    "snap": true,
+    "text": "They are caught."
+   },
+   {
+    "i": 13,
+    "start": 44.79,
+    "end": 47.01,
+    "snap": true,
+    "text": "Cortés loses more than half his men."
+   },
+   {
+    "i": 14,
+    "start": 47.61,
+    "end": 49.99,
+    "snap": true,
+    "text": "The Spanish call it the Night of Sorrows."
+   },
+   {
+    "i": 15,
+    "start": 50.5,
+    "end": 52.82,
+    "snap": true,
+    "text": "The survivors fight their way to Tlaxcala."
+   },
+   {
+    "i": 16,
+    "start": 53.23,
+    "end": 54.69,
+    "snap": true,
+    "text": "And Tlaxcala takes them in."
+   },
+   {
+    "i": 17,
+    "start": 55.68,
+    "end": 57.26,
+    "snap": true,
+    "text": "Then comes smallpox."
+   },
+   {
+    "i": 18,
+    "start": 57.78,
+    "end": 60.05,
+    "snap": true,
+    "text": "The people of Mexico have never met it."
+   },
+   {
+    "i": 19,
+    "start": 60.58,
+    "end": 65.76,
+    "snap": true,
+    "text": "The new king, Cuitlahuac, who drove the Spaniards out, dies after eighty days on the throne."
+   },
+   {
+    "i": 20,
+    "start": 66.35,
+    "end": 69.36,
+    "snap": true,
+    "text": "His successor, Cuauhtemoc, is about twenty-five."
+   },
+   {
+    "i": 21,
+    "start": 70.13,
+    "end": 73.18,
+    "snap": true,
+    "text": "In May 1521 Cortés is back."
+   },
+   {
+    "i": 22,
+    "start": 73.68,
+    "end": 77.53,
+    "snap": true,
+    "text": "He has thirteen ships built for the lake and about a thousand Spaniards."
+   },
+   {
+    "i": 23,
+    "start": 77.91,
+    "end": 80.93,
+    "snap": true,
+    "text": "With them march native allies in the tens of thousands."
+   },
+   {
+    "i": 24,
+    "start": 81.29,
+    "end": 83.47,
+    "snap": true,
+    "text": "Some counts say two hundred thousand."
+   },
+   {
+    "i": 25,
+    "start": 83.96,
+    "end": 85.22,
+    "snap": false,
+    "text": "They cut the aqueduct."
+   },
+   {
+    "i": 26,
+    "start": 85.22,
+    "end": 86.47,
+    "snap": true,
+    "text": "They block the causeways."
+   },
+   {
+    "i": 27,
+    "start": 86.82,
+    "end": 88.97,
+    "snap": true,
+    "text": "The siege lasts about three months."
+   },
+   {
+    "i": 28,
+    "start": 89.41,
+    "end": 94.82,
+    "snap": true,
+    "text": "On the thirteenth of August 1521, Cuauhtemoc is caught trying to cross the lake in a canoe."
+   },
+   {
+    "i": 29,
+    "start": 95.39,
+    "end": 97.09,
+    "snap": true,
+    "text": "The city is in ruins."
+   },
+   {
+    "i": 30,
+    "start": 97.86,
+    "end": 101.3,
+    "snap": true,
+    "text": "Five hundred Spaniards did not conquer the Aztec Empire."
+   },
+   {
+    "i": 31,
+    "start": 101.86,
+    "end": 108.83,
+    "snap": true,
+    "text": "Its own subjects and its old enemies did, with Spanish steel, Spanish horses and a disease on their side."
+   }
+  ],
+  "cost": 2.79
+ },
+ "12": {
+  "dur": 93.649,
+  "lead": 0.25,
+  "tail": 0.0,
+  "words": 262,
+  "rows": [
+   {
+    "i": 1,
+    "start": 0.25,
+    "end": 4.97,
+    "snap": true,
+    "text": "Cortés builds a new capital on top of the ruins, using the stones of the temples."
+   },
+   {
+    "i": 2,
+    "start": 5.52,
+    "end": 6.87,
+    "snap": true,
+    "text": "It is Mexico City."
+   },
+   {
+    "i": 3,
+    "start": 7.44,
+    "end": 9.0,
+    "snap": true,
+    "text": "Cuauhtemoc stays a prisoner."
+   },
+   {
+    "i": 4,
+    "start": 9.62,
+    "end": 14.05,
+    "snap": true,
+    "text": "In 1525, on a march to Honduras, Cortés has him hanged."
+   },
+   {
+    "i": 5,
+    "start": 14.55,
+    "end": 15.6,
+    "snap": true,
+    "text": "The lake goes too."
+   },
+   {
+    "i": 6,
+    "start": 16.26,
+    "end": 21.18,
+    "snap": true,
+    "text": "The new rulers decide to drain it, and the work is finally finished in the late nineteenth century."
+   },
+   {
+    "i": 7,
+    "start": 21.72,
+    "end": 23.22,
+    "snap": true,
+    "text": "The people suffer most."
+   },
+   {
+    "i": 8,
+    "start": 23.71,
+    "end": 30.17,
+    "snap": true,
+    "text": "The great sickness of 1545 is estimated to have killed up to eighty per cent of the population where it struck."
+   },
+   {
+    "i": 9,
+    "start": 30.73,
+    "end": 35.26,
+    "snap": true,
+    "text": "The population of Mexico did not return to its old level until the twentieth century."
+   },
+   {
+    "i": 10,
+    "start": 35.77,
+    "end": 37.71,
+    "snap": true,
+    "text": "But the Aztecs did not vanish."
+   },
+   {
+    "i": 11,
+    "start": 38.16,
+    "end": 46.89,
+    "snap": true,
+    "text": "In the sixteenth century, Nahua scholars working with a Spanish friar described their whole world in their own language, in the book we call the Florentine Codex."
+   },
+   {
+    "i": 12,
+    "start": 47.23,
+    "end": 50.63,
+    "snap": true,
+    "text": "Today more than one and a half million people speak Nahuatl."
+   },
+   {
+    "i": 13,
+    "start": 51.12,
+    "end": 55.85,
+    "snap": true,
+    "text": "And at Xochimilco, on the southern edge of Mexico City, the chinampas are still there."
+   },
+   {
+    "i": 14,
+    "start": 56.49,
+    "end": 66.02,
+    "snap": true,
+    "text": "On the twenty-first of February 1978, electric company workers digging in the centre of Mexico City hit a carved stone disc more than three metres across."
+   },
+   {
+    "i": 15,
+    "start": 66.42,
+    "end": 71.88,
+    "snap": true,
+    "text": "It showed the moon goddess Coyolxauhqui, and it had been lying at the foot of the Great Temple all along."
+   },
+   {
+    "i": 16,
+    "start": 72.43,
+    "end": 75.31,
+    "snap": true,
+    "text": "Thirteen buildings were pulled down to dig the temple out."
+   },
+   {
+    "i": 17,
+    "start": 75.77,
+    "end": 84.39,
+    "snap": true,
+    "text": "And every Mexican flag still carries the founding of Tenochtitlan: an eagle, on a cactus, on an island in a lake that is no longer there."
+   },
+   {
+    "i": 18,
+    "start": 86.09,
+    "end": 88.31,
+    "snap": true,
+    "text": "That was the Aztecs in twenty minutes."
+   },
+   {
+    "i": 19,
+    "start": 88.73,
+    "end": 93.65,
+    "snap": true,
+    "text": "If you enjoyed it, subscribe, and tell us in the comments which civilization we should cover next."
+   }
+  ],
+  "cost": 0.91
+ }
+}
