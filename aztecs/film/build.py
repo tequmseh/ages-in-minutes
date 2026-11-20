@@ -77,6 +77,7 @@ def _mux(spec, gfx, D, vo, out):
         f = mu[0]; I = float(loud(f)["input_i"]); L = dur(f); tp = 1.0; bed = (mu[2] if len(mu) > 2 and mu[2] is not None else MUS)
         on_card = bool(CARD) and L >= D + CARD - 0.1; need = D + (CARD if on_card else 0.0)
         if L < need + 0.2: tp = max(0.94, L / (need + 0.2))          # stretch up to 6 %, never cut mid-phrase
+        elif L > need + 0.5: tp = min(1.06, L / need)          # a longer track is sped up by up to 6 %, the rest fades out
         gb = 10 ** ((bed - I) / 20); gc = 10 ** ((MUS_CARD - I) / 20); mi = len([x for x in ins if x == "-i"]); ins += ["-i", f]
         eq = "equalizer=f=2600:t=q:w=0.8:g=-4,"          # leave room for the voice
         if on_card:

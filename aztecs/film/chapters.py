@@ -65,22 +65,21 @@ def wrap(s, maxc):
         if best is None or abs(len(l1) - len(l2)) < abs(len(best[0]) - len(best[1])): best = (l1, l2)
     return list(best) if best else [s]
 def tsize(s, wmax, top): return int(max(30, min(top, wmax / (max(1, len(s)) * 0.64))))
-def column(d, t, x, its, ts, A, wmax, y0=None, big=150, ghost=0.0):
-    """a centred column: first item large, last on a plaque, the rest grey; returns nothing"""
+def column(d, t, x, its, ts, A, wmax, y0=None, big=100, ghost=0.0, align="m"):
+    """one text block for every plate and insert: headline (fixed size, shrunk only if too wide), grey lines, the last line on a plaque; align "l" = left edge at x"""
     rows = []
     for i, s in enumerate(its):
         kind = "T" if i == 0 else ("P" if i == len(its) - 1 and len(its) >= 3 else "G")
         if len(its) == 2 and i == 1: kind = "P"
-        top = big if kind == "T" else (60 if kind == "P" else 46)
-        if kind == "T" and len(its) == 1: top = big
+        top = big if kind == "T" else (round(big * 0.56) if kind == "P" else round(big * 0.46))
         ls = wrap(s, 30 if kind == "T" else 38) if len(s) > 26 else [s]; size = min(tsize(l, wmax, top) for l in ls)
         for l in ls: rows.append((kind, l, size, ts[i], size * (1.3 if kind == "T" else 2.3 if kind == "P" else 1.9)))
     tot = sum(r_[4] for r_ in rows); y = (y0 if y0 is not None else 540) - tot / 2
     for kind, l, size, t0, hh in rows:
         a = max(r(t, t0), ghost) * A; yy = y + hh / 2
-        if kind == "T": text(d, x, yy, l, size, a, sp=max(2, size // 14), dy=18)
-        elif kind == "P": plaque(d, x, yy, l, size, a, sp=max(2, size // 9))
-        else: text(d, x, yy, l, size, a, sp=max(2, size // 9), **GR)
+        if kind == "T": text(d, x, yy, l, size, a, sp=max(2, size // 14), dy=18, anchor=align)
+        elif kind == "P": plaque(d, x + (size * 0.45 if align == "l" else 0), yy, l, size, a, sp=max(2, size // 9), anchor=align)
+        else: text(d, x, yy, l, size, a, sp=max(2, size // 9), anchor=align, **GR)
         y += hh
 def fade(t, a, b): return min(1.0, max(0.0, (b - t) / 0.25))
 def tscale(d, t, x0, x1, y, la, lb, t0, dur=1.6, A=1.0):
@@ -127,10 +126,10 @@ def mk_plate(n, a, b, i, txt):
             if t < m1:
                 A1 = A * min(1.0, max(0.0, (m1 - t) / 0.25))
                 its1 = ["THE DEBT TO THE GODS", "PAID IN LIVES", "PRACTISED ACROSS ANCIENT MEXICO"]; ph = ["owed them a debt", "paid in lives", "practised across"]
-                obj(im, "V01", 480, 540, h=780, a=A1); d = ImageDraw.Draw(im); column(d, t, 1420, its1, [a + 0.12] + [T(n, p, a, b) for p in ph[1:]], A1, 820, ghost=GHOST)
+                obj(im, "V01", 500, 540, h=800, a=A1); d = ImageDraw.Draw(im); column(d, t, TX, its1, [a + 0.12] + [T(n, p, a, b) for p in ph[1:]], A1, 800, big=76, ghost=GHOST, align="l")
             else:
                 A2 = A * r(t, m1, 0.25); t1 = T(n, "1487", a, b); t2 = T(n, "eighty thousand four hundred", a, b); t3 = T(n, "four days", a, b); t4 = T(n, "inflated", a, b); t5 = T(n, "in the thousands", a, b)
-                obj(im, "V13", 520, 540, w=880, a=A2); d = ImageDraw.Draw(im); X = 1400
+                obj(im, "V13", 500, 540, w=860, a=A2); d = ImageDraw.Draw(im); X = 1420
                 text(d, X, 200, "THE GREAT TEMPLE · 1487", 44, max(r(t, t1), GHOST) * A2, sp=8, **GR)
                 text(d, X, 420, "80,400", 200, max(r(t, t2), GHOST) * A2, sp=10, dy=18); strike(d, X, 420, "80,400", 200, ease((t - t4) / 0.6), A2, sp=10, color=GRAY)
                 text(d, X, 610, "PRISONERS IN FOUR DAYS", 46, max(r(t, t3), GHOST) * A2, sp=8, **GR)
@@ -142,7 +141,7 @@ def mk_plate(n, a, b, i, txt):
                 if k: text(d, 655 if k == 1 else 1235, 500, "→", 70, aa, color=GRAY)
             for k, (nm, ph) in enumerate([("CORTÉS", "Cortes speaks"), ("AGUILAR", "Aguilar speaks"), ("MALINTZIN", "Malintzin speaks")]):
                 text(d, xs[k], 640, nm, 40, max(r(t, T(n, ph, a, b, dflt=ts[k])), GHOST) * A, sp=8, **GR)
-        else: column(d, t, cx, its, ts, A, 1650, ghost=GHOST)
+        else: column(d, t, cx, its, ts, A, 1650, big=100, ghost=GHOST)
     G[(n, a)] = f
 def _has(n, ph, a, b):
     try: at(n, ph, lo=a, hi=b); return True
@@ -152,6 +151,7 @@ ITEMS = {(9, "V18"): ["1502", "THE SECOND MOCTEZUMA", "EIGHTEEN YEARS"], (10, "V
          (10, "V18"): ["MOCTEZUMA", "HE KEPT THEM CLOSE", "THEIR HOSTAGE"], (12, "V23"): ["21 FEBRUARY 1978", "COYOLXAUHQUI", "AT THE FOOT OF THE GREAT TEMPLE"],
          (7, "V17"): ["EAGLE WARRIORS", "JAGUAR WARRIORS", "BLADES OF OBSIDIAN"], (4, "V10"): ["TLACAELEL", "THE POWER BEHIND THE THRONE"], (6, "V13"): ["THE GREAT TEMPLE", "HUITZILOPOCHTLI", "TLALOC"],
          (12, "V22"): ["FLORENTINE CODEX", "1.5 MILLION SPEAK NAHUATL"], (8, "V01"): ["365 DAYS", "260 DAYS", "52 YEARS"]}          # on-screen words where the layout order differs from the spoken order
+TX = 1010          # left edge of the text beside an object
 PHOTO = ("V08", "V08.1", "V08.2", "V25")          # photographs shown full frame
 FRAMED = ()          # rectangular pictures on a white mat
 def mk_ins(n, a, b, i, txt):
@@ -160,16 +160,16 @@ def mk_ins(n, a, b, i, txt):
         A = fade(t, a, b) * r(t, a, 0.3)
         if name in PHOTO:
             photo(im, name, A); d = ImageDraw.Draw(im); vis = [k for k in range(len(its)) if t >= ts[k]]
-            if vis: plaque(d, cx, 970, its[vis[-1]], 44 if len(its[vis[-1]]) < 30 else 34, r(t, ts[vis[-1]]) * A, sp=5)
+            if vis: plaque(d, cx, 960, its[vis[-1]], 34 if len(its[vis[-1]]) <= 40 else 30, r(t, ts[vis[-1]]) * A, sp=5)
         elif (n, i) == (8, "V01"):          # two calendars and their common cycle: three equal lines
             obj_(im, name, 500, 540, 800, A); d = ImageDraw.Draw(im)
-            for k, w_ in enumerate(its): text(d, 1380, 340 + k * 200, w_, 110, max(r(t, ts[k]), GHOST) * A, sp=8, color=WHITE)
+            for k, w_ in enumerate(its): text(d, TX, 380 + k * 160, w_, 96, max(r(t, ts[k]), GHOST) * A, sp=7, color=WHITE, anchor="l")
         elif wide:
             obj_(im, name, cx, 420 if its else 540, min(680, int(1500 / asp(name))) if its else min(940, int(1700 / asp(name))), A); d = ImageDraw.Draw(im)
-            if its: column(d, t, cx, its, ts, A, 1600, y0=930, big=64, ghost=GHOST)
+            if its: column(d, t, cx, its, ts, A, 1600, y0=930, big=60, ghost=GHOST)
         elif not its: obj_(im, name, cx, 540, 980, A)
         else:
-            h = min(960, int(760 / asp(name)), int(_load(name).height * 1.45)); (framed if name in FRAMED else obj_)(im, name, 540, 540, h, A); d = ImageDraw.Draw(im); column(d, t, 1390, its, ts, A, 780, big=110, ghost=GHOST)
+            h = min(960, int(760 / asp(name)), int(_load(name).height * 1.45)); (framed if name in FRAMED else obj_)(im, name, 500, 540, h, A); d = ImageDraw.Draw(im); column(d, t, TX, its, ts, A, 800, big=76, ghost=GHOST, align="l")
     G[(n, a)] = f
 _PAN = {}
 def obj_(im, name, x, y, h, a): obj(im, name, x, y, h=h, a=a)
@@ -184,7 +184,7 @@ def mk_outro(n, a, b):
 # ---------------------------------------------------------------- captions on reconstruction clips, title
 def cap(key, line, size=40, y=960, sp=3):
     def mk():
-        im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im); sz = size if len(line) <= 40 else 34; f = font(True, sz); px, py = sz * 0.45, sz * 0.32; w = tw(d, line, f, sp)
+        im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im); sz = 34 if len(line) <= 40 else 30; f = font(True, sz); px, py = sz * 0.45, sz * 0.32; w = tw(d, line, f, sp)
         d.rectangle([cx - w / 2 - px, y - sz * 0.6 - py, cx + w / 2 + px, y + sz * 0.6 + py], fill=WHITE + (255,)); xx = cx - w / 2
         for ch in line: d.text((xx, y - sz * 0.6), ch, font=f, fill=BG + (255,)); xx += d.textlength(ch, font=f) + sp
         p = f"{R}/tmp_panel_{key}.png"; im.save(p); return p
@@ -228,7 +228,7 @@ def spec(n):
         for a, b in wins:
             if a <= t < b: G[(n, a)](im, d, t)
         return im
-    mus = f"{C}/music/{n:02d}.wav"
+    import glob as _g; mus = (_g.glob(f"{C}/music/{n:02d}.*") + [""])[0]
     return dict(n=n, gfx=gfx, gfx_windows=wins, overlays=ov, stills=stills, card=card(n) if n else None, fade_out=1.2 if n == 12 else 0.5, dur=(LAY["12"]["dur"] + TAIL) if n == 12 else 0,
                 music=(mus, None, -27.0 if n == 0 else None) if os.path.exists(mus) else None)
 class _S(dict):

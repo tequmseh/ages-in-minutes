@@ -77,7 +77,7 @@ def _(fr, t):
     arrow(fr, [(-101.5, 23.0), (-104.5, 27.0), (-108.4, 30.4)], ta - 0.3, d=2.4, dash=(10, 8), color=AZ_D, width=4)
     PQL(fr, *AZTLAN_PT, "AZTLAN", dy=-6, a=fr.R(ta, 0.4), size=38)
     PQL(fr, AZTLAN_PT[0], AZTLAN_PT[1], "SOMEWHERE FAR TO THE NORTH", dy=52, a=fr.R(word(1, "Aztec comes", "somewhere"), 0.4), size=22)
-    PQL(fr, -104.0, 18.7, "NOBODY KNOWS WHERE IT WAS", a=fr.R(cue(1, "Nobody knows"), 0.4), size=28)
+    PQ(fr, 960, 960, "NOBODY KNOWS WHERE IT WAS", a=fr.R(cue(1, "Nobody knows"), 0.4), size=28)
 
 @sc("01b", "march", ROUTEC, {})
 def _(fr, t):
@@ -85,15 +85,15 @@ def _(fr, t):
     PQL(fr, *AZTLAN_PT, "AZTLAN", dx=-10, dy=-34, a=1.0, size=30)
     arrow(fr, ROUTE, t0 + 1.0, d=5.4, dash=(14, 9), color=AZ_D, width=5)
     tdot(fr, AZTLAN_PT, r=7, color=AZ_D)
-    PQL(fr, -105.6, 29.0, "HUITZILOPOCHTLI", a=fr.R(word(1, "According to their own", "Huitzilopochtli"), 0.4), size=32)
-    PQL(fr, -105.6, 29.0, "GOD OF THE SUN AND OF WAR", dy=46, a=fr.R(word(1, "According to their own", "god of the sun"), 0.4), size=22)
+    PQ(fr, 400, 150, "HUITZILOPOCHTLI", a=fr.R(word(1, "According to their own", "Huitzilopochtli"), 0.4), size=32)
+    PQ(fr, 400, 215, "GOD OF THE SUN AND OF WAR", a=fr.R(word(1, "According to their own", "god of the sun"), 0.4), size=22)
 
 @sc("01c", "valley", VAL, {})
 def _(fr, t):
     valley_rivers(fr, a=fr.R(53.0, 1.5) * 0.9)
     region(fr, -99.07, 19.83, "VALLEY OF MEXICO", a=fr.R(word(1, "So do many", "Valley of Mexico"), 0.5), size=30)
-    PQL(fr, -98.78, 19.70, "MORE THAN 2,200 M", a=fr.R(word(1, "It is a high basin", "more than"), 0.4), size=30)
-    PQL(fr, -98.78, 19.70, "ABOVE THE SEA", dy=46, a=fr.R(word(1, "It is a high basin", "above the sea"), 0.4), size=22, light=True)
+    PQ(fr, 400, 150, "MORE THAN 2,200 M", a=fr.R(word(1, "It is a high basin", "more than"), 0.4), size=30)
+    PQ(fr, 400, 215, "ABOVE THE SEA", a=fr.R(word(1, "It is a high basin", "above the sea"), 0.4), size=22, light=True)
     PQ(fr, 960, 960, "FIVE CONNECTED LAKES", a=fr.R(word(1, "On its floor", "five"), 0.4), size=28)
     lake_t(fr, -98.97, 19.52, "LAKE TEXCOCO", word(1, "No river", "Texcoco"), size=22)
     ts = word(1, "No river", "salty")
@@ -107,12 +107,12 @@ def cities1(fr, t0):
 def _(fr, t):
     valley_rivers(fr, a=0.9)
     ta = cue(1, "Around 1250")
-    PQL(fr, -99.07, 19.80, "AROUND 1250", a=fr.R(ta, 0.4), size=38)
+    PQ(fr, 400, 150, "AROUND 1250", a=fr.R(ta, 0.4), size=38)
     ll = mover_dot(fr, [(-99.30, 19.72), (-99.25, 19.58), (-99.20, 19.47), C["CHAPULTEPEC"]], ta + 0.2, 2.6, r=8, color=AZ, hold=40.0)
     if ll: PQL(fr, *ll, "MEXICA", dx=-120, dy=0, a=fr.R(ta + 1.0, 0.4), size=24)
-    PQL(fr, -99.07, 19.74, "THEY ARE LATE", a=fr.R(cue(1, "They are late"), 0.4), size=30)
+    PQ(fr, 400, 215, "THEY ARE LATE", a=fr.R(cue(1, "They are late"), 0.4), size=30)
     cities1(fr, ta)
-    PQL(fr, -99.31, 19.33, "THE LAND NOBODY ELSE WANTS", a=fr.R(word(1, "So they take", "land nobody"), 0.4), size=24)
+    PQ(fr, 960, 960, "THE LAND NOBODY ELSE WANTS", a=fr.R(word(1, "So they take", "land nobody"), 0.4), size=24)
 
 @sc("01d", "wander", VAL, {}, ch=2)
 def _(fr, t):
@@ -121,7 +121,7 @@ def _(fr, t):
     path = [C["CHAPULTEPEC"], (-99.19, 19.49), (-99.15, 19.40), C["CULHUACAN"], (-99.0, 19.325), (-98.9, 19.40), C["TEXCOCO"]]
     gline(fr, smooth(path, 6), color=AZ, width=4, dash=(10, 8), frac=fr.R(0.2, 4.6), halo=WHITE)
     mover_dot(fr, smooth(path, 6), 0.2, 4.6, r=8, color=AZ, hold=40.0)
-    PQL(fr, -99.07, 19.80, "A SIGN", a=fr.R(cue(2, "But their god"), 0.4), size=38)
+    PQ(fr, 400, 150, "A SIGN", a=fr.R(cue(2, "But their god"), 0.4), size=38)
 
 # ================= chapter 2
 ISLM = mover([(0, VAL), (1.2, VAL), (6.4, ISL)])
@@ -130,13 +130,13 @@ def _(fr, t):
     valley_rivers(fr, a=0.9 * (1 - fr.R(18.0, 3.0)))
     for n, c in (("AZCAPOTZALCO", TEP), ("TLACOPAN", TEP)): city(fr, n, a=1.0, side="l", r=7, size=20, dot=c, icon=False)
     ty = cue(2, "In the traditional")
-    PQ(fr, 1480, 150, "1325", a=fr.R(ty, 0.4) * (1 - fr.R(26.0, 0.6)), size=44)
+    PQ(fr, 400, 150, "1325", a=fr.R(ty, 0.4) * (1 - fr.R(26.0, 0.6)), size=44)
     tn = word(2, "They call the place", "Tenochtitlan")
     tdot(fr, C["TENOCH_ISL"], a=fr.R(tn, 0.3), r=9, color=AZ); pulse(fr, C["TENOCH_ISL"], tn, 2.2, color=AZ)
     PQL(fr, *C["TENOCH_ISL"], "TENOCHTITLAN", dx=165, dy=-4, a=fr.R(tn, 0.4), size=34)
     PQL(fr, *C["TENOCH_ISL"], "THE PLACE OF THE PRICKLY PEAR CACTUS", dx=165, dy=44, a=fr.R(word(2, "They call the place", "the place of"), 0.4), size=19)
     t3 = cue(2, "But it has three")
-    PQ(fr, 1480, 150, "THREE ADVANTAGES", a=fr.R(t3, 0.4) * (1 - fr.R(cue(2, "A second group") - 0.4, 0.4)), size=38)
+    PQ(fr, 400, 150, "THREE ADVANTAGES", a=fr.R(t3, 0.4) * (1 - fr.R(cue(2, "A second group") - 0.4, 0.4)), size=38)
     for i, (txt, tw, (px_, py_)) in enumerate((("NOBODY ELSE WANTS IT", cue(2, "Nobody else wants it"), (1480, 240)), ("IT IS HARD TO ATTACK", cue(2, "It is hard to attack"), (1480, 310)), ("EVERYTHING TRAVELS BY CANOE", cue(2, "And it sits"), (1480, 380)))):
         PQ(fr, px_, py_, txt, a=fr.R(tw, 0.4) * (1 - fr.R(cue(2, "A second group") - 0.4, 0.4)), size=26)
     # tribute to Azcapotzalco
@@ -162,7 +162,7 @@ def _(fr, t):
     for k, dl in enumerate((0.0, off)):
         gline(fr, [(x + dl, y) for x, y in smooth(AQUEDUCT, 6)], color=(66, 128, 170), width=4.4, frac=fr.R(ta - 1.4, 3.6), halo=WHITE)
     tdot(fr, C["CHAPULTEPEC"], a=fr.R(ta - 1.4, 0.4), r=8, color=INK); PQL(fr, *C["CHAPULTEPEC"], "CHAPULTEPEC", dx=-155, dy=0, a=fr.R(ta - 1.0, 0.4), size=28)
-    PQL(fr, -99.11, 19.505, "TWO CHANNELS", a=fr.R(cue(3, "It has two channels"), 0.4) * (1 - fr.R(cue(3, "Three long") - 0.4, 0.4)), size=32)
+    PQ(fr, 960, 960, "TWO CHANNELS", a=fr.R(cue(3, "It has two channels"), 0.4) * (1 - fr.R(cue(3, "Three long") - 0.4, 0.4)), size=32)
     t3 = cue(3, "Three long")
     for nm, cw, w, (ox, oy) in (("NORTH", CW_TEPEYAC, "north", (24, -6)), ("WEST", CW_TLACOPAN, "west", (-30, -26)), ("SOUTH", CW_IZTAP, "south", (30, 4))):
         tw = word(3, "Three long", w)
@@ -170,7 +170,7 @@ def _(fr, t):
         x, y = P(fr.cam, *cw[-1]); PQ(fr, x + ox, y + oy, nm, a=fr.R(tw + 0.6, 0.4), size=22, anchor="l" if ox > 0 else "r")
     tb = cue(3, "Each is cut")
     for cw in (CW_TEPEYAC, CW_TLACOPAN, CW_IZTAP): bridges(fr, smooth(cw, 6), a=fr.R(tb, 0.5), n=5)
-    PQL(fr, -99.15, 19.515, "EACH CUT BY BRIDGES", a=fr.R(tb, 0.4), size=26)
+    PQ(fr, 960, 960, "EACH CUT BY BRIDGES", a=fr.R(tb, 0.4), size=26)
 
 @sc("03b", "dike", DIKEC, {})
 def _(fr, t):
@@ -271,6 +271,31 @@ def fillemp(fr, a=1.0, color=AZ, k=0.62): terr(fr, "EMP", color, a * k)
 def onland(fr, ll, key="EMP"):
     x, y = P(fr.cam, *ll); m = fr.masks[key]; k = m.size[0] / W; xi, yi = int(x * k), int(y * k)
     return 0 <= xi < m.size[0] and 0 <= yi < m.size[1] and m.getpixel((xi, yi)) > 100
+def valley_rivers(fr, a=1.0, width=2.6, color=(74, 128, 156), frac=1.0, fade=0.05):
+    """same streams as az_base.valley_rivers, drawn into one mask and pasted once (the per-segment version cost 2.4 s a frame)"""
+    if a <= 0: return
+    m = Image.new("L", fr.im.size, 0); d = ImageDraw.Draw(m); w = s(width); rr = w / 2; FRM = az_base._FR
+    for arr in VALLEY_RIVERS:
+        p = proj(fr.cam, arr, 1)
+        if p[:, 0].max() < 0 or p[:, 0].min() > W or p[:, 1].max() < 0 or p[:, 1].min() > H: continue
+        n = len(arr); k = max(1, int(n * frac))
+        for i in range(0, k - 1, 3):
+            q = arr[i:min(i + 4, k)]; c = q.mean(0)
+            dd = min(c[0] - FRM[0], FRM[1] - c[0], c[1] - FRM[2], FRM[3] - c[1]); f = max(0.0, min(1.0, dd / fade)); v = int(255 * min(1.0, a * f))
+            if v > 0:
+                pp = p[i:min(i + 4, k)] * SS; d.line(list(map(tuple, pp)), fill=v, width=w, joint="curve")
+                for e in (pp[0], pp[-1]): d.ellipse([e[0] - rr, e[1] - rr, e[0] + rr, e[1] + rr], fill=v)
+    fr.im.paste(color, (0, 0), m); fr.d = ImageDraw.Draw(fr.im)
+# One layout for every map (20 Nov, Rustam: plaques were scattered): (A) a name stays next to its place; (B) the date or headline and the list of facts under it
+# form one left-aligned column in the top left corner; (C) a spoken sentence is a caption at the bottom centre, one at a time. Legacy coordinates snap to the slots.
+SLOTS = {(400, 150): 0, (440, 150): 0, (960, 130): 0, (960, 140): 0, (400, 215): 1, (960, 190): 1, (960, 250): 2, (440, 230): 1, (440, 292): 2, (440, 354): 3, (1650, 230): 1, (1650, 290): 2, (1650, 345): 3, (1650, 400): 4,
+         (1480, 150): 1, (1480, 215): 2, (1480, 280): 3, (1480, 345): 4, (430, 800): 2, (430, 865): 3, (1480, 240): 1, (1480, 310): 2, (1480, 380): 3}
+_PQ0 = PQ
+def PQ(fr, x, y, txt, a=1.0, size=30, anchor="m", **kw):
+    k = SLOTS.get((round(x), round(y)))
+    if k is not None: x, y, anchor, size = 96, (112 if k == 0 else 130 + 54 * k), "l", (40 if k == 0 else 24)
+    elif (round(x), round(y)) == (960, 960): size = 34 if len(txt) <= 40 else 30
+    return _PQ0(fr, x, y, txt, a=a, size=size, anchor=anchor, **kw)
 def PW(fr, x, y, txt, t_in, t_out=None, size=28, **kw):
     """a plaque shown from chapter second t_in until t_out"""
     a = fr.R(t_in, 0.4) * (1 - (fr.R(t_out - 0.4, 0.4) if t_out else 0.0))
@@ -285,7 +310,7 @@ def _(fr, t):
     PQ(fr, 1650, 230, "THE FIRST MOCTEZUMA", a=fr.R(word(5, "In 1440", "first Moctezuma"), 0.4), size=30)
     PQ(fr, 1650, 290, "NOT THE FAMOUS ONE", a=fr.R(cue(5, "This is not the famous"), 0.4), size=24)
     PQ(fr, 1650, 345, "HIS GREAT-GRANDFATHER", a=fr.R(cue(5, "This is his great"), 0.4), size=24)
-    city(fr, "TENOCHTITLAN", a=1.0, side="l", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"])
+    city(fr, "TENOCHTITLAN", a=1.0, side="r", r=8, size=24, dot=AZ, icon=False, ll=C["TENOCH_ISL"], dy=-30)
     tu = cue(5, "Under him")
     pulse(fr, C["TENOCH_ISL"], tu, 2.4, color=AZ)
     te = word(5, "They march east", "east"); ts_ = word(5, "They march east", "south")
@@ -343,12 +368,12 @@ def _(fr, t):
     arrow(fr, [C["TENOCH_ISL"], (-99.9, 19.5), TAXIMAROA], tt + 1.2, d=2.0, color=AZ, width=5)
     cross(fr, *TAXIMAROA, a=fr.R(tt + 3.0, 0.4), r=16, width=6, color=AZ_D)
     PQ(fr, 400, 150, "LATE 1470s", a=fr.R(tt + 0.2, 0.4), size=40)
-    PQ(fr, 960, 960, "THE EMPIRE'S ONE GREAT DEFEAT", a=fr.R(cue(5, "It is the empire"), 0.4), size=28)
+    PQ(fr, 960, 960, "THE EMPIRE'S ONE GREAT DEFEAT", a=fr.R(cue(5, "It is the empire"), 0.4) * (1 - fr.R(cue(5, "Remember Tlaxcala") - 0.4, 0.4)), size=28)
     tl = cue(5, "To the east, the small")
     region(fr, -98.15, 19.95, "TLAXCALA", a=fr.R(tl, 0.5), size=26)
     pulse(fr, C["TLAXCALA"], tl + 0.5, 3.0, color=TLX, rmax=48)
     PQ(fr, 1480, 150, "AZTEC LAND ON EVERY SIDE", a=fr.R(word(5, "To the east, the small", "Aztec land"), 0.4), size=26)
-    PQ(fr, 960, 880, "REMEMBER TLAXCALA", a=fr.R(cue(5, "Remember Tlaxcala"), 0.4), size=34)
+    PQ(fr, 960, 960, "REMEMBER TLAXCALA", a=fr.R(cue(5, "Remember Tlaxcala"), 0.4), size=34)
 
 # ================= chapter 6
 ISLP = cam_box(-99.158, -99.102, 19.405, 19.470)
@@ -369,8 +394,8 @@ def _(fr, t):
     tg = cue(6, "Then go north")
     arrow(fr, [TEMPLE, (-99.1335, 19.4430), MARKET], tg + 0.2, d=1.8, color=AZ, width=4.6)
     PQL(fr, *MARKET, "TLATELOLCO", dx=-250, dy=-18, a=fr.R(word(6, "Then go north", "Tlatelolco"), 0.4), size=34)
-    PQ(fr, 1480, 150, "CORTES CLAIMS 60,000 A DAY", a=fr.R(cue(6, "Cort"), 0.4), size=26)
-    PQ(fr, 1480, 215, "OTHER WITNESSES: 20,000–40,000", a=fr.R(cue(6, "Other witnesses"), 0.4), size=26)
+    PQ(fr, 400, 150, "CORTES CLAIMS 60,000 A DAY", a=fr.R(cue(6, "Cort"), 0.4), size=26)
+    PQ(fr, 400, 215, "OTHER WITNESSES: 20,000–40,000", a=fr.R(cue(6, "Other witnesses"), 0.4), size=26)
 
 # ================= chapter 8
 TEMPC = cam_box(-99.150, -99.112, 19.419, 19.452)
