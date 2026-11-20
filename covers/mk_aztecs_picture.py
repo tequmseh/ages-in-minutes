@@ -16,5 +16,5 @@ while True:
     size -= 4
 x = (W - SPAN) / 2
 for c, w in zip(txt, ws): do.text((x, Y), c, font=fnt, fill=(246, 244, 238, AL), anchor="lm"); x += w + sp
-sh = Image.new("RGBA", (W, Hh), (0, 0, 0, 0)); sh.putalpha(ov.getchannel("A").filter(ImageFilter.GaussianBlur(14)).point(lambda v: int(v * 0.55)))
+sh = Image.new("RGBA", (W, Hh), (0, 0, 0, 0)); sh.putalpha(ov.getchannel("A").filter(ImageFilter.GaussianBlur(14)).point(lambda v: int(v * 0.30)))
 o = base.convert("RGBA"); o.alpha_composite(sh); o.alpha_composite(ov); o.convert("RGB").save(f"{HERE}/src/aztecs_picture.png"); print("size", size, "ink", ov.getchannel("A").getbbox())
