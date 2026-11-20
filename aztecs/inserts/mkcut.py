@@ -5,7 +5,7 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); OUT = f"{HERE}/../film/cut"; FULL = f"{HERE}/../film/full"; MAXS = 3000
 Image.MAX_IMAGE_PIXELS = None
 J = {  # ключ: (исходник, режим, opts)
-"V01": ("V01", "rembg", {"fill": True}), "V12": ("V12", "key", {"const": True, "thr": 26, "shadows": False}),
+"V01": ("V01", "key", {"warm": 10}), "V12": ("V12", "key", {"const": True, "thr": 26, "shadows": False}),
 "V13": ("V13", "key", {"const": True, "thr": 26, "shadows": False}), "V14": ("V14", "key", {"const": True, "thr": 26, "shadows": False}),
 "V17": ("V17", "rembg", {}), "V23": ("V23", "key", {"const": True, "thr": 26, "shadows": False}),
 }
