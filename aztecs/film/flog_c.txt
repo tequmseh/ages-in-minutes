@@ -1,0 +1,4 @@
+/home/claude/ages-in-minutes/aztecs/film/out/ch02.mp4 94.35 vo 90.85 vo_in_LUFS gain 3.70 dB
+/home/claude/ages-in-minutes/aztecs/film/out/ch10.mp4 103.94 vo 100.44 vo_in_LUFS gain 2.00 dB
+/home/claude/ages-in-minutes/aztecs/film/out/ch06.mp4 96.27 vo 92.76 vo_in_LUFS gain 1.90 dB
+done
