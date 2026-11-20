@@ -20,7 +20,7 @@ The Greeks knew it from Homer. In the Iliad this is the kingdom of Menelaus, hus
 
 Then the palaces of Greece collapse, and for about two hundred years the valley goes almost quiet. Around 1000 BC new settlers appear. They speak a Greek dialect called Doric, and later they will claim the hero Heracles as their ancestor.
 
-They do not build a city. They build four villages side by side: Pitana, Mesoa, Limnai and Kynosoura. Soon a fifth joins them, Amyklai, five kilometres to the south. Together these villages are Sparta.
+They do not build a city. They build four villages side by side: Pitana, Mesoa, Limnai and Kynosoura. Later a fifth joins them, Amyklai, five kilometres to the south. Together these villages are Sparta.
 
 [curious] From the start, Sparta has an oddity. It has two kings at the same time, from two royal families, the Agiads and the Eurypontids. Both claim descent from Heracles, and each can hold the other back.
 
@@ -48,7 +48,7 @@ At the top stand the two kings, who lead the army. Beside them sits a council of
 
 And watching everyone, even the kings, are five ephors, overseers elected for a single year.
 
-Each citizen, Plutarch says, received a plot of land worked by helots. Lycurgus banned gold and silver coins. Money was made of iron instead, so heavy that a modest sum needed a storeroom to keep and a pair of oxen to move.
+Each citizen, Plutarch says, received a plot of land worked by helots. He adds that Lycurgus banned gold and silver money. Money was made of iron instead, so heavy that a modest sum needed a storeroom to keep and a pair of oxen to move.
 
 Every citizen ate in a common mess, and each had to pay his share of the food from his own land. A man who could not pay lost his citizenship.
 
@@ -60,7 +60,7 @@ The famous dish was black broth: pork boiled in its own blood, with vinegar. A v
 
 [warm, confident narrator] According to Plutarch, a Spartan father did not decide whether to raise his son. He carried the newborn to the elders, who examined it. A sturdy child was raised. A weak one, Plutarch says, was taken to a place at the foot of Mount Taygetus.
 
-[curious] But when researchers from the University of Athens studied the remains from a pit at the foot of Taygetus, the one usually linked to the legend, they found forty-six people, all aged roughly eighteen to thirty-five. There were no babies. The lead researcher called the story probably a myth, because its ancient sources are rare, late and vague.
+[curious] But when researchers from the University of Athens studied the remains from a pit at the foot of Taygetus, the one usually linked to the legend, they found the remains of forty-six men, all aged roughly eighteen to thirty-five. There were no babies. The lead researcher called the story probably a myth, because its ancient sources are rare, late and vague.
 
 [warm, confident narrator] At seven, a boy left home. He joined a pack of boys his own age, led by an older youth. His hair was cut short and he went barefoot. From the age of twelve he got one cloak for the whole year, and he slept on reeds that he pulled from the riverbank with his bare hands.
 
@@ -72,7 +72,7 @@ At the sanctuary of Artemis Orthia, cheeses were piled on the altar. Boys tried 
 
 ### 5. The Women of Sparta
 
-[warm, confident narrator] In most Greek cities, a respectable woman spent her life indoors. In Sparta, girls ran races, wrestled, and threw the discus and the javelin. Xenophon writes that Lycurgus wanted women to exercise as much as men, and set up contests for them. The logic was blunt: strong mothers make strong soldiers.
+[warm, confident narrator] In most Greek cities, a respectable woman spent most of her life indoors. In Sparta, girls ran races, wrestled, and threw the discus and the javelin. Xenophon writes that Lycurgus wanted women to exercise as much as men, and set up contests for them. The logic was blunt: strong mothers make strong soldiers.
 
 Women ran the households. They could own and inherit land. Aristotle complains that nearly two fifths of all Spartan land belongs to women.
 
@@ -92,7 +92,7 @@ Aristotle reported that every year, as soon as the new ephors took office, they 
 
 Then there was the krypteia, the secret service. Young men were sent out into the countryside. By day, Plutarch writes, they hid. By night, they came down to the roads and killed any helot they caught. Historians still argue over what exactly it was.
 
-[curious] Thucydides tells of an even darker moment, though he does not say exactly when it happened. Sparta announced that helots who had fought bravely for the state could claim their freedom. About two thousand stepped forward. They put on garlands and went around the temples as free men. Soon afterwards, every one of them vanished. Nobody ever learned how each of them was killed.
+[curious] Thucydides tells of an even darker moment, though he does not say exactly when it happened. Sparta announced that helots who had fought bravely for the state could claim their freedom. About two thousand were chosen. They put on garlands and went around the temples as free men. Soon afterwards, every one of them vanished. Nobody ever learned how each of them was killed.
 
 [serious] The fear ran both ways. In 464 BC a great earthquake struck Sparta. The helots of Messenia rose up and dug in on Mount Ithome, and the revolt dragged on for years.
 
@@ -100,7 +100,7 @@ Athens, still Sparta's ally, sent hoplites to help. Then Sparta, alone among all
 
 ### 7. Masters of Greece
 
-[warm, confident narrator] By the sixth century BC, Sparta stands at the head of an alliance of cities across the Peloponnese. Historians call it the Peloponnesian League.
+[warm, confident narrator] By the late sixth century BC, Sparta stands at the head of an alliance of cities across the Peloponnese. Historians call it the Peloponnesian League.
 
 Meanwhile, across the Aegean, Persia has reached the Greek world.
 
@@ -110,7 +110,7 @@ Cleomenes asks one question: how far is it from the sea to the king's capital? A
 
 Aristagoras follows the king to his house and starts offering money: ten talents, then more, then fifty. Cleomenes' daughter Gorgo, eight or nine years old, is standing in the room. Father, she says, this stranger will corrupt you. Go away. Cleomenes leaves the room, and Aristagoras leaves Sparta without an army.
 
-[serious] A few years later, the Persian king Darius sends heralds to demand earth and water, the symbols of surrender. In Athens they are thrown into a pit. In Sparta they are thrown down a well and told to take their earth and water from there.
+[serious] In 491 BC, the Persian king Darius sends heralds to demand earth and water, the symbols of surrender. In Athens they are thrown into a pit. In Sparta they are thrown down a well and told to take their earth and water from there.
 
 In 490 BC the Persians land at Marathon, and Athens begs Sparta for help. The Spartans agree, but say they cannot march before the full moon. Then two thousand of them cover the road to Attica in three days, and still arrive too late. They look at the Persian dead, praise the Athenians, and go home.
 
@@ -142,17 +142,17 @@ In 479 BC the Greeks meet it at Plataea. This time Sparta sends almost everythin
 
 When the battle finally comes, it is the Spartans who meet the best Persian troops. A Spartan named Arimnestus kills Mardonius, his guard falls around him, and the Persian army breaks. Persia never invades mainland Greece again.
 
-[serious] Sparta now has the most famous army in the world, and a general who cannot handle the fame. Pausanias starts dressing like a Persian noble and acting like a king. He has his own name inscribed on the victory offering at Delphi. Then he is caught writing secret letters to Xerxes.
+[serious] Sparta now has the most famous army in Greece, and a general who cannot handle the fame. Pausanias starts dressing like a Persian noble and acting like a king. He has his own name inscribed on the victory offering at Delphi. Then he is caught writing secret letters to Xerxes.
 
 When the ephors come to arrest him, he runs into a small building at the temple of Athena of the Bronze House. They take off the roof, wall up the door and wait. When he is about to die of hunger, they carry him out, so that his death will not defile the temple.
 
-[curious] After this, Sparta stops sending its commanders overseas, afraid that they will be corrupted like Pausanias. The war against Persia at sea passes to Athens, and Athens turns its alliance into an empire.
+[curious] Even before his death, Sparta stops sending its commanders overseas, afraid that they will be corrupted like Pausanias. The war against Persia at sea passes to Athens, and Athens turns its alliance into an empire.
 
 ### 10. The War with Athens
 
-[warm, confident narrator] For fifty years Greece has two masters: Athens at sea and Sparta on land. In 431 BC they go to war. With one pause, the war will last twenty-seven years. We call it the Peloponnesian War.
+[warm, confident narrator] For almost fifty years Greece has two masters: Athens at sea and Sparta on land. In 431 BC they go to war. With one pause, the war will last twenty-seven years. We call it the Peloponnesian War.
 
-Sparta's plan is simple. Every summer its army burns the farms around Athens. The Athenians sit behind their Long Walls, which reach all the way to the harbour, and live on grain brought in by sea.
+Sparta's plan is simple. In the first years, almost every summer, its army burns the farms around Athens. The Athenians sit behind their Long Walls, which reach all the way to the harbour, and live on grain brought in by sea.
 
 [curious] Then, in 425 BC, the unthinkable happens. On the little island of Sphacteria, off the coast of Messenia, the Athenians trap a Spartan force. Two hundred and ninety-two men lay down their shields, and about a hundred and twenty of them are full Spartan citizens. Greece is stunned. Spartans were supposed to die, not surrender.
 
@@ -184,7 +184,7 @@ A generation later, Aristotle writes that Sparta's territory could feed thirty t
 
 In 334 BC his son Alexander sends three hundred suits of Persian armour to Athens, with an inscription: from Alexander, son of Philip, and the Greeks, except the Spartans.
 
-[serious] More than a century later, Nabis, the last strong ruler of an independent Sparta, frees many helots. After his death, in 188 BC, the Achaean League tears down the city's new walls and abolishes the old training.
+[serious] More than a century later, Nabis, the last strong ruler of an independent Sparta, frees many helots. He is killed in 192 BC. Four years later, the Achaean League tears down the city's new walls and abolishes the old training.
 
 [curious] Then comes Rome. After 146 BC, Sparta is a free city in the Roman world, and it finds a new career: tourism. At the sanctuary of Artemis Orthia, young men are now flogged at the altar, sometimes to death, while visitors watch. In the third century AD the Romans build a theatre around the altar, so that more people can see.
 
