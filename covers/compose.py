@@ -5,7 +5,7 @@ import sys, os
 K = 2 if os.environ.get("COVER_4K") else 1          # COVER_4K=1: 3840x2160, picture area 3840x1764
 W, H = 1920 * K, 1080 * K; LINE = 882 * K; YEL = (242, 194, 48); WHITE = (244, 242, 236)
 HERE = os.path.dirname(os.path.abspath(__file__)); FB = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
-pic, ov, out, slogan = sys.argv[1:5]; logo_h = (int(sys.argv[5]) if len(sys.argv) > 5 else 120) * K
+pic, ov, out, slogan = sys.argv[1:5]; logo_h = (int(sys.argv[5]) if len(sys.argv) > 5 else 0) * K          # no logo on covers by default (Rustam, 20 Nov: "опять лого"); pass a height to add one
 im = Image.new("RGB", (W, H), (17, 17, 17)); p = Image.open(pic).convert("RGB")
 k = max(W / p.width, (LINE + 2 * K) / p.height); p = p.resize((round(p.width * k), round(p.height * k)), Image.LANCZOS)
 im.paste(p.crop(((p.width - W) // 2, 0, (p.width - W) // 2 + W, LINE + 2 * K)), (0, 0))
