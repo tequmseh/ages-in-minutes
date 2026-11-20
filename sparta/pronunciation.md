@@ -38,7 +38,7 @@
 | Limnai | LIM-nye | ли́мнай | 1 | |
 | Kynosoura | kin-uh-SOOR-uh | кинэсу́рэ | 1 | |
 | Amyklai | uh-MIK-lye | эми́клай | 1 | |
-| Agiads | AY-jee-adz | э́йджиэдз | 1 | |
+| Agiads | AG-ee-adz | э́гиэдз | 1 | исправлено по Рустаму: г, как в греч. Ἆγις |
 | Eurypontids | yoo-rih-PON-tidz | юрипо́нтидз | 1 | |
 | Tyrtaeus | tur-TEE-us | тёрти́эс | 2 | |
 | helots | HEL-uts | хе́лэтс | 2 и далее | |
